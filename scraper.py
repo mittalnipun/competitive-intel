@@ -77,7 +77,37 @@ BLOCKED_PUBLISHERS = {
     "stockanalysis", "simply wall st", "benzinga", "zacks", "tipranks",
     "marketbeat", "gurufocus", "wisesheets", "finviz",
     "just auto", "just-auto", "automotivetoday",
+    "kron4", "kron", "kqed",   # local TV/radio — no industrial relevance
+    "ad hoc news",             # low-quality financial wire
+    "yahoo finance",           # aggregator — catches stock/market noise
 }
+
+# Regex patterns checked against lowercased headline (with competitor tokens removed).
+# Any match = item dropped regardless of source or priority.
+BLOCKED_HEADLINE_RE = [
+    re.compile(p) for p in [
+        r"maxxing",                         # meme/slang use of company ticker
+        r"market\s+outlook\s+20\d\d",       # market research previews
+        r"market\s+size\s+20\d\d",
+        r"market\s+forecast\s+20\d\d",
+        r"steady\s+pick",                   # stock-pick narrative
+        r"\bstock:\s",                      # "Company Stock: ..."
+        r"stock\s+price\s+target",
+        r"share\s+price",
+        r"price\s+target\s+(raised|lowered|cut)",
+        r"earnings\s+set\s+for\s+release",  # pre-announcement placeholders
+        r"q[1-4]\s+fy\s+20\d\d\s+earnings", # quarterly financial summaries
+        r"why\s+.{5,50}\s+makes\s+it\s+a",  # "why X makes it a good buy"
+    ]
+]
+
+
+def is_headline_blocked(headline: str, competitor_aliases: list) -> bool:
+    """Return True if headline matches a known-junk pattern."""
+    text = headline.lower()
+    for alias in competitor_aliases:
+        text = text.replace(alias.lower(), " ")
+    return any(pat.search(text) for pat in BLOCKED_HEADLINE_RE)
 
 # Premium publishers — items from these pass without needing a strategic signal check.
 PREMIUM_PUBLISHERS = {
@@ -597,7 +627,12 @@ def scrape_google_news(competitor: dict, extra_queries: list = None) -> list[dic
             if not mentions_competitor(headline + " " + summary, competitor):
                 continue
 
-            # Gate 3: strategic signal check for LOW items from non-premium sources
+            # Gate 3: headline pattern blocklist (junk patterns regardless of source)
+            if is_headline_blocked(headline, competitor["aliases"]):
+                log.debug(f"    BLOCKED headline pattern [{competitor['name']}]: {headline[:60]}")
+                continue
+
+            # Gate 4: strategic signal check for LOW items from non-premium sources
             priority, _ = classify(headline + " " + summary)
             if priority == "LOW" and not is_publisher_premium(publisher):
                 if not has_strategic_signal(headline, summary, competitor["aliases"]):
