@@ -288,7 +288,16 @@
     .col-competitor { width: 144px; }
     .col-headline   { min-width: 220px; }
     .col-why        { min-width: 200px; }
+    .col-source     { width: 120px; }
     .col-date       { width: 96px; white-space: nowrap; }
+
+    .source-tag {
+      display: inline-block;
+      font-size: 11px; color: var(--text3);
+      background: var(--surface); border-radius: 4px;
+      padding: 2px 6px; max-width: 110px;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
 
     .hl-link {
       color: var(--text); font-weight: 600; font-size: 13px;
@@ -380,7 +389,7 @@
     <div class="header-inner">
       <div class="header-left">
         <h1>Competitive Intelligence</h1>
-        <p>Industrial Automation &amp; OT Security &mdash; Schneider Electric</p>
+        <p>Industrial Automation &amp; OT Security | Schneider Electric</p>
       </div>
       <div class="header-right">
         <div id="live-pill" class="live-pill">
@@ -413,7 +422,7 @@
     <div id="st-error" class="state" style="display:none;">
       <div style="font-size:36px;margin-bottom:12px;">&#9888;&#xFE0F;</div>
       <h3>No data available</h3>
-      <p>Run <code style="background:var(--surface);padding:2px 6px;border-radius:4px;font-size:12px;">python scraper.py &amp;&amp; python bundle.py</code> to regenerate.</p>
+      <p>Intelligence data could not be loaded. The feed refreshes automatically every 2 hours. If this persists, the data source may be temporarily unavailable.</p>
     </div>
 
     <!-- Content -->
@@ -450,6 +459,7 @@
               <th class="col-competitor">Competitor</th>
               <th class="col-headline">Signal</th>
               <th class="col-why">Why It Matters</th>
+              <th class="col-source">Source</th>
               <th class="col-date">Date</th>
             </tr>
           </thead>
@@ -473,8 +483,8 @@
 <footer>
   <div class="page">
     <div class="footer-inner">
-      <p>Schneider Electric &mdash; Internal use only.</p>
-      <p>Data refreshes daily at 6&thinsp;AM PST via GitHub Actions.</p>
+      <p>Schneider Electric | Internal use only.</p>
+      <p>Data refreshes every 2 hours via GitHub Actions. Coverage window: 14 days.</p>
     </div>
   </div>
 </footer>
@@ -575,6 +585,25 @@ function badge(p) {
 let allItems = [];
 let activePriority = "ALL"; // ALL | HIGH | MEDIUM | LOW
 
+/* ── Date range chip ───────────────────────────────────────── */
+function dateRange(items) {
+  const dates = items.map(i=>i.date).filter(Boolean).sort();
+  if (!dates.length) return "";
+  const fmt = iso => {
+    try {
+      const d = new Date(iso.length===10 ? iso+"T00:00:00Z" : iso);
+      return d.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+    } catch(_){ return iso; }
+  };
+  const oldest = fmt(dates[0]);
+  const newest = fmt(dates[dates.length-1]);
+  const label  = oldest===newest ? oldest : `${oldest} – ${newest}`;
+  return `<div class="chip chip-info" title="Signal date range">
+    <span class="chip-num" style="font-size:13px;font-weight:600;">${label}</span>
+    <span class="chip-label">Coverage window</span>
+  </div>`;
+}
+
 /* ── Chips ─────────────────────────────────────────────────── */
 function renderChips(items) {
   const counts = {
@@ -604,7 +633,8 @@ function renderChips(items) {
     <div class="chip chip-info" title="Total competitors monitored">
       <span class="chip-num">${comps}</span>
       <span class="chip-label">Competitors tracked</span>
-    </div>`;
+    </div>
+    ${dateRange(items)}`;
 
   bar.querySelectorAll(".chip:not(.chip-info)").forEach(el => {
     const activate = () => {
@@ -639,7 +669,7 @@ function renderExec(items) {
       <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.headline)}</a></h3>
       <p class="why">${esc(item.why_matters)}</p>
       <div class="exec-card-footer">
-        <span class="date">${fmtDate(item.date)}</span>
+        <span class="date">${fmtDate(item.date)}${item.source ? ` &middot; <span style="color:var(--text3)">${esc(item.source)}</span>` : ""}</span>
         <a class="read-more" href="${esc(item.url)}" target="_blank" rel="noopener">Read &rarr;</a>
       </div>
     </div>
@@ -674,6 +704,7 @@ function renderTable(items) {
           : ""}
       </td>
       <td class="col-why"><span class="why-cell">${esc(item.why_matters)}</span></td>
+      <td class="col-source">${item.source ? `<span class="source-tag" title="${esc(item.source)}">${esc(item.source)}</span>` : ""}</td>
       <td class="col-date"><span class="date-cell">${fmtDate(item.date)}</span></td>
     </tr>
   `).join("");
