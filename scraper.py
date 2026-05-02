@@ -605,16 +605,36 @@ def _story_fingerprint(headline: str) -> frozenset:
     return frozenset(w for w in words if len(w) > 3 and w not in stop)
 
 
+def _named_entities(headline: str) -> frozenset:
+    """
+    Extract capitalised tokens from positions 2+ in the headline.
+    These are likely proper nouns (partner names, product names, etc.)
+    Skips the first token (always capitalised) and common title-case words.
+    """
+    skip = {"The", "For", "And", "With", "From", "New", "How", "Its",
+            "This", "That", "Will", "Into", "Over", "When", "What", "Why",
+            "Has", "Are", "Its", "Not", "But", "Key", "Top", "All", "Now"}
+    tokens = headline.split()
+    entities = set()
+    for tok in tokens[1:]:  # skip first word
+        clean = re.sub(r"\W", "", tok)
+        if len(clean) > 3 and clean[0].isupper() and clean not in skip:
+            entities.add(clean)
+    return frozenset(entities)
+
+
 def deduplicate(items: list[dict]) -> list[dict]:
     """
-    Remove duplicate items.
+    Remove duplicate items using three layers:
     1. Exact URL match (stripped of query params)
     2. Very similar headline prefix (first 60 chars)
-    3. Same competitor + same story within 7 days (Jaccard similarity >= 0.5)
+    3. Story-level dedup: same competitor, within 14 days, AND either:
+       a. Jaccard word similarity >= 0.25  (catches paraphrased headlines)
+       b. Shared named entity (partner/product name) (catches "X and OPSWAT..." variants)
     """
     seen_urls   = set()
     seen_heads  = set()
-    # story clusters: list of (competitor, date, fingerprint) for accepted items
+    # story clusters: (competitor, date, fingerprint, named_entities)
     accepted_stories: list[tuple] = []
     unique = []
 
@@ -627,15 +647,16 @@ def deduplicate(items: list[dict]) -> list[dict]:
         if head_key and head_key in seen_heads:
             continue
 
-        # Story-level dedup: same competitor, close date, similar words
+        # Story-level dedup: same competitor, close date, similar story
         fp = _story_fingerprint(item["headline"])
+        ne = _named_entities(item["headline"])
         is_dupe = False
         try:
             item_date = datetime.strptime(item["date"], "%Y-%m-%d")
         except Exception:
             item_date = datetime.now()
 
-        for (comp, acc_date, acc_fp) in accepted_stories:
+        for (comp, acc_date, acc_fp, acc_ne) in accepted_stories:
             if comp != item["competitor"]:
                 continue
             try:
@@ -644,11 +665,14 @@ def deduplicate(items: list[dict]) -> list[dict]:
                 days_apart = 99
             if days_apart > 14:
                 continue
-            # Jaccard similarity
-            if len(fp | acc_fp) == 0:
-                continue
-            jaccard = len(fp & acc_fp) / len(fp | acc_fp)
-            if jaccard >= 0.25:
+            # Check A: Jaccard word similarity
+            if len(fp | acc_fp) > 0:
+                jaccard = len(fp & acc_fp) / len(fp | acc_fp)
+                if jaccard >= 0.25:
+                    is_dupe = True
+                    break
+            # Check B: shared named entity (e.g. same partner/product name)
+            if ne and acc_ne and len(ne & acc_ne) >= 1:
                 is_dupe = True
                 break
 
@@ -657,7 +681,7 @@ def deduplicate(items: list[dict]) -> list[dict]:
 
         seen_urls.add(url)
         seen_heads.add(head_key)
-        accepted_stories.append((item["competitor"], item_date, fp))
+        accepted_stories.append((item["competitor"], item_date, fp, ne))
         unique.append(item)
 
     return unique
