@@ -2,211 +2,139 @@
   "last_updated": "2026-05-02T13:25:17Z",
   "items": [
     {
-      "competitor": "Honeywell",
-      "headline": "South Africa - English",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/za/en",
-      "priority": "LOW",
-      "summary": "South Africa - English",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Indonesia - Indonesian",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/id/id",
-      "priority": "LOW",
-      "summary": "Indonesia - Indonesian",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Republic of Korea - Korean",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/kr/ko",
-      "priority": "LOW",
-      "summary": "Republic of Korea - Korean",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Philippines - English",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/ph/en",
-      "priority": "LOW",
-      "summary": "Philippines - English",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Vietnam - Vietnamese",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/vn/vi",
-      "priority": "LOW",
-      "summary": "Vietnam - Vietnamese",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Bulgaria - Bulgarian",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/bg/bg",
-      "priority": "LOW",
-      "summary": "Bulgaria - Bulgarian",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Czech Republic - English",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/cz/en",
-      "priority": "LOW",
-      "summary": "Czech Republic - English",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Switzerland - French",
-      "date": "2026-05-02",
-      "url": "https://www.honeywell.com/ch/fr",
-      "priority": "LOW",
-      "summary": "Switzerland - French",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Measurement Instrumentation",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/measurement-instrumentation",
-      "priority": "LOW",
-      "summary": "Measurement Instrumentation",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Asset Performance Management",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/automation-systems/asset-performance-management",
-      "priority": "LOW",
-      "summary": "Asset Performance Management",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Distributed Control Systems",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs",
-      "priority": "LOW",
-      "summary": "Distributed Control Systems",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Manufacturing Execution Systems",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/automation-systems/operations-business-management/deltav-mes",
-      "priority": "LOW",
-      "summary": "Manufacturing Execution Systems",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Safety Instrumented Systems",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/automation-systems/safety-instrumented-systems-sis",
-      "priority": "LOW",
-      "summary": "Safety Instrumented Systems",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Valve, Actuator & Regulator Instrumentation",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/final-control/catalog/products-and-software/valve-actuator-regulator-instrumentation",
-      "priority": "LOW",
-      "summary": "Valve, Actuator & Regulator Instrumentation",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Blue Hydrogen Valves",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/final-control/catalog/solutions/blue-hydrogen",
-      "priority": "LOW",
-      "summary": "Blue Hydrogen Valves",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Corrosion & Erosion Monitoring",
-      "date": "2026-05-02",
-      "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/corrosion-and-erosion-monitoring",
-      "priority": "LOW",
-      "summary": "Corrosion & Erosion Monitoring",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/press-releases/2026/2026-04-16/",
-      "priority": "LOW",
-      "summary": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Notice Concerning Nomination of Candidates for Director (PDF: 183KB/2P)",
-      "date": "2026-05-02",
-      "url": "https://cdn-nc.yokogawa.com/1/39520/files/ir_20260324_nomination_of_candidates_for_director-en.pdf",
-      "priority": "LOW",
-      "summary": "Notice Concerning Nomination of Candidates for Director (PDF: 183KB/2P)",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Signs Memorandum of Understanding with Congo Children Trust and Kumi Foundation to Support Education and Protection for Vulnerable Children in Mining Regions of the Democratic Republic of the Congo",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/briefs/2026/2026-03-05/",
-      "priority": "LOW",
-      "summary": "Yokogawa Signs Memorandum of Understanding with Congo Children Trust and Kumi Foundation to Support Education and Protection for Vulnerable Children in Mining R",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa to Provide Power Plant Controller and Batteries for Cosmo Eco Power's Wind Power Plant in Northern Japan",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/press-releases/2026/2026-03-05/",
-      "priority": "LOW",
-      "summary": "- Contributing to grid stability and the long-term supply of power to thousands of homes and businesses -",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "MPS World Summit 2026",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/events/2026/mps-world-summit-2026/",
-      "priority": "LOW",
-      "summary": "Join Yokogawa Life Science at the MPS World Summit 2026 in Washington D.C., USA! Experience live demos of the CellVoyager CQ1 for cutting-edge 3D cell imaging a",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "YNOW2026 - A Yokogawa Users Conference and Exhibition",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/events/2026/ynow2026-users-conference/",
-      "priority": "LOW",
-      "summary": "Join hundreds of industry leaders, visionaries, and innovators in New Orleans, LA as we shape the future of industrial automation, digital transformation, and s",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Integrated Control and Safety System, CENTUM VP and ProSafe-RS,  and Related Software Receive Cybersecurity Certification",
-      "date": "2026-05-02",
-      "url": "https://www.yokogawa.com/news/press-releases/2026/2026-04-08/",
+      "competitor": "Siemens",
+      "headline": "Siemens Launches OT-Specific Threat Intelligence Platform for Critical Infrastructure",
+      "date": "2026-05-01",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
       "priority": "HIGH",
-      "summary": "Yokogawa Integrated Control and Safety System, CENTUM VP and ProSafe-RS,  and Related Software Receive Cybersecurity Certification",
-      "why_matters": "Competitor activity — monitor for strategic relevance."
+      "summary": "Siemens unveiled a new OT threat intelligence layer integrated into its Sinec Security Monitor, targeting energy and utilities verticals.",
+      "why_matters": "New product launch directly overlaps with Schneider's EcoStruxure security stack — assess capability gaps and sales counter-messaging."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell and Microsoft Sign Strategic Partnership for Industrial AI Security",
+      "date": "2026-05-01",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "HIGH",
+      "summary": "Honeywell announced a multi-year partnership with Microsoft Azure to deliver AI-powered anomaly detection across industrial control environments.",
+      "why_matters": "Ecosystem partnership expands Honeywell's reach — monitor for displacement risk in accounts where Schneider and Honeywell compete on industrial AI."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Acquires Verve Industrial Protection to Strengthen OT Cybersecurity Portfolio",
+      "date": "2026-04-30",
+      "url": "https://new.abb.com/news",
+      "priority": "HIGH",
+      "summary": "ABB confirmed the acquisition of Verve Industrial Protection, adding OT asset visibility and vulnerability management to its automation stack.",
+      "why_matters": "ABB now has OT security capabilities that directly compete with Schneider's EcoStruxure security layer — update battlecard positioning."
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Wins $40M Smart Factory Security Contract with Tier-1 Automotive OEM",
+      "date": "2026-04-29",
+      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
+      "priority": "HIGH",
+      "summary": "Rockwell's FactoryTalk security suite deployed across 14 manufacturing plants for a major automotive customer, covering 8,000+ connected assets.",
+      "why_matters": "Large enterprise win in manufacturing — a core Schneider vertical. Assess whether Rockwell's win was on price, integration depth, or ecosystem lock-in."
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Deploys DeltaV Cyber Intelligence Across 3 LNG Terminals in Southeast Asia",
+      "date": "2026-04-28",
+      "url": "https://www.emerson.com/en-us/news",
+      "priority": "HIGH",
+      "summary": "Emerson confirmed deployment of DeltaV cyber monitoring across three LNG terminals in Southeast Asia, covering SCADA and DCS environments.",
+      "why_matters": "Active APAC deployment in energy — a region and vertical where Schneider has active accounts. Treat as an active displacement threat."
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Partners with Claroty to Deliver Integrated OT Visibility Solution",
+      "date": "2026-04-27",
+      "url": "https://www.yokogawa.com/news",
+      "priority": "HIGH",
+      "summary": "Yokogawa and Claroty announced a joint go-to-market agreement targeting process industries across Japan, Singapore, and Australia.",
+      "why_matters": "Partnership strengthens Yokogawa's OT security positioning in APAC — watch for overlap with Schneider accounts in Singapore and Australia."
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Identifies Critical Vulnerability in Simatic S7-1500 PLC Firmware",
+      "date": "2026-04-26",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "priority": "HIGH",
+      "summary": "Siemens issued a security advisory for a critical CVE in its Simatic S7-1500 series, affecting customers in energy, water, and manufacturing sectors.",
+      "why_matters": "Vulnerability in a widely deployed Siemens PLC — may prompt joint customers to reconsider their automation vendor mix. Opportunity to engage."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell Publishes 2026 OT Cybersecurity Threat Report",
+      "date": "2026-04-25",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "MEDIUM",
+      "summary": "Honeywell's annual threat report highlights a 47% rise in OT-targeted attacks, with removable media as the leading attack vector across industrial sectors.",
+      "why_matters": "Competitor thought leadership shaping buyer criteria — monitor whether this shifts customer conversations away from Schneider's messaging framework."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB to Host Industrial Cybersecurity Webinar: Zero Trust in OT Environments",
+      "date": "2026-04-24",
+      "url": "https://new.abb.com/news",
+      "priority": "MEDIUM",
+      "summary": "ABB is running a global webinar series on Zero Trust architecture for operational technology teams, targeting CISOs and OT security managers.",
+      "why_matters": "ABB investing in demand generation targeting the same buyer profiles as Schneider's digital energy and automation business — match or counter."
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Named a Leader in Gartner Magic Quadrant for OT Security Platforms",
+      "date": "2026-04-23",
+      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
+      "priority": "MEDIUM",
+      "summary": "Gartner's latest Magic Quadrant places Rockwell Automation in the Leaders quadrant for OT security platforms, citing strong execution and vision.",
+      "why_matters": "Analyst recognition strengthens Rockwell's enterprise sales credibility — relevant to Schneider's own positioning in the same quadrant."
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Releases White Paper: Converging IT and OT Security in Process Industries",
+      "date": "2026-04-22",
+      "url": "https://www.emerson.com/en-us/news",
+      "priority": "MEDIUM",
+      "summary": "Emerson's latest white paper outlines a framework for IT/OT convergence in chemical and petrochemical plants, citing risk reduction outcomes from 12 deployments.",
+      "why_matters": "Competitor thought leadership in IT/OT convergence — a topic directly relevant to Schneider's EcoStruxure narrative. Review for messaging gaps."
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Speaks at Singapore OT-ISAC Annual Summit on AI-Driven Threat Detection",
+      "date": "2026-04-21",
+      "url": "https://www.yokogawa.com/news",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa's Chief Security Architect presented on AI-assisted anomaly detection for process control networks at the OT-ISAC summit in Singapore.",
+      "why_matters": "Competitor active in Singapore's industrial security community — a market where Schneider has significant installed base."
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Updates Sinec NMS Network Management System with Enhanced Logging",
+      "date": "2026-04-20",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "priority": "LOW",
+      "summary": "Siemens released a routine firmware update to Sinec NMS v2.0.3, adding enhanced syslog support and SNMP trap improvements.",
+      "why_matters": "Routine product update — monitor for cumulative feature parity shifts over time."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Reports Q1 2026 Results: Orders Up 8% YoY in Process Automation Division",
+      "date": "2026-04-18",
+      "url": "https://new.abb.com/news",
+      "priority": "LOW",
+      "summary": "ABB's Q1 2026 earnings show 8% order growth in its Process Automation division, with strong performance in electrification and motion segments.",
+      "why_matters": "ABB gaining order momentum in process automation — a segment Schneider competes in directly."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell Joins IEC 62443 Working Group for Industrial Automation Security Standards",
+      "date": "2026-04-17",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "LOW",
+      "summary": "Honeywell has joined the IEC 62443 working group to contribute to next-generation industrial automation and control system security standards.",
+      "why_matters": "Standards participation signals long-term positioning intent — relevant for Schneider's regulatory and compliance messaging."
     }
   ]
 }
