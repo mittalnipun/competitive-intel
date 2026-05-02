@@ -22,6 +22,7 @@
       --orange-bg: #fff8ee;
       --grey:      #8e8e93;
       --grey-bg:   #f2f2f7;
+      --slate:     #3a3a3c;   /* LOW active — dark charcoal */
       --radius-lg: 16px;
       --radius-md: 10px;
       --radius-sm: 8px;
@@ -55,7 +56,7 @@
     .header-inner {
       display: flex; align-items: center;
       justify-content: space-between;
-      padding: 16px 0; gap: 16px;
+      padding: 16px 0; gap: 12px;
     }
     .header-left h1 {
       font-size: 20px; font-weight: 700;
@@ -65,7 +66,7 @@
       font-size: 12px; color: var(--text3); margin-top: 1px;
     }
     .header-right {
-      display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+      display: flex; align-items: center; gap: 8px; flex-shrink: 0;
     }
     .live-pill {
       display: none;
@@ -84,27 +85,77 @@
       font-size: 11.5px; color: var(--text3); white-space: nowrap;
     }
 
-    .btn-refresh {
+    /* ── Unified button system ───────────────────────────────── */
+    .btn {
       display: inline-flex; align-items: center; gap: 5px;
-      background: var(--blue); color: #fff;
-      border: none; border-radius: var(--radius-sm);
-      padding: 7px 13px; font-size: 12.5px; font-weight: 600;
-      font-family: inherit; cursor: pointer;
+      border-radius: var(--radius-sm); padding: 7px 13px;
+      font-size: 12.5px; font-weight: 600; font-family: inherit;
+      cursor: pointer; white-space: nowrap;
       transition: background .15s, transform .12s, box-shadow .15s;
+      border: 1.5px solid transparent;
     }
-    .btn-refresh:hover  { background: var(--blue-dark); box-shadow: 0 4px 12px rgba(0,113,227,.28); }
-    .btn-refresh:active { transform: scale(.97); }
-    .btn-refresh.spinning .refresh-icon { animation: spin .7s linear infinite; }
+    .btn:active { transform: scale(.97); }
+
+    .btn-primary {
+      background: var(--blue); color: #fff; border-color: var(--blue);
+    }
+    .btn-primary:hover {
+      background: var(--blue-dark); border-color: var(--blue-dark);
+      box-shadow: 0 4px 12px rgba(0,113,227,.28);
+    }
+    .btn-primary.spinning .refresh-icon {
+      display: inline-block; animation: spin .7s linear infinite;
+    }
+
+    .btn-outline {
+      background: var(--card); color: var(--text2);
+      border-color: var(--divider);
+    }
+    .btn-outline:hover {
+      background: var(--surface); border-color: #c7c7cc;
+      box-shadow: var(--shadow-sm);
+    }
+
     @keyframes spin { to { transform: rotate(360deg); } }
 
     /* ── Main canvas ─────────────────────────────────────────── */
     main { padding: 24px 0 80px; }
 
-    /* ── Stat chips ──────────────────────────────────────────── */
+    /* ── Stat row ────────────────────────────────────────────── */
     .stat-row {
-      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;
+      display: flex; align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px; gap: 12px; flex-wrap: wrap;
+    }
+    .stat-filters {
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
     }
 
+    /* Plain metadata — right side, NOT clickable, NOT button-styled */
+    .stat-meta {
+      display: flex; align-items: center; gap: 16px;
+      padding: 0 4px; flex-shrink: 0;
+    }
+    .stat-meta-item {
+      display: flex; align-items: baseline; gap: 5px;
+    }
+    .stat-meta-num {
+      font-size: 18px; font-weight: 700; color: var(--text2); line-height: 1;
+    }
+    .stat-meta-label {
+      font-size: 12px; color: var(--text3);
+    }
+    .stat-meta-divider {
+      width: 1px; height: 22px; background: var(--divider); flex-shrink: 0;
+    }
+    .stat-meta-date {
+      font-size: 12.5px; font-weight: 600; color: var(--text3); white-space: nowrap;
+    }
+    .stat-meta-date span {
+      font-weight: 400;
+    }
+
+    /* ── Clickable filter chips ──────────────────────────────── */
     .chip {
       display: flex; align-items: center; gap: 10px;
       background: var(--card);
@@ -119,11 +170,11 @@
       box-shadow: var(--shadow-sm);
       user-select: none;
     }
-    .chip:hover:not(.chip-info) {
+    .chip:hover {
       box-shadow: var(--shadow-md);
       transform: translateY(-1px);
     }
-    .chip:active:not(.chip-info) { transform: scale(.98); }
+    .chip:active { transform: scale(.98); }
 
     .chip-num {
       font-size: 22px; font-weight: 700; letter-spacing: -.6px; line-height: 1;
@@ -131,11 +182,11 @@
     }
     .chip-label { font-size: 12.5px; color: var(--text2); font-weight: 500; }
 
-    /* Active states — filled pill */
+    /* Active states — filled */
     .chip.active-all    { background: var(--blue);   border-color: var(--blue);   box-shadow: 0 4px 14px rgba(0,113,227,.3); }
     .chip.active-high   { background: var(--red);    border-color: var(--red);    box-shadow: 0 4px 14px rgba(255,59,48,.28); }
     .chip.active-medium { background: var(--orange); border-color: var(--orange); box-shadow: 0 4px 14px rgba(255,149,0,.28); }
-    .chip.active-low    { background: var(--grey);   border-color: var(--grey);   box-shadow: 0 4px 14px rgba(142,142,147,.28); }
+    .chip.active-low    { background: var(--slate);  border-color: var(--slate);  box-shadow: 0 4px 14px rgba(58,58,60,.28); }
 
     .chip.active-all    .chip-num,
     .chip.active-high   .chip-num,
@@ -145,11 +196,6 @@
     .chip.active-high   .chip-label,
     .chip.active-medium .chip-label,
     .chip.active-low    .chip-label { color: rgba(255,255,255,.85); }
-
-    /* Non-clickable info chip */
-    .chip-info { cursor: default; }
-    .chip-info .chip-num { color: var(--text3); font-size: 18px; }
-    .chip-info .chip-label { color: var(--text3); }
 
     /* ── Section label ───────────────────────────────────────── */
     .section-label {
@@ -349,15 +395,110 @@
     }
     .footer-inner p { font-size: 11.5px; color: var(--text3); }
 
+    /* ── Email modal ─────────────────────────────────────────── */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; z-index: 500;
+      background: rgba(0,0,0,.45);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      align-items: center; justify-content: center;
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal-box {
+      background: var(--card); border-radius: 20px; padding: 28px;
+      width: 480px; max-width: calc(100vw - 40px);
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+      animation: modalIn .22s cubic-bezier(.34,1.28,.64,1);
+    }
+    @keyframes modalIn {
+      from { opacity:0; transform: scale(.94) translateY(8px); }
+      to   { opacity:1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-title {
+      font-size: 17px; font-weight: 700; color: var(--text);
+      margin-bottom: 4px;
+    }
+    .modal-sub {
+      font-size: 12.5px; color: var(--text3); margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .modal-label {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .5px; color: var(--text3); margin-bottom: 8px;
+    }
+    .modal-section { margin-bottom: 18px; }
+
+    .opt-group { display: flex; gap: 6px; flex-wrap: wrap; }
+    .opt-btn {
+      padding: 7px 14px; border-radius: 8px;
+      border: 1.5px solid var(--divider);
+      background: var(--surface);
+      font-size: 13px; font-weight: 500; color: var(--text2);
+      cursor: pointer; font-family: inherit;
+      transition: border-color .15s, background .15s, color .15s;
+    }
+    .opt-btn:hover { border-color: #c7c7cc; }
+    .opt-btn.selected {
+      border-color: var(--blue); background: #e8f1fd; color: var(--blue);
+    }
+
+    .modal-select {
+      width: 100%; padding: 9px 28px 9px 11px;
+      border: 1.5px solid var(--divider); border-radius: var(--radius-sm);
+      font-size: 13.5px; font-family: inherit; color: var(--text);
+      background: var(--surface); outline: none;
+      appearance: none; -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236e6e73' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 9px center;
+      cursor: pointer;
+      transition: border-color .15s;
+    }
+    .modal-select:focus { border-color: var(--blue); }
+
+    .modal-preview {
+      background: var(--surface); border-radius: 10px;
+      padding: 12px 14px; margin-bottom: 20px;
+      font-size: 12.5px; color: var(--text2);
+      border: 1px solid var(--divider);
+    }
+    .modal-preview strong { color: var(--text); }
+
+    .modal-note {
+      font-size: 11.5px; color: var(--text3);
+      margin-top: 10px; line-height: 1.5;
+    }
+
+    .modal-footer {
+      display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px;
+    }
+
+    /* ── Print / PDF export ──────────────────────────────────── */
+    @media print {
+      header { position: static !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+      .header-right, .filter-bar, footer, .modal-overlay { display: none !important; }
+      body { background: white !important; }
+      main { padding: 16px 0 !important; }
+      .exec-card { break-inside: avoid; }
+      tbody tr { break-inside: avoid; }
+    }
+
     /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 780px) {
+      .ts { display: none; }
+    }
     @media (max-width: 680px) {
       .header-left h1 { font-size: 17px; }
       .table-wrap { display: none; }
       .mobile-list { display: block; }
       .exec-grid { grid-template-columns: 1fr; }
-      .stat-row { gap: 7px; }
+      .stat-row { flex-direction: column; align-items: flex-start; }
+      .stat-meta { padding: 4px 0; }
       .chip { padding: 9px 13px; }
       .chip-num { font-size: 18px; }
+      .btn { font-size: 12px; padding: 6px 11px; }
 
       .m-card {
         background: var(--card); border-radius: var(--radius-lg);
@@ -396,8 +537,10 @@
           <span class="live-dot"></span>Live
         </div>
         <span class="ts" id="ts"></span>
-        <button class="btn-refresh" id="btn-refresh" onclick="refresh()">
-          <span class="refresh-icon" style="display:inline-block;font-size:13px;">&#8635;</span>
+        <button class="btn btn-outline" onclick="openEmailModal()">&#9993;&nbsp; Email Report</button>
+        <button class="btn btn-outline" onclick="window.print()">&#8595;&nbsp; Export PDF</button>
+        <button class="btn btn-primary" id="btn-refresh" onclick="refresh()">
+          <span class="refresh-icon" style="font-size:13px;">&#8635;</span>
           Refresh
         </button>
       </div>
@@ -428,8 +571,11 @@
     <!-- Content -->
     <div id="content" style="display:none;">
 
-      <!-- Stat chips -->
-      <div class="stat-row" id="stat-row"></div>
+      <!-- Stat row: LEFT = clickable filter chips, RIGHT = plain metadata -->
+      <div class="stat-row" id="stat-row">
+        <div class="stat-filters" id="stat-filters"></div>
+        <div class="stat-meta" id="stat-meta"></div>
+      </div>
 
       <!-- Priority alerts -->
       <div class="section-label" id="exec-label">Priority Alerts</div>
@@ -490,17 +636,50 @@
 </footer>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
+<!-- EMAIL REPORT MODAL                                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="modal-overlay" id="email-modal" onclick="closeModalOverlay(event)">
+  <div class="modal-box">
+    <p class="modal-title">&#9993; Email Report</p>
+    <p class="modal-sub">Choose what to include. Your default email client will open with the report pre-filled.</p>
+
+    <div class="modal-section">
+      <p class="modal-label">Priority</p>
+      <div class="opt-group" id="modal-priority-group">
+        <button class="opt-btn selected" data-val="ALL" onclick="selectPriority(this)">All signals</button>
+        <button class="opt-btn" data-val="HIGH" onclick="selectPriority(this)">High only</button>
+        <button class="opt-btn" data-val="HIGH_MED" onclick="selectPriority(this)">High + Medium</button>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <p class="modal-label">Competitor</p>
+      <select class="modal-select" id="modal-comp" onchange="updateModalPreview()">
+        <option value="">All competitors</option>
+      </select>
+    </div>
+
+    <div class="modal-preview" id="modal-preview">
+      <strong id="preview-count">0 signals</strong> will be included in this report.
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="closeEmailModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="sendEmailReport()">Open Email Client &rarr;</button>
+    </div>
+    <p class="modal-note">&#8505;&nbsp; Opens your default email client with the report pre-filled. No data is sent through this app.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SCRIPT                                                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 <script>
 /* ─────────────────────────────────────────────────────────────
    CONFIG
-   Set LIVE_DATA_URL to enable real-time refresh on every open.
-   Get it: GitHub repo → data.json → click Raw → copy URL.
-   e.g. "https://raw.githubusercontent.com/YOUR-USER/competitive-intel/main/data.json"
 ───────────────────────────────────────────────────────────────*/
-const LIVE_DATA_URL  = "https://raw.githubusercontent.com/mittalnipun/competitive-intel/main/data.json";
-const AUTO_REFRESH_MS = 30 * 60 * 1000; // re-fetch every 30 min if LIVE_DATA_URL set
+const LIVE_DATA_URL   = "https://raw.githubusercontent.com/mittalnipun/competitive-intel/main/data.json";
+const AUTO_REFRESH_MS = 30 * 60 * 1000;
 
 /* ── Competitor SVG logos ──────────────────────────────────── */
 const LOGOS = {
@@ -582,10 +761,19 @@ function badge(p) {
 }
 
 /* ── State ─────────────────────────────────────────────────── */
-let allItems = [];
-let activePriority = "ALL"; // ALL | HIGH | MEDIUM | LOW
+let allItems       = [];
+let lastUpdated    = "";
+let activePriority = "ALL";
 
-/* ── Date range chip ───────────────────────────────────────── */
+/* ── Filter chip definitions ───────────────────────────────── */
+const filterDefs = [
+  { key:"ALL",    label:"Total signals",   activeClass:"active-all"    },
+  { key:"HIGH",   label:"High priority",   activeClass:"active-high"   },
+  { key:"MEDIUM", label:"Medium priority", activeClass:"active-medium" },
+  { key:"LOW",    label:"Low priority",    activeClass:"active-low"    },
+];
+
+/* ── Date range string ─────────────────────────────────────── */
 function dateRange(items) {
   const dates = items.map(i=>i.date).filter(Boolean).sort();
   if (!dates.length) return "";
@@ -597,14 +785,10 @@ function dateRange(items) {
   };
   const oldest = fmt(dates[0]);
   const newest = fmt(dates[dates.length-1]);
-  const label  = oldest===newest ? oldest : `${oldest} – ${newest}`;
-  return `<div class="chip chip-info" title="Signal date range">
-    <span class="chip-num" style="font-size:13px;font-weight:600;">${label}</span>
-    <span class="chip-label">Coverage window</span>
-  </div>`;
+  return oldest===newest ? oldest : `${oldest} – ${newest}`;
 }
 
-/* ── Chips ─────────────────────────────────────────────────── */
+/* ── Render stat row ───────────────────────────────────────── */
 function renderChips(items) {
   const counts = {
     ALL:    items.length,
@@ -612,35 +796,24 @@ function renderChips(items) {
     MEDIUM: items.filter(i=>i.priority==="MEDIUM").length,
     LOW:    items.filter(i=>i.priority==="LOW").length,
   };
-  const comps = new Set(items.map(i=>i.competitor)).size;
+  const comps    = new Set(items.map(i=>i.competitor)).size;
+  const dateText = dateRange(items);
 
-  const defs = [
-    { key:"ALL",    label:"Total signals",   activeClass:"active-all"    },
-    { key:"HIGH",   label:"High priority",   activeClass:"active-high"   },
-    { key:"MEDIUM", label:"Medium priority", activeClass:"active-medium" },
-    { key:"LOW",    label:"Low priority",    activeClass:"active-low"    },
-  ];
-
-  const bar = document.getElementById("stat-row");
-  bar.innerHTML = defs.map(d => `
+  /* LEFT: interactive filter chips */
+  const filtersEl = document.getElementById("stat-filters");
+  filtersEl.innerHTML = filterDefs.map(d => `
     <div class="chip ${d.key===activePriority ? d.activeClass : ""}"
          data-key="${d.key}" role="button" tabindex="0"
          aria-label="Show ${d.label}">
       <span class="chip-num">${counts[d.key]}</span>
       <span class="chip-label">${d.label}</span>
     </div>
-  `).join("") + `
-    <div class="chip chip-info" title="Total competitors monitored">
-      <span class="chip-num">${comps}</span>
-      <span class="chip-label">Competitors tracked</span>
-    </div>
-    ${dateRange(items)}`;
+  `).join("");
 
-  bar.querySelectorAll(".chip:not(.chip-info)").forEach(el => {
+  filtersEl.querySelectorAll(".chip").forEach(el => {
     const activate = () => {
       const key = el.dataset.key;
-      // Toggle off if already active and not ALL
-      activePriority = (activePriority === key && key !== "ALL") ? "ALL" : key;
+      activePriority = (activePriority===key && key!=="ALL") ? "ALL" : key;
       renderChips(allItems);
       applyFilters();
     };
@@ -649,6 +822,19 @@ function renderChips(items) {
       if (e.key==="Enter"||e.key===" ") { e.preventDefault(); activate(); }
     });
   });
+
+  /* RIGHT: plain metadata — no chip styling, no hover, no cursor pointer */
+  const metaEl = document.getElementById("stat-meta");
+  metaEl.innerHTML = `
+    <div class="stat-meta-item">
+      <span class="stat-meta-num">${comps}</span>
+      <span class="stat-meta-label">${comps===1?"competitor":"competitors"}</span>
+    </div>
+    ${dateText ? `
+    <div class="stat-meta-divider"></div>
+    <span class="stat-meta-date">${esc(dateText)} <span>coverage</span></span>
+    ` : ""}
+  `;
 }
 
 /* ── Exec cards ────────────────────────────────────────────── */
@@ -678,10 +864,10 @@ function renderExec(items) {
 
 /* ── Table ─────────────────────────────────────────────────── */
 function renderTable(items) {
-  const tbody   = document.getElementById("tbody");
-  const noRes   = document.getElementById("no-results");
-  const mList   = document.getElementById("mobile-list");
-  const rc      = document.getElementById("rc");
+  const tbody = document.getElementById("tbody");
+  const noRes = document.getElementById("no-results");
+  const mList = document.getElementById("mobile-list");
+  const rc    = document.getElementById("rc");
 
   rc.textContent = items.length ? `${items.length} signal${items.length!==1?"s":""}` : "";
 
@@ -724,7 +910,7 @@ function renderTable(items) {
 
 /* ── Filter ─────────────────────────────────────────────────── */
 function populateCompFilter(items) {
-  const sel  = document.getElementById("comp-filter");
+  const sel   = document.getElementById("comp-filter");
   const comps = [...new Set(items.map(i=>i.competitor))].sort();
   comps.forEach(c => {
     const o = document.createElement("option");
@@ -749,18 +935,115 @@ function applyFilters() {
   renderTable(out);
 }
 
+/* ── Email modal ────────────────────────────────────────────── */
+let modalPriority = "ALL";
+
+function openEmailModal() {
+  /* Populate competitor dropdown */
+  const sel   = document.getElementById("modal-comp");
+  const comps = [...new Set(allItems.map(i=>i.competitor))].sort();
+  /* Reset */
+  sel.innerHTML = '<option value="">All competitors</option>';
+  comps.forEach(c => {
+    const o = document.createElement("option");
+    o.value = c; o.textContent = c; sel.appendChild(o);
+  });
+  /* Reset priority selection */
+  modalPriority = "ALL";
+  document.querySelectorAll("#modal-priority-group .opt-btn").forEach(b => {
+    b.classList.toggle("selected", b.dataset.val==="ALL");
+  });
+  updateModalPreview();
+  document.getElementById("email-modal").classList.add("open");
+  document.addEventListener("keydown", escHandler);
+}
+
+function closeEmailModal() {
+  document.getElementById("email-modal").classList.remove("open");
+  document.removeEventListener("keydown", escHandler);
+}
+
+function closeModalOverlay(e) {
+  if (e.target === document.getElementById("email-modal")) closeEmailModal();
+}
+
+function escHandler(e) {
+  if (e.key==="Escape") closeEmailModal();
+}
+
+function selectPriority(btn) {
+  modalPriority = btn.dataset.val;
+  document.querySelectorAll("#modal-priority-group .opt-btn").forEach(b => {
+    b.classList.toggle("selected", b===btn);
+  });
+  updateModalPreview();
+}
+
+function getModalItems() {
+  const comp = document.getElementById("modal-comp").value;
+  return allItems.filter(item => {
+    if (modalPriority==="HIGH"     && item.priority!=="HIGH")                        return false;
+    if (modalPriority==="HIGH_MED" && item.priority!=="HIGH" && item.priority!=="MEDIUM") return false;
+    if (comp && item.competitor!==comp) return false;
+    return true;
+  });
+}
+
+function updateModalPreview() {
+  const n = getModalItems().length;
+  document.getElementById("preview-count").textContent = `${n} signal${n!==1?"s":""}`;
+}
+
+function sendEmailReport() {
+  const items     = getModalItems();
+  const dateStr   = new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
+  const subject   = encodeURIComponent(`Schneider Electric: Competitive Intelligence Report — ${dateStr}`);
+
+  if (!items.length) {
+    alert("No signals match the selected filters.");
+    return;
+  }
+
+  /* Build plain-text report body */
+  let body = `COMPETITIVE INTELLIGENCE REPORT\n`;
+  body += `Schneider Electric | ${dateStr}\n`;
+  body += `${"=".repeat(52)}\n\n`;
+
+  /* Group by priority */
+  ["HIGH","MEDIUM","LOW"].forEach(pri => {
+    const group = items.filter(i=>i.priority===pri);
+    if (!group.length) return;
+    body += `${pri} PRIORITY (${group.length} signal${group.length!==1?"s":""})\n`;
+    body += `${"-".repeat(40)}\n`;
+    group.forEach((item, idx) => {
+      body += `\n${idx+1}. ${item.competitor}\n`;
+      body += `   ${item.headline}\n`;
+      body += `   Why it matters: ${item.why_matters}\n`;
+      body += `   Date: ${fmtDate(item.date)}\n`;
+      body += `   Source: ${item.publisher||item.source||"Unknown"}\n`;
+      body += `   Link: ${item.url}\n`;
+    });
+    body += "\n";
+  });
+
+  body += `${"=".repeat(52)}\n`;
+  body += `Generated from Schneider Electric Competitive Intelligence Dashboard.\n`;
+  body += `Data refreshes every 2 hours via automated pipeline.\n`;
+
+  const mailtoLink = `mailto:?subject=${subject}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailtoLink;
+  closeEmailModal();
+}
+
 /* ── Data loading ───────────────────────────────────────────── */
 async function fetchData() {
-  // 1. Try live GitHub raw URL
   if (LIVE_DATA_URL) {
     try {
       const r = await fetch(LIVE_DATA_URL+"?_="+Date.now());
       if (r.ok) return { data: await r.json(), live: true };
     } catch(e) { console.info("Live fetch failed:", e.message); }
   }
-  // 2. Inline bundled data (from bundle.py)
   if (window.__CI_DATA__) return { data: window.__CI_DATA__, live: false };
-  // 3. Local data.json (dev server)
   try {
     const r = await fetch("data.json?_="+Date.now());
     if (r.ok) return { data: await r.json(), live: true };
@@ -769,8 +1052,8 @@ async function fetchData() {
 }
 
 async function load(isRefresh) {
+  const btn = document.getElementById("btn-refresh");
   if (isRefresh) {
-    const btn = document.getElementById("btn-refresh");
     btn.classList.add("spinning");
     btn.disabled = true;
   }
@@ -780,14 +1063,13 @@ async function load(isRefresh) {
     if (!result) throw new Error("no data");
 
     const { data, live } = result;
-    allItems = data.items || [];
+    allItems    = data.items || [];
+    lastUpdated = data.last_updated || "";
 
-    // Timestamp
-    document.getElementById("ts").textContent = fmtTs(data.last_updated);
+    document.getElementById("ts").textContent = fmtTs(lastUpdated);
     const pill = document.getElementById("live-pill");
-    if (live) pill.style.display = "inline-flex"; else pill.style.display = "none";
+    pill.style.display = live ? "inline-flex" : "none";
 
-    // Render
     renderChips(allItems);
     renderExec(allItems);
     if (!isRefresh) populateCompFilter(allItems);
@@ -797,7 +1079,6 @@ async function load(isRefresh) {
     document.getElementById("st-error").style.display   = "none";
     document.getElementById("content").style.display    = "block";
 
-    // Auto-refresh loop
     if (LIVE_DATA_URL && !isRefresh) {
       setTimeout(() => load(true), AUTO_REFRESH_MS);
     }
@@ -807,11 +1088,8 @@ async function load(isRefresh) {
     document.getElementById("st-loading").style.display = "none";
     document.getElementById("st-error").style.display   = "block";
   } finally {
-    if (isRefresh) {
-      const btn = document.getElementById("btn-refresh");
-      btn.classList.remove("spinning");
-      btn.disabled = false;
-    }
+    btn.classList.remove("spinning");
+    btn.disabled = false;
   }
 }
 
