@@ -669,7 +669,7 @@ function renderExec(items) {
       <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.headline)}</a></h3>
       <p class="why">${esc(item.why_matters)}</p>
       <div class="exec-card-footer">
-        <span class="date">${fmtDate(item.date)}${item.source ? ` &middot; <span style="color:var(--text3)">${esc(item.source)}</span>` : ""}</span>
+        <span class="date">${fmtDate(item.date)}${(item.publisher||item.source) ? ` &middot; <span style="color:var(--text3)">${esc(item.publisher||item.source)}</span>` : ""}</span>
         <a class="read-more" href="${esc(item.url)}" target="_blank" rel="noopener">Read &rarr;</a>
       </div>
     </div>
@@ -704,7 +704,7 @@ function renderTable(items) {
           : ""}
       </td>
       <td class="col-why"><span class="why-cell">${esc(item.why_matters)}</span></td>
-      <td class="col-source">${item.source ? `<span class="source-tag" title="${esc(item.source)}">${esc(item.source)}</span>` : ""}</td>
+      <td class="col-source">${(item.publisher||item.source) ? `<span class="source-tag" title="${esc(item.publisher||item.source)}">${esc(item.publisher||item.source)}</span>` : ""}</td>
       <td class="col-date"><span class="date-cell">${fmtDate(item.date)}</span></td>
     </tr>
   `).join("");
