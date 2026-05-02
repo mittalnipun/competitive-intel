@@ -1,17 +1,15 @@
-name: Daily Competitive Intelligence Scrape
+name: Competitive Intelligence Scrape
 
 on:
   schedule:
-    # 6:00 AM PST = 14:00 UTC (adjusts automatically for PDT offset)
-    - cron: "0 14 * * *"
-  # Allow manual trigger from the Actions tab
+    # Every 2 hours UTC — near-real-time refresh
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
-    # Allow the job to push back to the repo
     permissions:
       contents: write
 
@@ -28,7 +26,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles("requirements.txt") }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -43,10 +41,10 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
           git add data.json
-          # Only commit if data.json actually changed
           if git diff --staged --quiet; then
             echo "No changes to data.json — nothing to commit."
           else
             git commit -m "chore: update competitive intelligence data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push
           fi
+
