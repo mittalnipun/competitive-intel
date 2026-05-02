@@ -1,0 +1,140 @@
+{
+  "last_updated": "2026-05-02T06:00:00Z",
+  "items": [
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Launches OT-Specific Threat Intelligence Platform for Critical Infrastructure",
+      "date": "2026-05-01",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "priority": "HIGH",
+      "summary": "Siemens unveiled a new OT threat intelligence layer integrated into its Sinec Security Monitor, targeting energy and utilities verticals.",
+      "why_matters": "New product launch may shift competitive positioning — assess capability overlap with Schneider's EcoStruxure security stack."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell and Microsoft Sign Strategic Partnership for Industrial AI Security",
+      "date": "2026-05-01",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "HIGH",
+      "summary": "Honeywell announced a multi-year partnership with Microsoft Azure to deliver AI-powered anomaly detection across industrial control environments.",
+      "why_matters": "Partnership expands Honeywell's ecosystem reach — potential pressure on Schneider's industrial AI positioning."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Acquires Verve Industrial Protection to Strengthen OT Cybersecurity Portfolio",
+      "date": "2026-04-30",
+      "url": "https://new.abb.com/news",
+      "priority": "HIGH",
+      "summary": "ABB confirmed the acquisition of Verve Industrial Protection, adding OT asset visibility and vulnerability management capabilities to its automation stack.",
+      "why_matters": "Acquisition signals strategic capability expansion into OT security — a space Schneider is also investing in."
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Wins $40M Smart Factory Security Contract with Tier-1 Automotive OEM",
+      "date": "2026-04-29",
+      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
+      "priority": "HIGH",
+      "summary": "Rockwell's FactoryTalk security suite has been deployed across 14 manufacturing plants for a major automotive customer, covering 8,000+ connected assets.",
+      "why_matters": "Large enterprise win in manufacturing — a core Schneider vertical. Assess deal displacement risk."
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Deploys DeltaV Cyber Intelligence Across 3 LNG Terminals in Southeast Asia",
+      "date": "2026-04-28",
+      "url": "https://www.emerson.com/en-us/news",
+      "priority": "HIGH",
+      "summary": "Emerson confirmed a deployment of its DeltaV cyber monitoring solution across three LNG terminals in Southeast Asia, covering SCADA and DCS environments.",
+      "why_matters": "Active APAC deployment in energy infrastructure — a region and vertical where Schneider has active accounts."
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Partners with Claroty to Deliver Integrated OT Visibility Solution",
+      "date": "2026-04-27",
+      "url": "https://www.yokogawa.com/news",
+      "priority": "HIGH",
+      "summary": "Yokogawa and Claroty announced a joint go-to-market agreement targeting process industries across Japan, Singapore, and Australia.",
+      "why_matters": "Partnership strengthens Yokogawa's OT security offering in APAC — watch for overlap with Schneider accounts in Singapore and Australia."
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Identifies Critical Vulnerability in Simatic S7-1500 PLC Firmware",
+      "date": "2026-04-26",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "priority": "HIGH",
+      "summary": "Siemens issued a security advisory for a critical CVE in its Simatic S7-1500 series, affecting customers in energy, water, and manufacturing sectors.",
+      "why_matters": "Vulnerability in a widely deployed Siemens PLC — may prompt joint customers to review their automation vendor mix."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell Publishes 2026 OT Cybersecurity Threat Report",
+      "date": "2026-04-25",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "MEDIUM",
+      "summary": "Honeywell's annual threat report highlights a 47% rise in OT-targeted attacks, with removable media as the leading attack vector across industrial sectors.",
+      "why_matters": "Competitor thought leadership shaping buyer criteria — Schneider should monitor whether this shifts customer conversations."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB to Host Industrial Cybersecurity Webinar: Zero Trust in OT Environments",
+      "date": "2026-04-24",
+      "url": "https://new.abb.com/news",
+      "priority": "MEDIUM",
+      "summary": "ABB is running a global webinar series on Zero Trust architecture for operational technology teams, targeting CISOs and OT security managers.",
+      "why_matters": "ABB investing in demand generation targeting the same buyer profiles as Schneider's digital energy and automation business."
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Named a Leader in Gartner Magic Quadrant for OT Security Platforms",
+      "date": "2026-04-23",
+      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
+      "priority": "MEDIUM",
+      "summary": "Gartner's latest Magic Quadrant places Rockwell Automation in the Leaders quadrant for OT security platforms, citing strong execution and vision.",
+      "why_matters": "Analyst recognition strengthens Rockwell's enterprise sales credibility — relevant to Schneider's positioning in the same quadrant."
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Releases White Paper: Converging IT and OT Security in Process Industries",
+      "date": "2026-04-22",
+      "url": "https://www.emerson.com/en-us/news",
+      "priority": "MEDIUM",
+      "summary": "Emerson's latest white paper outlines a framework for IT/OT convergence in chemical and petrochemical plants, citing risk reduction outcomes from 12 deployments.",
+      "why_matters": "Competitor thought leadership in IT/OT convergence — a topic directly relevant to Schneider's EcoStruxure narrative."
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Speaks at Singapore OT-ISAC Annual Summit on AI-Driven Threat Detection",
+      "date": "2026-04-21",
+      "url": "https://www.yokogawa.com/news",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa's Chief Security Architect presented on AI-assisted anomaly detection for process control networks at the OT-ISAC summit in Singapore.",
+      "why_matters": "Competitor active in Singapore's industrial security community — a market where Schneider has significant installed base."
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Updates Sinec NMS Network Management System with Enhanced Logging",
+      "date": "2026-04-20",
+      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "priority": "LOW",
+      "summary": "Siemens released a routine firmware update to Sinec NMS v2.0.3, adding enhanced syslog support and SNMP trap improvements.",
+      "why_matters": "Routine product update — monitor for cumulative feature parity shifts over time."
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Reports Q1 2026 Results: Orders Up 8% YoY in Process Automation Division",
+      "date": "2026-04-18",
+      "url": "https://new.abb.com/news",
+      "priority": "LOW",
+      "summary": "ABB's Q1 2026 earnings show 8% order growth in its Process Automation division, with strong performance in electrification and motion segments.",
+      "why_matters": "ABB gaining order momentum in process automation — a segment Schneider competes in directly."
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell Joins IEC 62443 Working Group for Industrial Automation Security Standards",
+      "date": "2026-04-17",
+      "url": "https://www.honeywell.com/us/en/press",
+      "priority": "LOW",
+      "summary": "Honeywell has joined the IEC 62443 working group to contribute to next-generation industrial automation and control system security standards.",
+      "why_matters": "Standards participation signals long-term positioning intent — relevant for Schneider's regulatory and compliance messaging."
+    }
+  ]
+}

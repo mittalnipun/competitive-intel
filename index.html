@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competitive Intelligence — Schneider Electric</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:      #0071e3;
+      --blue-dark: #0062c4;
+      --text:      #1d1d1f;
+      --text2:     #3a3a3c;
+      --text3:     #6e6e73;
+      --divider:   #e5e5ea;
+      --surface:   #f2f2f7;
+      --card:      #ffffff;
+      --red:       #ff3b30;
+      --red-bg:    #fff1f0;
+      --orange:    #ff9500;
+      --orange-bg: #fff8ee;
+      --grey:      #8e8e93;
+      --grey-bg:   #f2f2f7;
+      --radius-lg: 16px;
+      --radius-md: 10px;
+      --radius-sm: 8px;
+      --shadow-sm: 0 1px 4px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 16px rgba(0,0,0,.08), 0 0 0 1px rgba(0,0,0,.04);
+      --shadow-lg: 0 12px 32px rgba(0,0,0,.12), 0 0 0 1px rgba(0,0,0,.04);
+    }
+
+    html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+                   Helvetica, Arial, sans-serif;
+      background: #f2f2f7;
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* ── Page shell ─────────────────────────────────────────── */
+    .page { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    header {
+      background: rgba(255,255,255,.88);
+      backdrop-filter: saturate(180%) blur(24px);
+      -webkit-backdrop-filter: saturate(180%) blur(24px);
+      border-bottom: 1px solid var(--divider);
+      position: sticky; top: 0; z-index: 200;
+    }
+    .header-inner {
+      display: flex; align-items: center;
+      justify-content: space-between;
+      padding: 16px 0; gap: 16px;
+    }
+    .header-left h1 {
+      font-size: 20px; font-weight: 700;
+      letter-spacing: -.4px; color: var(--text);
+    }
+    .header-left p {
+      font-size: 12px; color: var(--text3); margin-top: 1px;
+    }
+    .header-right {
+      display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+    }
+    .live-pill {
+      display: none;
+      align-items: center; gap: 5px;
+      background: #e8f8f0; color: #1a7a4a;
+      border-radius: 20px; padding: 4px 10px;
+      font-size: 11px; font-weight: 600;
+    }
+    .live-dot {
+      width: 6px; height: 6px; border-radius: 50%; background: #34c759;
+      animation: blink 2s ease-in-out infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+    .ts {
+      font-size: 11.5px; color: var(--text3); white-space: nowrap;
+    }
+
+    .btn-refresh {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--blue); color: #fff;
+      border: none; border-radius: var(--radius-sm);
+      padding: 7px 13px; font-size: 12.5px; font-weight: 600;
+      font-family: inherit; cursor: pointer;
+      transition: background .15s, transform .12s, box-shadow .15s;
+    }
+    .btn-refresh:hover  { background: var(--blue-dark); box-shadow: 0 4px 12px rgba(0,113,227,.28); }
+    .btn-refresh:active { transform: scale(.97); }
+    .btn-refresh.spinning .refresh-icon { animation: spin .7s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Main canvas ─────────────────────────────────────────── */
+    main { padding: 24px 0 80px; }
+
+    /* ── Stat chips ──────────────────────────────────────────── */
+    .stat-row {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;
+    }
+
+    .chip {
+      display: flex; align-items: center; gap: 10px;
+      background: var(--card);
+      border-radius: var(--radius-md);
+      padding: 11px 16px;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      transition: background .18s cubic-bezier(.4,0,.2,1),
+                  border-color .18s cubic-bezier(.4,0,.2,1),
+                  box-shadow .18s cubic-bezier(.4,0,.2,1),
+                  transform .14s cubic-bezier(.4,0,.2,1);
+      box-shadow: var(--shadow-sm);
+      user-select: none;
+    }
+    .chip:hover:not(.chip-info) {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+    .chip:active:not(.chip-info) { transform: scale(.98); }
+
+    .chip-num {
+      font-size: 22px; font-weight: 700; letter-spacing: -.6px; line-height: 1;
+      color: var(--text);
+    }
+    .chip-label { font-size: 12.5px; color: var(--text2); font-weight: 500; }
+
+    /* Active states — filled pill */
+    .chip.active-all    { background: var(--blue);   border-color: var(--blue);   box-shadow: 0 4px 14px rgba(0,113,227,.3); }
+    .chip.active-high   { background: var(--red);    border-color: var(--red);    box-shadow: 0 4px 14px rgba(255,59,48,.28); }
+    .chip.active-medium { background: var(--orange); border-color: var(--orange); box-shadow: 0 4px 14px rgba(255,149,0,.28); }
+    .chip.active-low    { background: var(--grey);   border-color: var(--grey);   box-shadow: 0 4px 14px rgba(142,142,147,.28); }
+
+    .chip.active-all    .chip-num,
+    .chip.active-high   .chip-num,
+    .chip.active-medium .chip-num,
+    .chip.active-low    .chip-num  { color: #fff; }
+    .chip.active-all    .chip-label,
+    .chip.active-high   .chip-label,
+    .chip.active-medium .chip-label,
+    .chip.active-low    .chip-label { color: rgba(255,255,255,.85); }
+
+    /* Non-clickable info chip */
+    .chip-info { cursor: default; }
+    .chip-info .chip-num { color: var(--text3); font-size: 18px; }
+    .chip-info .chip-label { color: var(--text3); }
+
+    /* ── Section label ───────────────────────────────────────── */
+    .section-label {
+      font-size: 11px; font-weight: 700; letter-spacing: .6px;
+      text-transform: uppercase; color: var(--text3);
+      margin-bottom: 12px;
+    }
+
+    /* ── Badge ───────────────────────────────────────────────── */
+    .badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      border-radius: 20px; padding: 3px 9px;
+      font-size: 10.5px; font-weight: 700;
+      letter-spacing: .3px; text-transform: uppercase; white-space: nowrap;
+    }
+    .badge-dot { width: 5px; height: 5px; border-radius: 50%; }
+    .badge-HIGH   { background: var(--red-bg);    color: var(--red);    }
+    .badge-HIGH .badge-dot    { background: var(--red);    }
+    .badge-MEDIUM { background: var(--orange-bg); color: var(--orange); }
+    .badge-MEDIUM .badge-dot  { background: var(--orange); }
+    .badge-LOW    { background: var(--grey-bg);   color: var(--grey);   }
+    .badge-LOW .badge-dot     { background: var(--grey);   }
+
+    /* ── Exec cards ──────────────────────────────────────────── */
+    .exec-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 12px; margin-bottom: 32px;
+    }
+
+    .exec-card {
+      background: var(--card); border-radius: var(--radius-lg);
+      padding: 20px; display: flex; flex-direction: column; gap: 11px;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow .2s, transform .2s;
+      border: 1.5px solid transparent;
+    }
+    .exec-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+      border-color: var(--divider);
+    }
+    .exec-card-header {
+      display: flex; justify-content: space-between;
+      align-items: flex-start; gap: 8px;
+    }
+    .exec-card h3 {
+      font-size: 14px; font-weight: 600; color: var(--text);
+      line-height: 1.4;
+    }
+    .exec-card h3 a {
+      color: inherit; text-decoration: none;
+      transition: color .15s;
+    }
+    .exec-card h3 a:hover { color: var(--blue); }
+    .exec-card .why {
+      font-size: 12.5px; color: var(--text2); line-height: 1.5;
+    }
+    .exec-card-footer {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 10px; border-top: 1px solid var(--surface);
+      margin-top: auto;
+    }
+    .exec-card-footer .date { font-size: 11.5px; color: var(--text3); }
+    .exec-card-footer a.read-more {
+      font-size: 11.5px; font-weight: 600; color: var(--blue);
+      text-decoration: none; transition: opacity .15s;
+    }
+    .exec-card-footer a.read-more:hover { opacity: .7; }
+
+    /* ── Filter bar ──────────────────────────────────────────── */
+    .filter-bar {
+      display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap;
+    }
+    .search-wrap { position: relative; flex: 1; min-width: 200px; }
+    .search-icon {
+      position: absolute; left: 10px; top: 50%;
+      transform: translateY(-50%); color: var(--text3);
+      font-size: 13px; pointer-events: none;
+    }
+    .filter-input {
+      width: 100%; padding: 9px 12px 9px 31px;
+      border: 1.5px solid var(--divider); border-radius: var(--radius-sm);
+      font-size: 13.5px; font-family: inherit; color: var(--text);
+      background: var(--card); outline: none;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .filter-input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(0,113,227,.12);
+    }
+    .filter-input::placeholder { color: var(--text3); }
+
+    .filter-select {
+      padding: 9px 28px 9px 11px;
+      border: 1.5px solid var(--divider); border-radius: var(--radius-sm);
+      font-size: 13.5px; font-family: inherit; color: var(--text);
+      background: var(--card); outline: none;
+      appearance: none; -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236e6e73' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 9px center;
+      cursor: pointer;
+      transition: border-color .15s;
+    }
+    .filter-select:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(0,113,227,.12);
+    }
+    .result-count {
+      display: flex; align-items: center;
+      font-size: 12.5px; color: var(--text3); padding: 0 4px;
+    }
+
+    /* ── Table ───────────────────────────────────────────────── */
+    .table-wrap {
+      background: var(--card); border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm); overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    thead th {
+      background: var(--surface);
+      color: var(--text3); font-size: 10.5px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .5px;
+      padding: 10px 14px; text-align: left;
+      border-bottom: 1px solid var(--divider); white-space: nowrap;
+    }
+    tbody tr {
+      border-bottom: 1px solid var(--surface);
+      transition: background .1s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #f0f7ff; }
+    tbody td { padding: 13px 14px; vertical-align: middle; }
+
+    .col-badge      { width: 82px; }
+    .col-competitor { width: 144px; }
+    .col-headline   { min-width: 220px; }
+    .col-why        { min-width: 200px; }
+    .col-date       { width: 96px; white-space: nowrap; }
+
+    .hl-link {
+      color: var(--text); font-weight: 600; font-size: 13px;
+      text-decoration: none; line-height: 1.4;
+      transition: color .15s;
+    }
+    .hl-link:hover { color: var(--blue); }
+    .hl-sub {
+      font-size: 11.5px; color: var(--text3); margin-top: 3px; line-height: 1.4;
+    }
+    .why-cell { font-size: 12px; color: var(--text2); line-height: 1.5; }
+    .date-cell { font-size: 12px; color: var(--text3); }
+    .comp-cell { display: flex; align-items: center; }
+
+    /* ── Logo wrap ───────────────────────────────────────────── */
+    .logo { display: inline-flex; align-items: center; height: 20px; }
+    .logo svg { height: 100%; width: auto; }
+
+    /* ── States ──────────────────────────────────────────────── */
+    .state {
+      text-align: center; padding: 60px 24px; background: var(--card);
+      border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);
+    }
+    .state h3 { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+    .state p  { font-size: 13.5px; color: var(--text2); }
+    .spinner {
+      width: 28px; height: 28px; border: 3px solid var(--divider);
+      border-top-color: var(--blue); border-radius: 50%;
+      animation: spin .8s linear infinite; margin: 0 auto 14px;
+    }
+
+    /* ── No results ──────────────────────────────────────────── */
+    .no-results {
+      text-align: center; padding: 48px 24px;
+      color: var(--text3); font-size: 14px;
+    }
+
+    /* ── Mobile cards ────────────────────────────────────────── */
+    .mobile-list { display: none; }
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--divider);
+      background: var(--surface); padding: 16px 0;
+    }
+    .footer-inner {
+      display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 8px;
+    }
+    .footer-inner p { font-size: 11.5px; color: var(--text3); }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 680px) {
+      .header-left h1 { font-size: 17px; }
+      .table-wrap { display: none; }
+      .mobile-list { display: block; }
+      .exec-grid { grid-template-columns: 1fr; }
+      .stat-row { gap: 7px; }
+      .chip { padding: 9px 13px; }
+      .chip-num { font-size: 18px; }
+
+      .m-card {
+        background: var(--card); border-radius: var(--radius-lg);
+        padding: 16px; box-shadow: var(--shadow-sm);
+        margin-bottom: 10px;
+      }
+      .m-card-top {
+        display: flex; justify-content: space-between;
+        align-items: flex-start; margin-bottom: 10px;
+      }
+      .m-card h3 {
+        font-size: 14px; font-weight: 600; line-height: 1.4;
+        margin: 6px 0;
+      }
+      .m-card h3 a { color: var(--text); text-decoration: none; }
+      .m-card h3 a:hover { color: var(--blue); }
+      .m-card .m-why { font-size: 12px; color: var(--text2); line-height: 1.45; }
+      .m-card .m-date { font-size: 11px; color: var(--text3); margin-top: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<header>
+  <div class="page">
+    <div class="header-inner">
+      <div class="header-left">
+        <h1>Competitive Intelligence</h1>
+        <p>Industrial Automation &amp; OT Security &mdash; Schneider Electric</p>
+      </div>
+      <div class="header-right">
+        <div id="live-pill" class="live-pill">
+          <span class="live-dot"></span>Live
+        </div>
+        <span class="ts" id="ts"></span>
+        <button class="btn-refresh" id="btn-refresh" onclick="refresh()">
+          <span class="refresh-icon" style="display:inline-block;font-size:13px;">&#8635;</span>
+          Refresh
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- MAIN                                                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<main>
+  <div class="page">
+
+    <!-- Loading -->
+    <div id="st-loading" class="state">
+      <div class="spinner"></div>
+      <h3>Fetching intelligence&hellip;</h3>
+      <p>Pulling the latest competitive signals.</p>
+    </div>
+
+    <!-- Error -->
+    <div id="st-error" class="state" style="display:none;">
+      <div style="font-size:36px;margin-bottom:12px;">&#9888;&#xFE0F;</div>
+      <h3>No data available</h3>
+      <p>Run <code style="background:var(--surface);padding:2px 6px;border-radius:4px;font-size:12px;">python scraper.py &amp;&amp; python bundle.py</code> to regenerate.</p>
+    </div>
+
+    <!-- Content -->
+    <div id="content" style="display:none;">
+
+      <!-- Stat chips -->
+      <div class="stat-row" id="stat-row"></div>
+
+      <!-- Priority alerts -->
+      <div class="section-label" id="exec-label">Priority Alerts</div>
+      <div class="exec-grid" id="exec-grid"></div>
+
+      <!-- All signals -->
+      <div class="section-label" style="margin-top:28px;">All Signals</div>
+
+      <div class="filter-bar">
+        <div class="search-wrap">
+          <span class="search-icon">&#128269;</span>
+          <input class="filter-input" type="text" id="q"
+                 placeholder="Search competitor, headline, insight&hellip;" />
+        </div>
+        <select class="filter-select" id="comp-filter">
+          <option value="">All Competitors</option>
+        </select>
+        <span class="result-count" id="rc"></span>
+      </div>
+
+      <!-- Desktop table -->
+      <div class="table-wrap" id="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th class="col-badge">Priority</th>
+              <th class="col-competitor">Competitor</th>
+              <th class="col-headline">Signal</th>
+              <th class="col-why">Why It Matters</th>
+              <th class="col-date">Date</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+        <div id="no-results" class="no-results" style="display:none;">
+          No signals match your filter.
+        </div>
+      </div>
+
+      <!-- Mobile cards -->
+      <div class="mobile-list" id="mobile-list"></div>
+
+    </div><!-- /content -->
+  </div>
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- FOOTER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="page">
+    <div class="footer-inner">
+      <p>Schneider Electric &mdash; Internal use only.</p>
+      <p>Data refreshes daily at 6&thinsp;AM PST via GitHub Actions.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- SCRIPT                                                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<script>
+/* ─────────────────────────────────────────────────────────────
+   CONFIG
+   Set LIVE_DATA_URL to enable real-time refresh on every open.
+   Get it: GitHub repo → data.json → click Raw → copy URL.
+   e.g. "https://raw.githubusercontent.com/YOUR-USER/competitive-intel/main/data.json"
+───────────────────────────────────────────────────────────────*/
+const LIVE_DATA_URL  = "https://raw.githubusercontent.com/mittalnipun/competitive-intel/main/data.json";
+const AUTO_REFRESH_MS = 30 * 60 * 1000; // re-fetch every 30 min if LIVE_DATA_URL set
+
+/* ── Competitor SVG logos ──────────────────────────────────── */
+const LOGOS = {
+  Siemens: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 22" height="18">
+    <rect x="0" y="2" width="18" height="18" rx="2.5" fill="#009999"/>
+    <rect x="4" y="6" width="10" height="10" rx="1.5" fill="#fff" opacity=".9"/>
+    <text x="24" y="15.5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="13" font-weight="800" fill="#009999" letter-spacing="-.1">SIEMENS</text>
+  </svg>`,
+
+  ABB: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 22" height="18">
+    <rect width="50" height="22" rx="3" fill="#FF000F"/>
+    <text x="7" y="16" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="14" font-weight="900" fill="#fff" letter-spacing=".5">ABB</text>
+  </svg>`,
+
+  "Rockwell Automation": `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 22" height="18">
+    <circle cx="10" cy="11" r="9" fill="#CC0000"/>
+    <circle cx="10" cy="11" r="5.5" fill="#fff"/>
+    <circle cx="10" cy="11" r="2.5" fill="#CC0000"/>
+    <text x="24" y="15.5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="12" font-weight="700" fill="#CC0000">ROCKWELL</text>
+  </svg>`,
+
+  Honeywell: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 22" height="18">
+    <polygon points="10,1 18,5.5 18,16.5 10,21 2,16.5 2,5.5" fill="#1F3864"/>
+    <polygon points="10,5 14.5,7.5 14.5,14.5 10,17 5.5,14.5 5.5,7.5" fill="#fff" opacity=".95"/>
+    <text x="24" y="15.5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="12" font-weight="700" fill="#1F3864">HONEYWELL</text>
+  </svg>`,
+
+  Emerson: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 22" height="18">
+    <circle cx="11" cy="11" r="10" fill="#1A3A6B"/>
+    <path d="M4 11 Q11 4 18 11" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M4 11 Q11 18 18 11" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <circle cx="11" cy="11" r="2" fill="#fff"/>
+    <text x="26" y="15.5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="13" font-weight="700" fill="#1A3A6B">EMERSON</text>
+  </svg>`,
+
+  Yokogawa: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 22" height="18">
+    <rect x="0" y="3" width="4" height="16" rx="1" fill="#004EA2"/>
+    <rect x="6" y="3" width="4" height="16" rx="1" fill="#004EA2"/>
+    <rect x="0" y="9" width="10" height="4" rx="1" fill="#004EA2"/>
+    <text x="18" y="15.5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"
+      font-size="12.5" font-weight="700" fill="#004EA2">YOKOGAWA</text>
+  </svg>`,
+};
+
+function logo(name) {
+  return LOGOS[name]
+    ? `<span class="logo">${LOGOS[name]}</span>`
+    : `<span style="font-size:12.5px;font-weight:700;color:var(--text);">${esc(name)}</span>`;
+}
+
+/* ── Utilities ─────────────────────────────────────────────── */
+function esc(s) {
+  return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;")
+                .replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+function fmtDate(iso) {
+  if (!iso) return "";
+  try {
+    const d = new Date(iso.length===10 ? iso+"T00:00:00Z" : iso);
+    return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});
+  } catch(_){ return iso; }
+}
+function fmtTs(iso) {
+  if (!iso) return "";
+  try {
+    return new Date(iso).toLocaleString("en-US",{
+      month:"short",day:"numeric",year:"numeric",
+      hour:"numeric",minute:"2-digit",timeZoneName:"short"
+    });
+  } catch(_){ return iso; }
+}
+function badge(p) {
+  return `<span class="badge badge-${esc(p)}"><span class="badge-dot"></span>${esc(p)}</span>`;
+}
+
+/* ── State ─────────────────────────────────────────────────── */
+let allItems = [];
+let activePriority = "ALL"; // ALL | HIGH | MEDIUM | LOW
+
+/* ── Chips ─────────────────────────────────────────────────── */
+function renderChips(items) {
+  const counts = {
+    ALL:    items.length,
+    HIGH:   items.filter(i=>i.priority==="HIGH").length,
+    MEDIUM: items.filter(i=>i.priority==="MEDIUM").length,
+    LOW:    items.filter(i=>i.priority==="LOW").length,
+  };
+  const comps = new Set(items.map(i=>i.competitor)).size;
+
+  const defs = [
+    { key:"ALL",    label:"Total signals",   activeClass:"active-all"    },
+    { key:"HIGH",   label:"High priority",   activeClass:"active-high"   },
+    { key:"MEDIUM", label:"Medium priority", activeClass:"active-medium" },
+    { key:"LOW",    label:"Low priority",    activeClass:"active-low"    },
+  ];
+
+  const bar = document.getElementById("stat-row");
+  bar.innerHTML = defs.map(d => `
+    <div class="chip ${d.key===activePriority ? d.activeClass : ""}"
+         data-key="${d.key}" role="button" tabindex="0"
+         aria-label="Show ${d.label}">
+      <span class="chip-num">${counts[d.key]}</span>
+      <span class="chip-label">${d.label}</span>
+    </div>
+  `).join("") + `
+    <div class="chip chip-info" title="Total competitors monitored">
+      <span class="chip-num">${comps}</span>
+      <span class="chip-label">Competitors tracked</span>
+    </div>`;
+
+  bar.querySelectorAll(".chip:not(.chip-info)").forEach(el => {
+    const activate = () => {
+      const key = el.dataset.key;
+      // Toggle off if already active and not ALL
+      activePriority = (activePriority === key && key !== "ALL") ? "ALL" : key;
+      renderChips(allItems);
+      applyFilters();
+    };
+    el.addEventListener("click", activate);
+    el.addEventListener("keydown", e => {
+      if (e.key==="Enter"||e.key===" ") { e.preventDefault(); activate(); }
+    });
+  });
+}
+
+/* ── Exec cards ────────────────────────────────────────────── */
+function renderExec(items) {
+  const high = items.filter(i=>i.priority==="HIGH").slice(0,4);
+  const el   = document.getElementById("exec-grid");
+
+  if (!high.length) {
+    el.innerHTML=`<p style="font-size:13.5px;color:var(--text2);">No high-priority signals at this time.</p>`;
+    return;
+  }
+  el.innerHTML = high.map(item=>`
+    <div class="exec-card">
+      <div class="exec-card-header">
+        ${logo(item.competitor)}
+        ${badge(item.priority)}
+      </div>
+      <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.headline)}</a></h3>
+      <p class="why">${esc(item.why_matters)}</p>
+      <div class="exec-card-footer">
+        <span class="date">${fmtDate(item.date)}</span>
+        <a class="read-more" href="${esc(item.url)}" target="_blank" rel="noopener">Read &rarr;</a>
+      </div>
+    </div>
+  `).join("");
+}
+
+/* ── Table ─────────────────────────────────────────────────── */
+function renderTable(items) {
+  const tbody   = document.getElementById("tbody");
+  const noRes   = document.getElementById("no-results");
+  const mList   = document.getElementById("mobile-list");
+  const rc      = document.getElementById("rc");
+
+  rc.textContent = items.length ? `${items.length} signal${items.length!==1?"s":""}` : "";
+
+  if (!items.length) {
+    tbody.innerHTML = "";
+    mList.innerHTML = "";
+    noRes.style.display = "block";
+    return;
+  }
+  noRes.style.display = "none";
+
+  tbody.innerHTML = items.map(item=>`
+    <tr>
+      <td class="col-badge">${badge(item.priority)}</td>
+      <td class="col-competitor"><div class="comp-cell">${logo(item.competitor)}</div></td>
+      <td class="col-headline">
+        <a class="hl-link" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.headline)}</a>
+        ${item.summary&&item.summary!==item.headline
+          ? `<p class="hl-sub">${esc(item.summary.substring(0,100))}${item.summary.length>100?"…":""}</p>`
+          : ""}
+      </td>
+      <td class="col-why"><span class="why-cell">${esc(item.why_matters)}</span></td>
+      <td class="col-date"><span class="date-cell">${fmtDate(item.date)}</span></td>
+    </tr>
+  `).join("");
+
+  mList.innerHTML = items.map(item=>`
+    <div class="m-card">
+      <div class="m-card-top">
+        ${logo(item.competitor)}
+        ${badge(item.priority)}
+      </div>
+      <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.headline)}</a></h3>
+      <p class="m-why">${esc(item.why_matters)}</p>
+      <p class="m-date">${fmtDate(item.date)}</p>
+    </div>
+  `).join("");
+}
+
+/* ── Filter ─────────────────────────────────────────────────── */
+function populateCompFilter(items) {
+  const sel  = document.getElementById("comp-filter");
+  const comps = [...new Set(items.map(i=>i.competitor))].sort();
+  comps.forEach(c => {
+    const o = document.createElement("option");
+    o.value = c; o.textContent = c; sel.appendChild(o);
+  });
+}
+
+function applyFilters() {
+  const q    = document.getElementById("q").value.toLowerCase().trim();
+  const comp = document.getElementById("comp-filter").value;
+
+  const out = allItems.filter(item => {
+    if (activePriority !== "ALL" && item.priority !== activePriority) return false;
+    if (comp && item.competitor !== comp) return false;
+    if (q) {
+      const h = [item.competitor,item.headline,item.why_matters,item.summary].join(" ").toLowerCase();
+      if (!h.includes(q)) return false;
+    }
+    return true;
+  });
+
+  renderTable(out);
+}
+
+/* ── Data loading ───────────────────────────────────────────── */
+async function fetchData() {
+  // 1. Try live GitHub raw URL
+  if (LIVE_DATA_URL) {
+    try {
+      const r = await fetch(LIVE_DATA_URL+"?_="+Date.now());
+      if (r.ok) return { data: await r.json(), live: true };
+    } catch(e) { console.info("Live fetch failed:", e.message); }
+  }
+  // 2. Inline bundled data (from bundle.py)
+  if (window.__CI_DATA__) return { data: window.__CI_DATA__, live: false };
+  // 3. Local data.json (dev server)
+  try {
+    const r = await fetch("data.json?_="+Date.now());
+    if (r.ok) return { data: await r.json(), live: true };
+  } catch(_) {}
+  return null;
+}
+
+async function load(isRefresh) {
+  if (isRefresh) {
+    const btn = document.getElementById("btn-refresh");
+    btn.classList.add("spinning");
+    btn.disabled = true;
+  }
+
+  try {
+    const result = await fetchData();
+    if (!result) throw new Error("no data");
+
+    const { data, live } = result;
+    allItems = data.items || [];
+
+    // Timestamp
+    document.getElementById("ts").textContent = fmtTs(data.last_updated);
+    const pill = document.getElementById("live-pill");
+    if (live) pill.style.display = "inline-flex"; else pill.style.display = "none";
+
+    // Render
+    renderChips(allItems);
+    renderExec(allItems);
+    if (!isRefresh) populateCompFilter(allItems);
+    applyFilters();
+
+    document.getElementById("st-loading").style.display = "none";
+    document.getElementById("st-error").style.display   = "none";
+    document.getElementById("content").style.display    = "block";
+
+    // Auto-refresh loop
+    if (LIVE_DATA_URL && !isRefresh) {
+      setTimeout(() => load(true), AUTO_REFRESH_MS);
+    }
+
+  } catch(err) {
+    console.error(err);
+    document.getElementById("st-loading").style.display = "none";
+    document.getElementById("st-error").style.display   = "block";
+  } finally {
+    if (isRefresh) {
+      const btn = document.getElementById("btn-refresh");
+      btn.classList.remove("spinning");
+      btn.disabled = false;
+    }
+  }
+}
+
+function refresh() { load(true); }
+
+/* ── Events ─────────────────────────────────────────────────── */
+document.getElementById("q").addEventListener("input", applyFilters);
+document.getElementById("comp-filter").addEventListener("change", applyFilters);
+
+/* ── Boot ───────────────────────────────────────────────────── */
+load(false);
+</script>
+</body>
+</html>

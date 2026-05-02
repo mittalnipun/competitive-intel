@@ -1,0 +1,52 @@
+name: Daily Competitive Intelligence Scrape
+
+on:
+  schedule:
+    # 6:00 AM PST = 14:00 UTC (adjusts automatically for PDT offset)
+    - cron: "0 14 * * *"
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    # Allow the job to push back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 feedparser lxml
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push data.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add data.json
+          # Only commit if data.json actually changed
+          if git diff --staged --quiet; then
+            echo "No changes to data.json — nothing to commit."
+          else
+            git commit -m "chore: update competitive intelligence data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
