@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T14:33:06Z",
+  "last_updated": "2026-05-02T14:39:16Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -13,28 +13,6 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "ABB",
-      "headline": "San Francisco tech workers to host ‘ABG, ABB maxxing event’",
-      "date": "2026-04-30",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaXp2dTNfX2hIN0pEcUdHOV9JQnB3NVFONV9vVHRkblVuYXVPNFdtRERqTGNPai1jUEJPeDZxbFlRdG1YdjZHU0IwM3gwWkJHNGZfbEMtMmg0WFBMMk9ib2tOY1NXdGRodmtkdjNpTTBqZkppdllBaEU1WjZGdE0wSzk0Y09sdHB0ZlpFS3kyRnFYX0hNbF9XNnRYUW9wNGPSAaQBQVVfeXFMUEh4WmFUaE9wMzZUcENDNXZPN3RHTlJ3X0c5dE5LZmxfZHZVVEFram9JOWVpZE5hQzd4WmFLTXdQSExMa3JxekhfSFBvWVp2dlpfOWdhSF82dXZHcmw2NjF6ZUdsRVNKcUp5MW95dU5fQ0lBSTNyeURQdnBlQ0V0WDlkdDR0b1JpekNfeDk1dExFNGp6TWlkcThoMEg0Z2FiQjRaeUI?oc=5",
-      "priority": "MEDIUM",
-      "summary": "San Francisco tech workers to host ‘ABG, ABB maxxing event’&nbsp;&nbsp;KRON4",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "KRON4"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "Global Railway Traction Motor Market Outlook 2026-2036: How Siemens Mobility, ABB Ltd., and Toshiba Corporation Are Driving Next-Gen Electrification",
-      "date": "2026-04-30",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdVM4cmZXcVhjZm1MZ2xTQzZKTUxtUnN5Y3pqdWtqOHJTWDlxYWdiZTJxVGZsWnhqLTBXSExmVUJ3d1VkLVhHSXRnRm5PMTFrNnhoV0FkMXpEQ2ZRZzZpVFdTUUR1X2ozdExJWTh0ZjAtMmZtRTRQeVdOb0R3TmZtdVBSeGhSYWRWLXpHVGVPVWtnSDFIOGtmUDQ1cjlRWGJjZUhyMW9Camg?oc=5",
-      "priority": "LOW",
-      "summary": "Global Railway Traction Motor Market Outlook 2026-2036: How Siemens Mobility, ABB Ltd., and Toshiba Corporation Are Driving Next-Gen Electrification&nbsp;&nbsp;Yahoo Finance",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "Yahoo Finance"
-    },
-    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation Demonstrates the Future of Industrial Operations at Interpack 2026 | Corporate",
       "date": "2026-04-30",
@@ -44,28 +22,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "EQS News"
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Honeywell Stock: Q1 2026 Earnings Set for Release on April 30",
-      "date": "2026-04-30",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV2JtS1FQWDJ4VE9aSVdkLXBRdGdPOTFfZXRvQ1FIaW44aDZDMDNiWU1rcWRsWWU2MVBSYWVVR21ya0RfNUxBMzQyaXNWTWJkT1dkYjRZV2xWUFlTWTUzMUt2S1VNeEkxYTNwR1pVR0wwa2MtUTVBa0l1VTA5SW5na1M4NzdxMVQ1NWNodDlEOVFKaG1XM01aa1E1N2RkQmVQZUF0M3diMHR6UEJ4TWZHU3VueUdNVkcwcUZB?oc=5",
-      "priority": "HIGH",
-      "summary": "Honeywell Stock: Q1 2026 Earnings Set for Release on April 30&nbsp;&nbsp;AD HOC NEWS",
-      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
-      "source": "Google News",
-      "publisher": "AD HOC NEWS"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson Electric Stock (US2910111044): Q2 Earnings Release Set for Today",
-      "date": "2026-04-30",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlIwUUJ4Ty1lQmdmZVdpZDVPS1d0UlV1emFuOHllLTFMdGdlSlJjUDJUcGxBTUVZdFZ0M1RTQnhVYU1sMGlNVmh0eFUzOFJkY0xsVDU5aTYzd0o5MWhnLW1RRFdwT3JGR1hXZWtlUXhjR1poSzFoZkZJS3dDbVpjN2k3ejdjWDhGaG41ckZuMU5pbzJDWmg3RnM2X2ZWVlF2Z3czUXZFZTVCcl9pZXpPWEFSdHN5MVJyMExGRFgzX1IySjRBTzRv?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson Electric Stock (US2910111044): Q2 Earnings Release Set for Today&nbsp;&nbsp;AD HOC NEWS",
-      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
-      "source": "Google News",
-      "publisher": "AD HOC NEWS"
     },
     {
       "competitor": "ABB",
@@ -110,17 +66,6 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Tata Consultancy Services"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB Q1 FY 2026 Earnings Driven by Data Center and Grid Demand",
-      "date": "2026-04-28",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0dFOERBc19SQUVZU3J6X0JpcUNQRHpLWW41Vks0eUhHcldfYnR2RkJ4bjNTWTl3RnRGTUVLMTZnbDI0TUJYUUdYMUJrMG9kU0N5c2pGVjVMeHE4aHhxOUdXcW5QeXlCdTR4Nk9OaXgybm5LenBXaVloQmlrSXNYa203U2hfN0k5c3JxS1RNRmtkbGx1N1JmbkcwaWk?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Q1 FY 2026 Earnings Driven by Data Center and Grid Demand&nbsp;&nbsp;The Futurum Group",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "The Futurum Group"
     },
     {
       "competitor": "Siemens",
@@ -200,6 +145,28 @@
       "publisher": "Siemens press"
     },
     {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call",
+      "date": "2026-04-14",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHZaYmJqdzNLWUpSUzdreHUtWEI2Sy1NdTdhUHRaZ2Qzb3N1ODc5RDRlVnRkdEJRN0dBVnBPX0Nha1ZzckpyanpwYlBaS3cyY1NYTXpyNXY2dE9GUHFjUGhzdGo3MUVIbDlwNXgzXzNRZUlaSFpLc00wXzQ5YlM2d2VSTFZBWER0NmVNekNUWkc5aURjNVd5Y25mSm9rdW41a2Jz?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call&nbsp;&nbsp;Investing News Network",
+      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
+      "source": "Google News",
+      "publisher": "Investing News Network"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -209,17 +176,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Electric Corp stock: Why industrial automation makes it a steady pick",
-      "date": "2026-04-08",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOekJjMGd5ODNqTzRSTXdzZjRad0pubmhpY05oeVZQQXc1dmZUWE5SaE5xUHpKVW8zX0FRWTRJSjU3ZlViTFFKVlJxZFphcjFJbVhhcFlfTi1pVGRKaU05WXRDQXl2NVBnZW1nc2dYY2w0akxURG1fdjNfVkxnQ19NZ1NUTVhwRFlYR3ZjRXhuYmc4SzIwQ2ExUkJJMTZobjVoOUk4M2NVZTU1UmptbjI3cnExeVI2ZGxPTXBXVjl0dEtoQmlU?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Electric Corp stock: Why industrial automation makes it a steady pick&nbsp;&nbsp;AD HOC NEWS",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "AD HOC NEWS"
     },
     {
       "competitor": "Siemens",
