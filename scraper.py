@@ -85,10 +85,10 @@ COMPETITORS = [
         "name": "ABB",
         "aliases": ["ABB", "ABB Ltd", "ABB Group", "ABB Ability"],
         "google_news_queries": [
-            "ABB industrial automation OT security",
-            "ABB cybersecurity process automation",
-            "ABB acquisition partnership automation",
-            "ABB Ability digital platform",
+            "ABB Ltd industrial automation",
+            "ABB Group robotics acquisition 2025 2026",
+            "ABB Ability digital platform launch",
+            "ABB OT cybersecurity process control",
         ],
         "prnewswire_id": "abb",
         "businesswire_slug": "abb",
@@ -155,10 +155,10 @@ COMPETITORS = [
         "name": "Yokogawa",
         "aliases": ["Yokogawa", "Yokogawa Electric", "CENTUM", "ProSafe"],
         "google_news_queries": [
-            "Yokogawa OT automation cybersecurity",
-            "Yokogawa CENTUM process security",
-            "Yokogawa partnership contract APAC",
-            "Yokogawa digital transformation industrial",
+            "Yokogawa Electric automation",
+            "Yokogawa CENTUM industrial control",
+            "Yokogawa partnership contract 2025 2026",
+            "Yokogawa digital transformation OT",
         ],
         "prnewswire_id": "yokogawa",
         "businesswire_slug": "yokogawa",
@@ -596,14 +596,30 @@ def scrape_industry_feeds(all_competitors: list[dict]) -> dict[str, list[dict]]:
 # Deduplication
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _story_fingerprint(headline: str) -> frozenset:
+    """Extract significant words from a headline for story-level matching."""
+    stop = {"the", "a", "an", "and", "or", "for", "to", "of", "in", "on",
+            "at", "by", "as", "is", "are", "its", "with", "new", "how",
+            "from", "that", "this", "has", "have", "will", "be", "it"}
+    words = re.sub(r"\W+", " ", headline.lower()).split()
+    return frozenset(w for w in words if len(w) > 3 and w not in stop)
+
+
 def deduplicate(items: list[dict]) -> list[dict]:
-    """Remove duplicate items by URL. Secondary: very similar headlines."""
-    seen_urls  = set()
-    seen_heads = set()
+    """
+    Remove duplicate items.
+    1. Exact URL match (stripped of query params)
+    2. Very similar headline prefix (first 60 chars)
+    3. Same competitor + same story within 7 days (Jaccard similarity >= 0.5)
+    """
+    seen_urls   = set()
+    seen_heads  = set()
+    # story clusters: list of (competitor, date, fingerprint) for accepted items
+    accepted_stories: list[tuple] = []
     unique = []
 
     for item in items:
-        url = item["url"].split("?")[0].rstrip("/")
+        url      = item["url"].split("?")[0].rstrip("/")
         head_key = re.sub(r"\W+", " ", item["headline"].lower()).strip()[:60]
 
         if url and url in seen_urls:
@@ -611,8 +627,37 @@ def deduplicate(items: list[dict]) -> list[dict]:
         if head_key and head_key in seen_heads:
             continue
 
+        # Story-level dedup: same competitor, close date, similar words
+        fp = _story_fingerprint(item["headline"])
+        is_dupe = False
+        try:
+            item_date = datetime.strptime(item["date"], "%Y-%m-%d")
+        except Exception:
+            item_date = datetime.now()
+
+        for (comp, acc_date, acc_fp) in accepted_stories:
+            if comp != item["competitor"]:
+                continue
+            try:
+                days_apart = abs((item_date - acc_date).days)
+            except Exception:
+                days_apart = 99
+            if days_apart > 7:
+                continue
+            # Jaccard similarity
+            if len(fp | acc_fp) == 0:
+                continue
+            jaccard = len(fp & acc_fp) / len(fp | acc_fp)
+            if jaccard >= 0.45:
+                is_dupe = True
+                break
+
+        if is_dupe:
+            continue
+
         seen_urls.add(url)
         seen_heads.add(head_key)
+        accepted_stories.append((item["competitor"], item_date, fp))
         unique.append(item)
 
     return unique
