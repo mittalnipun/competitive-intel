@@ -898,22 +898,42 @@ def scrape_industry_feeds(all_competitors: list[dict]) -> dict[str, list[dict]]:
 # Deduplication
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _story_fingerprint(headline: str) -> frozenset:
+def _comp_stop_tokens(competitor_name: str) -> frozenset:
+    """
+    Return lowercase word-tokens extracted from the competitor's name.
+    These appear in virtually every headline for that competitor and inflate
+    Jaccard similarity, causing false-positive dedup.
+    e.g. "Rockwell Automation" → {"rockwell", "automation"}
+    """
+    return frozenset(w.lower() for w in re.findall(r"[a-zA-Z]{3,}", competitor_name))
+
+
+def _story_fingerprint(headline: str, comp_stop: frozenset = frozenset()) -> frozenset:
+    """
+    Word-token fingerprint for Jaccard similarity. Competitor-name tokens are
+    excluded (comp_stop) because they appear in every headline for that competitor
+    and would otherwise cause unrelated stories to look like duplicates.
+    """
     stop = {"the", "a", "an", "and", "or", "for", "to", "of", "in", "on",
             "at", "by", "as", "is", "are", "its", "with", "new", "how",
             "from", "that", "this", "has", "have", "will", "be", "it"}
+    stop = stop | comp_stop
     words = re.sub(r"\W+", " ", headline.lower()).split()
     return frozenset(w for w in words if len(w) > 3 and w not in stop)
 
 
-def _named_entities(headline: str) -> frozenset:
+def _named_entities(headline: str, comp_stop: frozenset = frozenset()) -> frozenset:
     """
     Extract capitalised tokens from position 2+ in headline.
     Catches proper nouns: partner names, product names, technology names.
+    Competitor-name tokens are excluded to avoid false-positive dedup.
     """
+    # Static skip list
     skip = {"The", "For", "And", "With", "From", "New", "How", "Its",
             "This", "That", "Will", "Into", "Over", "When", "What", "Why",
             "Has", "Are", "Not", "But", "Key", "Top", "All", "Now", "Its"}
+    # Add title-cased and upper-cased competitor tokens
+    skip = skip | {t.capitalize() for t in comp_stop} | {t.upper() for t in comp_stop}
     tokens = headline.split()
     entities = set()
     for tok in tokens[1:]:
@@ -946,8 +966,9 @@ def deduplicate(items: list[dict]) -> list[dict]:
         if head_key and head_key in seen_heads:
             continue
 
-        fp = _story_fingerprint(item["headline"])
-        ne = _named_entities(item["headline"])
+        comp_stop = _comp_stop_tokens(item.get("competitor", ""))
+        fp = _story_fingerprint(item["headline"], comp_stop)
+        ne = _named_entities(item["headline"], comp_stop)
         is_dupe = False
 
         try:
