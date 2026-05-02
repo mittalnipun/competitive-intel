@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T13:56:56Z",
+  "last_updated": "2026-05-02T14:01:31Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -8,6 +8,16 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeE90YXV0SXFmbTNXZFpIMU1Ma1JleVJmZjU3OGVDVjBhT3VjRk9ZWWNVUXdyWHFnYW4xU1ljbHRpZ21vVmRPZk85ZHpZQnV1X0hHdmJTdjBta3FMbEQzQ3Rza3c3V3dLUDJOcUd6MEZOQnRld2FzRFFFWmRUQ1ZZbjZqNk93NExWZEVRUHAyV1g?oc=5",
       "priority": "LOW",
       "summary": "Rockwell advances ‘Smart’ manufacturing&nbsp;&nbsp;Fastener + Fixing Magazine",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "News: ABB Robotics OmniVance cobot surface finishing cell | ABB Inc. - A3 Association for Advancing Automation",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUjNDeXRsWE85TmU5eW1ZRk9jLXJRS2cxZ2tLSTJQVTR6dGJHRm1ldEp1WTl5R3V6ZzktVXRBRGJJaG1pU1BiMWZuU0Q5ZE1UZlJMMktKUUFBcy11V2RabTVjWVRkOVUyMkJqY3ZiWkxhemI1X0oxWFJTbjFjdjc5OUJZS0F4VXl0WUdrQV9mNjJiNWRrYVhKUmJ3bVpYZw?oc=5",
+      "priority": "LOW",
+      "summary": "News: ABB Robotics OmniVance cobot surface finishing cell | ABB Inc.&nbsp;&nbsp;A3 Association for Advancing Automation",
       "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
       "source": "Google News"
     },
@@ -122,6 +132,26 @@
       "source": "Google News"
     },
     {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa obtains certification to O-PAS Standard’s OPC UA Profile - Control Engineering Europe",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcF9KS1U2a01EclhqRGc1bS1SZTQzSjFmZXJBRlhWYW1tZmFTZk9PZW1fSDhxdFRlNVJjU2MyUFRiM2lrQUF0WVExUzNvc0FCWmVENG1lcDFxWUl5MEdFc3UtcUxHSkprb3BtWUtPYkFQcFk1WkU0Tjd6ZW5IMENiU01jRF9xNElja0VUWHdvVDg0cGw0Q2JkTDVDUlhGOVhiMEduNmtzODk1QmxTVkpUbzIzOG1xc1l6VFE?oc=5",
+      "priority": "LOW",
+      "summary": "Yokogawa obtains certification to O-PAS Standard’s OPC UA Profile&nbsp;&nbsp;Control Engineering Europe",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard - Machine Maker",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2RGaGYtQ1Vsc291YWtPejdKSkdmVWRmaWFBcnUzX1huQ1BlQ0xrSS1nVVU3Ym5mNEZYZUNHRHh1U2tBQ19LaFpIbTFSbUNqS1NaQWZhR3FJYXV0dkxwZkw4dkpzZUZVM3Z3OFBpUFVTdFNDVkxkYXRFSzB2VFVEZFlFSVcyc09oRlRlYW1ncENrandCdVNidHF6bjlqNm5wekE?oc=5",
+      "priority": "LOW",
+      "summary": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard&nbsp;&nbsp;Machine Maker",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
       "competitor": "Emerson",
       "headline": "OPSWAT & Emerson: Global Reseller Deal for OT Cybersecurity in Power & Water - News and Statistics - IndexBox",
       "date": "2026-04-18",
@@ -173,21 +203,21 @@
     },
     {
       "competitor": "Siemens",
-      "headline": "Siemens Expands Industrial Automation DataCenter with Edge AI - Let's Data Science",
-      "date": "2026-04-13",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMlBmV05ZZnhpSXljT1EyREVFNTBZSWljTHc2TllSU2xrYW15a3BTTHBsMWhtc1ZyWkU2WVFhTk82cmFCNDVhNjFQVDBjVjVUdjhBSUc4ejBhRDZHc2ZyRGwzV1VITm1BcUFLUWp4U19iWEl6T3M5bFRjbGlfUkc4QXV0cUdWTG42cW41Z1R4YURhSld1LVc4d3dCT3ZWbk9tbTQ1YQ?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens Expands Industrial Automation DataCenter with Edge AI&nbsp;&nbsp;Let's Data Science",
-      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
-      "source": "Google News"
-    },
-    {
-      "competitor": "Siemens",
       "headline": "AI-ready at the Edge – Siemens Industrial Automation DataCenter ... - Siemens press",
       "date": "2026-04-13",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFlvT21UR0l2dUVVQVVMTnNQbHdYT2RXQnIyV3V3MXFJLWlINzctU21TVlpFSktUTl9ORVh1ajV0cGJiRVNVUDZlZE9DT2xkOVVpR3J3RVB1eEs4bzBjaUhhRjZ3dE5DbFI3LTFnWVpaUEpfbzFraEZySUI4cU83Z3JYVmY0Z3E4LUxtWVA4YlppNGhnZDJLN0w3djJXQU1yQjhGQ20xbmlvWm4xc3JsYnRVQ1VjLXBLdFVLNlRSbmtkby01X0tXY2Y0UEZCOWs?oc=5",
       "priority": "LOW",
       "summary": "AI-ready at the Edge – Siemens Industrial Automation DataCenter ...&nbsp;&nbsp;Siemens press",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa lands cyber certification for plant control systems - SecurityBrief Asia",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
+      "priority": "LOW",
+      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
       "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
       "source": "Google News"
     },
