@@ -256,9 +256,7 @@ COMPETITORS = [
         "prnewswire_id": "rockwell-automation",
         "businesswire_slug": "rockwellautomation",
         "sec_cik": "0001024478",
-        "direct_rss": [
-            "https://www.rockwellautomation.com/en-us/about/news.rss.xml",
-        ],
+        "direct_rss": [],  # rockwellautomation.com/en-us/about/news.rss.xml returns 404
         "direct_html": "https://www.rockwellautomation.com/en-us/about/news.html",
     },
     {
@@ -311,19 +309,16 @@ COMPETITORS = [
             "Yokogawa OpreX",
         ],
         "google_news_queries": [
-            "Yokogawa Electric automation news 2026",
-            "Yokogawa CENTUM OpreX industrial launch",
-            "Yokogawa OT cybersecurity certification",
-            "Yokogawa partnership contract deal",
-            "Yokogawa digital transformation process control",
+            "Yokogawa news 2026",
+            "Yokogawa Electric news",
+            "Yokogawa automation industrial",
+            "Yokogawa CENTUM OpreX launch partnership",
+            "Yokogawa process control digital transformation",
         ],
         "prnewswire_id": "yokogawa",
         "businesswire_slug": "yokogawa",
         "sec_cik": None,
-        "direct_rss": [
-            "https://www.yokogawa.com/news/rss/",
-            "https://www.yokogawa.com/library/resources/white-papers/rss/",
-        ],
+        "direct_rss": [],  # yokogawa.com/news/rss/ returns 404
         "direct_html": "https://www.yokogawa.com/news",
     },
 ]
@@ -347,10 +342,16 @@ INDUSTRY_FEEDS = [
 FALLBACK_QUERIES = {
     "Siemens":             ["Siemens news 2026", "Siemens Simatic Xcelerator"],
     "ABB":                 ["ABB news 2026", "ABB robotics power grids"],
-    "Rockwell Automation": ["Rockwell Automation news announcement"],
+    "Rockwell Automation": ["Rockwell Automation news", "FactoryTalk launch", "Allen-Bradley automation 2026"],
     "Honeywell":           ["Honeywell news industrial 2026"],
     "Emerson":             ["Emerson Electric news announcement 2026"],
-    "Yokogawa":            ["Yokogawa news industrial 2026"],
+    "Yokogawa":            [
+        "Yokogawa news",
+        "Yokogawa Electric announcement",
+        "Yokogawa OpreX industrial",
+        "Yokogawa CENTUM automation",
+        "Yokogawa process industry news",
+    ],
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -655,36 +656,11 @@ def scrape_google_news(competitor: dict, extra_queries: list = None) -> list[dic
 # ─────────────────────────────────────────────────────────────────────────────
 
 def scrape_prnewswire(competitor: dict) -> list[dict]:
-    slug = competitor.get("prnewswire_id", "")
-    if not slug:
-        return []
-
-    url   = f"https://www.prnewswire.com/rss/news-releases-list.rss?company={slug}"
-    items = []
-    entries = fetch_rss(url, f"PR Newswire / {competitor['name']}")
-
-    for e in entries[:MAX_PER_SOURCE * 3]:
-        raw_title = getattr(e, "title", "").strip()
-        link      = getattr(e, "link", "") or ""
-        summary   = re.sub(r"<[^>]+>", "", getattr(e, "summary", raw_title))[:200]
-        date      = parse_feedparser_date(e)
-
-        if not raw_title or not is_recent(date):
-            continue
-
-        headline, publisher = clean_headline(raw_title)
-        if not headline:
-            headline = raw_title
-
-        if not mentions_competitor(headline + " " + summary, competitor):
-            continue
-
-        items.append(make_item(
-            competitor["name"], headline, date, link, summary,
-            "PR Newswire", publisher or "PR Newswire"
-        ))
-
-    return items
+    # PR Newswire ?company=slug parameter is non-functional — the URL returns
+    # the full global feed regardless of slug value. Disabled to avoid wasting
+    # timeout budget and introducing unfiltered noise. Remove when PRN fixes
+    # company-specific filtering or a direct authenticated API is available.
+    return []
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Source 3: Business Wire
@@ -724,36 +700,74 @@ def scrape_businesswire(competitor: dict) -> list[dict]:
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Source 4: SEC EDGAR  (US-listed companies only)
+# Uses data.sec.gov JSON API — the old atom feed (cgi-bin/browse-edgar?output=atom)
+# returns HTTP 403. The JSON submissions endpoint is stable and confirmed working.
+# SEC requires a descriptive User-Agent identifying the requester.
 # ─────────────────────────────────────────────────────────────────────────────
+
+SEC_HEADERS = {
+    "User-Agent": "nipunmittal@icloud.com CI Tool",
+    "Accept": "application/json",
+}
 
 def scrape_sec_edgar(competitor: dict) -> list[dict]:
     cik = competitor.get("sec_cik")
     if not cik:
         return []
 
-    url = (
-        f"https://www.sec.gov/cgi-bin/browse-edgar"
-        f"?action=getcompany&CIK={cik}&type=8-K&dateb=&owner=include"
-        f"&count=10&search_text=&output=atom"
-    )
-    items   = []
-    entries = fetch_rss(url, f"SEC EDGAR / {competitor['name']}")
+    # Pad CIK to 10 digits as required by the submissions endpoint
+    cik_padded = cik.lstrip("0").zfill(10)
+    url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
 
-    for e in entries[:5]:
-        title = getattr(e, "title", "").strip()
-        link  = getattr(e, "link", "") or ""
-        date  = parse_feedparser_date(e)
+    items = []
+    try:
+        resp = requests.get(url, headers=SEC_HEADERS, timeout=10)
+        if resp.status_code != 200:
+            log.warning(f"  [SEC EDGAR] {competitor['name']}: HTTP {resp.status_code}")
+            return []
+        data = resp.json()
+    except Exception as exc:
+        log.warning(f"  [SEC EDGAR] {competitor['name']}: {exc}")
+        return []
 
-        if not title or not is_recent(date):
+    # filings.recent is a column-oriented dict with parallel arrays
+    recent = data.get("filings", {}).get("recent", {})
+    forms      = recent.get("form", [])
+    dates      = recent.get("filingDate", [])
+    accessions = recent.get("accessionNumber", [])
+    descriptions = recent.get("primaryDocDescription", [])
+
+    for i, form in enumerate(forms):
+        if form != "8-K":
             continue
 
+        date = dates[i] if i < len(dates) else ""
+        if not date or not is_recent(date):
+            continue
+
+        acc = accessions[i] if i < len(accessions) else ""
+        desc = descriptions[i] if i < len(descriptions) else "8-K Filing"
+        acc_clean = acc.replace("-", "")
+        link = (
+            f"https://www.sec.gov/cgi-bin/browse-edgar"
+            f"?action=getcompany&CIK={cik_padded}"
+            f"&type=8-K&dateb=&owner=include&count=10"
+        ) if not acc else (
+            f"https://www.sec.gov/Archives/edgar/data/"
+            f"{cik_padded.lstrip('0')}/{acc_clean}/{acc}-index.htm"
+        )
+
+        desc_label = desc or "8-K Filing"
         items.append({
             "competitor":  competitor["name"],
-            "headline":    f"{competitor['name']} SEC 8-K Filing: {title}",
+            "headline":    f"{competitor['name']} SEC 8-K: {desc_label} ({date})",
             "date":        date,
             "url":         link,
             "priority":    "MEDIUM",
-            "summary":     f"SEC regulatory filing by {competitor['name']}: {title}",
+            "summary":     (
+                f"SEC 8-K regulatory filing by {competitor['name']} dated {date}. "
+                f"Filing type: {desc_label}."
+            ),
             "why_matters": (
                 "Regulatory filing may contain material business events — "
                 "review for M&A, restructuring, major contract, or guidance changes "
@@ -763,6 +777,10 @@ def scrape_sec_edgar(competitor: dict) -> list[dict]:
             "publisher":   "SEC EDGAR",
         })
 
+        if len(items) >= 3:  # cap at 3 SEC filings per competitor
+            break
+
+    log.info(f"  [SEC EDGAR] {competitor['name']}: {len(items)} filings")
     return items
 
 # ─────────────────────────────────────────────────────────────────────────────
