@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T14:42:12Z",
+  "last_updated": "2026-05-02T14:55:26Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -11,6 +11,17 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "WI-ROCKWELL-AUTOMATION",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdXNVdHJSekVLVTROa25XRzNjMEg0ZDhqa1gxQm1yQVVUaW9IcUFoTEdBU0oyd2J4THZ1ZGFZakNqcURRRGFWMmRxZllvMFk2MUZnNEZhcUN4RFVDLW5LbGlLOFlIbzFVNldlOGttVzRxT1llSVdvb3BqVUd5M21fNFNaR2JheWtaN1BMTkg5RWNVU28xWmluWGg5a3B2ZjdRWl9sNG9yaFBGeXctZkJ3?oc=5",
+      "priority": "LOW",
+      "summary": "WI-ROCKWELL-AUTOMATION&nbsp;&nbsp;Black Hills Pioneer",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Black Hills Pioneer"
     },
     {
       "competitor": "Rockwell Automation",
@@ -91,6 +102,17 @@
     },
     {
       "competitor": "Honeywell",
+      "headline": "Honeywell SEC 8-K: 8-K (2026-04-23)",
+      "date": "2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000058/0000773840-26-000058-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Honeywell dated 2026-04-23. Filing type: 8-K.",
+      "why_matters": "Regulatory filing may contain material business events — review for M&A, restructuring, major contract, or guidance changes that signal strategic direction shifts impacting Schneider.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Honeywell",
       "headline": "HONEYWELL REPORTS FIRST QUARTER RESULTS AND REAFFIRMS 2026 OUTLOOK; ANNOUNCES SALE OF WAREHOUSE AND WORKFLOW SOLUTIONS",
       "date": "2026-04-23",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObFlvM0JXZm45UDFKaHhFcS1SZGF3bm9oc3BLeklLeFJtTXM4V04tRzA0MU5NMVhCYUdjQVpVc3ZmYkQ4MGpuWWVuZW9Sd2JIZjQ3TzVac1FkaFVYZjlINWlORWdiblpHQmd5U3R4dXpLaUhNMFlDYU9oaVlLU1BkZC1LcGRtNlhMd0gtaVhpaDNYM0ctc3VIVXE0Q0N4UTgzcWc2WEljTUp0RkY5Z3pNWWpYU3dELUkyczdTQjlXRW5lMjlFOUVQdlJlVmRfWGU3SVA0aHRPX0dUc05BZlE1andpX21IOFZGOXdsSGlLaHh2dDlCVFFvOWFwSElOYUgwWDE4?oc=5",
@@ -145,6 +167,50 @@
       "publisher": "Siemens press"
     },
     {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2RGaGYtQ1Vsc291YWtPejdKSkdmVWRmaWFBcnUzX1huQ1BlQ0xrSS1nVVU3Ym5mNEZYZUNHRHh1U2tBQ19LaFpIbTFSbUNqS1NaQWZhR3FJYXV0dkxwZkw4dkpzZUZVM3Z3OFBpUFVTdFNDVkxkYXRFSzB2VFVEZFlFSVcyc09oRlRlYW1ncENrandCdVNidHF6bjlqNm5wekE?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard&nbsp;&nbsp;Machine Maker",
+      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
+      "source": "Google News",
+      "publisher": "Machine Maker"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call",
+      "date": "2026-04-14",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHZaYmJqdzNLWUpSUzdreHUtWEI2Sy1NdTdhUHRaZ2Qzb3N1ODc5RDRlVnRkdEJRN0dBVnBPX0Nha1ZzckpyanpwYlBaS3cyY1NYTXpyNXY2dE9GUHFjUGhzdGo3MUVIbDlwNXgzXzNRZUlaSFpLc00wXzQ5YlM2d2VSTFZBWER0NmVNekNUWkc5aURjNVd5Y25mSm9rdW41a2Jz?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call&nbsp;&nbsp;Investing News Network",
+      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
+      "source": "Google News",
+      "publisher": "Investing News Network"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa lands cyber certification for plant control systems",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
+      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
+      "source": "Google News",
+      "publisher": "SecurityBrief Asia"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -154,6 +220,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation files permit to build manufacturing site in New Berlin",
+      "date": "2026-04-07",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVFE4MWoyQWVTZHZCeGpqTWNoMGJjRFlWWGQzc19SSzFRd2wwc0ZSc1M4R1RfblNZX3BESEo4MmNfQl9ZYmVZWmNpcWgxdEJ1TUlxeVAyelJGOWtMWlprbVJEbDdMSldGbG9vakotWXMwZldIZUpBbXF3dFd4cFdwME5WNklRV3NvX0lzUGNPcXphcTBZbkl2aDljQnE4RjlfcVBKOFNxVnF6dGNFc1ZDWg?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation files permit to build manufacturing site in New Berlin&nbsp;&nbsp;Spectrum News 13",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Spectrum News 13"
     },
     {
       "competitor": "Siemens",
@@ -167,26 +244,15 @@
       "publisher": "SDxCentral"
     },
     {
-      "competitor": "Emerson",
-      "headline": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB",
-      "date": "2026-04-05",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2hKaWdsVHRBb1dKZWNSblE3czQwSUtjNEl5ZFJHUXkwWjMwME1JMkNhNDZJV0NFXzJHVTU5MFdMVms4R0Nfck51Y1BtS3dtaDVYOG1oUzJabVFEcG9EbDVkS3loLUhGcnI2a2JxeGRKenJqcDE2UHBqNUFZeTlVbkVoSWI5UDNhNklyRFZPOXFvYlZFdEdoRUxtR3M2WmlFX19R?oc=5",
-      "priority": "LOW",
-      "summary": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB&nbsp;&nbsp;Sodo Mojo",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "Sodo Mojo"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens expands private 5G infrastructure to more countries",
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa releases OpreX pressure transmitter EJX S Series",
       "date": "2026-04-03",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3NiclBxUU10Q0hERVg1RWpEcktXZEhlWFRHVVhob0N0a0J5QXhOOHVkbzNWUENlU2R6ZEZLeW1TOG1jaVZ6UXVxbXh5enl0YTU4dnJieUtnd29uZzNKN3dwR21WelNuNEw3Y1NGZGpsVm9kQURjclhLSFRTZkIwV0M4cDBmbkcxZGFyZy1RaGFsUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm1zbk8wTXNpSmF3dzBYa1dwdEhBTk0zUTFyMjQzTTFjczQ3SFlZdUFCTjZRNU9xWS13NlhyZmV1aVVsVXNFajVMN1RONWtqUllocUpMbmJ0MzdmVndZQ0ZJY0paWl9jdjFRSGZnMlBvVUs5cWJ6WGVFak5XMXp0Q2hHY0M5b28yTVFtMDMwQVczaDRtenZrTDhPZWJvZk5UM3dySjFVRElmdjB0SUE?oc=5",
       "priority": "HIGH",
-      "summary": "Siemens expands private 5G infrastructure to more countries&nbsp;&nbsp;Engineering.com",
-      "why_matters": "Market or capability expansion — assess whether this moves competitor into Schneider's core accounts or geographies.",
+      "summary": "Yokogawa releases OpreX pressure transmitter EJX S Series&nbsp;&nbsp;Hydrocarbon Processing",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
       "source": "Google News",
-      "publisher": "Engineering.com"
+      "publisher": "Hydrocarbon Processing"
     },
     {
       "competitor": "Siemens",
