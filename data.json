@@ -1,140 +1,625 @@
 {
-  "last_updated": "2026-05-02T13:25:17Z",
+  "last_updated": "2026-05-02T13:52:47Z",
   "items": [
     {
       "competitor": "Siemens",
-      "headline": "Siemens Launches OT-Specific Threat Intelligence Platform for Critical Infrastructure",
-      "date": "2026-05-01",
-      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
       "priority": "HIGH",
-      "summary": "Siemens unveiled a new OT threat intelligence layer integrated into its Sinec Security Monitor, targeting energy and utilities verticals.",
-      "why_matters": "New product launch directly overlaps with Schneider's EcoStruxure security stack — assess capability gaps and sales counter-messaging."
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
     },
     {
-      "competitor": "Honeywell",
-      "headline": "Honeywell and Microsoft Sign Strategic Partnership for Industrial AI Security",
-      "date": "2026-05-01",
-      "url": "https://www.honeywell.com/us/en/press",
+      "competitor": "Siemens",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
       "priority": "HIGH",
-      "summary": "Honeywell announced a multi-year partnership with Microsoft Azure to deliver AI-powered anomaly detection across industrial control environments.",
-      "why_matters": "Ecosystem partnership expands Honeywell's reach — monitor for displacement risk in accounts where Schneider and Honeywell compete on industrial AI."
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "CHICKEN OF THE SEA BECOMES FIRST MAINSTREAM SEAFOOD BRAND IN THE U.S. TO COMMIT TO 100% MARINE STEWARDSHIP COUNCIL CERTIFICATION FOR ITS TUNA PRODUCTS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/chicken-of-the-sea-becomes-first-mainstream-seafood-brand-in-the-us-to-commit-to-100-marine-stewardship-council-certification-for-its-tuna-products-302760444.html",
+      "priority": "LOW",
+      "summary": "As a leader in the canned seafood industry, Chicken of the Sea levels up sustainability efforts with MSC Certification PITTSBURGH, May 2, 2026 /PRNewswire/ -- In honor of World Tuna Day, Chicken of th",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Does Your Building Have Fire Sprinklers?",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/does-your-building-have-fire-sprinklers-302760491.html",
+      "priority": "LOW",
+      "summary": "Fast Guard Service alerts real estate owners and property managers: 2026 fire code updates to NFPA 25 will significantly affect sprinkler system compliance requirements — and insurance implications co",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "L'ADGM annonce l'ouverture du bureau de Rokos Capital Management à Abu Dhabi suite à l'obtention de son autorisation",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/ladgm-annonce-louverture-du-bureau-de-rokos-capital-management-a-abu-dhabi-suite-a-lobtention-de-son-autorisation-302760597.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, Émirats arabes unis, 2er mai 2026 /PRNewswire/ -- L'ADGM, le centre financier international d'Abu Dhabi, a annoncé aujourd'hui que Rokos Capital Management (RCM) a ouvert un nouveau bureau",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "ADGM kündigt Eröffnung des Büros von Rokos Capital Management in Abu Dhabi nach Erteilung der Zulassung an",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/adgm-kundigt-eroffnung-des-buros-von-rokos-capital-management-in-abu-dhabi-nach-erteilung-der-zulassung-an-302760592.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, VAE, 2. Mai 2026 /PRNewswire/ -- ADGM, das internationale Finanzzentrum von Abu Dhabi, gab heute bekannt, dass Rokos Capital Management (RCM) nach Erhalt der Finanzdienstleistungsgenehmigun",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Leading Vision Plans for Retirees (2026): VSP Vision Care Highlighted for Senior-Friendly Eye Care Benefits by Expert Consumers",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/leading-vision-plans-for-retirees-2026-vsp-vision-care-highlighted-for-senior-friendly-eye-care-benefits-by-expert-consumers-302760333.html",
+      "priority": "LOW",
+      "summary": "NEW YORK, May 2, 2026 /PRNewswire/ -- As more individuals transition into retirement, maintaining consistent access to vision care is becoming an important part of overall health planning. A recent re",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
     },
     {
       "competitor": "ABB",
-      "headline": "ABB Acquires Verve Industrial Protection to Strengthen OT Cybersecurity Portfolio",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
+      "priority": "HIGH",
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
+      "priority": "HIGH",
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "CHICKEN OF THE SEA BECOMES FIRST MAINSTREAM SEAFOOD BRAND IN THE U.S. TO COMMIT TO 100% MARINE STEWARDSHIP COUNCIL CERTIFICATION FOR ITS TUNA PRODUCTS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/chicken-of-the-sea-becomes-first-mainstream-seafood-brand-in-the-us-to-commit-to-100-marine-stewardship-council-certification-for-its-tuna-products-302760444.html",
+      "priority": "LOW",
+      "summary": "As a leader in the canned seafood industry, Chicken of the Sea levels up sustainability efforts with MSC Certification PITTSBURGH, May 2, 2026 /PRNewswire/ -- In honor of World Tuna Day, Chicken of th",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "Does Your Building Have Fire Sprinklers?",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/does-your-building-have-fire-sprinklers-302760491.html",
+      "priority": "LOW",
+      "summary": "Fast Guard Service alerts real estate owners and property managers: 2026 fire code updates to NFPA 25 will significantly affect sprinkler system compliance requirements — and insurance implications co",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "L'ADGM annonce l'ouverture du bureau de Rokos Capital Management à Abu Dhabi suite à l'obtention de son autorisation",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/ladgm-annonce-louverture-du-bureau-de-rokos-capital-management-a-abu-dhabi-suite-a-lobtention-de-son-autorisation-302760597.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, Émirats arabes unis, 2er mai 2026 /PRNewswire/ -- L'ADGM, le centre financier international d'Abu Dhabi, a annoncé aujourd'hui que Rokos Capital Management (RCM) a ouvert un nouveau bureau",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ADGM kündigt Eröffnung des Büros von Rokos Capital Management in Abu Dhabi nach Erteilung der Zulassung an",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/adgm-kundigt-eroffnung-des-buros-von-rokos-capital-management-in-abu-dhabi-nach-erteilung-der-zulassung-an-302760592.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, VAE, 2. Mai 2026 /PRNewswire/ -- ADGM, das internationale Finanzzentrum von Abu Dhabi, gab heute bekannt, dass Rokos Capital Management (RCM) nach Erhalt der Finanzdienstleistungsgenehmigun",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "Leading Vision Plans for Retirees (2026): VSP Vision Care Highlighted for Senior-Friendly Eye Care Benefits by Expert Consumers",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/leading-vision-plans-for-retirees-2026-vsp-vision-care-highlighted-for-senior-friendly-eye-care-benefits-by-expert-consumers-302760333.html",
+      "priority": "LOW",
+      "summary": "NEW YORK, May 2, 2026 /PRNewswire/ -- As more individuals transition into retirement, maintaining consistent access to vision care is becoming an important part of overall health planning. A recent re",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
+      "priority": "HIGH",
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
+      "priority": "HIGH",
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "CHICKEN OF THE SEA BECOMES FIRST MAINSTREAM SEAFOOD BRAND IN THE U.S. TO COMMIT TO 100% MARINE STEWARDSHIP COUNCIL CERTIFICATION FOR ITS TUNA PRODUCTS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/chicken-of-the-sea-becomes-first-mainstream-seafood-brand-in-the-us-to-commit-to-100-marine-stewardship-council-certification-for-its-tuna-products-302760444.html",
+      "priority": "LOW",
+      "summary": "As a leader in the canned seafood industry, Chicken of the Sea levels up sustainability efforts with MSC Certification PITTSBURGH, May 2, 2026 /PRNewswire/ -- In honor of World Tuna Day, Chicken of th",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Does Your Building Have Fire Sprinklers?",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/does-your-building-have-fire-sprinklers-302760491.html",
+      "priority": "LOW",
+      "summary": "Fast Guard Service alerts real estate owners and property managers: 2026 fire code updates to NFPA 25 will significantly affect sprinkler system compliance requirements — and insurance implications co",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
+      "priority": "HIGH",
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
+      "priority": "HIGH",
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "CHICKEN OF THE SEA BECOMES FIRST MAINSTREAM SEAFOOD BRAND IN THE U.S. TO COMMIT TO 100% MARINE STEWARDSHIP COUNCIL CERTIFICATION FOR ITS TUNA PRODUCTS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/chicken-of-the-sea-becomes-first-mainstream-seafood-brand-in-the-us-to-commit-to-100-marine-stewardship-council-certification-for-its-tuna-products-302760444.html",
+      "priority": "LOW",
+      "summary": "As a leader in the canned seafood industry, Chicken of the Sea levels up sustainability efforts with MSC Certification PITTSBURGH, May 2, 2026 /PRNewswire/ -- In honor of World Tuna Day, Chicken of th",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Does Your Building Have Fire Sprinklers?",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/does-your-building-have-fire-sprinklers-302760491.html",
+      "priority": "LOW",
+      "summary": "Fast Guard Service alerts real estate owners and property managers: 2026 fire code updates to NFPA 25 will significantly affect sprinkler system compliance requirements — and insurance implications co",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "L'ADGM annonce l'ouverture du bureau de Rokos Capital Management à Abu Dhabi suite à l'obtention de son autorisation",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/ladgm-annonce-louverture-du-bureau-de-rokos-capital-management-a-abu-dhabi-suite-a-lobtention-de-son-autorisation-302760597.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, Émirats arabes unis, 2er mai 2026 /PRNewswire/ -- L'ADGM, le centre financier international d'Abu Dhabi, a annoncé aujourd'hui que Rokos Capital Management (RCM) a ouvert un nouveau bureau",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "ADGM kündigt Eröffnung des Büros von Rokos Capital Management in Abu Dhabi nach Erteilung der Zulassung an",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/adgm-kundigt-eroffnung-des-buros-von-rokos-capital-management-in-abu-dhabi-nach-erteilung-der-zulassung-an-302760592.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, VAE, 2. Mai 2026 /PRNewswire/ -- ADGM, das internationale Finanzzentrum von Abu Dhabi, gab heute bekannt, dass Rokos Capital Management (RCM) nach Erhalt der Finanzdienstleistungsgenehmigun",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Leading Vision Plans for Retirees (2026): VSP Vision Care Highlighted for Senior-Friendly Eye Care Benefits by Expert Consumers",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/leading-vision-plans-for-retirees-2026-vsp-vision-care-highlighted-for-senior-friendly-eye-care-benefits-by-expert-consumers-302760333.html",
+      "priority": "LOW",
+      "summary": "NEW YORK, May 2, 2026 /PRNewswire/ -- As more individuals transition into retirement, maintaining consistent access to vision care is becoming an important part of overall health planning. A recent re",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
+      "priority": "HIGH",
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
+      "priority": "HIGH",
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "GAC's overseas export volume breaks through to new highs, surging 133.9% year-on-year from January to April, as its global expansion journey enters the fast lane",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/gacs-overseas-export-volume-breaks-through-to-new-highs-surging-133-9-year-on-year-from-january-to-april-as-its-global-expansion-journey-enters-the-fast-lane-302760603.html",
+      "priority": "HIGH",
+      "summary": "GUANGZHOU, China, May 2, 2026 /PRNewswire/ -- Building on strong overseas sales with 86% YoY growth in Q1, GAC has further accelerated its global expansion. From January to April, the company exported",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Sass Magazine Releases May/June 2026 BOSS Issue Celebrating Women in Business Across Frederick County and Beyond",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/sass-magazine-releases-mayjune-2026-boss-issue-celebrating-women-in-business-across-frederick-county-and-beyond-302760492.html",
+      "priority": "HIGH",
+      "summary": "FREDERICK, Md., May 2, 2026 /PRNewswire/ -- Sass Magazine has released its May/June 2026 BOSS Issue, the publication's 7th annual edition dedicated to women in business. \"Most people don't know this,",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "COREWELL HEALTH EAST TEAMSTERS TO PRACTICE PICKET AT WAYNE CAMPUS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/corewell-health-east-teamsters-to-practice-picket-at-wayne-campus-302756901.html",
+      "priority": "HIGH",
+      "summary": "10,000 Registered Nurses Fight for a Fair First Contract DETROIT, May 2, 2026 /PRNewswire/ -- Teamsters nurses at Corewell Health East, represented by Teamsters Local 2024, will hold a practice picket",
+      "why_matters": "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "CHICKEN OF THE SEA BECOMES FIRST MAINSTREAM SEAFOOD BRAND IN THE U.S. TO COMMIT TO 100% MARINE STEWARDSHIP COUNCIL CERTIFICATION FOR ITS TUNA PRODUCTS",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/chicken-of-the-sea-becomes-first-mainstream-seafood-brand-in-the-us-to-commit-to-100-marine-stewardship-council-certification-for-its-tuna-products-302760444.html",
+      "priority": "LOW",
+      "summary": "As a leader in the canned seafood industry, Chicken of the Sea levels up sustainability efforts with MSC Certification PITTSBURGH, May 2, 2026 /PRNewswire/ -- In honor of World Tuna Day, Chicken of th",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Does Your Building Have Fire Sprinklers?",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/does-your-building-have-fire-sprinklers-302760491.html",
+      "priority": "LOW",
+      "summary": "Fast Guard Service alerts real estate owners and property managers: 2026 fire code updates to NFPA 25 will significantly affect sprinkler system compliance requirements — and insurance implications co",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "L'ADGM annonce l'ouverture du bureau de Rokos Capital Management à Abu Dhabi suite à l'obtention de son autorisation",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/ladgm-annonce-louverture-du-bureau-de-rokos-capital-management-a-abu-dhabi-suite-a-lobtention-de-son-autorisation-302760597.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, Émirats arabes unis, 2er mai 2026 /PRNewswire/ -- L'ADGM, le centre financier international d'Abu Dhabi, a annoncé aujourd'hui que Rokos Capital Management (RCM) a ouvert un nouveau bureau",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "ADGM kündigt Eröffnung des Büros von Rokos Capital Management in Abu Dhabi nach Erteilung der Zulassung an",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/adgm-kundigt-eroffnung-des-buros-von-rokos-capital-management-in-abu-dhabi-nach-erteilung-der-zulassung-an-302760592.html",
+      "priority": "LOW",
+      "summary": "ABU DHABI, VAE, 2. Mai 2026 /PRNewswire/ -- ADGM, das internationale Finanzzentrum von Abu Dhabi, gab heute bekannt, dass Rokos Capital Management (RCM) nach Erhalt der Finanzdienstleistungsgenehmigun",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Leading Vision Plans for Retirees (2026): VSP Vision Care Highlighted for Senior-Friendly Eye Care Benefits by Expert Consumers",
+      "date": "2026-05-02",
+      "url": "https://www.prnewswire.com/news-releases/leading-vision-plans-for-retirees-2026-vsp-vision-care-highlighted-for-senior-friendly-eye-care-benefits-by-expert-consumers-302760333.html",
+      "priority": "LOW",
+      "summary": "NEW YORK, May 2, 2026 /PRNewswire/ -- As more individuals transition into retirement, maintaining consistent access to vision care is becoming an important part of overall health planning. A recent re",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell advances ‘Smart’ manufacturing - Fastener + Fixing Magazine",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeE90YXV0SXFmbTNXZFpIMU1Ma1JleVJmZjU3OGVDVjBhT3VjRk9ZWWNVUXdyWHFnYW4xU1ljbHRpZ21vVmRPZk85ZHpZQnV1X0hHdmJTdjBta3FMbEQzQ3Rza3c3V3dLUDJOcUd6MEZOQnRld2FzRFFFWmRUQ1ZZbjZqNk93NExWZEVRUHAyV1g?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell advances ‘Smart’ manufacturing&nbsp;&nbsp;Fastener + Fixing Magazine",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Smart Factory Market Size Accelerating at 10.8% CAGR | By Key - openPR.com",
       "date": "2026-04-30",
-      "url": "https://new.abb.com/news",
-      "priority": "HIGH",
-      "summary": "ABB confirmed the acquisition of Verve Industrial Protection, adding OT asset visibility and vulnerability management to its automation stack.",
-      "why_matters": "ABB now has OT security capabilities that directly compete with Schneider's EcoStruxure security layer — update battlecard positioning."
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZGc1cWVseFVuY0tqTGk4Y0FuRmVocVktUExnbkhObk1Uak83dzU3a3FJZjhJWWxtZHBDbFd5SDRTa2N0VmJUcWFvSVE1RGZYWS0ta1phdHlmSTdrS3ZOYlYtUFN6elJvVnp1S19vYnVSa0hwZUJKWkhSWFpVenVYX2VHZmo2dl9ndElwQnBNb0xnUkh6VFh1NG5R?oc=5",
+      "priority": "LOW",
+      "summary": "Smart Factory Market Size Accelerating at 10.8% CAGR | By Key&nbsp;&nbsp;openPR.com",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Wins $40M Smart Factory Security Contract with Tier-1 Automotive OEM",
-      "date": "2026-04-29",
-      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
-      "priority": "HIGH",
-      "summary": "Rockwell's FactoryTalk security suite deployed across 14 manufacturing plants for a major automotive customer, covering 8,000+ connected assets.",
-      "why_matters": "Large enterprise win in manufacturing — a core Schneider vertical. Assess whether Rockwell's win was on price, integration depth, or ecosystem lock-in."
+      "competitor": "Honeywell",
+      "headline": "Enterprise Autonomy in Focus as Honeywell and TCS Align OT and IT Capabilities with AI - Prittle Prattle News",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVkzZTFuY0p1N29zOHZtdVhhak8wYzJJN29FWFlxUTZDVzFDQ3Z5TnhIdWZUSFpMMzNEeHpQWFBjSE5CektzNjU1WnVWQ3c3SnZ5bXhFSWFCam5JcHNvVmJOQnZ2TVl4VHdScWdMMGJNR1FlU05qMWpmeXQzQmpUdHZtYnZVNnNRRFdXQ1haMTNPbFlZ?oc=5",
+      "priority": "LOW",
+      "summary": "Enterprise Autonomy in Focus as Honeywell and TCS Align OT and IT Capabilities with AI&nbsp;&nbsp;Prittle Prattle News",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson Deploys DeltaV Cyber Intelligence Across 3 LNG Terminals in Southeast Asia",
-      "date": "2026-04-28",
-      "url": "https://www.emerson.com/en-us/news",
+      "headline": "Emerson Electric Stock (US2910111044): Q2 Earnings Release Set for Today - AD HOC NEWS",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlIwUUJ4Ty1lQmdmZVdpZDVPS1d0UlV1emFuOHllLTFMdGdlSlJjUDJUcGxBTUVZdFZ0M1RTQnhVYU1sMGlNVmh0eFUzOFJkY0xsVDU5aTYzd0o5MWhnLW1RRFdwT3JGR1hXZWtlUXhjR1poSzFoZkZJS3dDbVpjN2k3ejdjWDhGaG41ckZuMU5pbzJDWmg3RnM2X2ZWVlF2Z3czUXZFZTVCcl9pZXpPWEFSdHN5MVJyMExGRFgzX1IySjRBTzRv?oc=5",
       "priority": "HIGH",
-      "summary": "Emerson confirmed deployment of DeltaV cyber monitoring across three LNG terminals in Southeast Asia, covering SCADA and DCS environments.",
-      "why_matters": "Active APAC deployment in energy — a region and vertical where Schneider has active accounts. Treat as an active displacement threat."
+      "summary": "Emerson Electric Stock (US2910111044): Q2 Earnings Release Set for Today&nbsp;&nbsp;AD HOC NEWS",
+      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap.",
+      "source": "Google News"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Partners with Claroty to Deliver Integrated OT Visibility Solution",
+      "competitor": "Siemens",
+      "headline": "Siemens expands Industrial Edge to accelerate AI integration and strengthen OT cybersecurity - Industrial Cyber",
       "date": "2026-04-27",
-      "url": "https://www.yokogawa.com/news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT3dzSkE4dUhfU3dpQ0doMDRPSzU1NERsNUpfVjNsazVOTUs1RlpfN3VCd2Y3LTc1ekdITVVyTnZZRk5GQ05UU0NpdHlXczNDXy1FRGgyTGNIVVlhUkc1cW04Q3p5cWVCdFdnVE5BNFRiQ1BDcjdrczJDbWJFa0xVNWF0WFBZbnJmOXBEV0hWV3IyM2xMaTRySGp1STJxR3FwTFNWcm00SHNBQjVkdTZsWnRUdmhBVE1sTmttaktyNVZDOEU?oc=5",
       "priority": "HIGH",
-      "summary": "Yokogawa and Claroty announced a joint go-to-market agreement targeting process industries across Japan, Singapore, and Australia.",
-      "why_matters": "Partnership strengthens Yokogawa's OT security positioning in APAC — watch for overlap with Schneider accounts in Singapore and Australia."
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens Identifies Critical Vulnerability in Simatic S7-1500 PLC Firmware",
-      "date": "2026-04-26",
-      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
-      "priority": "HIGH",
-      "summary": "Siemens issued a security advisory for a critical CVE in its Simatic S7-1500 series, affecting customers in energy, water, and manufacturing sectors.",
-      "why_matters": "Vulnerability in a widely deployed Siemens PLC — may prompt joint customers to reconsider their automation vendor mix. Opportunity to engage."
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Honeywell Publishes 2026 OT Cybersecurity Threat Report",
-      "date": "2026-04-25",
-      "url": "https://www.honeywell.com/us/en/press",
-      "priority": "MEDIUM",
-      "summary": "Honeywell's annual threat report highlights a 47% rise in OT-targeted attacks, with removable media as the leading attack vector across industrial sectors.",
-      "why_matters": "Competitor thought leadership shaping buyer criteria — monitor whether this shifts customer conversations away from Schneider's messaging framework."
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB to Host Industrial Cybersecurity Webinar: Zero Trust in OT Environments",
-      "date": "2026-04-24",
-      "url": "https://new.abb.com/news",
-      "priority": "MEDIUM",
-      "summary": "ABB is running a global webinar series on Zero Trust architecture for operational technology teams, targeting CISOs and OT security managers.",
-      "why_matters": "ABB investing in demand generation targeting the same buyer profiles as Schneider's digital energy and automation business — match or counter."
+      "summary": "Siemens expands Industrial Edge to accelerate AI integration and strengthen OT cybersecurity&nbsp;&nbsp;Industrial Cyber",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Named a Leader in Gartner Magic Quadrant for OT Security Platforms",
+      "headline": "Rockwell Automation highlights talent and ecosystem challenges for overseas plant constructions - digitimes",
       "date": "2026-04-23",
-      "url": "https://www.rockwellautomation.com/en-us/about/news.html",
-      "priority": "MEDIUM",
-      "summary": "Gartner's latest Magic Quadrant places Rockwell Automation in the Leaders quadrant for OT security platforms, citing strong execution and vision.",
-      "why_matters": "Analyst recognition strengthens Rockwell's enterprise sales credibility — relevant to Schneider's own positioning in the same quadrant."
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY0NOb25xWVpiNmJFR0xOSDZoUno5NHRnNmJ5MHplY3N2U3phNnJTaXRPM1dHdGpQYVRQV2loOWxXWWJETXV0VlVmYWl1Z0NwZm1ZTG9lWXpsSDJyWm5BUE1UVnJ0dmNaTzE5d2RJNnJCX2FnU1AtS2ZvU0NDU29oN0ZwVlUwYTF4TThsblFLUTh0cTduS2tyenZLdEJ6SmRpQXhIaWNzTDdSRDNWekhvWg?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation highlights talent and ecosystem challenges for overseas plant constructions&nbsp;&nbsp;digitimes",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Advances Chocolate Shoppe Ice Cream Production Improvements with Plex Technologies - PR Newswire",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUE1nT3doSDdPRmlVRUpkQkxSd0xnak1lTW10WmxFS1RSdXhoM3p2d3lFQW5sM3diRjZ6Y3pwWG01Yy1RMjZfYnEzX3dlT280U2VLNXh1OUpPeW1PaEdnbnMta0pJX09wcTdwRzJ2VkItb3Z6WWpwMGFLc2RIa3pnZ25ISFJzX1J4ZXI5UnhIcVU2cHBpUDBOYVJrdm1fbVYtWm83Y2dFZWpibDh6S0dmWUFTZXFsa3NhZzZoWF9hQ0k4Mk16Wmp6TG9ueWtxWlYzQncyTjZ2UnZKcmxDUUdyYmVIbV84YU9HNkFlSXdiNA?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Advances Chocolate Shoppe Ice Cream Production Improvements with Plex Technologies&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "An ice cream maker cut inventory work by up to 4 hours with new tech - Stock Titan",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSkxpTE5fT0kydnpMeTFwVWowUjFIRU9iLW16MnRRN0JSa25DdFVHTEdVZjJ5QVRLVndkTllBMzJtMXV0Qk5jY3pzSWstcUd5MC1kZzhMYVJqS0J1Z21DWXJfYnNUY1hsOWk5T3JmcHp3RWI2UU1XbUlCMzhETU9KYlRBaWQ3cW5BYUVEcFpDeHFXcVBRR29iZHUzZzd2OWNZVmhJSnQ0aWJuaWhhRnZpNUFWaENDeVV2Um9OMw?oc=5",
+      "priority": "LOW",
+      "summary": "An ice cream maker cut inventory work by up to 4 hours with new tech&nbsp;&nbsp;Stock Titan",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson Releases White Paper: Converging IT and OT Security in Process Industries",
-      "date": "2026-04-22",
-      "url": "https://www.emerson.com/en-us/news",
-      "priority": "MEDIUM",
-      "summary": "Emerson's latest white paper outlines a framework for IT/OT convergence in chemical and petrochemical plants, citing risk reduction outcomes from 12 deployments.",
-      "why_matters": "Competitor thought leadership in IT/OT convergence — a topic directly relevant to Schneider's EcoStruxure narrative. Review for messaging gaps."
+      "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure - Smart Water Magazine",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEVFdW5iVk9MTVBILXpQLVBDMmdtZHlldUdQSkptTEd6OHEtWEpaN3VtcTVMWWcxdVpjdjhaTUwtTXlFS3Voby02R2x6MmhUdjNSdGdvQTlNb0dob2JweFNJcTF2ZzJTbVpCSUMtS2dkUWhPV3RLSFd1VFpJdDNYMUVzRUtTWFVGMFhzQlV4eU5aMk9YaTUyZU5YS3VLLWhSQ01qd01kWGMxWi1ZU0ZGZ2UzRFZfWU5EV2ZGNUpWYS1PLTljekJHMtIBzgFBVV95cUxQWDl5S2RpV0U4OWduQ0VFMm82eU5mNlJnQTlQNVZ0anJtd1FfU1hnejFWaGpKT0ltMUxoSVRZbEJMNWtVc1F2OXViVGNlMUlFNEFxZU1mUVFYN0JsSktxa2lOMXpnSUZLbWVEcDJqSThhbEVlSGJ5SlAtcGc4Vm9VbkRqTHhKaXQ1U3hpSjhXMEd3RlNzN05aWmRubUJzQzhMWElRU1pZZlJOR1Vfb1pfcDdjOVgzVV9KMTd5Sk1lV1JKM0ZsNUQ3TjR3aEtUZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure&nbsp;&nbsp;Smart Water Magazine",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and customer base.",
+      "source": "Google News"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Speaks at Singapore OT-ISAC Annual Summit on AI-Driven Threat Detection",
+      "competitor": "Emerson",
+      "headline": "Emerson Partners OPSWAT to Strengthen OT Cybersecurity for Power and Water Sectors - TechAfrica News",
       "date": "2026-04-21",
-      "url": "https://www.yokogawa.com/news",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa's Chief Security Architect presented on AI-assisted anomaly detection for process control networks at the OT-ISAC summit in Singapore.",
-      "why_matters": "Competitor active in Singapore's industrial security community — a market where Schneider has significant installed base."
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVEWGYxbWVnQm1fN0NndHhGX2k4LWV6RzhPN3ZGd28tVWJZeXlySzJ1bkQ1cGt3Z2ZmNWpJRW02b3N5cU9EQ0JxbDB4MXBBZFZPRWhOTURreWRMM0dlbWxIZWhzRUdRMl9OU1M0Y29SNjRvMUwxM0RYdElKVTVjeXJsc256aGRWczBlNFhYbzBkRndaUG5iZVBTbWFDaVl2VmJ4T3pTSl9CbUhFQ19PMnZYTW1FZzJBa01haGxn?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson Partners OPSWAT to Strengthen OT Cybersecurity for Power and Water Sectors&nbsp;&nbsp;TechAfrica News",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson, OPSWAT partner on OT cybersecurity for utilities - Utilities Middle East",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByNUswOEhkODFrMW40enE0WmQ4azRjOU5KWDFvQ2dMaFRxSE40SWlaaFdSb0VWY1lGQ3djVnoxMWdkZmJyZ1hZODgxelNaYkdGRk1HUGlIaXlzZG5haXRJVW1Nc3VyLXotOVlVXzRIb25BQ0M3WTJiRWFFNThZVFE?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson, OPSWAT partner on OT cybersecurity for utilities&nbsp;&nbsp;Utilities Middle East",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and customer base.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing - Cisco Blogs",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
+      "priority": "LOW",
+      "summary": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing&nbsp;&nbsp;Cisco Blogs",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "OPSWAT & Emerson: Global Reseller Deal for OT Cybersecurity in Power & Water - News and Statistics - IndexBox",
+      "date": "2026-04-18",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR1dBNVM4WlcyRnd4VVd6anJkOVF1dWMzeGFVdV9wZUNiNUtaSGxJV3BjbXkwZ0EzVnZzZzJ5WUg2bm5wemRsVklWYkVENUY0X2UyWmgwVWJiRU1TemxhZEdhZVhXaWxJU18zeGdJNmNHcGFVUDh6OUhfWDEzYV9lb1lwd2xzOU9JREtHMVJFQThLNXBJSjZFS29Vb3pzY0ZpcjJOMG9QbHk2QzllUVE?oc=5",
+      "priority": "HIGH",
+      "summary": "OPSWAT & Emerson: Global Reseller Deal for OT Cybersecurity in Power & Water - News and Statistics&nbsp;&nbsp;IndexBox",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "OPSWAT, Emerson partner on OT cybersecurity patch management - Investing.com",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUzFCQXY0RWU1OTRQUER1bzVoOHBudmNuMFVFTlZzaEl5VnlIc3VjSC11ZVhwZEllbDRobTFyTlN2OHk4WFNTQmU3NzNDeGd0aGloRkc2TWwwOTNPMmp1eWlDLWt6c3NMakhkOU9lNVM5MW1tVm9SS2hDNmJSR3NXOUVmdVo5b3p3T1FWVjJ2X1JrN2NNYi1IbzVIOVUybjM2bEI2Ulh6clhlNUo2LXUtZEFPMGhNWUE?oc=5",
+      "priority": "HIGH",
+      "summary": "OPSWAT, Emerson partner on OT cybersecurity patch management&nbsp;&nbsp;Investing.com",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and customer base.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Power and water utilities get new OT patching tool on Emerson Ovation - Stock Titan",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN2FvV0pZZ0lVbWRnR05pQkdpd0MxdEFaaFpRclhTSS11ZElNa1JuSC1aM1RRcW1FWTZETW8tdmlaODZBWHc0ejJ2RjB5WnJLNVd1Y29mUURBc2M1aG05c2hubnNvWFloRXBHZjVfRS1uZjFwMktKSTl2RkQ5SlllcHNhQVRjYmVaV2ZKTXJobEx2am9zY1I5dnZZUm5UOXh4RWYwVGRsM0pBbllLNG95OVdOSQ?oc=5",
+      "priority": "LOW",
+      "summary": "Power and water utilities get new OT patching tool on Emerson Ovation&nbsp;&nbsp;Stock Titan",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
       "competitor": "Siemens",
-      "headline": "Siemens Updates Sinec NMS Network Management System with Enhanced Logging",
-      "date": "2026-04-20",
-      "url": "https://press.siemens.com/global/en/tag/cybersecurity",
-      "priority": "LOW",
-      "summary": "Siemens released a routine firmware update to Sinec NMS v2.0.3, adding enhanced syslog support and SNMP trap improvements.",
-      "why_matters": "Routine product update — monitor for cumulative feature parity shifts over time."
+      "headline": "Siemens Expands Industrial Automation DataCenter with Edge AI - Let's Data Science",
+      "date": "2026-04-13",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMlBmV05ZZnhpSXljT1EyREVFNTBZSWljTHc2TllSU2xrYW15a3BTTHBsMWhtc1ZyWkU2WVFhTk82cmFCNDVhNjFQVDBjVjVUdjhBSUc4ejBhRDZHc2ZyRGwzV1VITm1BcUFLUWp4U19iWEl6T3M5bFRjbGlfUkc4QXV0cUdWTG42cW41Z1R4YURhSld1LVc4d3dCT3ZWbk9tbTQ1YQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens Expands Industrial Automation DataCenter with Edge AI&nbsp;&nbsp;Let's Data Science",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB Reports Q1 2026 Results: Orders Up 8% YoY in Process Automation Division",
-      "date": "2026-04-18",
-      "url": "https://new.abb.com/news",
+      "competitor": "Siemens",
+      "headline": "AI-ready at the Edge – Siemens Industrial Automation DataCenter ... - Siemens press",
+      "date": "2026-04-13",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFlvT21UR0l2dUVVQVVMTnNQbHdYT2RXQnIyV3V3MXFJLWlINzctU21TVlpFSktUTl9ORVh1ajV0cGJiRVNVUDZlZE9DT2xkOVVpR3J3RVB1eEs4bzBjaUhhRjZ3dE5DbFI3LTFnWVpaUEpfbzFraEZySUI4cU83Z3JYVmY0Z3E4LUxtWVA4YlppNGhnZDJLN0w3djJXQU1yQjhGQ20xbmlvWm4xc3JsYnRVQ1VjLXBLdFVLNlRSbmtkby01X0tXY2Y0UEZCOWs?oc=5",
       "priority": "LOW",
-      "summary": "ABB's Q1 2026 earnings show 8% order growth in its Process Automation division, with strong performance in electrification and motion segments.",
-      "why_matters": "ABB gaining order momentum in process automation — a segment Schneider competes in directly."
+      "summary": "AI-ready at the Edge – Siemens Industrial Automation DataCenter ...&nbsp;&nbsp;Siemens press",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa lands cyber certification for plant control systems - SecurityBrief Asia",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
+      "priority": "LOW",
+      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy - Gulf Business",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHBxVjZuMWpxVTZYOVZBUnc2cjRGMUV4Y3hrSUNwa3NoUXNrUGpmN1N3SjN0Zlh1SnNFNnRNQVU0bnZBN1NsUlFPc2I0cTlnNktrV1hPOXFGTTV5bkNKSmZaY0NZTzZwRWgwLU5relVLZzFNT2ozX01td0VfMnV1cG9PX1NZUWUxaklScVk1dWhuVUdtZ1lMS25fV0lCMEVoQ0Npa1BYb2FLZ1o4NjBMTFB6VElPM0ZmVTRuTGVBTk1USUU?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy&nbsp;&nbsp;Gulf Business",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     },
     {
       "competitor": "Honeywell",
-      "headline": "Honeywell Joins IEC 62443 Working Group for Industrial Automation Security Standards",
-      "date": "2026-04-17",
-      "url": "https://www.honeywell.com/us/en/press",
+      "headline": "How industrial AI is leading economic hubs toward diversification, autonomy - Gulf Business",
+      "date": "2026-04-08",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjZHaHM4UjNtUFZlNVQwOU9VNzMybElJdFc0S2RiSTYxWHUwaGlhc3VacTBQU0lRb0lhWklpY3ZnVmxpRy1MMXVkcDBXVVpxT3VPeW9KWlczSUxOTXd1R2JhaUtheXJVZFhUZ2RxY2ttdnk3YzlJV2hoVkU2Wnd6N1RxT29IbTA?oc=5",
       "priority": "LOW",
-      "summary": "Honeywell has joined the IEC 62443 working group to contribute to next-generation industrial automation and control system security standards.",
-      "why_matters": "Standards participation signals long-term positioning intent — relevant for Schneider's regulatory and compliance messaging."
+      "summary": "How industrial AI is leading economic hubs toward diversification, autonomy&nbsp;&nbsp;Gulf Business",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "The top 10 smart manufacturing technology vendors - IoT Analytics",
+      "date": "2026-04-07",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kUC14YUFodFMzS2RNOEh2cm9rN0gzMy1oRDVDc0Z5WU5JNWplbElLTFVQcWxuVDZOWFlMN3RCZE5COFZYOVk5cURaZ3RPUk5CM1BGMF9uaWlWdGF0YklING50MWpNTHhPT2R1dkNxaTRYU25ib3ZkSUFNWlU?oc=5",
+      "priority": "LOW",
+      "summary": "The top 10 smart manufacturing technology vendors&nbsp;&nbsp;IoT Analytics",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "The top 10 smart manufacturing technology vendors - IoT Analytics",
+      "date": "2026-04-07",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kUC14YUFodFMzS2RNOEh2cm9rN0gzMy1oRDVDc0Z5WU5JNWplbElLTFVQcWxuVDZOWFlMN3RCZE5COFZYOVk5cURaZ3RPUk5CM1BGMF9uaWlWdGF0YklING50MWpNTHhPT2R1dkNxaTRYU25ib3ZkSUFNWlU?oc=5",
+      "priority": "LOW",
+      "summary": "The top 10 smart manufacturing technology vendors&nbsp;&nbsp;IoT Analytics",
+      "why_matters": "Monitor for impact on Schneider's competitive positioning and customer conversations.",
+      "source": "Google News"
     }
   ]
 }
