@@ -8,27 +8,30 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --blue:      #0071e3;
-      --blue-dark: #0062c4;
-      --text:      #1d1d1f;
-      --text2:     #3a3a3c;
-      --text3:     #6e6e73;
-      --divider:   #e5e5ea;
-      --surface:   #f2f2f7;
-      --card:      #ffffff;
-      --red:       #ff3b30;
-      --red-bg:    #fff1f0;
-      --orange:    #ff9500;
-      --orange-bg: #fff8ee;
-      --grey:      #8e8e93;
-      --grey-bg:   #f2f2f7;
-      --slate:     #3a3a3c;   /* LOW active — dark charcoal */
-      --radius-lg: 16px;
-      --radius-md: 10px;
-      --radius-sm: 8px;
-      --shadow-sm: 0 1px 4px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
-      --shadow-md: 0 4px 16px rgba(0,0,0,.08), 0 0 0 1px rgba(0,0,0,.04);
-      --shadow-lg: 0 12px 32px rgba(0,0,0,.12), 0 0 0 1px rgba(0,0,0,.04);
+      --blue:       #0071e3;
+      --blue-dark:  #0062c4;
+      --se-green:   #3DCD58;   /* Schneider Electric brand green */
+      --se-green-dark: #2db048;
+      --se-green-bg:   #edfbf0;
+      --text:       #1d1d1f;
+      --text2:      #3a3a3c;
+      --text3:      #6e6e73;
+      --divider:    #e5e5ea;
+      --surface:    #f2f2f7;
+      --card:       #ffffff;
+      --red:        #ff3b30;
+      --red-bg:     #fff1f0;
+      --orange:     #ff9500;
+      --orange-bg:  #fff8ee;
+      --grey:       #8e8e93;
+      --grey-bg:    #f2f2f7;
+      --slate:      #3a3a3c;   /* LOW active — dark charcoal */
+      --radius-lg:  16px;
+      --radius-md:  10px;
+      --radius-sm:  8px;
+      --shadow-sm:  0 1px 4px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
+      --shadow-md:  0 4px 16px rgba(0,0,0,.08), 0 0 0 1px rgba(0,0,0,.04);
+      --shadow-lg:  0 12px 32px rgba(0,0,0,.12), 0 0 0 1px rgba(0,0,0,.04);
     }
 
     html { font-size: 16px; -webkit-text-size-adjust: 100%; }
@@ -46,12 +49,21 @@
     .page { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
 
     /* ── Header ─────────────────────────────────────────────── */
+    /* Schneider Electric green brand bar at top */
+    body::before {
+      content: "";
+      display: block;
+      height: 4px;
+      background: linear-gradient(90deg, var(--se-green) 0%, var(--se-green-dark) 100%);
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+    }
+
     header {
-      background: rgba(255,255,255,.88);
+      background: rgba(255,255,255,.92);
       backdrop-filter: saturate(180%) blur(24px);
       -webkit-backdrop-filter: saturate(180%) blur(24px);
       border-bottom: 1px solid var(--divider);
-      position: sticky; top: 0; z-index: 200;
+      position: sticky; top: 4px; z-index: 200;
     }
     .header-inner {
       display: flex; align-items: center;
@@ -71,12 +83,13 @@
     .live-pill {
       display: none;
       align-items: center; gap: 5px;
-      background: #e8f8f0; color: #1a7a4a;
-      border-radius: 20px; padding: 4px 10px;
-      font-size: 11px; font-weight: 600;
+      background: var(--se-green-bg); color: var(--se-green-dark);
+      border-radius: 20px; padding: 4px 11px;
+      font-size: 11px; font-weight: 700;
+      border: 1px solid rgba(61,205,88,.25);
     }
     .live-dot {
-      width: 6px; height: 6px; border-radius: 50%; background: #34c759;
+      width: 6px; height: 6px; border-radius: 50%; background: var(--se-green);
       animation: blink 2s ease-in-out infinite;
     }
     @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
@@ -97,11 +110,11 @@
     .btn:active { transform: scale(.97); }
 
     .btn-primary {
-      background: var(--blue); color: #fff; border-color: var(--blue);
+      background: var(--se-green); color: #fff; border-color: var(--se-green);
     }
     .btn-primary:hover {
-      background: var(--blue-dark); border-color: var(--blue-dark);
-      box-shadow: 0 4px 12px rgba(0,113,227,.28);
+      background: var(--se-green-dark); border-color: var(--se-green-dark);
+      box-shadow: 0 4px 12px rgba(61,205,88,.35);
     }
     .btn-primary.spinning .refresh-icon {
       display: inline-block; animation: spin .7s linear infinite;
@@ -232,7 +245,16 @@
       box-shadow: var(--shadow-sm);
       transition: box-shadow .2s, transform .2s;
       border: 1.5px solid transparent;
+      position: relative; overflow: hidden;
     }
+    /* Schneider green left-accent stripe on HIGH priority cards */
+    .exec-card.card-high::before {
+      content: "";
+      position: absolute; left: 0; top: 0; bottom: 0;
+      width: 4px;
+      background: linear-gradient(180deg, var(--se-green) 0%, var(--se-green-dark) 100%);
+    }
+    .exec-card.card-high { padding-left: 22px; }
     .exec-card:hover {
       box-shadow: var(--shadow-lg);
       transform: translateY(-2px);
@@ -394,6 +416,27 @@
       align-items: center; flex-wrap: wrap; gap: 8px;
     }
     .footer-inner p { font-size: 11.5px; color: var(--text3); }
+
+    .footer-credit {
+      display: flex; align-items: center; gap: 10px;
+    }
+    .footer-credit-divider {
+      width: 1px; height: 18px; background: var(--divider);
+    }
+    .footer-credit-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+    }
+    .footer-credit-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--se-green); flex-shrink: 0;
+    }
+    .footer-credit-text {
+      font-size: 11.5px; color: var(--text3);
+    }
+    .footer-credit-name {
+      font-weight: 700; color: var(--text2);
+      letter-spacing: -.1px;
+    }
 
     /* ── Email modal ─────────────────────────────────────────── */
     .modal-overlay {
@@ -629,8 +672,14 @@
 <footer>
   <div class="page">
     <div class="footer-inner">
-      <p>Schneider Electric | Internal use only.</p>
-      <p>Data refreshes every 2 hours via GitHub Actions. Coverage window: 14 days.</p>
+      <p>Schneider Electric &middot; Internal use only &middot; Data refreshes every 2 hours via automated pipeline.</p>
+      <div class="footer-credit">
+        <div class="footer-credit-divider"></div>
+        <div class="footer-credit-badge">
+          <span class="footer-credit-dot"></span>
+          <span class="footer-credit-text">Conceptualized &amp; Developed by <span class="footer-credit-name">Nipun Mittal</span></span>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
@@ -847,7 +896,7 @@ function renderExec(items) {
     return;
   }
   el.innerHTML = high.map(item=>`
-    <div class="exec-card">
+    <div class="exec-card${item.priority==="HIGH" ? " card-high" : ""}">
       <div class="exec-card-header">
         ${logo(item.competitor)}
         ${badge(item.priority)}
