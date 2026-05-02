@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T15:44:39Z",
+  "last_updated": "2026-05-02T16:35:14Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -99,17 +99,6 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals.",
       "source": "Google News",
       "publisher": "Digital Commerce 360"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Joins Avelia’s Blockchain-Powered Sustainable Aviation Fuel Purchasing Program",
-      "date": "2026-04-24",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmVMR0F3MmlXdDJ5REc3VFlMTEd0aVN3TUNrYmNSRjU3YlhUZUNKNFZmN1g4Z2Z5aWhrRHBXVWdBS3hfSWEwZ1FyeFZtWTdzUlZtTndHVFV5aENjUjg3RGQ3aEFqZ0NsOWhXZ3kycm51YzJ0cDljOGdVUlkzaC1rX3BqakFtNlRXNUhkdjE3ZVp0MWhDSXVOYW5GblJBS3MwN2xTSjlnUWpiendud2tuWlNDSlRRa1FCcDVieDZZTlNPRVVHVHhn0gHHAUFVX3lxTFB2ZUxHQXcyaVd0MnlERzdUWUxMR3RpU3dNQ2tiY1JGNTdiWFRlQ0o0VmY3WDhnZnlpaGtEcFdVZ0FLeF9JYTBnUXJ4Vm1ZN3NSVm1Od0dUVXloQ2NSODdEZDdoQWpnQ2w5aFdneTJybnVjMnRwOWM4Z1VSWTNoLWtfcGpqQW02VFc1SGR2MTdlWnQxaENJdU5hbkZuUkFLczA3bFNKOWdRamJ6d253a25aU0NKVFFrUUJwNWJ4NllOU09FVUdUeGc?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Joins Avelia’s Blockchain-Powered Sustainable Aviation Fuel Purchasing Program&nbsp;&nbsp;Sangri Today",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "Sangri Today"
     },
     {
       "competitor": "Honeywell",
@@ -222,6 +211,17 @@
       "publisher": "SEC EDGAR"
     },
     {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call",
       "date": "2026-04-14",
@@ -264,6 +264,17 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "SDxCentral"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens expands private 5G infrastructure to more countries",
+      "date": "2026-04-03",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3NiclBxUU10Q0hERVg1RWpEcktXZEhlWFRHVVhob0N0a0J5QXhOOHVkbzNWUENlU2R6ZEZLeW1TOG1jaVZ6UXVxbXh5enl0YTU4dnJieUtnd29uZzNKN3dwR21WelNuNEw3Y1NGZGpsVm9kQURjclhLSFRTZkIwV0M4cDBmbkcxZGFyZy1RaGFsUQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens expands private 5G infrastructure to more countries&nbsp;&nbsp;Engineering.com",
+      "why_matters": "Market or capability expansion — assess whether this moves competitor into Schneider's core accounts or geographies.",
+      "source": "Google News",
+      "publisher": "Engineering.com"
     },
     {
       "competitor": "Yokogawa",
