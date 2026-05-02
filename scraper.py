@@ -425,6 +425,18 @@ def try_links(competitor: dict, soup: BeautifulSoup) -> list[dict]:
         "newsletter", "sitemap", "accessibility",
     ]
 
+    # Junk patterns common in nav/region/language selectors
+    junk_patterns = [
+        " - english", " - spanish", " - french", " - german",
+        " - portuguese", " - italian", " - dutch", " - chinese",
+        " - japanese", " - korean", " - indonesian", " - thai",
+        " - vietnamese", " - arabic", " - russian", " - polish",
+        "south africa", "united states", "united kingdom", "republic of",
+        "hong kong", "new zealand", "middle east", "latin america",
+        "asia pacific", "select country", "select region", "select language",
+        "global site", "local site",
+    ]
+
     seen = set()
     items = []
 
@@ -432,7 +444,12 @@ def try_links(competitor: dict, soup: BeautifulSoup) -> list[dict]:
         text = a.get_text(strip=True)
         href = a["href"]
 
-        if not text or len(text) < 20 or text in seen:
+        if not text or len(text) < 30 or text in seen:
+            continue
+
+        # Skip nav/region/language links
+        text_lower = text.lower()
+        if any(j in text_lower for j in junk_patterns):
             continue
 
         # Build full URL
@@ -486,7 +503,7 @@ def scrape(competitor: dict) -> list[dict]:
 
 def main():
     log.info("=" * 60)
-    log.info("Competitive Intelligence Scraper — Mozart by Certis")
+    log.info("Competitive Intelligence Scraper — Schneider Electric")
     log.info("=" * 60)
 
     all_items: list[dict] = []
