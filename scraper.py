@@ -45,7 +45,7 @@ log = logging.getLogger(__name__)
 
 DELAY              = 1.2   # polite delay between requests (seconds)
 MAX_PER_SOURCE     = 8     # max items per individual source
-MAX_PER_COMPETITOR = 12    # max items per competitor in final output
+MAX_PER_COMPETITOR = 8     # max items per competitor in final output
 MAX_AGE_DAYS       = 30    # ignore items older than this
 
 HEADERS = {
@@ -642,13 +642,13 @@ def deduplicate(items: list[dict]) -> list[dict]:
                 days_apart = abs((item_date - acc_date).days)
             except Exception:
                 days_apart = 99
-            if days_apart > 7:
+            if days_apart > 14:
                 continue
             # Jaccard similarity
             if len(fp | acc_fp) == 0:
                 continue
             jaccard = len(fp & acc_fp) / len(fp | acc_fp)
-            if jaccard >= 0.45:
+            if jaccard >= 0.25:
                 is_dupe = True
                 break
 
