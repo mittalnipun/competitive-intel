@@ -488,22 +488,69 @@ def has_strategic_signal(headline: str, summary: str, competitor_aliases: list) 
 def resolve_url(url: str) -> str:
     """
     Best-effort resolution of Google News redirect URLs to actual article URLs.
-    Uses GET with stream=True and short timeout — fails fast, safe to skip.
+    Four-strategy approach:
+      1. HTTP redirect chain (r.url after allow_redirects=True)
+      2. <link rel="canonical"> in HTML body
+      3. <meta http-equiv="refresh"> tag
+      4. data-n-au attribute (Google News JS redirect hint)
     """
     if "news.google.com" not in url:
         return url
+
+    resolve_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://news.google.com/",
+        "DNT": "1",
+    }
+
     try:
         r = requests.get(
-            url, headers=HEADERS, allow_redirects=True,
-            timeout=6, stream=True
+            url, headers=resolve_headers,
+            allow_redirects=True, timeout=12
         )
-        r.close()
+
+        # Strategy 1: HTTP redirect chain resolved to a non-Google URL
         final = r.url
         if "news.google.com" not in final and final.startswith("http"):
-            log.debug(f"    URL resolved: {final[:80]}")
+            log.debug(f"    URL resolved (redirect): {final[:80]}")
             return final
-    except Exception:
-        pass
+
+        # Strategy 2: <link rel="canonical">
+        soup = BeautifulSoup(r.text, "lxml")
+        canonical = soup.find("link", rel="canonical")
+        if canonical and canonical.get("href"):
+            href = canonical["href"]
+            if href.startswith("http") and "news.google.com" not in href:
+                log.debug(f"    URL resolved (canonical): {href[:80]}")
+                return href
+
+        # Strategy 3: <meta http-equiv="refresh" content="0;url=...">
+        meta = soup.find("meta", attrs={"http-equiv": re.compile("refresh", re.I)})
+        if meta and meta.get("content"):
+            m = re.search(r"url=([^\s'\"]+)", meta["content"], re.I)
+            if m:
+                href = m.group(1).strip().strip("\"'")
+                if href.startswith("http") and "news.google.com" not in href:
+                    log.debug(f"    URL resolved (meta-refresh): {href[:80]}")
+                    return href
+
+        # Strategy 4: data-n-au attribute (Google News JS redirect hint)
+        m = re.search(r'data-n-au="(https?://[^"]{20,})"', r.text)
+        if m:
+            href = m.group(1)
+            if "news.google.com" not in href:
+                log.debug(f"    URL resolved (data-n-au): {href[:80]}")
+                return href
+
+    except Exception as exc:
+        log.debug(f"    resolve_url failed: {exc}")
+
     return url
 
 
