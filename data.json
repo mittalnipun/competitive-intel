@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T15:06:37Z",
+  "last_updated": "2026-05-02T15:12:58Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -11,6 +11,17 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTV9vd0lSd1BQd2RTSEFNaUtXUmhPTm9yZXRESTRWeXZrTG1PbExyU1NtaTdwbDFJS2lXdXpkU2xuWkRQakhpWDdaMktHMWVlLW5Da19SSGQ5SEtOSVFvSE1tVWM3cTBOSEZ1QVBVY3c1ZXUyd0ZBOUhCSUVZZGV6MDhlWVh2ZThmZnowVld4UDRNYzVZNTJzLS1jWTF3UDZOVWtlMFhqa2xhMkpWZ1RVdWFYZXFWU0xVeUJnV3JB?oc=5",
+      "priority": "HIGH",
+      "summary": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing&nbsp;&nbsp;Manufacturing Chemist",
+      "why_matters": "New product or feature launch — assess capability overlap with Schneider's EcoStruxure stack and update competitive positioning.",
+      "source": "Google News",
+      "publisher": "Manufacturing Chemist"
     },
     {
       "competitor": "Rockwell Automation",
@@ -134,6 +145,17 @@
       "publisher": "Reuters"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczhOeEtVTGhuS0hEVUp2RVAwblNycGxTODdZSDJuWlloUGZiRDQyZjhHc1hidE1lYllYaHdkQ1A5NkplSUpYZXVGWDE5aFRsRGNHSWNDdWtRajJmMEhJVFU3ZXJzdUtLZzNlc3dZVjJQSWE0V1cyczdmdDBJc1BZa1JsNmdiOUFZdXZUTGJEaThKR1cyeV9vcU9OS3QtVFdFZWg3WHdlV093bS1GbHhtNWZjQVVyZnJ5MFIzc2JR?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Business Wire",
+      "why_matters": "Competitor thought leadership shaping buyer criteria — review for messaging gaps in Schneider's content strategy.",
+      "source": "Google News",
+      "publisher": "Business Wire"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -156,6 +178,17 @@
       "publisher": "Siemens press"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
+    },
+    {
       "competitor": "Yokogawa",
       "headline": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard",
       "date": "2026-04-20",
@@ -165,6 +198,17 @@
       "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
       "source": "Google News",
       "publisher": "Machine Maker"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-04-17)",
+      "date": "2026-04-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000014/0001024478-26-000014-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-04-17. Filing type: 8-K.",
+      "why_matters": "Regulatory filing may contain material business events — review for M&A, restructuring, major contract, or guidance changes that signal strategic direction shifts impacting Schneider.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
     },
     {
       "competitor": "Emerson",
@@ -198,17 +242,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation files permit to build manufacturing site in New Berlin",
-      "date": "2026-04-07",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVFE4MWoyQWVTZHZCeGpqTWNoMGJjRFlWWGQzc19SSzFRd2wwc0ZSc1M4R1RfblNZX3BESEo4MmNfQl9ZYmVZWmNpcWgxdEJ1TUlxeVAyelJGOWtMWlprbVJEbDdMSldGbG9vakotWXMwZldIZUpBbXF3dFd4cFdwME5WNklRV3NvX0lzUGNPcXphcTBZbkl2aDljQnE4RjlfcVBKOFNxVnF6dGNFc1ZDWg?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation files permit to build manufacturing site in New Berlin&nbsp;&nbsp;Spectrum News 13",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "Spectrum News 13"
     },
     {
       "competitor": "Siemens",
