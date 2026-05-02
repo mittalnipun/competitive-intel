@@ -1,37 +1,40 @@
 #!/usr/bin/env python3
 """
-Competitive Intelligence Scraper
-Tracks news from Siemens, ABB, Rockwell Automation, Honeywell, Emerson, Yokogawa.
+Competitive Intelligence Scraper — Schneider Electric
+Tracks Siemens, ABB, Rockwell Automation, Honeywell, Emerson, Yokogawa
+across 10+ source types per competitor.
 
-Strategy:
-  1. RSS/Atom feed (most reliable)
-  2. HTML scrape with BeautifulSoup (fallback)
-  3. Link extraction (last resort for JS-heavy sites)
+Source hierarchy:
+  1. Google News RSS  — primary, broad, high quality
+  2. Industry publications RSS — Control Engineering, Industrial Cyber,
+     SecurityWeek, Automation World, ISSSource, The Manufacturer
+  3. PR Newswire / Business Wire company feeds
+  4. SEC EDGAR RSS   — earnings, 8-K filings (public companies)
+  5. Company direct RSS/pages — fallback
 
 Output: data.json consumed by index.html dashboard.
 
-Install deps: pip install requests beautifulsoup4 feedparser lxml
+Install: pip install requests beautifulsoup4 feedparser lxml
 """
 
 import json
 import time
 import logging
 import re
-from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse
+from datetime import datetime, timezone, timedelta
+from urllib.parse import urljoin, urlparse, quote_plus
 
 try:
     import requests
     from bs4 import BeautifulSoup
     import feedparser
 except ImportError:
-    print("Missing dependencies. Run:")
-    print("  pip install requests beautifulsoup4 feedparser lxml")
+    print("Missing deps. Run: pip install requests beautifulsoup4 feedparser lxml")
     raise
 
-# ---------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
 # Config
-# ---------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
 
 logging.basicConfig(
     level=logging.INFO,
@@ -40,8 +43,10 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-DELAY = 1.5  # seconds between requests (be polite)
-MAX_ITEMS_PER_SITE = 8
+DELAY              = 1.2   # polite delay between requests (seconds)
+MAX_PER_SOURCE     = 8     # max items per individual source
+MAX_PER_COMPETITOR = 12    # max items per competitor in final output
+MAX_AGE_DAYS       = 30    # ignore items older than this
 
 HEADERS = {
     "User-Agent": (
@@ -51,490 +56,636 @@ HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
-    "Connection": "keep-alive",
 }
 
-# ---------------------------------------------------------------------------
-# Classification rules
-# ---------------------------------------------------------------------------
-
-HIGH_KEYWORDS = [
-    "launch", "launches", "launched",
-    "partnership", "partner",
-    "acquisition", "acquires", "acquired",
-    "customer win", "wins contract", "contract award", "awarded",
-    "deployment", "deployed", "go live",
-    "security incident", "incident",
-    "vulnerability", "vulnerabilities", "cve",
-    "breach", "breached",
-    "integration", "integrated",
-    "merger", "merges",
-    "joint venture",
-    "deal", "signed",
-    "expansion", "expands",
-    "new product", "new solution",
-]
-
-MEDIUM_KEYWORDS = [
-    "blog", "thought leadership", "webinar", "speaking",
-    "opinion", "whitepaper", "white paper",
-    "report", "survey", "research",
-    "trend", "insight", "prediction",
-    "guide", "ebook", "case study",
-    "podcast", "interview",
-    "award", "recognition",
-]
-
-WHY_MATTERS_MAP = {
-    "launch": "New product launch may shift competitive positioning — assess capability overlap.",
-    "launches": "New product launch may shift competitive positioning — assess capability overlap.",
-    "launched": "New product launch may shift competitive positioning — assess capability overlap.",
-    "partnership": "Partnership could expand competitor reach and ecosystem capabilities.",
-    "partner": "Partnership could expand competitor reach and ecosystem capabilities.",
-    "acquisition": "Acquisition signals strategic capability expansion — assess for overlap.",
-    "acquires": "Acquisition signals strategic capability expansion — assess for overlap.",
-    "customer win": "Customer win demonstrates competitive momentum in target verticals.",
-    "contract award": "Contract win signals active competitive motion in enterprise accounts.",
-    "awarded": "Contract win signals active competitive motion in enterprise accounts.",
-    "deployment": "Active deployment indicates growing market penetration.",
-    "deployed": "Active deployment indicates growing market penetration.",
-    "security incident": "Security incident may shift buyer trust and vendor evaluation criteria.",
-    "vulnerability": "Vulnerability news may affect buyer confidence in competitor solutions.",
-    "breach": "Data breach may shift buyer preference during active vendor evaluations.",
-    "integration": "Integration announcement expands competitor ecosystem reach.",
-    "expansion": "Market expansion signals direct competitive overlap in target geographies.",
-    "joint venture": "Joint venture may combine capabilities that create a stronger competitive offering.",
-    "deal": "New commercial deal signals competitor momentum in the market.",
-    "merger": "Merger signals consolidation — watch for capability or channel overlap.",
-    "webinar": "Competitor content motion — signals investment in demand generation.",
-    "report": "Competitor thought leadership may be shaping buyer criteria.",
-    "award": "Analyst or industry recognition strengthens competitor brand credibility.",
-    "whitepaper": "Competitor thought leadership may be shaping buyer evaluation criteria.",
-    "case study": "Case study indicates live deployment proof points being built.",
-}
-
-
-def classify(text: str) -> tuple[str, str | None]:
-    """Return (priority, matched_keyword) based on text content."""
-    lower = text.lower()
-    for kw in HIGH_KEYWORDS:
-        if kw in lower:
-            return "HIGH", kw
-    for kw in MEDIUM_KEYWORDS:
-        if kw in lower:
-            return "MEDIUM", kw
-    return "LOW", None
-
-
-def why_matters(keyword: str | None) -> str:
-    if not keyword:
-        return "Competitor activity — monitor for strategic relevance."
-    for k, v in WHY_MATTERS_MAP.items():
-        if k in (keyword or "").lower():
-            return v
-    return "Competitor activity — monitor for strategic relevance."
-
-
-# ---------------------------------------------------------------------------
-# Date parsing
-# ---------------------------------------------------------------------------
-
-DATE_FORMATS = [
-    "%Y-%m-%dT%H:%M:%S",
-    "%Y-%m-%dT%H:%M:%SZ",
-    "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%d",
-    "%B %d, %Y",
-    "%b %d, %Y",
-    "%d %B %Y",
-    "%d %b %Y",
-    "%Y/%m/%d",
-    "%a, %d %b %Y %H:%M:%S %z",
-    "%a, %d %b %Y %H:%M:%S GMT",
-]
-
-
-def parse_date(raw: str | None) -> str:
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if not raw:
-        return today
-
-    raw = raw.strip()
-
-    for fmt in DATE_FORMATS:
-        try:
-            dt = datetime.strptime(raw, fmt)
-            return dt.strftime("%Y-%m-%d")
-        except ValueError:
-            continue
-
-    # Regex fallback: look for YYYY-MM-DD anywhere in the string
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
-    if m:
-        return m.group(0)
-
-    return today
-
-
-# ---------------------------------------------------------------------------
-# Competitor definitions
-# ---------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
+# Competitor profiles
+# ─────────────────────────────────────────────────────────────────────────────
 
 COMPETITORS = [
     {
         "name": "Siemens",
-        "rss_urls": [
-            "https://press.siemens.com/global/en/tag/cybersecurity/rss.xml",
-            "https://press.siemens.com/global/en/pressreleases/rss.xml",
+        "aliases": ["Siemens", "Siemens AG", "Siemens Energy", "Siemens Digital"],
+        "google_news_queries": [
+            "Siemens industrial automation OT security",
+            "Siemens Sinec cybersecurity",
+            "Siemens EcoStruxure competitor",
+            "Siemens Simatic PLC security",
         ],
-        "html_url": "https://press.siemens.com/global/en/tag/cybersecurity",
-        "item_selectors": ["article", ".press-release-item", ".teaser", ".media-item"],
-        "title_selectors": ["h2", "h3", ".title", ".heading"],
-        "date_selectors": ["time", ".date", ".published"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".description", ".teaser-text"],
+        "prnewswire_id": "siemens",
+        "businesswire_slug": "siemens",
+        "sec_cik": None,  # German company, not SEC-listed
+        "direct_rss": [
+            "https://press.siemens.com/global/en/pressreleases/rss.xml",
+            "https://new.siemens.com/global/en/company/press/press-releases.rss",
+        ],
+        "direct_html": "https://press.siemens.com/global/en/pressreleases",
     },
     {
         "name": "ABB",
-        "rss_urls": [
-            "https://new.abb.com/news/rss",
-            "https://new.abb.com/feeds/news.rss",
+        "aliases": ["ABB", "ABB Ltd", "ABB Group", "ABB Ability"],
+        "google_news_queries": [
+            "ABB industrial automation OT security",
+            "ABB cybersecurity process automation",
+            "ABB acquisition partnership automation",
+            "ABB Ability digital platform",
         ],
-        "html_url": "https://new.abb.com/news",
-        "item_selectors": ["article", ".news-item", ".media-card", ".content-item"],
-        "title_selectors": ["h2", "h3", ".heading", ".card-title"],
-        "date_selectors": ["time", ".date", ".published"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".ingress", ".excerpt", ".card-text"],
+        "prnewswire_id": "abb",
+        "businesswire_slug": "abb",
+        "sec_cik": "0001091818",
+        "direct_rss": [
+            "https://new.abb.com/news/rss",
+            "https://media.abb.com/api/rss",
+        ],
+        "direct_html": "https://new.abb.com/news",
     },
     {
         "name": "Rockwell Automation",
-        "rss_urls": [
-            "https://www.rockwellautomation.com/en-us/about/news.rss.xml",
-            "https://www.rockwellautomation.com/rss/news.xml",
+        "aliases": ["Rockwell Automation", "Rockwell", "FactoryTalk", "Allen-Bradley"],
+        "google_news_queries": [
+            "Rockwell Automation FactoryTalk security",
+            "Rockwell Automation smart manufacturing",
+            "Rockwell Automation OT cybersecurity contract",
+            "Rockwell Automation partnership acquisition",
         ],
-        "html_url": "https://www.rockwellautomation.com/en-us/about/news.html",
-        "item_selectors": [".news-card", "article", ".press-release", ".media-card"],
-        "title_selectors": ["h2", "h3", ".card-title", ".headline"],
-        "date_selectors": ["time", ".date", ".publish-date"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".card-text", ".excerpt"],
+        "prnewswire_id": "rockwell-automation",
+        "businesswire_slug": "rockwellautomation",
+        "sec_cik": "0001024478",
+        "direct_rss": [
+            "https://www.rockwellautomation.com/en-us/about/news.rss.xml",
+        ],
+        "direct_html": "https://www.rockwellautomation.com/en-us/about/news.html",
     },
     {
         "name": "Honeywell",
-        "rss_urls": [
-            "https://www.honeywell.com/us/en/press/rss.xml",
-            "https://honeywell.com/feeds/press.rss",
+        "aliases": ["Honeywell", "Honeywell International", "Honeywell Forge", "Honeywell Connected"],
+        "google_news_queries": [
+            "Honeywell Forge OT industrial cybersecurity",
+            "Honeywell process automation security",
+            "Honeywell industrial AI partnership",
+            "Honeywell OT threat detection",
         ],
-        "html_url": "https://www.honeywell.com/us/en/press",
-        "item_selectors": ["article", ".press-release", ".news-item", ".card"],
-        "title_selectors": ["h2", "h3", ".title", ".card-title"],
-        "date_selectors": ["time", ".date", ".published-date"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".summary", ".excerpt"],
+        "prnewswire_id": "honeywell",
+        "businesswire_slug": "honeywell",
+        "sec_cik": "0000773840",
+        "direct_rss": [
+            "https://www.honeywell.com/us/en/press/rss.xml",
+        ],
+        "direct_html": "https://www.honeywell.com/us/en/press",
     },
     {
         "name": "Emerson",
-        "rss_urls": [
+        "aliases": ["Emerson", "Emerson Electric", "DeltaV", "Emerson Automation"],
+        "google_news_queries": [
+            "Emerson DeltaV OT automation security",
+            "Emerson process automation cybersecurity",
+            "Emerson Electric industrial AI",
+            "Emerson automation partnership contract",
+        ],
+        "prnewswire_id": "emerson-electric",
+        "businesswire_slug": "emersonelectric",
+        "sec_cik": "0000032604",
+        "direct_rss": [
             "https://www.emerson.com/en-us/news/rss",
             "https://www.emerson.com/feeds/news",
         ],
-        "html_url": "https://www.emerson.com/en-us/news",
-        "item_selectors": ["article", ".news-card", ".press-release", ".item"],
-        "title_selectors": ["h2", "h3", ".headline", ".title"],
-        "date_selectors": ["time", ".date", ".news-date"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".summary", ".lead"],
+        "direct_html": "https://www.emerson.com/en-us/news",
     },
     {
         "name": "Yokogawa",
-        "rss_urls": [
+        "aliases": ["Yokogawa", "Yokogawa Electric", "CENTUM", "ProSafe"],
+        "google_news_queries": [
+            "Yokogawa OT automation cybersecurity",
+            "Yokogawa CENTUM process security",
+            "Yokogawa partnership contract APAC",
+            "Yokogawa digital transformation industrial",
+        ],
+        "prnewswire_id": "yokogawa",
+        "businesswire_slug": "yokogawa",
+        "sec_cik": None,  # Japanese company, not SEC-listed
+        "direct_rss": [
             "https://www.yokogawa.com/news/rss/",
             "https://www.yokogawa.com/library/resources/white-papers/rss/",
         ],
-        "html_url": "https://www.yokogawa.com/news",
-        "item_selectors": [".news-item", "article", ".press-release", ".list-item"],
-        "title_selectors": ["h2", "h3", ".title", ".news-title"],
-        "date_selectors": ["time", ".date", ".news-date", ".publish-date"],
-        "link_selectors": ["a"],
-        "summary_selectors": ["p", ".description", ".excerpt"],
+        "direct_html": "https://www.yokogawa.com/news",
     },
 ]
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Industry publication RSS feeds
+# Fetched once, then filtered by competitor name mentions
+# ─────────────────────────────────────────────────────────────────────────────
 
-# ---------------------------------------------------------------------------
-# Fetchers
-# ---------------------------------------------------------------------------
+INDUSTRY_FEEDS = [
+    {
+        "name": "Industrial Cyber",
+        "url": "https://industrialcyber.co/feed/",
+        "weight": "HIGH",   # OT/ICS security focused — signals are high quality
+    },
+    {
+        "name": "SecurityWeek",
+        "url": "https://feeds.feedburner.com/Securityweek",
+        "weight": "MEDIUM",
+    },
+    {
+        "name": "Control Engineering",
+        "url": "https://www.controleng.com/feed/",
+        "weight": "MEDIUM",
+    },
+    {
+        "name": "Automation World",
+        "url": "https://www.automationworld.com/home/rss.xml",
+        "weight": "MEDIUM",
+    },
+    {
+        "name": "ISSSource",
+        "url": "https://www.isssource.com/feed/",
+        "weight": "MEDIUM",
+    },
+    {
+        "name": "The Manufacturer",
+        "url": "https://www.themanufacturer.com/feed/",
+        "weight": "LOW",
+    },
+    {
+        "name": "IndustryWeek",
+        "url": "https://www.industryweek.com/rss/all",
+        "weight": "LOW",
+    },
+    {
+        "name": "Plant Engineering",
+        "url": "https://www.plantengineering.com/feed/",
+        "weight": "LOW",
+    },
+]
 
-def make_item(competitor_name: str, title: str, date: str, url: str, summary: str) -> dict:
-    combined = f"{title} {summary}"
-    priority, kw = classify(combined)
+# ─────────────────────────────────────────────────────────────────────────────
+# Priority classification
+# ─────────────────────────────────────────────────────────────────────────────
+
+HIGH_KEYWORDS = [
+    "launch", "launches", "launched", "release", "releases", "released",
+    "partnership", "partner", "partners", "partnered",
+    "acquisition", "acquires", "acquired", "acquire", "merger",
+    "contract", "win", "wins", "won", "deploy", "deploys", "deployed", "deployment",
+    "vulnerability", "breach", "attack", "exploit", "cve", "zero-day",
+    "ipo", "funding", "investment", "deal", "billion", "million",
+    "expands", "expansion", "enters", "new market", "appoints", "ceo",
+]
+
+MEDIUM_KEYWORDS = [
+    "report", "survey", "study", "research", "whitepaper", "white paper",
+    "webinar", "event", "conference", "summit", "award", "recognized",
+    "blog", "insight", "perspective", "thought leadership",
+    "update", "upgrade", "version", "feature",
+    "integration", "solution", "platform",
+]
+
+# Why-it-matters mapped to keyword matched — Schneider context
+WHY_MATTERS = {
+    "launch":        "New product/feature launch — assess capability overlap with Schneider's EcoStruxure stack and update competitive positioning.",
+    "launches":      "New product/feature launch — assess capability overlap with Schneider's EcoStruxure stack and update competitive positioning.",
+    "release":       "New release may shift feature parity — review against Schneider's current roadmap.",
+    "partnership":   "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and customer base.",
+    "partner":       "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and customer base.",
+    "acquisition":   "Acquisition signals strategic capability gap being filled — identify what they bought and whether Schneider has equivalent depth.",
+    "acquires":      "Acquisition signals strategic capability gap being filled — identify what they bought and whether Schneider has equivalent depth.",
+    "contract":      "Contract win in a key vertical — assess whether this is a Schneider account, adjacent account, or new territory.",
+    "win":           "Competitive win reported — identify vertical and geography and assess displacement risk for Schneider accounts.",
+    "deployment":    "Live deployment in the field — use as a reference case signal and check for overlap with Schneider's installed base.",
+    "vulnerability": "Security vulnerability disclosed — may prompt customers to review their automation vendor mix. Potential Schneider opportunity.",
+    "breach":        "Breach or incident linked to competitor's platform — assess reputational impact and customer confidence signals.",
+    "cve":           "CVE disclosed in competitor's product — monitor for customer concern and prepare Schneider's security positioning response.",
+    "funding":       "New funding round — competitor has capital to accelerate R&D and market expansion. Reassess competitive intensity.",
+    "acquisition":   "Acquisition signals capability gap being filled — identify what they bought and whether Schneider has equivalent capability.",
+    "appoints":      "Leadership change — new executives often signal strategic pivots. Monitor messaging changes over next 90 days.",
+    "report":        "Competitor thought leadership shaping buyer criteria — review for messaging gaps in Schneider's content strategy.",
+    "webinar":       "Competitor investing in demand generation targeting the same buyer profiles as Schneider — match or counter.",
+    "whitepaper":    "Competitor thought leadership on a key topic — review for messaging gaps against Schneider's content strategy.",
+    "award":         "Industry recognition strengthens competitor's enterprise sales credibility — relevant to Schneider's positioning.",
+}
+
+DEFAULT_WHY = "Monitor for impact on Schneider's competitive positioning and customer conversations."
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Utilities
+# ─────────────────────────────────────────────────────────────────────────────
+
+def classify(text: str) -> tuple[str, str]:
+    """Return (priority, matched_keyword)."""
+    lower = text.lower()
+    for kw in HIGH_KEYWORDS:
+        if re.search(r'\b' + re.escape(kw) + r'\b', lower):
+            return "HIGH", kw
+    for kw in MEDIUM_KEYWORDS:
+        if re.search(r'\b' + re.escape(kw) + r'\b', lower):
+            return "MEDIUM", kw
+    return "LOW", ""
+
+def why_matters(keyword: str) -> str:
+    return WHY_MATTERS.get(keyword, DEFAULT_WHY)
+
+def parse_date(raw: str) -> str:
+    """Parse various date formats to YYYY-MM-DD."""
+    if not raw:
+        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    formats = [
+        "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ",
+        "%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+        "%B %d, %Y", "%b %d, %Y", "%Y-%m-%d",
+        "%d %B %Y", "%d %b %Y",
+    ]
+    for fmt in formats:
+        try:
+            return datetime.strptime(raw.strip(), fmt).strftime("%Y-%m-%d")
+        except (ValueError, AttributeError):
+            continue
+    # feedparser struct_time
+    try:
+        t = time.strptime(raw, "%a, %d %b %Y %H:%M:%S %Z")
+        return datetime(*t[:3]).strftime("%Y-%m-%d")
+    except Exception:
+        pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+def parse_feedparser_date(entry) -> str:
+    """Extract date from feedparser entry."""
+    for field in ["published_parsed", "updated_parsed", "created_parsed"]:
+        val = getattr(entry, field, None)
+        if val:
+            try:
+                return datetime(*val[:3]).strftime("%Y-%m-%d")
+            except Exception:
+                pass
+    for field in ["published", "updated", "created"]:
+        val = getattr(entry, field, None)
+        if val:
+            return parse_date(val)
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+def is_recent(date_str: str) -> bool:
+    """Return True if date is within MAX_AGE_DAYS."""
+    try:
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+        return (datetime.now() - d).days <= MAX_AGE_DAYS
+    except Exception:
+        return True
+
+def make_item(competitor: str, headline: str, date: str, url: str,
+              summary: str, source: str = "") -> dict:
+    priority, kw = classify(headline + " " + summary)
     return {
-        "competitor": competitor_name,
-        "headline": title.strip(),
+        "competitor": competitor,
+        "headline": headline.strip(),
         "date": date,
         "url": url,
         "priority": priority,
-        "summary": summary.strip()[:160],
+        "summary": summary.strip()[:200],
         "why_matters": why_matters(kw),
+        "source": source,
     }
 
-
-def try_rss(competitor: dict) -> list[dict]:
-    """Attempt each RSS URL in order. Return items from first that works."""
-    for rss_url in competitor.get("rss_urls", []):
-        try:
-            log.info(f"  [{competitor['name']}] RSS → {rss_url}")
-            feed = feedparser.parse(rss_url)
-
-            if not feed.entries:
-                log.debug(f"  [{competitor['name']}] RSS empty, trying next")
-                continue
-
-            items = []
-            for entry in feed.entries[:MAX_ITEMS_PER_SITE]:
-                title = (entry.get("title") or "").strip()
-                if not title or len(title) < 10:
-                    continue
-
-                link = entry.get("link") or competitor["html_url"]
-
-                # Date
-                date_raw = (
-                    entry.get("published")
-                    or entry.get("updated")
-                    or entry.get("created")
-                    or None
-                )
-                date = parse_date(date_raw)
-
-                # Summary: strip HTML tags
-                raw_summary = (
-                    entry.get("summary")
-                    or entry.get("description")
-                    or ""
-                )
-                summary = BeautifulSoup(raw_summary, "html.parser").get_text()
-                summary = re.sub(r"\s+", " ", summary).strip()[:160]
-                if not summary:
-                    summary = title[:160]
-
-                items.append(make_item(competitor["name"], title, date, link, summary))
-
-            if items:
-                log.info(f"  [{competitor['name']}] RSS success: {len(items)} items")
-                return items
-
-        except Exception as e:
-            log.debug(f"  [{competitor['name']}] RSS error ({rss_url}): {e}")
-
-    return []
-
-
-def try_html(competitor: dict) -> list[dict]:
-    """BeautifulSoup HTML scrape with multi-selector approach."""
-    url = competitor["html_url"]
+def fetch_rss(url: str, label: str) -> list:
+    """Fetch and parse an RSS/Atom feed. Returns list of feedparser entries."""
     try:
-        log.info(f"  [{competitor['name']}] HTML → {url}")
-        resp = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "lxml")
+        log.info(f"  RSS  {label} → {url}")
+        feed = feedparser.parse(url, request_headers=HEADERS)
+        entries = feed.get("entries", [])
+        log.info(f"       {len(entries)} entries")
         time.sleep(DELAY)
+        return entries
+    except Exception as e:
+        log.warning(f"  RSS  {label} failed: {e}")
+        return []
 
-        # Find item containers
-        containers = []
-        for sel in competitor["item_selectors"]:
-            found = soup.select(sel)
-            if found:
-                containers = found[:MAX_ITEMS_PER_SITE]
-                log.debug(f"  [{competitor['name']}] Container '{sel}': {len(containers)}")
-                break
+def fetch_html(url: str, label: str) -> BeautifulSoup | None:
+    """Fetch a page and return BeautifulSoup object."""
+    try:
+        log.info(f"  HTML {label} → {url}")
+        r = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
+        r.raise_for_status()
+        time.sleep(DELAY)
+        return BeautifulSoup(r.text, "lxml")
+    except Exception as e:
+        log.warning(f"  HTML {label} failed: {e}")
+        return None
 
-        if not containers:
-            return try_links(competitor, soup)
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 1: Google News RSS  (primary — best quality)
+# ─────────────────────────────────────────────────────────────────────────────
 
-        items = []
-        for container in containers:
-            # Title
-            title = ""
-            for sel in competitor["title_selectors"]:
-                el = container.select_one(sel)
-                if el:
-                    title = el.get_text(strip=True)
-                    break
-            if not title:
-                for tag in ["h1", "h2", "h3", "h4"]:
-                    el = container.find(tag)
-                    if el:
-                        title = el.get_text(strip=True)
-                        break
-            if not title or len(title) < 10:
+def scrape_google_news(competitor: dict) -> list[dict]:
+    """Pull Google News RSS for each query string configured per competitor."""
+    items = []
+    seen_urls = set()
+
+    for query in competitor["google_news_queries"]:
+        encoded = quote_plus(query)
+        url = f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
+        entries = fetch_rss(url, f"Google News / {competitor['name']}")
+
+        for e in entries[:MAX_PER_SOURCE]:
+            link = getattr(e, "link", "") or ""
+            if link in seen_urls:
+                continue
+            seen_urls.add(link)
+
+            title   = getattr(e, "title", "").strip()
+            summary = getattr(e, "summary", title).strip()
+            # Strip HTML tags from summary
+            summary = re.sub(r"<[^>]+>", "", summary)[:200]
+            date    = parse_feedparser_date(e)
+
+            if not title or not is_recent(date):
                 continue
 
-            # Link
-            link = url
-            for sel in competitor["link_selectors"]:
-                el = container.select_one(sel)
-                if el and el.get("href"):
-                    href = el["href"]
-                    link = href if href.startswith("http") else urljoin(url, href)
-                    break
+            items.append(make_item(
+                competitor["name"], title, date, link, summary, "Google News"
+            ))
 
-            # Date
-            date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            for sel in competitor["date_selectors"]:
-                el = container.select_one(sel)
-                if el:
-                    raw = el.get("datetime") or el.get_text(strip=True)
-                    date = parse_date(raw)
-                    break
+    log.info(f"  [Google News] {competitor['name']}: {len(items)} items")
+    return items
 
-            # Summary
-            summary = ""
-            for sel in competitor["summary_selectors"]:
-                el = container.select_one(sel)
-                if el:
-                    summary = el.get_text(strip=True)[:160]
-                    break
-            if not summary:
-                summary = title[:160]
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 2: PR Newswire company feed
+# ─────────────────────────────────────────────────────────────────────────────
 
-            items.append(make_item(competitor["name"], title, date, link, summary))
-
-        if items:
-            log.info(f"  [{competitor['name']}] HTML success: {len(items)} items")
-        return items
-
-    except requests.RequestException as e:
-        log.warning(f"  [{competitor['name']}] HTML fetch failed: {e}")
-        return []
-    except Exception as e:
-        log.error(f"  [{competitor['name']}] HTML parse error: {e}")
+def scrape_prnewswire(competitor: dict) -> list[dict]:
+    """Pull PR Newswire RSS for this company's press room."""
+    slug = competitor.get("prnewswire_id", "")
+    if not slug:
         return []
 
-
-def try_links(competitor: dict, soup: BeautifulSoup) -> list[dict]:
-    """Last resort: extract meaningful anchor text from page."""
-    log.info(f"  [{competitor['name']}] Link extraction fallback")
-    base_url = competitor["html_url"]
-    base_domain = urlparse(base_url).netloc
-
-    skip_patterns = [
-        "privacy", "terms", "cookie", "legal", "careers",
-        "contact", "about", "login", "signin", "subscribe",
-        "newsletter", "sitemap", "accessibility",
+    urls = [
+        f"https://www.prnewswire.com/rss/news-releases-list.rss?company={slug}",
+        f"https://www.prnewswire.com/news-releases/{slug}-news.html",
     ]
 
-    # Junk patterns common in nav/region/language selectors
-    junk_patterns = [
-        " - english", " - spanish", " - french", " - german",
-        " - portuguese", " - italian", " - dutch", " - chinese",
-        " - japanese", " - korean", " - indonesian", " - thai",
-        " - vietnamese", " - arabic", " - russian", " - polish",
-        "south africa", "united states", "united kingdom", "republic of",
-        "hong kong", "new zealand", "middle east", "latin america",
-        "asia pacific", "select country", "select region", "select language",
-        "global site", "local site",
-    ]
-
-    seen = set()
     items = []
+    for url in urls[:1]:  # try primary only
+        entries = fetch_rss(url, f"PR Newswire / {competitor['name']}")
+        for e in entries[:MAX_PER_SOURCE]:
+            title   = getattr(e, "title", "").strip()
+            link    = getattr(e, "link", "") or ""
+            summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:200]
+            date    = parse_feedparser_date(e)
+            if not title or not is_recent(date):
+                continue
+            items.append(make_item(
+                competitor["name"], title, date, link, summary, "PR Newswire"
+            ))
 
-    for a in soup.find_all("a", href=True):
-        text = a.get_text(strip=True)
-        href = a["href"]
+    return items
 
-        if not text or len(text) < 30 or text in seen:
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 3: Business Wire company feed
+# ─────────────────────────────────────────────────────────────────────────────
+
+def scrape_businesswire(competitor: dict) -> list[dict]:
+    """Pull Business Wire RSS for this company."""
+    slug = competitor.get("businesswire_slug", "")
+    if not slug:
+        return []
+
+    url = f"https://www.businesswire.com/rss/home/?rss=G7&company={slug}"
+    items = []
+    entries = fetch_rss(url, f"Business Wire / {competitor['name']}")
+    for e in entries[:MAX_PER_SOURCE]:
+        title   = getattr(e, "title", "").strip()
+        link    = getattr(e, "link", "") or ""
+        summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:200]
+        date    = parse_feedparser_date(e)
+        if not title or not is_recent(date):
             continue
-
-        # Skip nav/region/language links
-        text_lower = text.lower()
-        if any(j in text_lower for j in junk_patterns):
-            continue
-
-        # Build full URL
-        if href.startswith("http"):
-            full_url = href
-        elif href.startswith("/"):
-            full_url = urljoin(base_url, href)
-        else:
-            continue
-
-        if urlparse(full_url).netloc != base_domain:
-            continue
-
-        if any(p in href.lower() for p in skip_patterns):
-            continue
-
-        seen.add(text)
         items.append(make_item(
-            competitor["name"],
-            text,
-            datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            full_url,
-            text[:160],
+            competitor["name"], title, date, link, summary, "Business Wire"
         ))
-
-        if len(items) >= MAX_ITEMS_PER_SITE:
-            break
-
-    log.info(f"  [{competitor['name']}] Link fallback: {len(items)} items")
     return items
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 4: SEC EDGAR RSS (US-listed companies only)
+# ─────────────────────────────────────────────────────────────────────────────
 
-# ---------------------------------------------------------------------------
+def scrape_sec_edgar(competitor: dict) -> list[dict]:
+    """Pull SEC EDGAR filings RSS (8-K, earnings) for US-listed companies."""
+    cik = competitor.get("sec_cik")
+    if not cik:
+        return []
+
+    url = (
+        f"https://www.sec.gov/cgi-bin/browse-edgar"
+        f"?action=getcompany&CIK={cik}&type=8-K&dateb=&owner=include"
+        f"&count=10&search_text=&output=atom"
+    )
+    items = []
+    entries = fetch_rss(url, f"SEC EDGAR / {competitor['name']}")
+    for e in entries[:5]:
+        title   = getattr(e, "title", "").strip()
+        link    = getattr(e, "link", "") or ""
+        date    = parse_feedparser_date(e)
+        if not title or not is_recent(date):
+            continue
+        # 8-K filings are always significant
+        items.append({
+            "competitor": competitor["name"],
+            "headline":   f"{competitor['name']} SEC Filing: {title}",
+            "date":       date,
+            "url":        link,
+            "priority":   "MEDIUM",
+            "summary":    f"SEC 8-K filing by {competitor['name']}: {title}",
+            "why_matters": "Regulatory filing may contain material business events — review for M&A, restructuring, or major contract disclosures.",
+            "source":     "SEC EDGAR",
+        })
+    return items
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 5: Company direct RSS feeds
+# ─────────────────────────────────────────────────────────────────────────────
+
+def scrape_direct_rss(competitor: dict) -> list[dict]:
+    """Try each company's own RSS feed URLs."""
+    items = []
+    seen = set()
+
+    for url in competitor.get("direct_rss", []):
+        entries = fetch_rss(url, f"Direct RSS / {competitor['name']}")
+        for e in entries[:MAX_PER_SOURCE]:
+            title   = getattr(e, "title", "").strip()
+            link    = getattr(e, "link", "") or ""
+            if not title or link in seen:
+                continue
+            seen.add(link)
+            summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:200]
+            date    = parse_feedparser_date(e)
+            if not is_recent(date):
+                continue
+            items.append(make_item(
+                competitor["name"], title, date, link, summary,
+                f"Direct / {competitor['name']}"
+            ))
+        if items:
+            break  # stop at first successful feed
+
+    return items
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Source 6: Industry publications  (fetched once, filtered per competitor)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def scrape_industry_feeds(all_competitors: list[dict]) -> dict[str, list[dict]]:
+    """
+    Fetch each industry publication RSS once.
+    For each item, detect which competitor(s) it mentions.
+    Returns {competitor_name: [items]}.
+    """
+    # Build alias lookup: alias_lower -> competitor_name
+    alias_map: dict[str, str] = {}
+    for c in all_competitors:
+        for alias in c["aliases"]:
+            alias_map[alias.lower()] = c["name"]
+
+    results: dict[str, list[dict]] = {c["name"]: [] for c in all_competitors}
+
+    for feed_cfg in INDUSTRY_FEEDS:
+        entries = fetch_rss(feed_cfg["url"], f"Industry / {feed_cfg['name']}")
+
+        for e in entries:
+            title   = getattr(e, "title", "").strip()
+            link    = getattr(e, "link", "") or ""
+            summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:300]
+            date    = parse_feedparser_date(e)
+
+            if not title or not is_recent(date):
+                continue
+
+            text_lower = (title + " " + summary).lower()
+
+            matched = set()
+            for alias_lower, comp_name in alias_map.items():
+                if alias_lower in text_lower:
+                    matched.add(comp_name)
+
+            for comp_name in matched:
+                if len(results[comp_name]) >= MAX_PER_SOURCE:
+                    continue
+                results[comp_name].append(make_item(
+                    comp_name, title, date, link, summary, feed_cfg["name"]
+                ))
+
+    for comp_name, items in results.items():
+        log.info(f"  [Industry feeds] {comp_name}: {len(items)} items")
+
+    return results
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Deduplication
+# ─────────────────────────────────────────────────────────────────────────────
+
+def deduplicate(items: list[dict]) -> list[dict]:
+    """Remove duplicate items by URL. Secondary: very similar headlines."""
+    seen_urls  = set()
+    seen_heads = set()
+    unique = []
+
+    for item in items:
+        url = item["url"].split("?")[0].rstrip("/")
+        head_key = re.sub(r"\W+", " ", item["headline"].lower()).strip()[:60]
+
+        if url and url in seen_urls:
+            continue
+        if head_key and head_key in seen_heads:
+            continue
+
+        seen_urls.add(url)
+        seen_heads.add(head_key)
+        unique.append(item)
+
+    return unique
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Per-competitor orchestration
+# ─────────────────────────────────────────────────────────────────────────────
+
+def scrape_competitor(competitor: dict, industry_items: list[dict]) -> list[dict]:
+    name = competitor["name"]
+    log.info(f"\n{'='*60}")
+    log.info(f"  {name}")
+    log.info(f"{'='*60}")
+
+    all_items = []
+
+    # 1. Google News (primary)
+    all_items += scrape_google_news(competitor)
+
+    # 2. Industry publications (pre-fetched, passed in)
+    all_items += industry_items
+
+    # 3. PR Newswire
+    all_items += scrape_prnewswire(competitor)
+
+    # 4. Business Wire
+    all_items += scrape_businesswire(competitor)
+
+    # 5. SEC EDGAR
+    all_items += scrape_sec_edgar(competitor)
+
+    # 6. Direct RSS (fallback)
+    all_items += scrape_direct_rss(competitor)
+
+    # Dedup and sort
+    all_items = deduplicate(all_items)
+    all_items.sort(key=lambda x: x["date"], reverse=True)
+
+    # Prioritise HIGH > MEDIUM > LOW when capping
+    priority_order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
+    all_items.sort(key=lambda x: (priority_order.get(x["priority"], 3), x["date"]))
+    all_items = all_items[:MAX_PER_COMPETITOR]
+    all_items.sort(key=lambda x: x["date"], reverse=True)
+
+    log.info(f"  [{name}] Total unique: {len(all_items)}")
+    return all_items
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Main
-# ---------------------------------------------------------------------------
-
-def scrape(competitor: dict) -> list[dict]:
-    log.info(f"[{competitor['name']}] Starting...")
-
-    items = try_rss(competitor)
-    if not items:
-        time.sleep(DELAY)
-        items = try_html(competitor)
-
-    if not items:
-        log.warning(f"[{competitor['name']}] No items found (site may be JS-rendered or unreachable).")
-
-    time.sleep(DELAY)
-    return items
-
+# ─────────────────────────────────────────────────────────────────────────────
 
 def main():
     log.info("=" * 60)
     log.info("Competitive Intelligence Scraper — Schneider Electric")
+    log.info(f"Sources: Google News, Industry Publications, PR Newswire,")
+    log.info(f"         Business Wire, SEC EDGAR, Company Direct Feeds")
     log.info("=" * 60)
 
-    all_items: list[dict] = []
+    # Fetch industry publication feeds once (efficient — one fetch serves all competitors)
+    log.info("\n[Phase 1] Fetching industry publication feeds...")
+    industry_by_competitor = scrape_industry_feeds(COMPETITORS)
 
-    for comp in COMPETITORS:
-        try:
-            items = scrape(comp)
-            all_items.extend(items)
-        except Exception as e:
-            log.error(f"[{comp['name']}] Unexpected error: {e}")
+    # Scrape each competitor
+    log.info("\n[Phase 2] Scraping per-competitor sources...")
+    all_items = []
+    for competitor in COMPETITORS:
+        industry_items = industry_by_competitor.get(competitor["name"], [])
+        items = scrape_competitor(competitor, industry_items)
+        all_items.extend(items)
 
-    # Sort: date descending, then priority for same date
-    priority_order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
-    all_items.sort(
-        key=lambda x: (x["date"], priority_order.get(x["priority"], 3)),
-        reverse=True,
-    )
+    # Final sort: date descending
+    all_items.sort(key=lambda x: x["date"], reverse=True)
 
+    # Stats
+    high   = sum(1 for i in all_items if i["priority"] == "HIGH")
+    medium = sum(1 for i in all_items if i["priority"] == "MEDIUM")
+    low    = sum(1 for i in all_items if i["priority"] == "LOW")
+
+    # Write data.json
     output = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "items": all_items,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
-    high = sum(1 for i in all_items if i["priority"] == "HIGH")
-    medium = sum(1 for i in all_items if i["priority"] == "MEDIUM")
-    low = sum(1 for i in all_items if i["priority"] == "LOW")
-
-    log.info("=" * 60)
+    log.info("\n" + "=" * 60)
     log.info(f"Done. {len(all_items)} items → data.json")
     log.info(f"  HIGH: {high}  MEDIUM: {medium}  LOW: {low}")
     log.info("=" * 60)
