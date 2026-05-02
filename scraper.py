@@ -399,6 +399,10 @@ def scrape_google_news(competitor: dict) -> list[dict]:
             if not title or not is_recent(date):
                 continue
 
+            # Hard filter: article must actually mention this competitor
+            if not mentions_competitor(title + " " + summary, competitor):
+                continue
+
             items.append(make_item(
                 competitor["name"], title, date, link, summary, "Google News"
             ))
@@ -410,6 +414,12 @@ def scrape_google_news(competitor: dict) -> list[dict]:
 # Source 2: PR Newswire company feed
 # ─────────────────────────────────────────────────────────────────────────────
 
+def mentions_competitor(text: str, competitor: dict) -> bool:
+    """Return True if any competitor alias appears in text (case-insensitive)."""
+    text_lower = text.lower()
+    return any(alias.lower() in text_lower for alias in competitor["aliases"])
+
+
 def scrape_prnewswire(competitor: dict) -> list[dict]:
     """Pull PR Newswire RSS for this company's press room."""
     slug = competitor.get("prnewswire_id", "")
@@ -418,18 +428,20 @@ def scrape_prnewswire(competitor: dict) -> list[dict]:
 
     urls = [
         f"https://www.prnewswire.com/rss/news-releases-list.rss?company={slug}",
-        f"https://www.prnewswire.com/news-releases/{slug}-news.html",
     ]
 
     items = []
-    for url in urls[:1]:  # try primary only
+    for url in urls:
         entries = fetch_rss(url, f"PR Newswire / {competitor['name']}")
-        for e in entries[:MAX_PER_SOURCE]:
+        for e in entries[:MAX_PER_SOURCE * 3]:  # scan more, filter strictly
             title   = getattr(e, "title", "").strip()
             link    = getattr(e, "link", "") or ""
             summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:200]
             date    = parse_feedparser_date(e)
             if not title or not is_recent(date):
+                continue
+            # Hard filter: article must actually mention this competitor
+            if not mentions_competitor(title + " " + summary, competitor):
                 continue
             items.append(make_item(
                 competitor["name"], title, date, link, summary, "PR Newswire"
@@ -450,12 +462,15 @@ def scrape_businesswire(competitor: dict) -> list[dict]:
     url = f"https://www.businesswire.com/rss/home/?rss=G7&company={slug}"
     items = []
     entries = fetch_rss(url, f"Business Wire / {competitor['name']}")
-    for e in entries[:MAX_PER_SOURCE]:
+    for e in entries[:MAX_PER_SOURCE * 3]:  # scan more, filter strictly
         title   = getattr(e, "title", "").strip()
         link    = getattr(e, "link", "") or ""
         summary = re.sub(r"<[^>]+>", "", getattr(e, "summary", title))[:200]
         date    = parse_feedparser_date(e)
         if not title or not is_recent(date):
+            continue
+        # Hard filter: article must actually mention this competitor
+        if not mentions_competitor(title + " " + summary, competitor):
             continue
         items.append(make_item(
             competitor["name"], title, date, link, summary, "Business Wire"
