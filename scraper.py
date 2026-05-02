@@ -98,6 +98,7 @@ BLOCKED_HEADLINE_RE = [
         r"earnings\s+set\s+for\s+release",  # pre-announcement placeholders
         r"q[1-4]\s+fy\s+20\d\d\s+earnings", # quarterly financial summaries
         r"why\s+.{5,50}\s+makes\s+it\s+a",  # "why X makes it a good buy"
+        r"^\w{1,4}-[\w]+-[\w-]+$",          # wire ticker format: "WI-COMPANY-NAME" (no spaces)
     ]
 ]
 
