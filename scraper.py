@@ -98,14 +98,24 @@ BLOCKED_HEADLINE_RE = [
         r"earnings\s+set\s+for\s+release",  # pre-announcement placeholders
         r"q[1-4]\s+fy\s+20\d\d\s+earnings", # quarterly financial summaries
         r"why\s+.{5,50}\s+makes\s+it\s+a",  # "why X makes it a good buy"
-        r"^\w{1,4}-[\w]+-[\w-]+$",          # wire ticker format: "WI-COMPANY-NAME" (no spaces)
     ]
 ]
+
+# Pre-compiled: wire ticker headlines have NO spaces, only letters+hyphens.
+# e.g. "WI-ROCKWELL-AUTOMATION" — checked BEFORE alias stripping so hyphens are intact.
+_TICKER_RE = re.compile(r"^[a-z]{1,4}-[a-z]")
 
 
 def is_headline_blocked(headline: str, competitor_aliases: list) -> bool:
     """Return True if headline matches a known-junk pattern."""
-    text = headline.lower()
+    raw = headline.lower().strip()
+
+    # Wire ticker format: short prefix + hyphen, no spaces in entire string.
+    # Must check before alias stripping — stripping breaks the hyphen chain.
+    if _TICKER_RE.match(raw) and " " not in raw:
+        return True
+
+    text = raw
     for alias in competitor_aliases:
         text = text.replace(alias.lower(), " ")
     return any(pat.search(text) for pat in BLOCKED_HEADLINE_RE)
