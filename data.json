@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T16:35:51Z",
+  "last_updated": "2026-05-03T18:41:13Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -33,6 +33,17 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
+      "priority": "LOW",
+      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "Oilfield Technology"
     },
     {
       "competitor": "ABB",
@@ -189,17 +200,6 @@
       "publisher": "Reuters"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelBpdnlLOFNMWUhFRUdNTDU2X1hIcThKU1oxb0ZJUmpReGd4ZkF3ZE1DYVV4OGp0NHRnNDd0b2VtV29wcVRGaFI3RHptYklRSGw3NnNBblVJcWZmc2lJek9OMllYWGdYVGRqNGN0WXJNSldvNmJQd3N3V0NLQVJOWVhjTVJHS2lvcGZCRTVjUFBsdVpHNENaOHZ2Vnh2ZWY4dHF0RVVlZUdSaUhnc1Viek93?oc=5",
-      "priority": "HIGH",
-      "summary": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Moomoo",
-      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
-      "source": "Google News",
-      "publisher": "Moomoo"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -266,28 +266,6 @@
       "publisher": "Business Wire"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
-      "date": "2026-04-16",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa lands cyber certification for plant control systems",
-      "date": "2026-04-10",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
-      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
-      "source": "Google News",
-      "publisher": "SecurityBrief Asia"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -297,6 +275,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV2Z1bTRrUkxGS284ZDQtTmQtVFZLNE85cjR6NjZFT051Qkl5ZzZNZ2FKMUxiVERleEhTbzdYb25oMUdheXFtNDFCMzNlaE5lS0lxWm1lRHRpdzc5YTB3dTIzeWF2dG5rWTYyTE1UWFZYbzBUcjg1cmxlMzg5dWlCX2tvVzB6N0VHSlpyU1ZTZ3hLN3ZBMUxzQ1lLWWJJb3MtMEhycVVneFdGcWZra3hBWGtPMVhwRWNXNUpEMjl0bTVVRDBOMWRFWTJYdW0tcG1Ca1JVSV9QQjA2M2xkY2std3RjUkY0Qm5tYncyZXdMZk8?oc=5",
+      "priority": "LOW",
+      "summary": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors&nbsp;&nbsp;controlglobal.com",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "controlglobal.com"
     },
     {
       "competitor": "Siemens",
