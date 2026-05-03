@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T22:28:52Z",
+  "last_updated": "2026-05-03T01:27:51Z",
   "items": [
     {
       "competitor": "Emerson",
@@ -69,25 +69,14 @@
     },
     {
       "competitor": "ABB",
-      "headline": "Abb reports Q1 2026 revenue $15.00B; adjusted diluted EPS $2.65, GAAP EPS $0.39",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTHViUWVMSU15cFVabzBsT1JPYVk4NmdpR19wVk9UT0c0MTBwVERxc0d1MFBUcnhDelREb1NtZEVZQjRuamE1ekQ3eUgyZGlVUVdlRmdSRDhVRzIyMjRZajNwWlYyUkNiVnk0d1hBQ2VRYWRTNUk1eU9wZzhfcEh4TDFzMHJoWjl6eEg5bF9xSUlWMW5IYVV6eEJoSTh2M0dBWS1oYlJ4QVRvRzFEaS04Njl3Qk9MVm13Rm8xeGtKTXZuSm5tQ0Z6Q1hqeTR0TGo5a3c?oc=5",
+      "headline": "Florian Schneeberger, president of ABB Machine Automation, dies",
+      "date": "2026-04-28",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOODdzQ1pyOFkxeXRuNW9XdDU4azRFWlhvQW9LX2VtdW5PMEVjZ3R4cE9nY29FWWxqVFY4UTBSaUFCR0JMa21TbGR6VGl2QnlaUnd2UFMtUnRiU0x2Y2FYbG9mOHRoVHBfMkRYLS1YTFpERTB0WXl0TTZCUkQ1TEZvUWtNS2dLa1RfVnpyb0wtRHVWLVdm?oc=5",
       "priority": "LOW",
-      "summary": "Abb reports Q1 2026 revenue $15.00B; adjusted diluted EPS $2.65, GAAP EPS $0.39&nbsp;&nbsp;TradingView",
+      "summary": "Florian Schneeberger, president of ABB Machine Automation, dies&nbsp;&nbsp;Drives&amp;Controls",
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
       "source": "Google News",
-      "publisher": "TradingView"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "TCS and ABB strengthen strategic IT, AI, and engineering partnership",
-      "date": "2026-04-28",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd181S0thUFRWUUhpMjVEbF9aSkQzaGhiTExQTEsza2Y4SWRPcl9pSldqd28wYWZXTVhOVUo5Vy11MEZJR2JYZHZ2Y09aZjJwTkdPRUJ2VlFfR0FYMkhNdEFEaVNKNnJZVnlua1REdV9melF1d3poWVJHVUYxMFpnVHhVck9fSDlSRE4xaXlucWxTenBoUjgzMXRyblpxdE9naURYR2NlczY1T2FHQUY3d3l3?oc=5",
-      "priority": "HIGH",
-      "summary": "TCS and ABB strengthen strategic IT, AI, and engineering partnership&nbsp;&nbsp;Tata Consultancy Services",
-      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
-      "source": "Google News",
-      "publisher": "Tata Consultancy Services"
+      "publisher": "Drives&Controls"
     },
     {
       "competitor": "Siemens",
@@ -156,28 +145,6 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB shares surge as data centre business boosts outlook",
-      "date": "2026-04-22",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWmFONU9JSHphb2pVWDNNTHdORVBQYlRpWHhCN0RUbkVqUHU4anVOUEhOaVpZM3J6RkFnNHBRUmdWV3RBN3h5cEV1a3F5UFAxSnphbDB4bXM4UnNrVkRocHVyTkZGUUxfS3JLRTluYUdXNTBNdlRDd2ZCSUVyMjlDR2l5REdHUWxLUDBTbndPNE1CV1VweHpORGF3bnFyZTJtblhYN2NFLTBqUQ?oc=5",
-      "priority": "LOW",
-      "summary": "ABB shares surge as data centre business boosts outlook&nbsp;&nbsp;Reuters",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "Reuters"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczhOeEtVTGhuS0hEVUp2RVAwblNycGxTODdZSDJuWlloUGZiRDQyZjhHc1hidE1lYllYaHdkQ1A5NkplSUpYZXVGWDE5aFRsRGNHSWNDdWtRajJmMEhJVFU3ZXJzdUtLZzNlc3dZVjJQSWE0V1cyczdmdDBJc1BZa1JsNmdiOUFZdXZUTGJEaThKR1cyeV9vcU9OS3QtVFdFZWg3WHdlV093bS1GbHhtNWZjQVVyZnJ5MFIzc2JR?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Business Wire",
-      "why_matters": "Competitor thought leadership shaping buyer criteria — review for messaging gaps in Schneider's content strategy.",
-      "source": "Google News",
-      "publisher": "Business Wire"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -233,15 +200,37 @@
       "publisher": "SEC EDGAR"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa lands cyber certification for plant control systems",
-      "date": "2026-04-10",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
-      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Elects David A. Zapico to Board of Directors",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWFvVmVwckNIWXlIV1c5WDZJenZXOXpFS3N1OHZUbjlmUFgzSGFEVENZbVQwYkt5RzROOWxUNWpEQ3F3eTNqdUZpZU8xczdraDh0blItTHc0bmJqNTBEMEZwV1ZrYkcxWWtLZXczMFNUOVNMSFFyYjJ4cHhFcUkwaEcwV3U1RnhfemlpRElmQV9lVGJQLWpsczBmZVdhY1VhOVhzNUVLOFlzR21IN1VTYWRkZml0cWY0cHFEVDRR?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Elects David A. Zapico to Board of Directors&nbsp;&nbsp;Business Wire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
-      "publisher": "SecurityBrief Asia"
+      "publisher": "Business Wire"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Declares Quarterly Dividend at $1.38 Per Share on Common Stock",
+      "date": "2026-04-14",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUUtYb2JIajF6bU01eUY1WURzX2liTmtEcnZJd0stclcyZGRNTnFmV19rT0FRZXNUVFk4SEtzdGllYndXMXNXZ1ZKYk55Y3lReXVGb1ItWEFmUVhVbkRxTjBvWm9RNzFBdXdWVzc2UU1ULUIwVklfNnhQek5saThPNE9adDBSQkk4ZC1qcEE2dFlMVHhUUU92TjB4R3RxZ1FtVk5Qc0JpYjZmT0c3cHJ4ZGk1dmFCOGpuNzB2REh0NEVhXzgxeG5kQzRWTjNPUHdDcVhrQnAyQlM?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Declares Quarterly Dividend at $1.38 Per Share on Common Stock&nbsp;&nbsp;Business Wire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Business Wire"
     },
     {
       "competitor": "Emerson",
@@ -253,6 +242,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV2Z1bTRrUkxGS284ZDQtTmQtVFZLNE85cjR6NjZFT051Qkl5ZzZNZ2FKMUxiVERleEhTbzdYb25oMUdheXFtNDFCMzNlaE5lS0lxWm1lRHRpdzc5YTB3dTIzeWF2dG5rWTYyTE1UWFZYbzBUcjg1cmxlMzg5dWlCX2tvVzB6N0VHSlpyU1ZTZ3hLN3ZBMUxzQ1lLWWJJb3MtMEhycVVneFdGcWZra3hBWGtPMVhwRWNXNUpEMjl0bTVVRDBOMWRFWTJYdW0tcG1Ca1JVSV9QQjA2M2xkY2std3RjUkY0Qm5tYncyZXdMZk8?oc=5",
+      "priority": "LOW",
+      "summary": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors&nbsp;&nbsp;controlglobal.com",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "controlglobal.com"
     },
     {
       "competitor": "Siemens",
@@ -277,17 +277,6 @@
       "publisher": "Sodo Mojo"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Siemens expands private 5G infrastructure to more countries",
-      "date": "2026-04-03",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3NiclBxUU10Q0hERVg1RWpEcktXZEhlWFRHVVhob0N0a0J5QXhOOHVkbzNWUENlU2R6ZEZLeW1TOG1jaVZ6UXVxbXh5enl0YTU4dnJieUtnd29uZzNKN3dwR21WelNuNEw3Y1NGZGpsVm9kQURjclhLSFRTZkIwV0M4cDBmbkcxZGFyZy1RaGFsUQ?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens expands private 5G infrastructure to more countries&nbsp;&nbsp;Engineering.com",
-      "why_matters": "Market or capability expansion — assess whether this moves competitor into Schneider's core accounts or geographies.",
-      "source": "Google News",
-      "publisher": "Engineering.com"
-    },
-    {
       "competitor": "Yokogawa",
       "headline": "Yokogawa releases OpreX pressure transmitter EJX S Series",
       "date": "2026-04-03",
@@ -297,17 +286,6 @@
       "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
       "source": "Google News",
       "publisher": "Hydrocarbon Processing"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens versus SAP: Smart Factory Battle",
-      "date": "2026-04-02",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jbjFPVWlGdlFucXBRaFJYSTFNR3lOQzVXbzQxQy1EV2l2ODdETV9BdzJlMU1wWWNDT0s0cERVSm9WRUFURnB2bDByXzhkanJvUXgzWVdwNHpCeVFZWlhCazB5WlotbWJiVkFUVGl3?oc=5",
-      "priority": "LOW",
-      "summary": "Siemens versus SAP: Smart Factory Battle&nbsp;&nbsp;E3-Magazin",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
-      "source": "Google News",
-      "publisher": "E3-Magazin"
     }
   ]
 }
