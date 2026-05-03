@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-03T14:41:40Z",
+  "last_updated": "2026-05-03T16:35:51Z",
   "items": [
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems",
+      "date": "2026-05-03",
+      "url": "https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/",
+      "priority": "LOW",
+      "summary": "Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide resources to help augment warfighter decision-making in complex operational environments,” the Defense Depart",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "SecurityWeek",
+      "publisher": "SecurityWeek"
+    },
     {
       "competitor": "Emerson",
       "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
@@ -22,17 +33,6 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Partnering with Feeding America Eastern Wisconsin and Fork Farms to Create Clock Tower Farms",
-      "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNZXNVXzlyTTdrVkhUREdTU1V5WEFKLWRFSDNXRDVNeTJNRXlYVU1lVUMyX3Nnc0hiZ25xZmRKdEZMbUZVdElUZVBBQlozNjFPRzZjX1E5aDBFdVl3LV85Q1dtSlZYWFc4Sjc4Z0JOWlIzUE83cGRwb3lUNjV0ZjVxSzJ6NGN3NUdITXY3WHZ5bWhOSVlTaE1udkkzSnVxVWtOSWhsdXVWUTNHRzFDSDNyek82XzI4QmhudUF5cGtZb3BoX2xybmZXel8tSnBYUnpramNGMFZ6Rk1DN0F0X1RXTXVsV0l3RTI2V050dWs2dUg5dkp1T1NrMEZqSkRrZFhKZ1FBWFlndzVOcENsNmR6bXFlckY4a0x5aWxBMmZXVWh2SUl0V3FJ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Partnering with Feeding America Eastern Wisconsin and Fork Farms to Create Clock Tower Farms&nbsp;&nbsp;Rutland Herald",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "Rutland Herald"
     },
     {
       "competitor": "ABB",
@@ -189,6 +189,17 @@
       "publisher": "Reuters"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelBpdnlLOFNMWUhFRUdNTDU2X1hIcThKU1oxb0ZJUmpReGd4ZkF3ZE1DYVV4OGp0NHRnNDd0b2VtV29wcVRGaFI3RHptYklRSGw3NnNBblVJcWZmc2lJek9OMllYWGdYVGRqNGN0WXJNSldvNmJQd3N3V0NLQVJOWVhjTVJHS2lvcGZCRTVjUFBsdVpHNENaOHZ2Vnh2ZWY4dHF0RVVlZUdSaUhnc1Viek93?oc=5",
+      "priority": "HIGH",
+      "summary": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Moomoo",
+      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
+      "source": "Google News",
+      "publisher": "Moomoo"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -297,6 +308,17 @@
       "why_matters": "Ecosystem partnership expands competitor's reach — evaluate overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "SDxCentral"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB",
+      "date": "2026-04-05",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2hKaWdsVHRBb1dKZWNSblE3czQwSUtjNEl5ZFJHUXkwWjMwME1JMkNhNDZJV0NFXzJHVTU5MFdMVms4R0Nfck51Y1BtS3dtaDVYOG1oUzJabVFEcG9EbDVkS3loLUhGcnI2a2JxeGRKenJqcDE2UHBqNUFZeTlVbkVoSWI5UDNhNklyRFZPOXFvYlZFdEdoRUxtR3M2WmlFX19R?oc=5",
+      "priority": "LOW",
+      "summary": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB&nbsp;&nbsp;Sodo Mojo",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "Sodo Mojo"
     },
     {
       "competitor": "Yokogawa",
