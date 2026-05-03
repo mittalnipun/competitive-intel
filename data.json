@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T18:41:13Z",
+  "last_updated": "2026-05-03T20:31:43Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -35,15 +35,15 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Partnering with Feeding America Eastern Wisconsin and Fork Farms to Create Clock Tower Farms",
       "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNZXNVXzlyTTdrVkhUREdTU1V5WEFKLWRFSDNXRDVNeTJNRXlYVU1lVUMyX3Nnc0hiZ25xZmRKdEZMbUZVdElUZVBBQlozNjFPRzZjX1E5aDBFdVl3LV85Q1dtSlZYWFc4Sjc4Z0JOWlIzUE83cGRwb3lUNjV0ZjVxSzJ6NGN3NUdITXY3WHZ5bWhOSVlTaE1udkkzSnVxVWtOSWhsdXVWUTNHRzFDSDNyek82XzI4QmhudUF5cGtZb3BoX2xybmZXel8tSnBYUnpramNGMFZ6Rk1DN0F0X1RXTXVsV0l3RTI2V050dWs2dUg5dkp1T1NrMEZqSkRrZFhKZ1FBWFlndzVOcENsNmR6bXFlckY4a0x5aWxBMmZXVWh2SUl0V3FJ?oc=5",
       "priority": "LOW",
-      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "summary": "Rockwell Automation Partnering with Feeding America Eastern Wisconsin and Fork Farms to Create Clock Tower Farms&nbsp;&nbsp;Rutland Herald",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
-      "publisher": "Oilfield Technology"
+      "publisher": "Rutland Herald"
     },
     {
       "competitor": "ABB",
@@ -200,6 +200,17 @@
       "publisher": "Reuters"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelBpdnlLOFNMWUhFRUdNTDU2X1hIcThKU1oxb0ZJUmpReGd4ZkF3ZE1DYVV4OGp0NHRnNDd0b2VtV29wcVRGaFI3RHptYklRSGw3NnNBblVJcWZmc2lJek9OMllYWGdYVGRqNGN0WXJNSldvNmJQd3N3V0NLQVJOWVhjTVJHS2lvcGZCRTVjUFBsdVpHNENaOHZ2Vnh2ZWY4dHF0RVVlZUdSaUhnc1Viek93?oc=5",
+      "priority": "HIGH",
+      "summary": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Moomoo",
+      "why_matters": "New release may shift feature parity — review against Schneider's current roadmap and update sales battlecards.",
+      "source": "Google News",
+      "publisher": "Moomoo"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -266,6 +277,28 @@
       "publisher": "Business Wire"
     },
     {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa lands cyber certification for plant control systems",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
+      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
+      "source": "Google News",
+      "publisher": "SecurityBrief Asia"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHpGa1ktTlh0M096TWw4d0JHOG1NYzkyUWFMVmZZT2xURXVhUmNVYlVYb3pBUUxkZ2pVbjBMWXU1bzNzd2Z4WEctdVh3b3Z1bXYyMjAxSms5YWVrZzZUOUZ6SmJOY25CMDFtT2NfcW1FVmR5bUxaSTltdGZycGE5VDQ5WjU5Smk0bGp3aVhERWFhSHNHNERPQVJoLXhDTU1VQkcyM3pIN3ppc2tTYlU2TUtSc2NXTlN5LXlmcUFDUmxGTlJHZTJ5cTN6d09xc3FVdEhXYV9ZZE5vbGVQSERkWldB?oc=5",
+      "priority": "HIGH",
+      "summary": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -275,17 +308,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Gulf Business"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV2Z1bTRrUkxGS284ZDQtTmQtVFZLNE85cjR6NjZFT051Qkl5ZzZNZ2FKMUxiVERleEhTbzdYb25oMUdheXFtNDFCMzNlaE5lS0lxWm1lRHRpdzc5YTB3dTIzeWF2dG5rWTYyTE1UWFZYbzBUcjg1cmxlMzg5dWlCX2tvVzB6N0VHSlpyU1ZTZ3hLN3ZBMUxzQ1lLWWJJb3MtMEhycVVneFdGcWZra3hBWGtPMVhwRWNXNUpEMjl0bTVVRDBOMWRFWTJYdW0tcG1Ca1JVSV9QQjA2M2xkY2std3RjUkY0Qm5tYncyZXdMZk8?oc=5",
-      "priority": "LOW",
-      "summary": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors&nbsp;&nbsp;controlglobal.com",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "controlglobal.com"
     },
     {
       "competitor": "Siemens",
@@ -308,6 +330,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Sodo Mojo"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens expands private 5G infrastructure to more countries",
+      "date": "2026-04-03",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3NiclBxUU10Q0hERVg1RWpEcktXZEhlWFRHVVhob0N0a0J5QXhOOHVkbzNWUENlU2R6ZEZLeW1TOG1jaVZ6UXVxbXh5enl0YTU4dnJieUtnd29uZzNKN3dwR21WelNuNEw3Y1NGZGpsVm9kQURjclhLSFRTZkIwV0M4cDBmbkcxZGFyZy1RaGFsUQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens expands private 5G infrastructure to more countries&nbsp;&nbsp;Engineering.com",
+      "why_matters": "Market or capability expansion — assess whether this moves competitor into Schneider's core accounts or geographies.",
+      "source": "Google News",
+      "publisher": "Engineering.com"
     },
     {
       "competitor": "Yokogawa",
