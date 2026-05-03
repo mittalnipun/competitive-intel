@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T20:31:43Z",
+  "last_updated": "2026-05-03T22:29:27Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -222,17 +222,6 @@
       "publisher": "Smart Water Magazine"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORExkajZ1Ymo3ZFdrUFZpSFdwOHRSX1JvZ25EMVVfdVNWcy1xaTRpWHctUnlOamJTTlVJRHZrZGhIcnpYYXZiMGFEVW02YzlwcmhLcmVtclRpSThZek9GdlBCYTJTZGwzdFF5N0VTeHpCWXQ2WWpQWkwyODdMUVZFWkV4YUc1eFZRV0M5QlNpc2NpRXJSZzBGUzR1VVVtbnN4ekFzT0RSajZZYkVYMHUw?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First&nbsp;&nbsp;Process and Control Today",
-      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
-      "source": "Google News",
-      "publisher": "Process and Control Today"
-    },
-    {
       "competitor": "Siemens",
       "headline": "Siemens launches the Eigen Engineering Agent, bringing purpose-bui ...",
       "date": "2026-04-20",
@@ -253,6 +242,17 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "TradingView"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2RGaGYtQ1Vsc291YWtPejdKSkdmVWRmaWFBcnUzX1huQ1BlQ0xrSS1nVVU3Ym5mNEZYZUNHRHh1U2tBQ19LaFpIbTFSbUNqS1NaQWZhR3FJYXV0dkxwZkw4dkpzZUZVM3Z3OFBpUFVTdFNDVkxkYXRFSzB2VFVEZFlFSVcyc09oRlRlYW1ncENrandCdVNidHF6bjlqNm5wekE?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa Achieves OPC UA Certification Aligned with O-PAS Standard&nbsp;&nbsp;Machine Maker",
+      "why_matters": "Certification or standard achievement — signals product maturity and compliance readiness. Assess whether Schneider holds equivalent certifications.",
+      "source": "Google News",
+      "publisher": "Machine Maker"
     },
     {
       "competitor": "Rockwell Automation",
@@ -288,17 +288,6 @@
       "publisher": "SecurityBrief Asia"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHpGa1ktTlh0M096TWw4d0JHOG1NYzkyUWFMVmZZT2xURXVhUmNVYlVYb3pBUUxkZ2pVbjBMWXU1bzNzd2Z4WEctdVh3b3Z1bXYyMjAxSms5YWVrZzZUOUZ6SmJOY25CMDFtT2NfcW1FVmR5bUxaSTltdGZycGE5VDQ5WjU5Smk0bGp3aVhERWFhSHNHNERPQVJoLXhDTU1VQkcyM3pIN3ppc2tTYlU2TUtSc2NXTlN5LXlmcUFDUmxGTlJHZTJ5cTN6d09xc3FVdEhXYV9ZZE5vbGVQSERkWldB?oc=5",
-      "priority": "HIGH",
-      "summary": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -330,17 +319,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Sodo Mojo"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens expands private 5G infrastructure to more countries",
-      "date": "2026-04-03",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3NiclBxUU10Q0hERVg1RWpEcktXZEhlWFRHVVhob0N0a0J5QXhOOHVkbzNWUENlU2R6ZEZLeW1TOG1jaVZ6UXVxbXh5enl0YTU4dnJieUtnd29uZzNKN3dwR21WelNuNEw3Y1NGZGpsVm9kQURjclhLSFRTZkIwV0M4cDBmbkcxZGFyZy1RaGFsUQ?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens expands private 5G infrastructure to more countries&nbsp;&nbsp;Engineering.com",
-      "why_matters": "Market or capability expansion — assess whether this moves competitor into Schneider's core accounts or geographies.",
-      "source": "Google News",
-      "publisher": "Engineering.com"
     },
     {
       "competitor": "Yokogawa",
