@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T11:32:01Z",
+  "last_updated": "2026-05-04T13:20:29Z",
   "items": [
     {
       "competitor": "ABB",
@@ -11,17 +11,6 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
       "source": "Google News",
       "publisher": "Machine Maker"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
-      "date": "2026-05-02",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanJFZjJ0c1Z3ZXhqcTJxRUtKQy1HbEJ1UmFxZUo1ZGdNNEJ2dkV0VXRSWXhUYkVseEpZTVIzdkJDWjdYNGhJRVNlSFc3MzEzeTFMd21paVhVUjlnY01RdVkxekZDOHZRXzBEZDFiekkwS3dnVmxTVzlXc1FNZGx3QThfVFdQeFlaRVhXRmY3Y2ZqYUFnVGtEX0MxTHBMYTd1cklNeHpJNkowU1k4MWFqcUFESkpBbF9fY09fWlg5STdWZFpBRHIwOUZKbkxHY2NDSGRj0gHYAUFVX3lxTFBndG1YX1cweF9LN3hTNGF4ZFVSR3hiS1hWWkJJRGtUMEZHMVZEckJ6MlBuemhuUFRPMC01by1KWWRMOGtDQVBoaDc5em5wOTRaSU9QNnlvX1VUM0hCRmJwMDNaakI3TVQxbnpPQzJqZnFKZlBKQUFVRU5UY0s5eENaZGVveVRlUXoxTmlBdTNIZk5jNHBvcEFCTHhpUHE3TzhRaUxmeXdaTmJkLUZ6bVhBTzJrSlZmNWxUVnhzY2lTaUhwSGlDcWpJcHJPY1V4TUgtdTNuZ2o0Zg?oc=5",
-      "priority": "HIGH",
-      "summary": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "Siemens",
@@ -44,6 +33,17 @@
       "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Oil & Gas.",
       "source": "Google News",
       "publisher": "Oilfield Technology"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "Reduced number of shares and votes in ABB Ltd",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMEZJdHF4a09wSkxPZE1oX0RCLU93S085Uk5WVWhSOHlPc3dUcDBCdlVLTjJpQ1EwWWx3QXFyM21tYXNQVjEwYjFhUThHTFpmdjBwelRHZDd5YkhjMGdISGhnZEdqVFZUNHdJSUtSWFlhaTI3eURwTFJ2NmU3TFpKa2d4ZTdEY1J2cTJFMg?oc=5",
+      "priority": "LOW",
+      "summary": "Reduced number of shares and votes in ABB Ltd&nbsp;&nbsp;ABB",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "Rockwell Automation",
@@ -88,17 +88,6 @@
       "why_matters": "New ecosystem partnership for ABB — assess reach overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
       "publisher": "Tata Consultancy Services"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "TCS Partners with Siemens Energy to Power ‘HyperVault’ AI Data Centers",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS0NZdGo3Si01WFBVdmxhd0lXc0V1VXFxMkRiMzN1WXJ3M3dTZ2U0RjBWSWR2ZzFlQXBsN3BpZW9UbFptU0Ric3RkcUhtaWdpSHZkeERaZFIzbE1qbmZlR0NZbE1hYlNJMTdNOWNoUFJxNDVrTEdvdVc3TjEtRW8tbUZWVTB5aEJyV3FKQk1ZUG9tWkZBS3dz?oc=5",
-      "priority": "HIGH",
-      "summary": "TCS Partners with Siemens Energy to Power ‘HyperVault’ AI Data Centers&nbsp;&nbsp;Trade Brains",
-      "why_matters": "Siemens is partnering with Energy. Check if Energy is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Data Center. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Trade Brains"
     },
     {
       "competitor": "Siemens",
@@ -244,17 +233,6 @@
       "publisher": "SecurityBrief Asia"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHpGa1ktTlh0M096TWw4d0JHOG1NYzkyUWFMVmZZT2xURXVhUmNVYlVYb3pBUUxkZ2pVbjBMWXU1bzNzd2Z4WEctdVh3b3Z1bXYyMjAxSms5YWVrZzZUOUZ6SmJOY25CMDFtT2NfcW1FVmR5bUxaSTltdGZycGE5VDQ5WjU5Smk0bGp3aVhERWFhSHNHNERPQVJoLXhDTU1VQkcyM3pIN3ppc2tTYlU2TUtSc2NXTlN5LXlmcUFDUmxGTlJHZTJ5cTN6d09xc3FVdEhXYV9ZZE5vbGVQSERkWldB?oc=5",
-      "priority": "HIGH",
-      "summary": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "ABB is partnering with Jacobi Robotics. Check if Jacobi Robotics is in Schneider's ecosystem, a shared customer, or a competing channel partner. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -275,6 +253,17 @@
       "why_matters": "Siemens is partnering with Energy. Check if Energy is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Data Center. Update partner network map and flag displacement risk.",
       "source": "Google News",
       "publisher": "SDxCentral"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB",
+      "date": "2026-04-05",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2hKaWdsVHRBb1dKZWNSblE3czQwSUtjNEl5ZFJHUXkwWjMwME1JMkNhNDZJV0NFXzJHVTU5MFdMVms4R0Nfck51Y1BtS3dtaDVYOG1oUzJabVFEcG9EbDVkS3loLUhGcnI2a2JxeGRKenJqcDE2UHBqNUFZeTlVbkVoSWI5UDNhNklyRFZPOXFvYlZFdEdoRUxtR3M2WmlFX19R?oc=5",
+      "priority": "LOW",
+      "summary": "Konnor Griffin's promotion is no excuse for Mariners to rush Colt Emerson to MLB&nbsp;&nbsp;Sodo Mojo",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "Sodo Mojo"
     }
   ]
 }
