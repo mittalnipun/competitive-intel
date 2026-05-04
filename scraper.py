@@ -98,6 +98,30 @@ BLOCKED_HEADLINE_RE = [
         r"earnings\s+set\s+for\s+release",  # pre-announcement placeholders
         r"q[1-4]\s+fy\s+20\d\d\s+earnings", # quarterly financial summaries
         r"why\s+.{5,50}\s+makes\s+it\s+a",  # "why X makes it a good buy"
+        # CSR / charity / lifestyle — irrelevant to competitive intelligence
+        r"food\s+bank",
+        r"feeding\s+america",
+        r"\bdonat(es?|ion|ions)\b",
+        r"\bvolunteer",
+        r"charitable\s+(donation|contribution|giving|foundation|grant)",
+        r"corporate\s+social\s+responsibility",
+        r"\bcsr\b",
+        r"\bcharity\b",
+        r"\bcharitable\b",
+        r"proceeds\s+(go\s+to|benefit|support)",
+        r"golf\s+(tournament|outing|fundraiser|classic)",
+        r"charity\s+(walk|run|golf|gala|auction)",
+        r"fundrais(er|ing)",
+        r"community\s+(foundation|fund|outreach|service\s+day)",
+        r"united\s+way",
+        r"habitat\s+for\s+humanity",
+        r"red\s+cross",
+        r"\bscholarship\b",
+        r"\bphilanthrop",
+        # Multi-company market surveys — not about the competitor specifically
+        r"top\s+\d+\s+(companies|players|vendors|brands)\s+in",
+        r"\d+\s+leading\s+(companies|vendors|providers)\s+in",
+        r"global\s+market\s+report",
     ]
 ]
 
@@ -419,6 +443,41 @@ WHY_MATTERS = {
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Context-extraction constants for generate_why_matters()
+# ─────────────────────────────────────────────────────────────────────────────
+
+VERTICAL_KEYWORDS: dict[str, list[str]] = {
+    "manufacturing":         ["manufacturing", "factory", "discrete manufacturing", "oem", "automotive", "semiconductor", "assembly"],
+    "oil & gas":             ["oil", "gas", "refinery", "pipeline", "upstream", "downstream", "lng", "petrochemical", "offshore"],
+    "utilities":             ["utilities", "utility", "water", "wastewater", "power grid", "electric utility", "transmission", "distribution"],
+    "data center":           ["data center", "datacenter", "hyperscaler", "colocation", "cloud infrastructure"],
+    "buildings":             ["building", "commercial real estate", "hvac", "bms", "smart building", "facilities management"],
+    "mining":                ["mining", "metals", "minerals", "ore"],
+    "chemicals":             ["chemical", "chemicals", "pharma", "pharmaceutical", "life sciences", "biotech"],
+    "food & beverage":       ["food", "beverage", "brewery", "food processing", "packaged goods"],
+    "critical infrastructure":["critical infrastructure", "grid", "substation", "power plant", "nuclear"],
+    "transportation":        ["transportation", "logistics", "rail", "port", "airport", "marine"],
+    "healthcare":            ["hospital", "healthcare", "medical", "clinical"],
+}
+
+GEOGRAPHY_KEYWORDS: dict[str, list[str]] = {
+    "North America":  ["north america", "us market", "united states", " u.s.", "canada", "mexico", "north american"],
+    "Europe":         ["europe", "germany", "uk", "france", "italy", "spain", "netherlands", "nordic", "eu market", "emea"],
+    "APAC":           ["apac", "asia pacific", "china", "japan", "india", "southeast asia", "australia", "singapore", "south korea", "taiwan"],
+    "Middle East":    ["middle east", "gulf", "saudi", "uae", "qatar", "mena"],
+    "Latin America":  ["latin america", "brazil", "south america", "latam"],
+}
+
+COMPETITOR_PRODUCTS_MAP: dict[str, list[str]] = {
+    "Siemens":             ["xcelerator", "sinec", "simatic", "mindsphere", "mendix", "sinamics"],
+    "ABB":                 ["abb ability", "800xa", "abb motion", "abb electrification", "scalable"],
+    "Rockwell Automation": ["factorytalk", "allen-bradley", "plex systems", "logix", "vantagepoint"],
+    "Honeywell":           ["honeywell forge", "experion", "connected buildings", "honeywells"],
+    "Emerson":             ["deltav", "ovation", "aspentech", "plantweb", "fisher"],
+    "Yokogawa":            ["centum", "prosafe", "oprex", "stardom"],
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Utilities
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -434,13 +493,193 @@ def classify(text: str) -> tuple[str, str]:
     return "LOW", ""
 
 
-def why_matters(keyword: str, competitor: str = "") -> str:
-    """Return specific insight for keyword, or competitor-specific default."""
+def detect_vertical(text: str) -> str:
+    """Return the most specific vertical detected in lowercase text, or empty string."""
+    for vertical, keywords in VERTICAL_KEYWORDS.items():
+        if any(kw in text for kw in keywords):
+            return vertical
+    return ""
+
+
+def detect_geography(text: str) -> str:
+    """Return geography detected in lowercase text, or empty string."""
+    for geo, keywords in GEOGRAPHY_KEYWORDS.items():
+        if any(kw in text for kw in keywords):
+            return geo
+    return ""
+
+
+def detect_competitor_product(text: str, competitor: str) -> str:
+    """Return competitor product name if detected in lowercase text."""
+    for prod in COMPETITOR_PRODUCTS_MAP.get(competitor, []):
+        if prod.lower() in text:
+            # Title-case the product for readability
+            return prod.title()
+    return ""
+
+
+def extract_partner_from_headline(headline: str, competitor: str) -> str:
+    """
+    Extract partner company name from a partnership headline.
+    Looks for capitalised multi-token sequences that are not the competitor name,
+    not common verbs/prepositions, and not single-word generic adjectives.
+    """
+    comp_tokens = {t.lower() for t in re.findall(r"[a-zA-Z]+", competitor)}
+    skip_words = {
+        "with", "and", "to", "for", "in", "on", "at", "by", "partners", "partnership",
+        "announces", "signs", "agreement", "deal", "collaborate", "joins", "expands",
+        "new", "global", "digital", "industrial", "smart", "cloud", "ai", "iiot",
+        "ot", "sec", "major", "key", "leading", "strategic", "advanced",
+    }
+    words = headline.split()
+    current: list[str] = []
+    candidates: list[str] = []
+
+    for i, word in enumerate(words):
+        clean = re.sub(r"[^\w]", "", word)
+        if not clean:
+            if current:
+                candidates.append(" ".join(current))
+                current = []
+            continue
+
+        if clean.lower() in skip_words or clean.lower() in comp_tokens:
+            if current:
+                candidates.append(" ".join(current))
+                current = []
+            continue
+
+        if clean[0].isupper() and len(clean) > 2 and i > 0:
+            current.append(clean)
+        else:
+            if current:
+                candidates.append(" ".join(current))
+                current = []
+
+    if current:
+        candidates.append(" ".join(current))
+
+    # Return first multi-char candidate that looks like a proper noun
+    for cand in candidates:
+        if len(cand) > 2:
+            return cand
+    return ""
+
+
+def generate_why_matters(headline: str, summary: str, competitor: str, keyword: str) -> str:
+    """
+    Generate a signal-specific why_matters string by extracting context from
+    the actual headline and summary — not a static template.
+
+    Extracts: vertical, geography, partner name, competitor product.
+    Falls back to competitor-specific default only as last resort.
+    """
+    text = (headline + " " + summary).lower()
+
+    vertical = detect_vertical(text)
+    geo      = detect_geography(text)
+    product  = detect_competitor_product(text, competitor)
+
+    # Build readable context suffix
+    ctx_parts = []
+    if vertical:
+        ctx_parts.append(f"Vertical: {vertical.title()}.")
+    if geo:
+        ctx_parts.append(f"Region: {geo}.")
+    ctx = " " + " ".join(ctx_parts) if ctx_parts else ""
+
+    if keyword in ("partnership", "partner", "partners", "partnered", "collaborate"):
+        partner = extract_partner_from_headline(headline, competitor)
+        if partner:
+            return (
+                f"{competitor} is partnering with {partner}. Check if {partner} is in "
+                f"Schneider's ecosystem, a shared customer, or a competing channel partner."
+                f"{ctx} Update partner network map and flag displacement risk."
+            )
+        return (
+            f"New ecosystem partnership for {competitor} — assess reach overlap with "
+            f"Schneider's partner network and identify at-risk customer accounts.{ctx}"
+        )
+
+    if keyword in ("launch", "launches", "launched", "release", "releases", "released"):
+        prod_str = product if product else f"{competitor}'s platform"
+        return (
+            f"{prod_str} — new launch or release. Assess feature overlap with "
+            f"EcoStruxure and update competitive battlecards.{ctx}"
+        )
+
+    if keyword in ("acquisition", "acquires", "acquired", "acquire", "merger"):
+        return (
+            f"{competitor} acquiring capability — identify the domain being filled. "
+            f"Map against EcoStruxure stack gaps and flag customer overlap risk.{ctx}"
+        )
+
+    if keyword in ("contract", "win", "wins", "won"):
+        return (
+            f"Contract win for {competitor}. Confirm whether this is a Schneider "
+            f"account, adjacent account, or new territory.{ctx} Assess displacement risk."
+        )
+
+    if keyword in ("deploy", "deploys", "deployed", "deployment"):
+        return (
+            f"Live field deployment by {competitor}. Check for overlap with "
+            f"Schneider's installed base in this segment.{ctx}"
+        )
+
+    if keyword in ("vulnerability", "breach", "attack", "exploit", "cve", "zero-day"):
+        prod_str = f" in {product}" if product else ""
+        return (
+            f"Security event{prod_str} at {competitor}. Customers may reassess vendor "
+            f"risk. Prepare Schneider's security differentiation response and "
+            f"account team talking points."
+        )
+
+    if keyword in ("funding", "ipo", "deal", "billion", "million"):
+        return (
+            f"Major financial event — {competitor} gaining capital or closing a "
+            f"large commercial deal. Reassess competitive intensity and R&D "
+            f"acceleration risk in Schneider's target segments.{ctx}"
+        )
+
+    if keyword in ("appoints", "ceo", "cto", "ciso", "names", "hire"):
+        return (
+            f"Leadership change at {competitor}. New executives often signal "
+            f"strategic pivots — monitor messaging shifts over the next 90 days."
+        )
+
+    if keyword in ("expands", "expansion", "enters", "new market"):
+        return (
+            f"{competitor} expanding reach. Assess whether this moves them into "
+            f"Schneider's core accounts or geographies.{ctx}"
+        )
+
+    if keyword in ("report", "whitepaper", "white paper", "survey", "study", "research"):
+        return (
+            f"Competitor thought leadership shaping buyer criteria. "
+            f"Review for messaging gaps in Schneider's content strategy.{ctx}"
+        )
+
+    if keyword in ("award", "recognized", "certification", "certified"):
+        return (
+            f"{competitor} gaining industry recognition or certification. "
+            f"Assess whether Schneider holds equivalent credentials in this category.{ctx}"
+        )
+
+    if keyword in ("webinar", "event", "conference", "summit"):
+        return (
+            f"{competitor} investing in demand generation targeting the same buyer "
+            f"profiles.{ctx} Match or counter with Schneider content."
+        )
+
+    # Keyword-triggered static fallback (enriched with context)
     if keyword and keyword in WHY_MATTERS:
-        return WHY_MATTERS[keyword]
-    return COMPETITOR_DEFAULT_WHY.get(
-        competitor,
-        "Monitor for competitive positioning impact on Schneider's accounts and messaging."
+        base = WHY_MATTERS[keyword]
+        return base + ctx if ctx else base
+
+    # Last resort: competitor-specific default
+    default = COMPETITOR_DEFAULT_WHY.get(competitor, "")
+    return (default + ctx) if (default and ctx) else (
+        default or "Monitor for competitive positioning impact on Schneider's accounts and messaging."
     )
 
 
@@ -600,8 +839,17 @@ def is_recent(date_str: str) -> bool:
 
 
 def mentions_competitor(text: str, competitor: dict) -> bool:
+    """
+    Check that at least one competitor alias appears as a whole word in text.
+    Uses word-boundary regex to prevent substring false positives
+    (e.g. 'plex' matching 'complex', 'abb' matching 'scabbard').
+    """
     text_lower = text.lower()
-    return any(alias.lower() in text_lower for alias in competitor["aliases"])
+    for alias in competitor["aliases"]:
+        pattern = r'\b' + re.escape(alias.lower()) + r'\b'
+        if re.search(pattern, text_lower):
+            return True
+    return False
 
 
 def make_item(competitor: str, headline: str, date: str, url: str,
@@ -614,7 +862,7 @@ def make_item(competitor: str, headline: str, date: str, url: str,
         "url":         url,
         "priority":    priority,
         "summary":     summary.strip()[:200],
-        "why_matters": why_matters(kw, competitor),
+        "why_matters": generate_why_matters(headline, summary, competitor, kw),
         "source":      source,
         "publisher":   publisher,
     }
@@ -816,21 +1064,31 @@ def scrape_sec_edgar(competitor: dict) -> list[dict]:
         )
 
         desc_label = desc or "8-K Filing"
+        sec_headline = f"{competitor['name']} SEC 8-K: {desc_label} ({date})"
+        sec_summary  = (
+            f"SEC 8-K regulatory filing by {competitor['name']} dated {date}. "
+            f"Filing type: {desc_label}."
+        )
+        # Classify the filing type to pick a relevant keyword for why_matters
+        filing_lower = desc_label.lower()
+        if any(t in filing_lower for t in ["merger", "acquisition", "definitive agreement"]):
+            sec_kw = "acquisition"
+        elif any(t in filing_lower for t in ["results", "earnings", "revenue"]):
+            sec_kw = "report"
+        elif any(t in filing_lower for t in ["departure", "appointment", "officer"]):
+            sec_kw = "appoints"
+        elif any(t in filing_lower for t in ["agreement", "contract"]):
+            sec_kw = "contract"
+        else:
+            sec_kw = "deal"  # generic material event
         items.append({
             "competitor":  competitor["name"],
-            "headline":    f"{competitor['name']} SEC 8-K: {desc_label} ({date})",
+            "headline":    sec_headline,
             "date":        date,
             "url":         link,
             "priority":    "MEDIUM",
-            "summary":     (
-                f"SEC 8-K regulatory filing by {competitor['name']} dated {date}. "
-                f"Filing type: {desc_label}."
-            ),
-            "why_matters": (
-                "Regulatory filing may contain material business events — "
-                "review for M&A, restructuring, major contract, or guidance changes "
-                "that signal strategic direction shifts impacting Schneider."
-            ),
+            "summary":     sec_summary,
+            "why_matters": generate_why_matters(sec_headline, sec_summary, competitor["name"], sec_kw),
             "source":      "SEC EDGAR",
             "publisher":   "SEC EDGAR",
         })
@@ -889,17 +1147,16 @@ def scrape_industry_feeds(all_competitors: list[dict]) -> dict[str, list[dict]]:
     Uses first-word short aliases for broader matching (e.g. 'ABB', 'Siemens').
     Returns {competitor_name: [items]}.
     """
-    # Build short-alias lookup: alias -> competitor_name
-    # Short aliases: first word only, or the full alias if it's one word
-    alias_map: dict[str, str] = {}
+    # Build alias lookup: alias -> competitor_name
+    # Each alias is stored with a pre-compiled word-boundary pattern to prevent
+    # substring false positives (e.g. 'plex' matching 'complex').
+    # First-word expansion removed — it was the root cause of false positives.
+    alias_patterns: list[tuple[re.Pattern, str]] = []
     for c in all_competitors:
         for alias in c["aliases"]:
             alias_lower = alias.lower()
-            alias_map[alias_lower] = c["name"]
-            # Also add first word if multi-word alias
-            first_word = alias_lower.split()[0]
-            if len(first_word) > 2:  # skip very short tokens
-                alias_map.setdefault(first_word, c["name"])
+            pattern = re.compile(r'\b' + re.escape(alias_lower) + r'\b')
+            alias_patterns.append((pattern, c["name"]))
 
     results: dict[str, list[dict]] = {c["name"]: [] for c in all_competitors}
 
@@ -922,10 +1179,11 @@ def scrape_industry_feeds(all_competitors: list[dict]) -> dict[str, list[dict]]:
 
             text_lower = (headline + " " + summary).lower()
 
-            # Detect which competitors appear in this article
+            # Detect which competitors appear in this article using word-boundary patterns.
+            # Prevents false positives from substring matches (e.g. 'plex' in 'complex').
             matched = set()
-            for alias_lower, comp_name in alias_map.items():
-                if alias_lower in text_lower:
+            for pattern, comp_name in alias_patterns:
+                if pattern.search(text_lower):
                     matched.add(comp_name)
 
             for comp_name in matched:
