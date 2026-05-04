@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-04T15:55:31Z",
+  "last_updated": "2026-05-04T17:20:55Z",
   "items": [
-    {
-      "competitor": "ABB",
-      "headline": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026",
-      "date": "2026-05-04",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc1RZNWFwYlpIeXBoTF9tdHNSNUFsdVhEQ3hBOUJSXy10akd4YUNBZVZzcUtQS2RPbDNOX1N1TlMzY3h2Wm5TTE1qYjBFNVZRWlcxMmdBR2xMMzJrT2FST2tRUkVoa1I0NVR4N0tVc3hhN3F6RjVsN1FOOXJNd1hEM0dleDhJbXI0cXFsSWpoSDlXSm11YTZidmNJN2Itc1BZVVM0MDlhalo2YlJ5UWVTSnZSVXFiNXNOblptVmJuMA?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026&nbsp;&nbsp;Machine Maker",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
-      "source": "Google News",
-      "publisher": "Machine Maker"
-    },
     {
       "competitor": "Emerson",
       "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
@@ -88,6 +77,17 @@
       "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXJQQmxiYjkyM3NPZmE1UUVxMEpueUdTTExhYTJmQ05jZWxZMHVPcC1lQmlGNnU0Skc4bzVvWUhDTERCMHBKMEtIcG5vWnY2djNLcE9Ta2J4YjIzUkRqS2ZaMXlLb2tPY0hrWWpuanlvRWY3VUZwNGtISFMwcS13QW02cGVuR0xNVFdGaVRDQWh6c19KWnd1cTVUQ1lXNlV5SG9IMjZDYjA4VkhOdTVhNV9Mc20yUFZp?oc=5",
+      "priority": "LOW",
+      "summary": "ABB highlights commitment to future-proofing metals operations at AISTech 2026&nbsp;&nbsp;ABB",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "Siemens",
@@ -231,6 +231,28 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Siemens is partnering with Nvidia. Check if Nvidia is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Manufacturing. Update partner network map and flag displacement risk.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa lands cyber certification for plant control systems",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
+      "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
+      "source": "Google News",
+      "publisher": "SecurityBrief Asia"
     },
     {
       "competitor": "Emerson",
