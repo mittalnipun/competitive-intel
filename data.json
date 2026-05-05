@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T15:41:32Z",
+  "last_updated": "2026-05-05T17:13:35Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -36,14 +36,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Demonstrates the Future of Industrial Operations at Interpack 2026",
+      "headline": "Rockwell, Teradyne, Tesla see automation demand despite uncertainty",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmZDaDRtS0UxSEM0NDBFLWJwa01ybU1iWlJqUWtHeWYwNUtJcDBCV0owV05jd3JOZzU5eU8yRUFEQTBXUzZVemtibDZqV1poTG1iUjRyOVltek1ISWplazEwaElVXzdiZktsclhtUnpDVDlNX19pNEdla254YmhKUG1Nbzk1Q0VuSjBLdXZkanJzUlFvcS1JWmIwQ1NEMC1ab3RlX1lZZHhqWkFOaGhIQzQxdjg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd1JuZlRSb2lNX1JXRWZ6X3VnZlRsYm5vZ2Q5OEZ2aUFIbkNCRHFQX2g2VGM0ZWp4YWJ0ek1ZTHZEQ3NoQWZzQXMyaVNSQ0V3VTBLY213NC1pYktqVkg1QjV3WmgwbDM4eERNSGluYnNqUGVTOXFldFFVU2htSEdqQXJYTDJaWkxsSEtJREFBX3l0ZEwxeEJfSkNZcUJyTHRUSnFqNTdCbm5RZ3kxN2VUaGItRFNWS1ZU?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation Demonstrates the Future of Industrial Operations at Interpack 2026&nbsp;&nbsp;Process and Control Today",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "summary": "Rockwell, Teradyne, Tesla see automation demand despite uncertainty&nbsp;&nbsp;Manufacturing Dive",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
-      "publisher": "Process and Control Today"
+      "publisher": "Manufacturing Dive"
     },
     {
       "competitor": "Emerson",
@@ -66,6 +66,17 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Robotics launches new automated surface finishing cell",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHEweXNUaDQ0dkx4SHo4Y3NrRFdMQnVsb2VaX0ttUHBkRXhXQXlsTi1NemVlT0h6LVFBX0VHY1Q1b2l6ZWpVNjVJR0dqU0tkUjB3MU9hTUEwS05lZnVxRlZzNHRmTEhMV3dyakNCSHlGX2dIbmxwRW5oZFpHQ1hUS1Fzc0dBNlJhMXJ4MU53ZENxN1pFV2JMdm52RHlCbVBwVEE3S25pUml0Vi1ILTNlY204RGlXdw?oc=5",
+      "priority": "HIGH",
+      "summary": "ABB Robotics launches new automated surface finishing cell&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "ABB's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
     },
     {
       "competitor": "Yokogawa",
@@ -102,17 +113,6 @@
     },
     {
       "competitor": "ABB",
-      "headline": "ABB Robotics’ autonomous mobile robot wins prestigious design award",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRXJFQ1ExYnhlM0pENHhIZVVFQWF1cGl0MDd0WEZFZEdnUkxyeWFjRTl1RXBCY29HSGt0VC1uVXBTeHdhTTBMUU13Z0lhb3U1Q2VhRUVzUTJ2a2RUelU1UUR1UFl4S2QxT0RVTmZtOG1xUTdweGlUSmxZMW9hZ1dWeWpzb1ZzVXNCcklraHp2V3ZncnRZQm9rZGxPZ3lDWlhrWjFCcjctTzlaamhsSlFpekdIOWlSamJyWVoyQ254bjM?oc=5",
-      "priority": "HIGH",
-      "summary": "ABB Robotics’ autonomous mobile robot wins prestigious design award&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
-      "competitor": "ABB",
       "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
       "date": "2026-04-29",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXJQQmxiYjkyM3NPZmE1UUVxMEpueUdTTExhYTJmQ05jZWxZMHVPcC1lQmlGNnU0Skc4bzVvWUhDTERCMHBKMEtIcG5vWnY2djNLcE9Ta2J4YjIzUkRqS2ZaMXlLb2tPY0hrWWpuanlvRWY3VUZwNGtISFMwcS13QW02cGVuR0xNVFdGaVRDQWh6c19KWnd1cTVUQ1lXNlV5SG9IMjZDYjA4VkhOdTVhNV9Mc20yUFZp?oc=5",
@@ -121,6 +121,17 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
       "source": "Google News",
       "publisher": "ABB"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzFPaW9tN2ZyVExzQWV4VWtvTGZ2YjBhbld4Rkh4Y2NlWGVsNlFYemNXMzhjeUNIaVczVmZOdkdOYm5JWUV1VmlKMDlHUHZBSFlRdzlGMXo1MVVyRzkxYW4tV0h2ZE9JV2x3YWRkV3JKd3g0OHh2WUZzbllkdHZ1RnpNUFI4RnZfYUpRTjM4eHBtLS1UVFBucnkzNlZiWnQybE4zZjJPamgtZW5NMG4tUVN5RmdibFF4cWJPNWZjdlZXY256RXlSdC1UU0xqRTg1cXBtLQ?oc=5",
+      "priority": "LOW",
+      "summary": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves&nbsp;&nbsp;New Orleans Saints | NewOrleansSaints.com",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "New Orleans Saints | NewOrleansSaints.com"
     },
     {
       "competitor": "Siemens",
