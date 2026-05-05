@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-05-05T09:50:57Z",
+  "last_updated": "2026-05-05T11:09:51Z",
   "items": [
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
+      "date": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
+      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Reports Second Quarter 2026 Results",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1N1TFZ4dWdxUDlHdXJ6UmNaZ05jazN3UFZBX1ZTRVdzOTZ2UWNFaXV3VjJQOE5TVWN4bFZOdTFvM2paUlZ3dUhwaUtiTW9CczlFeDlHSlBJX1JiYXUwLURBS1pmemM4X3NIUERreXlnRHBwOExxejRrNm9sY01ScEhXQUZXTmVlQ21aOWx6STBXMTFMRUEtU1Rqblc0ZGs1Tk1wbC1zMkEyOG5vV3NBMlB3?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Reports Second Quarter 2026 Results&nbsp;&nbsp;Business Wire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "Business Wire"
+    },
     {
       "competitor": "ABB",
       "headline": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026",
@@ -167,17 +189,6 @@
       "publisher": "Reuters"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0cyQldBTXZkd2FkSzdGWjh4S1Fhb3JwemVGWFZLaTlTX1BfcFV0N1EzYmtlSHkzTDlMQmNGV3dtQ2t4Q3BwOVZMRk01clVaYlVTVXFLdk1QNEM3V0x0cTJGUDZpbVJDTmdiS2VoVVNGQmg5ck5uaUdoMjNPcExobWlDYWMtcmdzd0I5THl2NXpCbzR4czNxVFpETzhoSlBjaXhVMF9ScnUtOEo3Qi13SXF3RTBmUGNM?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;marketscreener.com",
-      "why_matters": "Competitor thought leadership shaping buyer criteria. Review for messaging gaps in Schneider's content strategy. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "marketscreener.com"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
@@ -244,17 +255,6 @@
       "publisher": "SecurityBrief Asia"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHpGa1ktTlh0M096TWw4d0JHOG1NYzkyUWFMVmZZT2xURXVhUmNVYlVYb3pBUUxkZ2pVbjBMWXU1bzNzd2Z4WEctdVh3b3Z1bXYyMjAxSms5YWVrZzZUOUZ6SmJOY25CMDFtT2NfcW1FVmR5bUxaSTltdGZycGE5VDQ5WjU5Smk0bGp3aVhERWFhSHNHNERPQVJoLXhDTU1VQkcyM3pIN3ppc2tTYlU2TUtSc2NXTlN5LXlmcUFDUmxGTlJHZTJ5cTN6d09xc3FVdEhXYV9ZZE5vbGVQSERkWldB?oc=5",
-      "priority": "HIGH",
-      "summary": "ABB partners with Jacobi Robotics to roll out AI-powered palletizing for integrator network&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "ABB is partnering with Jacobi Robotics. Check if Jacobi Robotics is in Schneider's ecosystem, a shared customer, or a competing channel partner. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
       "date": "2026-04-09",
@@ -264,17 +264,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Middle East.",
       "source": "Google News",
       "publisher": "Gulf Business"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV2Z1bTRrUkxGS284ZDQtTmQtVFZLNE85cjR6NjZFT051Qkl5ZzZNZ2FKMUxiVERleEhTbzdYb25oMUdheXFtNDFCMzNlaE5lS0lxWm1lRHRpdzc5YTB3dTIzeWF2dG5rWTYyTE1UWFZYbzBUcjg1cmxlMzg5dWlCX2tvVzB6N0VHSlpyU1ZTZ3hLN3ZBMUxzQ1lLWWJJb3MtMEhycVVneFdGcWZra3hBWGtPMVhwRWNXNUpEMjl0bTVVRDBOMWRFWTJYdW0tcG1Ca1JVSV9QQjA2M2xkY2std3RjUkY0Qm5tYncyZXdMZk8?oc=5",
-      "priority": "LOW",
-      "summary": "Rolls-Royce and Yokogawa collaborate on small nuclear reactors&nbsp;&nbsp;controlglobal.com",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Critical Infrastructure.",
-      "source": "Google News",
-      "publisher": "controlglobal.com"
     },
     {
       "competitor": "Siemens",
