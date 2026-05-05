@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T22:46:20Z",
+  "last_updated": "2026-05-05T01:27:09Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -13,6 +13,17 @@
       "publisher": "MSN"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation earnings in focus as margin question looms",
+      "date": "2026-05-04",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaDdocC1VbXBKWThkLVo2aldQU3NqMVhoZHJzMUdPVjRaaXpMY09ydU00cWlieHVVNm91SEZaN0xxRGktUFlvNFZPUUQ3V0F1dmdMQnlFZGVxeTdBVUVrODFzU2tnbE1SaWpBWmtJalpzeFhSR1U5VzZ4WlZZeUhtOVYwUzZKM3AwczJoT0UxMDNLdVp5VWJ6WlgyY2NpQXJqZHc2M1dCdmlzTF9UNmdjeW5qYmtFXzA1N2xta1k3Vzg?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation earnings in focus as margin question looms&nbsp;&nbsp;Investing.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Investing.com"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
       "date": "2026-05-02",
@@ -22,6 +33,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "simplywall.st"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens Industrial Edge ecosystem strengthens data and AI integration",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3RsRlgyYk9sa09uT3dDQi1QTHl2aXB4ZXZ3UTlvQzQ4R1FUNG1oU2ZpdG5NeXJDYzlCR0VlS1FPcmo4THFDendTR1g1R3dmVnZoYndjUy1TVlF5R3MxU0NVdWZQeWh6cnk1eHNWYTJuYUNnSjN0TktPcVFxYUF1Yk5XbzY5V3NmczA4NEliT3l5TmV5aE41X3hB?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Siemens Industrial Edge ecosystem strengthens data and AI integration&nbsp;&nbsp;Cutting Tool Engineering",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
+      "source": "Google News",
+      "publisher": "Cutting Tool Engineering"
     },
     {
       "competitor": "Yokogawa",
@@ -90,17 +112,6 @@
       "publisher": "Tata Consultancy Services"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Siemens Industrial Edge ecosystem strengthens data and AI integration",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTUJETnFuTTNZT1MzeU5pelMydUZzMFdlc2lKUVRLNkMwejJYamIwZ1luQUppU1Q2V3lPekpOal9VMWdxc3Myd2Y2WmlCeVk4cHlGVERUazFsV0Y5VlMySkJzZWlreVJkN2VwTjdVNEtsQUVTZ0lrSEJJY1ZzY1FxblRINENRb21aRERKUUkyU0lOT0NtRUhMNzR2Z0VWUlNFbVdnRlJuZVNkSDUy?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Siemens Industrial Edge ecosystem strengthens data and AI integration&nbsp;&nbsp;IoT Now",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
-      "source": "Google News",
-      "publisher": "IoT Now"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "American Industrial Partners to acquire Honeywell warehouse automation",
       "date": "2026-04-24",
@@ -146,14 +157,25 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
+      "headline": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
       "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelBpdnlLOFNMWUhFRUdNTDU2X1hIcThKU1oxb0ZJUmpReGd4ZkF3ZE1DYVV4OGp0NHRnNDd0b2VtV29wcVRGaFI3RHptYklRSGw3NnNBblVJcWZmc2lJek9OMllYWGdYVGRqNGN0WXJNSldvNmJQd3N3V0NLQVJOWVhjTVJHS2lvcGZCRTVjUFBsdVpHNENaOHZ2Vnh2ZWY4dHF0RVVlZUdSaUhnc1Viek93?oc=5",
-      "priority": "HIGH",
-      "summary": "Press Release: Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Moomoo",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Vertical: Transportation.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0cyQldBTXZkd2FkSzdGWjh4S1Fhb3JwemVGWFZLaTlTX1BfcFV0N1EzYmtlSHkzTDlMQmNGV3dtQ2t4Q3BwOVZMRk01clVaYlVTVXFLdk1QNEM3V0x0cTJGUDZpbVJDTmdiS2VoVVNGQmg5ck5uaUdoMjNPcExobWlDYWMtcmdzd0I5THl2NXpCbzR4czNxVFpETzhoSlBjaXhVMF9ScnUtOEo3Qi13SXF3RTBmUGNM?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;marketscreener.com",
+      "why_matters": "Competitor thought leadership shaping buyer criteria. Review for messaging gaps in Schneider's content strategy. Vertical: Transportation.",
       "source": "Google News",
-      "publisher": "Moomoo"
+      "publisher": "marketscreener.com"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Advances Chocolate Shoppe Ice Cream Production Improvements with Plex Technologies",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUE1nT3doSDdPRmlVRUpkQkxSd0xnak1lTW10WmxFS1RSdXhoM3p2d3lFQW5sM3diRjZ6Y3pwWG01Yy1RMjZfYnEzX3dlT280U2VLNXh1OUpPeW1PaEdnbnMta0pJX09wcTdwRzJ2VkItb3Z6WWpwMGFLc2RIa3pnZ25ISFJzX1J4ZXI5UnhIcVU2cHBpUDBOYVJrdm1fbVYtWm83Y2dFZWpibDh6S0dmWUFTZXFsa3NhZzZoWF9hQ0k4Mk16Wmp6TG9ueWtxWlYzQncyTjZ2UnZKcmxDUUdyYmVIbV84YU9HNkFlSXdiNA?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Advances Chocolate Shoppe Ice Cream Production Improvements with Plex Technologies&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
     },
     {
       "competitor": "Emerson",
@@ -209,17 +231,6 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
-      "date": "2026-04-16",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "Siemens is partnering with Nvidia. Check if Nvidia is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Manufacturing. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
     },
     {
       "competitor": "Yokogawa",
