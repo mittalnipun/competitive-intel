@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-05T20:51:53Z",
+  "last_updated": "2026-05-05T22:44:38Z",
   "items": [
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
+      "priority": "HIGH",
+      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
+      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
+      "source": "Google News",
+      "publisher": "Quiver Quantitative"
+    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Should Rockwell’s Stronger Q2 2026 Profitability Shift the Investment Thesis for Rockwell Automation (ROK) Investors?",
@@ -11,28 +22,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
-      "date": "2026-05-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
-      "priority": "MEDIUM",
-      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
-      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
-      "source": "SEC EDGAR",
-      "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeHhLVDhIU1E1RmZuaWhjN1JrUEZRRWNiMXRtOGxLSUxNdm02YWlZcW9tRWxLNkh6ZGlBWkg4R04wWnZKbjUxY0t2YkVOQ011LVhFcjVjMXF6RThfeTZhUnE1U3Y5V0VSa1VJWmVuczFpaDRXc29FSEgzNDVWTjJncEtablRnZnVYeWtDRmthUzdlMnhaUnh3bUZ2NHlkX2FqeXIzWUttSm9EbGdMcnZqRmFNZ3Q5enpFXzJoQmZLVjVxTFBrc1dWMzRtcDdTRjBqN3VRSDFxSUMtUjA?oc=5",
-      "priority": "LOW",
-      "summary": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock&nbsp;&nbsp;Investing.com",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "Investing.com"
     },
     {
       "competitor": "Rockwell Automation",
@@ -154,6 +143,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "New Orleans Saints | NewOrleansSaints.com"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "TCS and ABB strengthen strategic IT, AI, and engineering partnership",
+      "date": "2026-04-28",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd181S0thUFRWUUhpMjVEbF9aSkQzaGhiTExQTEsza2Y4SWRPcl9pSldqd28wYWZXTVhOVUo5Vy11MEZJR2JYZHZ2Y09aZjJwTkdPRUJ2VlFfR0FYMkhNdEFEaVNKNnJZVnlua1REdV9melF1d3poWVJHVUYxMFpnVHhVck9fSDlSRE4xaXlucWxTenBoUjgzMXRyblpxdE9naURYR2NlczY1T2FHQUY3d3l3?oc=5",
+      "priority": "HIGH",
+      "summary": "TCS and ABB strengthen strategic IT, AI, and engineering partnership&nbsp;&nbsp;Tata Consultancy Services",
+      "why_matters": "New ecosystem partnership for ABB — assess reach overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "source": "Google News",
+      "publisher": "Tata Consultancy Services"
     },
     {
       "competitor": "Siemens",
