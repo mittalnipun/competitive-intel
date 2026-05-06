@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-06T01:24:58Z",
+  "last_updated": "2026-05-06T05:18:29Z",
   "items": [
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Demonstrates the Future of Industrial Operations at Interpack 2026",
+      "date": "2026-05-06",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmZDaDRtS0UxSEM0NDBFLWJwa01ybU1iWlJqUWtHeWYwNUtJcDBCV0owV05jd3JOZzU5eU8yRUFEQTBXUzZVemtibDZqV1poTG1iUjRyOVltek1ISWplazEwaElVXzdiZktsclhtUnpDVDlNX19pNEdla254YmhKUG1Nbzk1Q0VuSjBLdXZkanJzUlFvcS1JWmIwQ1NEMC1ab3RlX1lZZHhqWkFOaGhIQzQxdjg?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Demonstrates the Future of Industrial Operations at Interpack 2026&nbsp;&nbsp;Process and Control Today",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Process and Control Today"
+    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Should Rockwell’s Stronger Q2 2026 Profitability Shift the Investment Thesis for Rockwell Automation (ROK) Investors?",
@@ -112,17 +123,6 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB Robotics launches new automated surface finishing cell",
-      "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHEweXNUaDQ0dkx4SHo4Y3NrRFdMQnVsb2VaX0ttUHBkRXhXQXlsTi1NemVlT0h6LVFBX0VHY1Q1b2l6ZWpVNjVJR0dqU0tkUjB3MU9hTUEwS05lZnVxRlZzNHRmTEhMV3dyakNCSHlGX2dIbmxwRW5oZFpHQ1hUS1Fzc0dBNlJhMXJ4MU53ZENxN1pFV2JMdm52RHlCbVBwVEE3S25pUml0Vi1ILTNlY204RGlXdw?oc=5",
-      "priority": "HIGH",
-      "summary": "ABB Robotics launches new automated surface finishing cell&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "ABB's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
-    },
-    {
       "competitor": "Yokogawa",
       "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
       "date": "2026-05-01",
@@ -157,14 +157,25 @@
     },
     {
       "competitor": "ABB",
-      "headline": "TCS and ABB strengthen strategic IT, AI, and engineering partnership",
-      "date": "2026-04-28",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd181S0thUFRWUUhpMjVEbF9aSkQzaGhiTExQTEsza2Y4SWRPcl9pSldqd28wYWZXTVhOVUo5Vy11MEZJR2JYZHZ2Y09aZjJwTkdPRUJ2VlFfR0FYMkhNdEFEaVNKNnJZVnlua1REdV9melF1d3poWVJHVUYxMFpnVHhVck9fSDlSRE4xaXlucWxTenBoUjgzMXRyblpxdE9naURYR2NlczY1T2FHQUY3d3l3?oc=5",
+      "headline": "ABB Robotics’ autonomous mobile robot wins prestigious design award",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRXJFQ1ExYnhlM0pENHhIZVVFQWF1cGl0MDd0WEZFZEdnUkxyeWFjRTl1RXBCY29HSGt0VC1uVXBTeHdhTTBMUU13Z0lhb3U1Q2VhRUVzUTJ2a2RUelU1UUR1UFl4S2QxT0RVTmZtOG1xUTdweGlUSmxZMW9hZ1dWeWpzb1ZzVXNCcklraHp2V3ZncnRZQm9rZGxPZ3lDWlhrWjFCcjctTzlaamhsSlFpekdIOWlSamJyWVoyQ254bjM?oc=5",
       "priority": "HIGH",
-      "summary": "TCS and ABB strengthen strategic IT, AI, and engineering partnership&nbsp;&nbsp;Tata Consultancy Services",
-      "why_matters": "New ecosystem partnership for ABB — assess reach overlap with Schneider's partner network and identify at-risk customer accounts.",
+      "summary": "ABB Robotics’ autonomous mobile robot wins prestigious design award&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
       "source": "Google News",
-      "publisher": "Tata Consultancy Services"
+      "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzFPaW9tN2ZyVExzQWV4VWtvTGZ2YjBhbld4Rkh4Y2NlWGVsNlFYemNXMzhjeUNIaVczVmZOdkdOYm5JWUV1VmlKMDlHUHZBSFlRdzlGMXo1MVVyRzkxYW4tV0h2ZE9JV2x3YWRkV3JKd3g0OHh2WUZzbllkdHZ1RnpNUFI4RnZfYUpRTjM4eHBtLS1UVFBucnkzNlZiWnQybE4zZjJPamgtZW5NMG4tUVN5RmdibFF4cWJPNWZjdlZXY256RXlSdC1UU0xqRTg1cXBtLQ?oc=5",
+      "priority": "LOW",
+      "summary": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves&nbsp;&nbsp;New Orleans Saints | NewOrleansSaints.com",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "New Orleans Saints | NewOrleansSaints.com"
     },
     {
       "competitor": "Siemens",
