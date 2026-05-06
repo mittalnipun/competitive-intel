@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-05T22:44:38Z",
+  "last_updated": "2026-05-06T01:24:58Z",
   "items": [
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
-      "priority": "HIGH",
-      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Quiver Quantitative"
-    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Should Rockwell’s Stronger Q2 2026 Profitability Shift the Investment Thesis for Rockwell Automation (ROK) Investors?",
@@ -22,6 +11,28 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
+      "date": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
+      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUdPcUJvY0t3RFl0Qkl2MDd5a0d5M1ZmcUdFOUlWQjN1TzVSQTNEYXpmMUZOZU9EY0s2RGJnRlhLOGN2SUtZYUxrcmxuQ0NmVWNDSEtLdkhNclJ6QU9UanhyTmdLeHZTZUxKUVh6dHNsUnAwZjh1Ym5WTzVuZmViQmdSaC04S0d5V2lnQmRCdVl1c29UVDBuOTBfSHpRWE9qZVBxRnZFYXJIamhmelZfQ1VwUG11VE1tZmVWOUVPZ2pYekpRNnFkYU91V29HemVh?oc=5",
+      "priority": "LOW",
+      "summary": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock&nbsp;&nbsp;Investing.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Investing.com"
     },
     {
       "competitor": "Rockwell Automation",
@@ -47,6 +58,17 @@
     },
     {
       "competitor": "Emerson",
+      "headline": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWUhpSm45elVWcm9XNG9CRjVpOFotS3Vod25Za2FsVWFtQWllNXBpOGUzcWo3amIxM2VqRktjVm56TXlBd2VvM3R6RDFXSWZIQUZSSUNWLTVkbUt4cnlTWFpNaU96amh3a2dOYmczdzNvekp2OGJLRVI4NVlRaHItLWN6QWZZZkgtUzlCUnRVOTRrVTlUVTR4MlQ0UTBPZnphdGdXMDlpMXVsY3VBdmNaQmphNzA2R1pNYTVBQ01hMGFER01zUktwLTNEamdwTlFTbV96WTJoV3RIYTNMamfSAd4BQVVfeXFMUFlIaUpuOXpVVnJvVzRvQkY1aThaLUt1aHduWWthbFVhbUFpZTVwaThlM3FqN2piMTNlakZLY1Zuek15QXdlbzN0ekQxV0lmSEFGUklDVi01ZG1LeHJ5U1haTWlPempod2tnTmJnM3czb3pKdjhiS0VSODVZUWhyLS1jekFmWWZILVM5QlJ0VTk0a1U5VFU0eDJUNFEwT2Z6YXRnVzA5aTF1bGN1QXZjWkJqYTcwNkdaTWE1QUNNYTBhREdNc1JLcC0zRGpncE5RU21felkyaFd0SGEzTGpn?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus&nbsp;&nbsp;AlphaStreet",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "AlphaStreet"
+    },
+    {
+      "competitor": "Emerson",
       "headline": "Emerson earnings on deck: Can automation momentum fuel accelerating growth? By Investing.com",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaURZbE1zQ2EtZnBqU3lRR3RFank5MUZGeEp6QVpOWEVkZkRPTk5ZZUlDcGRrZTVCZ1BSYk1yYWdSNWc4N3dCcnpKNE1jLUp5QTg5Rk5QMFczMWtwMmprWXVSWHM0Q0VuMC1UQnRaTE5SN3o5dDdNcTc1d1d3cXdqQ2p6ZWxPSG40ck54ejc5YUdBU0dUdTJJTmdnZzFXVDhzXy1nWTZnRVduQWp3LVFjb25raHRQVmN3cWRLZklNRFFJbGlNbERNRXRIT1FIMi15YTAw?oc=5",
@@ -55,6 +77,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Investing.com South Africa"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026",
+      "date": "2026-05-04",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc1RZNWFwYlpIeXBoTF9tdHNSNUFsdVhEQ3hBOUJSXy10akd4YUNBZVZzcUtQS2RPbDNOX1N1TlMzY3h2Wm5TTE1qYjBFNVZRWlcxMmdBR2xMMzJrT2FST2tRUkVoa1I0NVR4N0tVc3hhN3F6RjVsN1FOOXJNd1hEM0dleDhJbXI0cXFsSWpoSDlXSm11YTZidmNJN2Itc1BZVVM0MDlhalo2YlJ5UWVTSnZSVXFiNXNOblptVmJuMA?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026&nbsp;&nbsp;Machine Maker",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
+      "source": "Google News",
+      "publisher": "Machine Maker"
     },
     {
       "competitor": "Emerson",
@@ -121,28 +154,6 @@
       "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Vertical: Manufacturing.",
       "source": "Google News",
       "publisher": "Manufacturing Chemist"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXJQQmxiYjkyM3NPZmE1UUVxMEpueUdTTExhYTJmQ05jZWxZMHVPcC1lQmlGNnU0Skc4bzVvWUhDTERCMHBKMEtIcG5vWnY2djNLcE9Ta2J4YjIzUkRqS2ZaMXlLb2tPY0hrWWpuanlvRWY3VUZwNGtISFMwcS13QW02cGVuR0xNVFdGaVRDQWh6c19KWnd1cTVUQ1lXNlV5SG9IMjZDYjA4VkhOdTVhNV9Mc20yUFZp?oc=5",
-      "priority": "LOW",
-      "summary": "ABB highlights commitment to future-proofing metals operations at AISTech 2026&nbsp;&nbsp;ABB",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
-      "source": "Google News",
-      "publisher": "ABB"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQXzFPaW9tN2ZyVExzQWV4VWtvTGZ2YjBhbld4Rkh4Y2NlWGVsNlFYemNXMzhjeUNIaVczVmZOdkdOYm5JWUV1VmlKMDlHUHZBSFlRdzlGMXo1MVVyRzkxYW4tV0h2ZE9JV2x3YWRkV3JKd3g0OHh2WUZzbllkdHZ1RnpNUFI4RnZfYUpRTjM4eHBtLS1UVFBucnkzNlZiWnQybE4zZjJPamgtZW5NMG4tUVN5RmdibFF4cWJPNWZjdlZXY256RXlSdC1UU0xqRTg1cXBtLQ?oc=5",
-      "priority": "LOW",
-      "summary": "Anfernee Jennings, Martin Emerson Jr. sign with Saints | 2026 Roster Moves&nbsp;&nbsp;New Orleans Saints | NewOrleansSaints.com",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "New Orleans Saints | NewOrleansSaints.com"
     },
     {
       "competitor": "ABB",
@@ -286,6 +297,17 @@
       "why_matters": "Siemens is partnering with Energy. Check if Energy is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Data Center. Update partner network map and flag displacement risk.",
       "source": "Google News",
       "publisher": "SDxCentral"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Mariners top prospect Colt Emerson focused on rewards, not risks of his new contract",
+      "date": "2026-04-06",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9paWlTNi1fd3pUT3MxMWlzLVRyR19ZUG9EdUwxSDNSbWdyUjcyQng4dy1SSHRXcGlTSFdybHhlSjRVRV9wT240VEp6bV9STDhsbHU0VHVhZWhiQkpxZmlGeE1EclRCSmFnLWJ5aHRfcWZiaTczTk43U2FnMjQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Mariners top prospect Colt Emerson focused on rewards, not risks of his new contract&nbsp;&nbsp;Newsday",
+      "why_matters": "Contract win for Emerson. Confirm whether this is a Schneider account, adjacent account, or new territory. Vertical: Transportation. Assess displacement risk.",
+      "source": "Google News",
+      "publisher": "Newsday"
     }
   ]
 }
