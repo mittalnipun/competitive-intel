@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-07T15:59:22Z",
+  "last_updated": "2026-05-07T17:45:07Z",
   "items": [
-    {
-      "competitor": "ABB",
-      "headline": "ABB Showcases B&R-Based Packaging Automation at Interpack 2026",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1Y0WkxjalZSbkpBVFZFNzdJYnU2V2huc2paTTVfTEtucE9tUkl3aWRBRmJmTEVUN0g0Uk1lRXd0aGl1enc3THNHUDFkODIzZDJZLWZHWF9IT25LMnhVcHhxN2k0OHI5aWdsX3NJeFhtbXRoOEo5QllpanZtWUVIdmNkWTdiVnpIc2FCR2dPa1EwaGM?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Showcases B&amp;R-Based Packaging Automation at Interpack 2026&nbsp;&nbsp;geneonline.com",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "geneonline.com"
-    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation to Present at Wolfe Research Conference on May 7, 2026",
@@ -69,6 +58,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Raises Outlook on Higher Sales",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmM0SW5nNjdUSmRsWjVXb1JGTk5ZS0RHVWxvU2JWZUJCcTlkZk4yNGxtNXZESzI3UEFmNXlUcmhwRzFDUHFIRXhPM2xkM1ZfNmVHa25ZRmpDTVdQZkhLT0NQZ0ZnY25wUU4xQnRSaXQzdnVBdHRwN3hhbFFPRFVkck1vWHJPeWxzcGNsODZWV3V4ZDJiaGlIbzI5QTFUQQ?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Raises Outlook on Higher Sales&nbsp;&nbsp;WSJ",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "WSJ"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGFCSTJkUkQ0THBVZnpJdHFPVldqQmJTVndfajRPcWdGWVZRREU5TW5SY216NTVMUE16S2xjX3ktX1ZDaUh4a2JRcURKV1ZtYXF4U01MZjdOZldyQlRmcGhMdnFHUjdfa0VNc2NoeG9Hd3VMNG5hRm5iakRjY0VaM3RXUUhMX011cF9ocEwtWS1lN3ZQZEEwWEJORkE0bWNZQnRfYkVTcmlyWnJaWEF6eTlZeUlGNFZKU3FRSWZINlU4Ry1UTjQyc19fbENZM0d5ZXFTdg?oc=5",
@@ -110,6 +110,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "Investing.com"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026",
+      "date": "2026-05-04",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc1RZNWFwYlpIeXBoTF9tdHNSNUFsdVhEQ3hBOUJSXy10akd4YUNBZVZzcUtQS2RPbDNOX1N1TlMzY3h2Wm5TTE1qYjBFNVZRWlcxMmdBR2xMMzJrT2FST2tRUkVoa1I0NVR4N0tVc3hhN3F6RjVsN1FOOXJNd1hEM0dleDhJbXI0cXFsSWpoSDlXSm11YTZidmNJN2Itc1BZVVM0MDlhalo2YlJ5UWVTSnZSVXFiNXNOblptVmJuMA?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026&nbsp;&nbsp;Machine Maker",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
+      "source": "Google News",
+      "publisher": "Machine Maker"
     },
     {
       "competitor": "Siemens",
@@ -157,14 +168,14 @@
     },
     {
       "competitor": "ABB",
-      "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXJQQmxiYjkyM3NPZmE1UUVxMEpueUdTTExhYTJmQ05jZWxZMHVPcC1lQmlGNnU0Skc4bzVvWUhDTERCMHBKMEtIcG5vWnY2djNLcE9Ta2J4YjIzUkRqS2ZaMXlLb2tPY0hrWWpuanlvRWY3VUZwNGtISFMwcS13QW02cGVuR0xNVFdGaVRDQWh6c19KWnd1cTVUQ1lXNlV5SG9IMjZDYjA4VkhOdTVhNV9Mc20yUFZp?oc=5",
-      "priority": "LOW",
-      "summary": "ABB highlights commitment to future-proofing metals operations at AISTech 2026&nbsp;&nbsp;ABB",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
+      "headline": "TCS and ABB strengthen strategic IT, AI, and engineering partnership",
+      "date": "2026-04-28",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd181S0thUFRWUUhpMjVEbF9aSkQzaGhiTExQTEsza2Y4SWRPcl9pSldqd28wYWZXTVhOVUo5Vy11MEZJR2JYZHZ2Y09aZjJwTkdPRUJ2VlFfR0FYMkhNdEFEaVNKNnJZVnlua1REdV9melF1d3poWVJHVUYxMFpnVHhVck9fSDlSRE4xaXlucWxTenBoUjgzMXRyblpxdE9naURYR2NlczY1T2FHQUY3d3l3?oc=5",
+      "priority": "HIGH",
+      "summary": "TCS and ABB strengthen strategic IT, AI, and engineering partnership&nbsp;&nbsp;Tata Consultancy Services",
+      "why_matters": "New ecosystem partnership for ABB — assess reach overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
-      "publisher": "ABB"
+      "publisher": "Tata Consultancy Services"
     },
     {
       "competitor": "Siemens",
@@ -179,25 +190,14 @@
     },
     {
       "competitor": "Honeywell",
-      "headline": "American Industrial Partners to Acquire Honeywell's Warehouse and Workflow Solutions Business",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcnp0S1lYMTQ3M2QtdXBmbHBrS1c0dHhoVkNJY1RjcTA2dzhLWEhMVDRhUzlKZzV3LVBoS1h4b2haUENKVUthbE5nc2hwY0VRQjNUOXNaNVFsRnhrMThkNlhyNTdPWXp4WVh5d0o4dWVldng1NHlnam1wRU9aMDRueEUwZHJkQmtYOTZzbEp2QnNqU1JIY3VoSTVOS2VYNzNHc0lCdTVWVjRka3B0Q1hzN1B5M09IMDYyWkN0MXBXaDhsODdDTDlZWkUtZWtRTWU1SWlwaFFOcTc5ZlpJaWlkT0tR?oc=5",
+      "headline": "American Industrial Partners to acquire Honeywell warehouse automation",
+      "date": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcUR0ODM1SGcyd2YyU3A3X1hXS0lnY0FHZnEzcFRJWlhYdzhmdkVLZ1NBYklCZk1kczdnN1VQcmJidktXUnN6Wi1sZkViMWc1NlZQYWZfTTR3ODhGdDVpQXpYdVE2elY1Q0JLaW9BcjZ4TlFkOVFaRW8xdDVLUDBJYjJGbXl0dkRLRVU5ZEdlMEZaNkJOSzFmVWdNY2xrNlJpOXBLajBRUDZWUVp5VlZNYmRJSWNFaWlY0gG-AUFVX3lxTFBuMV95NFlOd2lqWmJpSVgzd3ZGcHFDZHR3SVp5ek1GMnB6aGtTMWZjcVF3VElRbWlIZkdnVVNjNElISlllUEZMLU0yMzhjN2JnamFiZk1PSXNVWXR2dUU1aDFjX21XWDlDTjRVVW5XUnM5QnYxMmYtbmNTS0dZN29DaXdpVk5hSnFkcWdSWU1sLU13TmNyVzE0QnhQVVJnQmhGdDR2UlpGMm9BYjV6U2IxWjBaTnM3UW1OUEJoMmc?oc=5",
       "priority": "HIGH",
-      "summary": "American Industrial Partners to Acquire Honeywell's Warehouse and Workflow Solutions Business&nbsp;&nbsp;PR Newswire",
-      "why_matters": "Honeywell is partnering with Acquire Honeywells Warehouse. Check if Acquire Honeywells Warehouse is in Schneider's ecosystem, a shared customer, or a competing channel partner. Update partner network map and flag displacement risk.",
+      "summary": "American Industrial Partners to acquire Honeywell warehouse automation&nbsp;&nbsp;Digital Commerce 360",
+      "why_matters": "New ecosystem partnership for Honeywell — assess reach overlap with Schneider's partner network and identify at-risk customer accounts.",
       "source": "Google News",
-      "publisher": "PR Newswire"
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "End of an era: Honeywell hands warehouse automation reins to AIP",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUNXNmZabm1GdjZqbDR6WHN4RGNpRzQ2Y3R1ZVhYWDM1RFhkNDNtX0NiVzI4MGhfWjlsUzE1T2lTMzV4R1RkNWY1eG51S2JpRW9lTFktbldfYkxTTmU3NGZEMHNpUjVobGFYTTRZMW1DWFVjV3M1Qjhac2FBdFNHQWM2ZVYwcm84d0tadEgyWUR2N2ZQc1Z3MFRxcw?oc=5",
-      "priority": "MEDIUM",
-      "summary": "End of an era: Honeywell hands warehouse automation reins to AIP&nbsp;&nbsp;The Robot Report",
-      "why_matters": "Competitor thought leadership shaping buyer criteria. Review for messaging gaps in Schneider's content strategy. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "The Robot Report"
+      "publisher": "Digital Commerce 360"
     },
     {
       "competitor": "Honeywell",
