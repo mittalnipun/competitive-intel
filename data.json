@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-07T20:56:47Z",
+  "last_updated": "2026-05-07T22:50:33Z",
   "items": [
+    {
+      "competitor": "ABB",
+      "headline": "ABB Showcases B&R-Based Packaging Automation at Interpack 2026",
+      "date": "2026-05-07",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1Y0WkxjalZSbkpBVFZFNzdJYnU2V2huc2paTTVfTEtucE9tUkl3aWRBRmJmTEVUN0g0Uk1lRXd0aGl1enc3THNHUDFkODIzZDJZLWZHWF9IT25LMnhVcHhxN2k0OHI5aWdsX3NJeFhtbXRoOEo5QllpanZtWUVIdmNkWTdiVnpIc2FCR2dPa1EwaGM?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Showcases B&amp;R-Based Packaging Automation at Interpack 2026&nbsp;&nbsp;geneonline.com",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "geneonline.com"
+    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation to Present at Wolfe Research Conference on May 7, 2026",
@@ -11,6 +22,17 @@
       "why_matters": "Competitor thought leadership shaping buyer criteria. Review for messaging gaps in Schneider's content strategy.",
       "source": "Google News",
       "publisher": "geneonline.com"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Electric Corporation and others announced a share buyback on May 7.",
+      "date": "2026-05-07",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjl4SThpWmhuWEpEajVIUzdoVEpyZVl0akMzTFZxS3hoQTVHMkRyVV9hNTlnX0pTbDhYdWhnN3VzTU5xcGJsLXBhd0VSU3g2eGNkdk5fOEg2eGxZRU5xb014cDIwM25rbjdCZ0NiYjNkazQ2YWo4UmdWb3pMUjY4dlY2XzZ1TkhXblJkZV85UFYzU2pGLWRjSWM3SjZTYUtSUFdEZ29HNVlrUk9BOFRz?oc=5",
+      "priority": "LOW",
+      "summary": "Yokogawa Electric Corporation and others announced a share buyback on May 7.&nbsp;&nbsp;富途牛牛",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "富途牛牛"
     },
     {
       "competitor": "Yokogawa",
@@ -91,25 +113,14 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson earnings on deck: Can automation momentum fuel accelerating growth? By Investing.com",
+      "headline": "Emerson earnings on deck: Can automation momentum fuel accelerating growth?",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaURZbE1zQ2EtZnBqU3lRR3RFank5MUZGeEp6QVpOWEVkZkRPTk5ZZUlDcGRrZTVCZ1BSYk1yYWdSNWc4N3dCcnpKNE1jLUp5QTg5Rk5QMFczMWtwMmprWXVSWHM0Q0VuMC1UQnRaTE5SN3o5dDdNcTc1d1d3cXdqQ2p6ZWxPSG40ck54ejc5YUdBU0dUdTJJTmdnZzFXVDhzXy1nWTZnRVduQWp3LVFjb25raHRQVmN3cWRLZklNRFFJbGlNbERNRXRIT1FIMi15YTAw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0dmNl9wbllFOF9EajZUd08wNkxSMlJHNThSeXJ5b3ZDc0hNWmJqWGFZRkdRMTlVZ2oyQ0I2Sl9UcU9QQjc1ZWV3cEFTb3JZMkZkNzhQYWtuNGVJODJueUdFcnFLN1VPekFsUGl5TGRIeFI4bzFoYWFCNlFxU1NrNU5BczR6R3FNMzJSQmt2WHdNR1dObWZubFk3RGdiNENsSW9XX0xxSlBOcWx0aHVwQVE1MXBuLUxhY05UMWhXeWlaSnljWUFreXpOanp1dHc?oc=5",
       "priority": "LOW",
-      "summary": "Emerson earnings on deck: Can automation momentum fuel accelerating growth? By Investing.com&nbsp;&nbsp;Investing.com South Africa",
+      "summary": "Emerson earnings on deck: Can automation momentum fuel accelerating growth?&nbsp;&nbsp;Investing.com",
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
-      "publisher": "Investing.com South Africa"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026",
-      "date": "2026-05-04",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc1RZNWFwYlpIeXBoTF9tdHNSNUFsdVhEQ3hBOUJSXy10akd4YUNBZVZzcUtQS2RPbDNOX1N1TlMzY3h2Wm5TTE1qYjBFNVZRWlcxMmdBR2xMMzJrT2FST2tRUkVoa1I0NVR4N0tVc3hhN3F6RjVsN1FOOXJNd1hEM0dleDhJbXI0cXFsSWpoSDlXSm11YTZidmNJN2Itc1BZVVM0MDlhalo2YlJ5UWVTSnZSVXFiNXNOblptVmJuMA?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Showcases Integrated Technologies for Future-Ready Metals Operations at AISTech 2026&nbsp;&nbsp;Machine Maker",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
-      "source": "Google News",
-      "publisher": "Machine Maker"
+      "publisher": "Investing.com"
     },
     {
       "competitor": "Siemens",
@@ -154,6 +165,17 @@
       "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXJQQmxiYjkyM3NPZmE1UUVxMEpueUdTTExhYTJmQ05jZWxZMHVPcC1lQmlGNnU0Skc4bzVvWUhDTERCMHBKMEtIcG5vWnY2djNLcE9Ta2J4YjIzUkRqS2ZaMXlLb2tPY0hrWWpuanlvRWY3VUZwNGtISFMwcS13QW02cGVuR0xNVFdGaVRDQWh6c19KWnd1cTVUQ1lXNlV5SG9IMjZDYjA4VkhOdTVhNV9Mc20yUFZp?oc=5",
+      "priority": "LOW",
+      "summary": "ABB highlights commitment to future-proofing metals operations at AISTech 2026&nbsp;&nbsp;ABB",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "Siemens",
