@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T11:02:44Z",
+  "last_updated": "2026-05-08T13:04:32Z",
   "items": [
     {
       "competitor": "ABB",
@@ -80,17 +80,6 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Raises Outlook on Higher Sales",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmM0SW5nNjdUSmRsWjVXb1JGTk5ZS0RHVWxvU2JWZUJCcTlkZk4yNGxtNXZESzI3UEFmNXlUcmhwRzFDUHFIRXhPM2xkM1ZfNmVHa25ZRmpDTVdQZkhLT0NQZ0ZnY25wUU4xQnRSaXQzdnVBdHRwN3hhbFFPRFVkck1vWHJPeWxzcGNsODZWV3V4ZDJiaGlIbzI5QTFUQQ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Raises Outlook on Higher Sales&nbsp;&nbsp;WSJ",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "WSJ"
-    },
-    {
-      "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGFCSTJkUkQ0THBVZnpJdHFPVldqQmJTVndfajRPcWdGWVZRREU5TW5SY216NTVMUE16S2xjX3ktX1ZDaUh4a2JRcURKV1ZtYXF4U01MZjdOZldyQlRmcGhMdnFHUjdfa0VNc2NoeG9Hd3VMNG5hRm5iakRjY0VaM3RXUUhMX011cF9ocEwtWS1lN3ZQZEEwWEJORkE0bWNZQnRfYkVTcmlyWnJaWEF6eTlZeUlGNFZKU3FRSWZINlU4Ry1UTjQyc19fbENZM0d5ZXFTdg?oc=5",
@@ -124,14 +113,14 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson earnings on deck: Can automation momentum fuel accelerating growth? By Investing.com",
+      "headline": "Emerson earnings on deck: Can automation momentum fuel accelerating growth?",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaURZbE1zQ2EtZnBqU3lRR3RFank5MUZGeEp6QVpOWEVkZkRPTk5ZZUlDcGRrZTVCZ1BSYk1yYWdSNWc4N3dCcnpKNE1jLUp5QTg5Rk5QMFczMWtwMmprWXVSWHM0Q0VuMC1UQnRaTE5SN3o5dDdNcTc1d1d3cXdqQ2p6ZWxPSG40ck54ejc5YUdBU0dUdTJJTmdnZzFXVDhzXy1nWTZnRVduQWp3LVFjb25raHRQVmN3cWRLZklNRFFJbGlNbERNRXRIT1FIMi15YTAw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPc3MzN2Vwc0lIc1QyVFlhYjVwVjVFaXJsWmpqdTJwRDFkOS1nRlNyMzRSVXBmY0RSRkJTVWtoUGdPRW5OOGEtTVVQbU1sM3RqY1o3RHRxSDBSNDZHR2hfcjUwWWVRRkgtTGhpMTNpNEFQbDhOWnBKTzdoZ2dCb2MyQ1pDdTJDOVZwVnZuMldKRkVleFZRQS1KckU1YnBQMjVBOGV1SVRlTHhOSzJQcGdweW1WTTNOYWZKNmwzOUZ4RkJ2TkdlSWFfWUVlVV9qSFlCZlhZ?oc=5",
       "priority": "LOW",
-      "summary": "Emerson earnings on deck: Can automation momentum fuel accelerating growth? By Investing.com&nbsp;&nbsp;Investing.com South Africa",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "summary": "Emerson earnings on deck: Can automation momentum fuel accelerating growth?&nbsp;&nbsp;Investing.com UK",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Europe.",
       "source": "Google News",
-      "publisher": "Investing.com South Africa"
+      "publisher": "Investing.com UK"
     },
     {
       "competitor": "Siemens",
@@ -299,6 +288,17 @@
       "publisher": "SEC EDGAR"
     },
     {
+      "competitor": "Siemens",
+      "headline": "Siemens expands Industrial Automation DataCenter with edge AI and cybersecurity",
+      "date": "2026-04-13",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUW5MQnE0WlJjTndSRThqV2luSFl2aFB4TGJyUkhwNVJQVEhEZlBlVDFSM280Nk5ZZ3lYWHBQd3dFZzgxT1hmS29HNkpBQTBteE5yeWRSRjhRUFNJbklwMDdsOHdHRHJucDV4UDRrcTNKT2IzMEdwX2JDYnpTMzlIN3l3YUdGeXVLWWlfOA?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens expands Industrial Automation DataCenter with edge AI and cybersecurity&nbsp;&nbsp;Help Net Security",
+      "why_matters": "Siemens expanding reach. Assess whether this moves them into Schneider's core accounts or geographies. Vertical: Data Center.",
+      "source": "Google News",
+      "publisher": "Help Net Security"
+    },
+    {
       "competitor": "Yokogawa",
       "headline": "Yokogawa lands cyber certification for plant control systems",
       "date": "2026-04-10",
@@ -308,17 +308,6 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "SecurityBrief Asia"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHBxVjZuMWpxVTZYOVZBUnc2cjRGMUV4Y3hrSUNwa3NoUXNrUGpmN1N3SjN0Zlh1SnNFNnRNQVU0bnZBN1NsUlFPc2I0cTlnNktrV1hPOXFGTTV5bkNKSmZaY0NZTzZwRWgwLU5relVLZzFNT2ozX01td0VfMnV1cG9PX1NZUWUxaklScVk1dWhuVUdtZ1lMS25fV0lCMEVoQ0Npa1BYb2FLZ1o4NjBMTFB6VElPM0ZmVTRuTGVBTk1USUU?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy&nbsp;&nbsp;Gulf Business",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Middle East.",
-      "source": "Google News",
-      "publisher": "Gulf Business"
     }
   ]
 }
