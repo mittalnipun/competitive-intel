@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T09:06:58Z",
+  "last_updated": "2026-05-09T10:45:40Z",
   "items": [
     {
       "competitor": "ABB",
@@ -104,12 +104,12 @@
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUUZDUnhscWwxNVd1M3ItdVBXeDl2czFlWk42blJSUmx6MEVsZG9ieHBXSWVPbnU3Q1F3dHBEVEFzUFdRN1ZzTDNIQUg1YUJOTlU4NnJsRDF4eUNOeVhMODdIem1yTmVJQmxENUNHOEFhellPMkV6ZFhnVWxhQldwY2RwYTVCZzRzZ1V6MGZFbVdpRHItbl9WZjlJV0E3MjZ5N2ltQ3BsMGZDM05rRHVB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGFCSTJkUkQ0THBVZnpJdHFPVldqQmJTVndfajRPcWdGWVZRREU5TW5SY216NTVMUE16S2xjX3ktX1ZDaUh4a2JRcURKV1ZtYXF4U01MZjdOZldyQlRmcGhMdnFHUjdfa0VNc2NoeG9Hd3VMNG5hRm5iakRjY0VaM3RXUUhMX011cF9ocEwtWS1lN3ZQZEEwWEJORkE0bWNZQnRfYkVTcmlyWnJaWEF6eTlZeUlGNFZKU3FRSWZINlU4Ry1UTjQyc19fbENZM0d5ZXFTdg?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation raises 2026 profit forecast on automation demand&nbsp;&nbsp;Reuters",
+      "summary": "Rockwell Automation raises 2026 profit forecast on automation demand&nbsp;&nbsp;TradingView",
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Mining.",
       "source": "Google News",
-      "publisher": "Reuters"
+      "publisher": "TradingView"
     },
     {
       "competitor": "Emerson",
@@ -286,6 +286,17 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "SecurityBrief Asia"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHBxVjZuMWpxVTZYOVZBUnc2cjRGMUV4Y3hrSUNwa3NoUXNrUGpmN1N3SjN0Zlh1SnNFNnRNQVU0bnZBN1NsUlFPc2I0cTlnNktrV1hPOXFGTTV5bkNKSmZaY0NZTzZwRWgwLU5relVLZzFNT2ozX01td0VfMnV1cG9PX1NZUWUxaklScVk1dWhuVUdtZ1lMS25fV0lCMEVoQ0Npa1BYb2FLZ1o4NjBMTFB6VElPM0ZmVTRuTGVBTk1USUU?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy&nbsp;&nbsp;Gulf Business",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Middle East.",
+      "source": "Google News",
+      "publisher": "Gulf Business"
     }
   ]
 }
