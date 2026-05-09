@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T14:43:24Z",
+  "last_updated": "2026-05-09T16:39:59Z",
   "items": [
     {
       "competitor": "ABB",
@@ -36,6 +36,17 @@
     },
     {
       "competitor": "ABB",
+      "headline": "ABB wins three iF Design Awards 2026 for ACS380-E drive and ABB GoSelect",
+      "date": "2026-05-07",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ0ZjLTJSdjZENzFZR0w1N0FPcnBiRDJlZ0o1bWtVWjJ4aDgyd0NaMU5Ca0hsaV9IRGhWelJPdzh2V2FUdzE5VzRsalpVQWViTl8yNmlkOFk1WllHWXNYZDNkcXBJX01ob3FNNXRhWWU3dkVZbUYxbzhWX2NoWE1IT2VoYVRMdkotRHZjbDB4ODlRMnRQU1BmdTJVR0hOQTNCWjRVbk1SVUdvZzJjUHg4YQ?oc=5",
+      "priority": "HIGH",
+      "summary": "ABB wins three iF Design Awards 2026 for ACS380-E drive and ABB GoSelect&nbsp;&nbsp;ABB",
+      "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
+      "source": "Google News",
+      "publisher": "ABB"
+    },
+    {
+      "competitor": "ABB",
       "headline": "ABB Showcases B&R-Based Packaging Automation at Interpack 2026",
       "date": "2026-05-07",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1Y0WkxjalZSbkpBVFZFNzdJYnU2V2huc2paTTVfTEtucE9tUkl3aWRBRmJmTEVUN0g0Uk1lRXd0aGl1enc3THNHUDFkODIzZDJZLWZHWF9IT25LMnhVcHhxN2k0OHI5aWdsX3NJeFhtbXRoOEo5QllpanZtWUVIdmNkWTdiVnpIc2FCR2dPa1EwaGM?oc=5",
@@ -57,17 +68,6 @@
       "publisher": "富途牛牛"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation CEO Blake Moret: We're seeing optimism around the focus on American manufacturing",
-      "date": "2026-05-06",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUFRwVm1uZTJQRTdqM05jazZ3S0RYcThnZFk3dXI4cExyaW5qdlhRZjVKSF95c1hXUzBsdE5NcDhTdk5UT1Zqc2plR0tNTTg0Uk1ENjVkemVJQmQwU0pfZk1vc0hobkR3TG9ZTkNSVzVCTU0yM2RGd0hxQ0dPSGJQYTVBRWhvOEJoRTBJdzJOQ0NteC11QnBNSTE4bXktQTkwN0tITXhGYkp3dHo1UFdKdmhLRUk5eS1qVTJ1Rndja21aeUdiT2xUSXIwS1J1NnFmaHN4cDQzWXNxUQ?oc=5",
-      "priority": "HIGH",
-      "summary": "Rockwell Automation CEO Blake Moret: We're seeing optimism around the focus on American manufacturing&nbsp;&nbsp;CNBC",
-      "why_matters": "Leadership change at Rockwell Automation. New executives often signal strategic pivots — monitor messaging shifts over the next 90 days.",
-      "source": "Google News",
-      "publisher": "CNBC"
-    },
-    {
       "competitor": "Yokogawa",
       "headline": "Cowes tech firm Yokogawa Marex uncovers 35-million-year-old turtle fossil on beach clean",
       "date": "2026-05-06",
@@ -80,17 +80,6 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
-      "priority": "HIGH",
-      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Quiver Quantitative"
-    },
-    {
-      "competitor": "Rockwell Automation",
       "headline": "Should Rockwell’s Stronger Q2 2026 Profitability Shift the Investment Thesis for Rockwell Automation (ROK) Investors?",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMmFTQzBlRHRWY2ZGWWxWRHFBTThfTGZYLUNTY3c0Tkx2eGFmZzVGMHdhMmR1alF0c1dRdWNYYWc1YXZSNWF4WFdyVWliZ0xLTGFOUjJyeWU1YUtidm5zcDVpVDBZcmxXc0hVS053OVBSdmdkYnBrVmVLcHktbUZRUE9WZFFqbjZZNkcxeng4ZjlvNTl4cEtBdUR1LVRHTWl5U19ZemxwSWx0TUFNY3pBZEExNkFMcFRPeTVyT3FoSUlGdWRVbGQxTEFYQUVUdHYwSGI3bWtrSdIB3AFBVV95cUxOcnNOSWFpNlc2RWpraVE3bDBWRTkwTy04UlVxRGRqVFNHbEstelFXeVpKOEdudm9UbU9DZEo4MWJpZnRpQUxoS1Iwb1liRnROekV3XzNpVTcwTjZQNk55M1lHcWc2RDBvTkFRMm5JaXdVX0hFVUJMY1ZYN3o0MHVQdVc2VkRWZ01NUHdrZm43RmUwaEhzVUxNajZyM1FwckI3YTR0U0N6V1hTSmdOTG56MWdLeXdlUE1LVGJFaFlxS2MzZHc5MmhvNWxwVG9MWnRnVDVVbDFPX213UGUt?oc=5",
@@ -99,6 +88,17 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUdPcUJvY0t3RFl0Qkl2MDd5a0d5M1ZmcUdFOUlWQjN1TzVSQTNEYXpmMUZOZU9EY0s2RGJnRlhLOGN2SUtZYUxrcmxuQ0NmVWNDSEtLdkhNclJ6QU9UanhyTmdLeHZTZUxKUVh6dHNsUnAwZjh1Ym5WTzVuZmViQmdSaC04S0d5V2lnQmRCdVl1c29UVDBuOTBfSHpRWE9qZVBxRnZFYXJIamhmelZfQ1VwUG11VE1tZmVWOUVPZ2pYekpRNnFkYU91V29HemVh?oc=5",
+      "priority": "LOW",
+      "summary": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock&nbsp;&nbsp;Investing.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Investing.com"
     },
     {
       "competitor": "Rockwell Automation",
