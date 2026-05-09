@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-09T18:42:04Z",
+  "last_updated": "2026-05-09T20:33:31Z",
   "items": [
-    {
-      "competitor": "ABB",
-      "headline": "ABB advances 2026 buyback with additional 84,500 share repurchases",
-      "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS2llNk42WVlTUW05Y3p5ZWk5THptUkNpeHRWNFFlaUtPZzVFZ2lPdllKNkU1TjUyTm1RY2Fad0V2Z20yRjlQY215aXMwdkY5dVZQdkR1VmpWYkliNnhLYXpfMDJ1MTF6cGRMVmdXUkFRNG9mYUxYRmE2UEo4NExidC1YdUphY3NraHgyT2VlTXVUTl9MYWx3X0JlRDZEXy1mWVNERFM3UTV1M1FhbGc1UTI0VF85TkJyN2g0bFZtS3RoSkZLeUJBOE5yMDRER0hsN1Q2a2VXMDBIUEVwRVN5QQ?oc=5",
-      "priority": "LOW",
-      "summary": "ABB advances 2026 buyback with additional 84,500 share repurchases&nbsp;&nbsp;The Globe and Mail",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "The Globe and Mail"
-    },
     {
       "competitor": "Emerson",
       "headline": "Emerson Electric (EMR) Valuation Check After Raised Guidance And Solid Q2 2026 Results",
@@ -22,17 +11,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "simplywall.st"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "UAE Cyber Security Council, Siemens partner to strengthen OT cyber resilience",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUkxRc2FwZFF0Q1lac2k1Vzl3MWNKM3lJSmJpdTBPYXFoYTR3NUZDREFVekNPWGpkOVRmM1dBUTFYaVljNDlSckFiR2FySHh0VXdnbE9zVEUteFFBWDhHXzZ3Z2IzQU9hNTBaR1dIS1JBWmphR2ZXRnEycmpJSjlPRS1xdzFMTnhNNEN2ODhWSDJxT0d2UkJGYjBqQW1vQ2FDaUxkZ29rSmI1clJFbzJHLXpteDN6cG0zcnRobWhkN2gwOG8?oc=5",
-      "priority": "HIGH",
-      "summary": "UAE Cyber Security Council, Siemens partner to strengthen OT cyber resilience&nbsp;&nbsp;MSN",
-      "why_matters": "Siemens is partnering with Cyber Security Council. Check if Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "MSN"
     },
     {
       "competitor": "ABB",
@@ -58,25 +36,14 @@
     },
     {
       "competitor": "Yokogawa",
-      "headline": "Yokogawa Electric Corporation and others announced a share buyback on May 7.",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjl4SThpWmhuWEpEajVIUzdoVEpyZVl0akMzTFZxS3hoQTVHMkRyVV9hNTlnX0pTbDhYdWhnN3VzTU5xcGJsLXBhd0VSU3g2eGNkdk5fOEg2eGxZRU5xb014cDIwM25rbjdCZ0NiYjNkazQ2YWo4UmdWb3pMUjY4dlY2XzZ1TkhXblJkZV85UFYzU2pGLWRjSWM3SjZTYUtSUFdEZ29HNVlrUk9BOFRz?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Electric Corporation and others announced a share buyback on May 7.&nbsp;&nbsp;富途牛牛",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "富途牛牛"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Cowes tech firm Yokogawa Marex uncovers 35-million-year-old turtle fossil on beach clean",
+      "headline": "Yokogawa Electric Corporation announces an Equity Buyback for 9,000,000 shares, representing 3.53% for ¥30,000 million.",
       "date": "2026-05-06",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRjRIemR5am00VjdpWDM0OTlVbnhnZlg5R0NWZlBHSm9mZ1d6VHBqZVQ4bjB1dlltQ1MyTk1UNFF5MTlJUkozSEFRdUFwT1RzNUJRM2NtbjByUGE4VllwVW5JTWpJR0xkTFRWdm03U05UUWp1WVljUlZObXNZUzR5N0hMZnZxMzRjQm9EM1hkdUtDcEZpWlVaZGhmOE9fMXJJMUZJaEhZZUZyVkNiMVNST1RR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdGdtS3FLNGxGNUlMRGsyX0lzYkF4QldCRXpqblFPVDVQM1RyR3FUdWFsYjF5SkUyOXRzaE1iSUpDUjlLR3JsSm9uTVN2N2JxSHo3Y3ZMVEFSbTBWdXJKQ1hNbVhxOERpSkVhd1FkVFpRY0JvQVdTWlUzc216RUk2ZzVlSzFFd1hfWHVMTEVvb0w5MEx1T0ZYTDhUU01GaHBudF9vUXBBLU1XQmpHTmtKaUEzc1pKZF9WNDFCbHRiT1JDdDV2bm9tQ3B6NnZWcTl1MlcyQlZxX0czRjRsZThZbnRxeTBrQQ?oc=5",
       "priority": "HIGH",
-      "summary": "Cowes tech firm Yokogawa Marex uncovers 35-million-year-old turtle fossil on beach clean&nbsp;&nbsp;Isle of Wight News from OnTheWight",
+      "summary": "Yokogawa Electric Corporation announces an Equity Buyback for 9,000,000 shares, representing 3.53% for ¥30,000 million.&nbsp;&nbsp;marketscreener.com",
       "why_matters": "Major financial event — Yokogawa gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "Google News",
-      "publisher": "Isle of Wight News from OnTheWight"
+      "publisher": "marketscreener.com"
     },
     {
       "competitor": "Rockwell Automation",
