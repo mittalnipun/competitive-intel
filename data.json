@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T20:33:31Z",
+  "last_updated": "2026-05-09T22:32:02Z",
   "items": [
     {
       "competitor": "Emerson",
@@ -11,6 +11,17 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "simplywall.st"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "UAE Cyber Security Council, Siemens partner to strengthen OT cyber resilience",
+      "date": "2026-05-07",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNRndmclJsdUFfZjY1VV9DZWF6ZzJVbUZTLXJyT2tXUkZWNE8yNFlDMHlOWXhxOFBSc0FsZWVzLVNZYVR2Um1yT3kzWXVuYTl2ZUJxZHFDT19CQTAxYl8ybGhwZ2t3c0JzQUVtU0xRNmhiWlhSaHY2R0gxalpyUThHWl9LWFpWQkZacV9tdkxIT2lxaEVBY2NoMjVwOGRaVVNvTDA2LW15THRvM3FyRnc4OVJya0REWHIxV21sZjNVamxZR0dPTEtSMW54S0N6UE51TG0tRng3WVRkR1FOd3E0WF8zTnhTRVpOX3JWeEpDSHNGTEFGTlZTRFVBOGYzYUlMeWt5OEZnYktFUDVVZWk3UWJmYWVrbllsZVhwMWZqTXN6UHVYTUlrQkd3ZzktdlJBUlJrWG1lQ2VUZkUzcW5nZFVzX1BVMFRIWTVNaEZlc2tqeVpUZVVpUA?oc=5",
+      "priority": "HIGH",
+      "summary": "UAE Cyber Security Council, Siemens partner to strengthen OT cyber resilience&nbsp;&nbsp;MSN",
+      "why_matters": "Siemens is partnering with Cyber Security Council. Check if Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
+      "source": "Google News",
+      "publisher": "MSN"
     },
     {
       "competitor": "ABB",
