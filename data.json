@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T10:45:40Z",
+  "last_updated": "2026-05-09T12:47:02Z",
   "items": [
     {
       "competitor": "ABB",
@@ -11,17 +11,6 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
       "source": "Google News",
       "publisher": "The Globe and Mail"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB India Q1 Results: Profit Surges Nearly 4x On One-Time Gain Even As Operating Margin Contracts",
-      "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUURYZmZSNmFlckJuZW1wNnhkZ3pvM0VxLWpnZUMxamJPNXFYSDA2YUI4ZVlOaGRUNkc0VXpySG1Ibzd2ZzkwRi1tZUlKQkw5bHF0V1NSbGxKM2dreGtaWWxyQ3BURmtqdHJWTm9jaFJid3VoWl9iVDVTZWl0S3ZmWmdlOFItb3Bkc1o3RTlnejkyajNjMTFyaDd1VDN6cXJPd0Njc3BOTGRXWlJEZm9hYVQ1MGd1VzJ0UzdCN2ZHNlJxYjVOZmZpMnhyTjZWLWl6TUl6ZlhKZ9IB3wFBVV95cUxNcEpoWnJVLTlIcFh5amRMTTMxX0trTzR5azZ6WWhmYml6OTk3dXg3RDdIU1BwdDVHYVo2QjIxSzA5RmplM3dSRk1Xa0lrT0lhamFtal9oSWh1Skx5WV9EMmZ5OEYwLWxYZ01FX1Bnb2duZEJlYXlVYkRqeUlYdGtCcklKVFI2MVdUNnU1LWdVb0lVeGkxQ2NZQ01UQmJmWFpleTFUMDZ1WW12OUM1UC1nRFRhZW5QV0l6QmFUUzJsSndmXzU4Z09wQnNZOFV0YThqaklnRTI2QWpYZlROa0Jr?oc=5",
-      "priority": "LOW",
-      "summary": "ABB India Q1 Results: Profit Surges Nearly 4x On One-Time Gain Even As Operating Margin Contracts&nbsp;&nbsp;NDTV Profit",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Region: APAC.",
-      "source": "Google News",
-      "publisher": "NDTV Profit"
     },
     {
       "competitor": "Emerson",
@@ -102,12 +91,12 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
+      "headline": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGFCSTJkUkQ0THBVZnpJdHFPVldqQmJTVndfajRPcWdGWVZRREU5TW5SY216NTVMUE16S2xjX3ktX1ZDaUh4a2JRcURKV1ZtYXF4U01MZjdOZldyQlRmcGhMdnFHUjdfa0VNc2NoeG9Hd3VMNG5hRm5iakRjY0VaM3RXUUhMX011cF9ocEwtWS1lN3ZQZEEwWEJORkE0bWNZQnRfYkVTcmlyWnJaWEF6eTlZeUlGNFZKU3FRSWZINlU4Ry1UTjQyc19fbENZM0d5ZXFTdg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGhnYWxXU3BYUnFSVkZVQ3N1aE51ZzNNbHpaV0t0T0l6ZzZ2VXV4Y2todzktZHpXaTdxSURSdXFDLUROLUdyMlhqVUxoekdnank3THl0dkphblFqUmVOeUVHTjZRdG5LWGZuNExkYnhxeHVwcWxwSmtlZi1SWFJFNElVRUdES2t4QWdVTmplMk5vNFJMOElEZzVhWlJkWmRScm9xSGtUNHVUb2xnMkotZ1hIMllUamxiRXFGUU5pMDN3QQ?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation raises 2026 profit forecast on automation demand&nbsp;&nbsp;TradingView",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Mining.",
+      "summary": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary&nbsp;&nbsp;TradingView",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "TradingView"
     },
@@ -132,6 +121,17 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing",
+      "date": "2026-04-30",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTV9vd0lSd1BQd2RTSEFNaUtXUmhPTm9yZXRESTRWeXZrTG1PbExyU1NtaTdwbDFJS2lXdXpkU2xuWkRQakhpWDdaMktHMWVlLW5Da19SSGQ5SEtOSVFvSE1tVWM3cTBOSEZ1QVBVY3c1ZXUyd0ZBOUhCSUVZZGV6MDhlWVh2ZThmZnowVld4UDRNYzVZNTJzLS1jWTF3UDZOVWtlMFhqa2xhMkpWZ1RVdWFYZXFWU0xVeUJnV3JB?oc=5",
+      "priority": "HIGH",
+      "summary": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing&nbsp;&nbsp;Manufacturing Chemist",
+      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "Manufacturing Chemist"
     },
     {
       "competitor": "ABB",
@@ -242,17 +242,6 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing",
-      "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
-      "priority": "LOW",
-      "summary": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing&nbsp;&nbsp;Cisco Blogs",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "Cisco Blogs"
     },
     {
       "competitor": "Rockwell Automation",
