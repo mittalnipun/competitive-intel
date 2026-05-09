@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T16:39:59Z",
+  "last_updated": "2026-05-09T18:42:04Z",
   "items": [
     {
       "competitor": "ABB",
@@ -102,6 +102,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUUZDUnhscWwxNVd1M3ItdVBXeDl2czFlWk42blJSUmx6MEVsZG9ieHBXSWVPbnU3Q1F3dHBEVEFzUFdRN1ZzTDNIQUg1YUJOTlU4NnJsRDF4eUNOeVhMODdIem1yTmVJQmxENUNHOEFhellPMkV6ZFhnVWxhQldwY2RwYTVCZzRzZ1V6MGZFbVdpRHItbl9WZjlJV0E3MjZ5N2ltQ3BsMGZDM05rRHVB?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation raises 2026 profit forecast on automation demand&nbsp;&nbsp;Reuters",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Mining.",
+      "source": "Google News",
+      "publisher": "Reuters"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGhnYWxXU3BYUnFSVkZVQ3N1aE51ZzNNbHpaV0t0T0l6ZzZ2VXV4Y2todzktZHpXaTdxSURSdXFDLUROLUdyMlhqVUxoekdnank3THl0dkphblFqUmVOeUVHTjZRdG5LWGZuNExkYnhxeHVwcWxwSmtlZi1SWFJFNElVRUdES2t4QWdVTmplMk5vNFJMOElEZzVhWlJkWmRScm9xSGtUNHVUb2xnMkotZ1hIMllUamxiRXFGUU5pMDN3QQ?oc=5",
@@ -132,17 +143,6 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing",
-      "date": "2026-04-30",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTV9vd0lSd1BQd2RTSEFNaUtXUmhPTm9yZXRESTRWeXZrTG1PbExyU1NtaTdwbDFJS2lXdXpkU2xuWkRQakhpWDdaMktHMWVlLW5Da19SSGQ5SEtOSVFvSE1tVWM3cTBOSEZ1QVBVY3c1ZXUyd0ZBOUhCSUVZZGV6MDhlWVh2ZThmZnowVld4UDRNYzVZNTJzLS1jWTF3UDZOVWtlMFhqa2xhMkpWZ1RVdWFYZXFWU0xVeUJnV3JB?oc=5",
-      "priority": "HIGH",
-      "summary": "Rockwell Automation and Cytiva launch Figurate SCADA system to eliminate digital bottlenecks in biopharmaceutical manufacturing&nbsp;&nbsp;Manufacturing Chemist",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "Manufacturing Chemist"
     },
     {
       "competitor": "ABB",
@@ -286,6 +286,17 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "SecurityBrief Asia"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
+      "date": "2026-04-09",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHBxVjZuMWpxVTZYOVZBUnc2cjRGMUV4Y3hrSUNwa3NoUXNrUGpmN1N3SjN0Zlh1SnNFNnRNQVU0bnZBN1NsUlFPc2I0cTlnNktrV1hPOXFGTTV5bkNKSmZaY0NZTzZwRWgwLU5relVLZzFNT2ozX01td0VfMnV1cG9PX1NZUWUxaklScVk1dWhuVUdtZ1lMS25fV0lCMEVoQ0Npa1BYb2FLZ1o4NjBMTFB6VElPM0ZmVTRuTGVBTk1USUU?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy&nbsp;&nbsp;Gulf Business",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Middle East.",
+      "source": "Google News",
+      "publisher": "Gulf Business"
     }
   ]
 }
