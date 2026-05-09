@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T07:30:42Z",
+  "last_updated": "2026-05-09T09:06:58Z",
   "items": [
     {
       "competitor": "ABB",
@@ -44,17 +44,6 @@
       "why_matters": "Siemens is partnering with Cyber Security Council. Check if Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
       "source": "Google News",
       "publisher": "MSN"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB Showcases B&R-Based Packaging Automation at Interpack 2026",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1Y0WkxjalZSbkpBVFZFNzdJYnU2V2huc2paTTVfTEtucE9tUkl3aWRBRmJmTEVUN0g0Uk1lRXd0aGl1enc3THNHUDFkODIzZDJZLWZHWF9IT25LMnhVcHhxN2k0OHI5aWdsX3NJeFhtbXRoOEo5QllpanZtWUVIdmNkWTdiVnpIc2FCR2dPa1EwaGM?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Showcases B&amp;R-Based Packaging Automation at Interpack 2026&nbsp;&nbsp;geneonline.com",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "geneonline.com"
     },
     {
       "competitor": "Yokogawa",
@@ -253,6 +242,17 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
+      "priority": "LOW",
+      "summary": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing&nbsp;&nbsp;Cisco Blogs",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "Cisco Blogs"
     },
     {
       "competitor": "Rockwell Automation",
