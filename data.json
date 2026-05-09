@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T12:47:02Z",
+  "last_updated": "2026-05-09T14:43:24Z",
   "items": [
     {
       "competitor": "ABB",
@@ -33,6 +33,17 @@
       "why_matters": "Siemens is partnering with Cyber Security Council. Check if Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
       "source": "Google News",
       "publisher": "MSN"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Showcases B&R-Based Packaging Automation at Interpack 2026",
+      "date": "2026-05-07",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1Y0WkxjalZSbkpBVFZFNzdJYnU2V2huc2paTTVfTEtucE9tUkl3aWRBRmJmTEVUN0g0Uk1lRXd0aGl1enc3THNHUDFkODIzZDJZLWZHWF9IT25LMnhVcHhxN2k0OHI5aWdsX3NJeFhtbXRoOEo5QllpanZtWUVIdmNkWTdiVnpIc2FCR2dPa1EwaGM?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Showcases B&amp;R-Based Packaging Automation at Interpack 2026&nbsp;&nbsp;geneonline.com",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "geneonline.com"
     },
     {
       "competitor": "Yokogawa",
@@ -275,17 +286,6 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "SecurityBrief Asia"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy",
-      "date": "2026-04-09",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHBxVjZuMWpxVTZYOVZBUnc2cjRGMUV4Y3hrSUNwa3NoUXNrUGpmN1N3SjN0Zlh1SnNFNnRNQVU0bnZBN1NsUlFPc2I0cTlnNktrV1hPOXFGTTV5bkNKSmZaY0NZTzZwRWgwLU5relVLZzFNT2ozX01td0VfMnV1cG9PX1NZUWUxaklScVk1dWhuVUdtZ1lMS25fV0lCMEVoQ0Npa1BYb2FLZ1o4NjBMTFB6VElPM0ZmVTRuTGVBTk1USUU?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson’s Liam Hurley on advancing industrial AI and autonomous operations in energy&nbsp;&nbsp;Gulf Business",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Middle East.",
-      "source": "Google News",
-      "publisher": "Gulf Business"
     }
   ]
 }
