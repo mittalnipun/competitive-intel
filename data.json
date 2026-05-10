@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T10:52:37Z",
+  "last_updated": "2026-05-10T12:47:11Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -11,6 +11,17 @@
       "why_matters": "Siemens is partnering with UAE Cyber Security Council. Check if UAE Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
       "source": "Google News",
       "publisher": "ZAWYA"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB India Publishes Unaudited Q1 2026 Results Extract",
+      "date": "2026-05-10",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ1hCdkhnekdZNXhET0EzT3pxZkdXZ3FIWEpVcnJ2cmgtTUVhV0ZLYmd0bURZN19hRjItSnE5cDgweGltN1VZckc2ODZTOEt3aGxHQnhOc3lYanNqMkI5UVdRV2hMSWtZMHphV0t2Y25fZWJaQXpXcGRSWUZPaGZmZkF1Q3ZBZnVjSkNhdFlxeWRRNGFSSjNYdEJTZlVYS29XZ3NKNktKNzBwU2lUSzRnSWxka2Nhak9Ub0xvQjJILXAtS2tOMUNrbHVQWWNRRkE?oc=5",
+      "priority": "LOW",
+      "summary": "ABB India Publishes Unaudited Q1 2026 Results Extract&nbsp;&nbsp;The Globe and Mail",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Region: APAC.",
+      "source": "Google News",
+      "publisher": "The Globe and Mail"
     },
     {
       "competitor": "Rockwell Automation",
@@ -80,6 +91,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
+      "date": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
+      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock",
       "date": "2026-05-05",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUdPcUJvY0t3RFl0Qkl2MDd5a0d5M1ZmcUdFOUlWQjN1TzVSQTNEYXpmMUZOZU9EY0s2RGJnRlhLOGN2SUtZYUxrcmxuQ0NmVWNDSEtLdkhNclJ6QU9UanhyTmdLeHZTZUxKUVh6dHNsUnAwZjh1Ym5WTzVuZmViQmdSaC04S0d5V2lnQmRCdVl1c29UVDBuOTBfSHpRWE9qZVBxRnZFYXJIamhmelZfQ1VwUG11VE1tZmVWOUVPZ2pYekpRNnFkYU91V29HemVh?oc=5",
@@ -88,17 +110,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "Investing.com"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGhnYWxXU3BYUnFSVkZVQ3N1aE51ZzNNbHpaV0t0T0l6ZzZ2VXV4Y2todzktZHpXaTdxSURSdXFDLUROLUdyMlhqVUxoekdnank3THl0dkphblFqUmVOeUVHTjZRdG5LWGZuNExkYnhxeHVwcWxwSmtlZi1SWFJFNElVRUdES2t4QWdVTmplMk5vNFJMOElEZzVhWlJkWmRScm9xSGtUNHVUb2xnMkotZ1hIMllUamxiRXFGUU5pMDN3QQ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary&nbsp;&nbsp;TradingView",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "TradingView"
     },
     {
       "competitor": "Emerson",
