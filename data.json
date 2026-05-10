@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T20:36:28Z",
+  "last_updated": "2026-05-10T22:35:40Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -33,17 +33,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB advances 2026 buyback with additional 84,500 share repurchases",
-      "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS2llNk42WVlTUW05Y3p5ZWk5THptUkNpeHRWNFFlaUtPZzVFZ2lPdllKNkU1TjUyTm1RY2Fad0V2Z20yRjlQY215aXMwdkY5dVZQdkR1VmpWYkliNnhLYXpfMDJ1MTF6cGRMVmdXUkFRNG9mYUxYRmE2UEo4NExidC1YdUphY3NraHgyT2VlTXVUTl9MYWx3X0JlRDZEXy1mWVNERFM3UTV1M1FhbGc1UTI0VF85TkJyN2g0bFZtS3RoSkZLeUJBOE5yMDRER0hsN1Q2a2VXMDBIUEVwRVN5QQ?oc=5",
-      "priority": "LOW",
-      "summary": "ABB advances 2026 buyback with additional 84,500 share repurchases&nbsp;&nbsp;The Globe and Mail",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "The Globe and Mail"
     },
     {
       "competitor": "Emerson",
@@ -121,6 +110,17 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
+      "date": "2026-05-01",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
+      "priority": "LOW",
+      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Oil & Gas.",
+      "source": "Google News",
+      "publisher": "Oilfield Technology"
     },
     {
       "competitor": "ABB",
@@ -211,17 +211,6 @@
       "publisher": "Smart Water Magazine"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORExkajZ1Ymo3ZFdrUFZpSFdwOHRSX1JvZ25EMVVfdVNWcy1xaTRpWHctUnlOamJTTlVJRHZrZGhIcnpYYXZiMGFEVW02YzlwcmhLcmVtclRpSThZek9GdlBCYTJTZGwzdFF5N0VTeHpCWXQ2WWpQWkwyODdMUVZFWkV4YUc1eFZRV0M5QlNpc2NpRXJSZzBGUzR1VVVtbnN4ekFzT0RSajZZYkVYMHUw?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First&nbsp;&nbsp;Process and Control Today",
-      "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
-      "source": "Google News",
-      "publisher": "Process and Control Today"
-    },
-    {
       "competitor": "Siemens",
       "headline": "Siemens launches the Eigen Engineering Agent, bringing purpose-bui ...",
       "date": "2026-04-20",
@@ -233,17 +222,6 @@
       "publisher": "Siemens press"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Cybersecurity for Defense Production Environments",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZDhSRjFUZ3hvcU1NN0ZrUTR3SlBwejYwVzZicm1SQ3RpSk9vcVJwWlRqMUo1dnYyUmE5WmdBOXdmRkltSnVYcS1Hd3dPVVVBNUJIOFJBdXJmZ1VfMlI5bTNZOUY4ejlqS3gwR0tMNjB5X05yMW9mTG5Gd2JKc1YzM3JPZnd6R2VCeENGcnVGTQ?oc=5",
-      "priority": "LOW",
-      "summary": "Cybersecurity for Defense Production Environments&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
-      "source": "Google News",
-      "publisher": "Siemens"
-    },
-    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation SEC 8-K: 8-K (2026-04-17)",
       "date": "2026-04-17",
@@ -253,6 +231,17 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWUotSWJiOHFwZS1XZFhhYVh3Tm9icVpUZHktTjdBeVdxbE9UTGFsMjIzQTlkSllhN0hNdENrMDAtVGJtZmZOSjNWZHliZ0wxeFdKUmJOU05LUlR3dENuQnhYMU9PVWpwSWdKbmtzMW8yTjJfRjNRSHdmYkdVV1g3MzBVMm5PR0FnSHpTNTRZMk1nN0s1OXVqcnE4WVV0V1ZLamxzbA?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Yokogawa Obtains Certification to O-PAS Standard’s OPC UA Profile, an Industry First&nbsp;&nbsp;Automation.com",
+      "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
+      "source": "Google News",
+      "publisher": "Automation.com"
     },
     {
       "competitor": "Siemens",
