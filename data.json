@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T18:43:36Z",
+  "last_updated": "2026-05-10T20:36:28Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -33,6 +33,17 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB advances 2026 buyback with additional 84,500 share repurchases",
+      "date": "2026-05-08",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS2llNk42WVlTUW05Y3p5ZWk5THptUkNpeHRWNFFlaUtPZzVFZ2lPdllKNkU1TjUyTm1RY2Fad0V2Z20yRjlQY215aXMwdkY5dVZQdkR1VmpWYkliNnhLYXpfMDJ1MTF6cGRMVmdXUkFRNG9mYUxYRmE2UEo4NExidC1YdUphY3NraHgyT2VlTXVUTl9MYWx3X0JlRDZEXy1mWVNERFM3UTV1M1FhbGc1UTI0VF85TkJyN2g0bFZtS3RoSkZLeUJBOE5yMDRER0hsN1Q2a2VXMDBIUEVwRVN5QQ?oc=5",
+      "priority": "LOW",
+      "summary": "ABB advances 2026 buyback with additional 84,500 share repurchases&nbsp;&nbsp;The Globe and Mail",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "The Globe and Mail"
     },
     {
       "competitor": "Emerson",
