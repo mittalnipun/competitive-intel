@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T12:47:11Z",
+  "last_updated": "2026-05-10T14:44:22Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -91,25 +91,25 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
+      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
       "date": "2026-05-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
-      "priority": "MEDIUM",
-      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
-      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
-      "source": "SEC EDGAR",
-      "publisher": "SEC EDGAR"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
+      "priority": "HIGH",
+      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
+      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
+      "source": "Google News",
+      "publisher": "Quiver Quantitative"
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock",
+      "headline": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUdPcUJvY0t3RFl0Qkl2MDd5a0d5M1ZmcUdFOUlWQjN1TzVSQTNEYXpmMUZOZU9EY0s2RGJnRlhLOGN2SUtZYUxrcmxuQ0NmVWNDSEtLdkhNclJ6QU9UanhyTmdLeHZTZUxKUVh6dHNsUnAwZjh1Ym5WTzVuZmViQmdSaC04S0d5V2lnQmRCdVl1c29UVDBuOTBfSHpRWE9qZVBxRnZFYXJIamhmelZfQ1VwUG11VE1tZmVWOUVPZ2pYekpRNnFkYU91V29HemVh?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGhnYWxXU3BYUnFSVkZVQ3N1aE51ZzNNbHpaV0t0T0l6ZzZ2VXV4Y2todzktZHpXaTdxSURSdXFDLUROLUdyMlhqVUxoekdnank3THl0dkphblFqUmVOeUVHTjZRdG5LWGZuNExkYnhxeHVwcWxwSmtlZi1SWFJFNElVRUdES2t4QWdVTmplMk5vNFJMOElEZzVhWlJkWmRScm9xSGtUNHVUb2xnMkotZ1hIMllUamxiRXFGUU5pMDN3QQ?oc=5",
       "priority": "LOW",
-      "summary": "Earnings call transcript: Rockwell Automation Q2 2026 earnings beat boosts stock&nbsp;&nbsp;Investing.com",
+      "summary": "Rockwell Automation 2Q 2026: Revenue $2.24B, EPS $3.1— 10-Q Summary&nbsp;&nbsp;TradingView",
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
-      "publisher": "Investing.com"
+      "publisher": "TradingView"
     },
     {
       "competitor": "Emerson",
@@ -242,6 +242,17 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Cybersecurity for Defense Production Environments",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZDhSRjFUZ3hvcU1NN0ZrUTR3SlBwejYwVzZicm1SQ3RpSk9vcVJwWlRqMUo1dnYyUmE5WmdBOXdmRkltSnVYcS1Hd3dPVVVBNUJIOFJBdXJmZ1VfMlI5bTNZOUY4ejlqS3gwR0tMNjB5X05yMW9mTG5Gd2JKc1YzM3JPZnd6R2VCeENGcnVGTQ?oc=5",
+      "priority": "LOW",
+      "summary": "Cybersecurity for Defense Production Environments&nbsp;&nbsp;Siemens",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
+      "source": "Google News",
+      "publisher": "Siemens"
     },
     {
       "competitor": "Rockwell Automation",
