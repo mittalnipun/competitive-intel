@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-11T21:09:26Z",
+  "last_updated": "2026-05-11T22:45:09Z",
   "items": [
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens and Arm Verify Arm AGI CPU for Next-Generation Agentic AI Infrastructure",
-      "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdzJQT3UzcDVJb1ZnLVVRUVRZX2M4UnZYcUJmSzBROHE5bmFzOVFZU2Fma1FXVFg1dDA0c0hhNWVBSUd5RTdvYWhOcU56LVZmS0tpbDFfYUxNUVdMVnMta3ZQeUpLMlFBUG5Tb3RZeFJPM0puM2FDOXFhU1hVSzc0RDFGdVI4RWxSUGZScTdIN191MUJWMHpMaFMzYUI5WlY0MGFDS1dYLTdsY3pYQzhRTlZMZi04STRxemdEWnNTb3ZoUGtMYVJHc0swNkVHSVhHNm9CSjF2WWk?oc=5",
-      "priority": "LOW",
-      "summary": "Siemens and Arm Verify Arm AGI CPU for Next-Generation Agentic AI Infrastructure&nbsp;&nbsp;Embedded Computing Design",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
-      "source": "Google News",
-      "publisher": "Embedded Computing Design"
-    },
     {
       "competitor": "Siemens",
       "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
@@ -44,6 +33,17 @@
       "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
       "source": "Google News",
       "publisher": "Morningstar"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Announces the Advance of Rovi Pharmaceutical Manufacturing Digitalization | Corporate",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPUXVSdUpjcEp6R0VQWWFhY0VNVk01aDFydGJjRVpheExVNklQWDdrZTNxWEhYeUR1Vy0zcF91dU5kZmxGMldic1VTazR6OUVOX3pFOEhTaHpNNV9SSzdQRURkTEQwc2FFWk00T1BhR0lVc1Q1NzVXT0w2bGZsVGtNcDhyd2IyX2VqQ2QybU1mNDgtODRsdENBS0x4amdpMkFLSFBiZWVxNjdWV2dpMjRiT3RhT1p0RWg4VU9QM0pBZlduNmUzVmtyVkE2N0xRRWtMd2IwVWZUcDdDRGdaNGZrWDU5dkFqb1M3bFR5Y0JhV1Jxc191aW1fWGxKVWQ0MTZnY0FLOFJjbG5SYlZhT0E?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Announces the Advance of Rovi Pharmaceutical Manufacturing Digitalization | Corporate&nbsp;&nbsp;EQS News",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "EQS News"
     },
     {
       "competitor": "Emerson",
@@ -143,17 +143,6 @@
       "why_matters": "Major financial event — Emerson gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
-      "date": "2026-05-02",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanJFZjJ0c1Z3ZXhqcTJxRUtKQy1HbEJ1UmFxZUo1ZGdNNEJ2dkV0VXRSWXhUYkVseEpZTVIzdkJDWjdYNGhJRVNlSFc3MzEzeTFMd21paVhVUjlnY01RdVkxekZDOHZRXzBEZDFiekkwS3dnVmxTVzlXc1FNZGx3QThfVFdQeFlaRVhXRmY3Y2ZqYUFnVGtEX0MxTHBMYTd1cklNeHpJNkowU1k4MWFqcUFESkpBbF9fY09fWlg5STdWZFpBRHIwOUZKbkxHY2NDSGRj0gHYAUFVX3lxTFBndG1YX1cweF9LN3hTNGF4ZFVSR3hiS1hWWkJJRGtUMEZHMVZEckJ6MlBuemhuUFRPMC01by1KWWRMOGtDQVBoaDc5em5wOTRaSU9QNnlvX1VUM0hCRmJwMDNaakI3TVQxbnpPQzJqZnFKZlBKQUFVRU5UY0s5eENaZGVveVRlUXoxTmlBdTNIZk5jNHBvcEFCTHhpUHE3TzhRaUxmeXdaTmJkLUZ6bVhBTzJrSlZmNWxUVnhzY2lTaUhwSGlDcWpJcHJPY1V4TUgtdTNuZ2o0Zg?oc=5",
-      "priority": "HIGH",
-      "summary": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "Siemens",
