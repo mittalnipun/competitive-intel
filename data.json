@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-11T19:24:42Z",
+  "last_updated": "2026-05-11T21:09:26Z",
   "items": [
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens and Arm Verify Arm AGI CPU for Next-Generation Agentic AI Infrastructure",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdzJQT3UzcDVJb1ZnLVVRUVRZX2M4UnZYcUJmSzBROHE5bmFzOVFZU2Fma1FXVFg1dDA0c0hhNWVBSUd5RTdvYWhOcU56LVZmS0tpbDFfYUxNUVdMVnMta3ZQeUpLMlFBUG5Tb3RZeFJPM0puM2FDOXFhU1hVSzc0RDFGdVI4RWxSUGZScTdIN191MUJWMHpMaFMzYUI5WlY0MGFDS1dYLTdsY3pYQzhRTlZMZi04STRxemdEWnNTb3ZoUGtMYVJHc0swNkVHSVhHNm9CSjF2WWk?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens and Arm Verify Arm AGI CPU for Next-Generation Agentic AI Infrastructure&nbsp;&nbsp;Embedded Computing Design",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
+      "source": "Google News",
+      "publisher": "Embedded Computing Design"
+    },
     {
       "competitor": "Siemens",
       "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
@@ -36,14 +47,14 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson launches AspenTech AVA industrial AI platform",
+      "headline": "Emerson launches AspenTech industrial AI platform for enterprise operations",
       "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdWdZVUttR04weVh5OElfRE9jZGVlQVhSRjFRMjZYaWk5VTMwc2djTVo0RnFRY25ueVduQ0NON0tOeFBESnpLZ0ZfZ0p2eEVIT19jTzY1LTZqX2VOMXpBRmo2bmdfTzZfTWJWenFwanBRX3RETGxiRjhtdF9CUk1rZnR0N3NReXl1YV90ZmRnblVkYnRwM3FQdW9ibGY3anVHeWdtTlhYSWdRZU9zYVpvbEFDTDZKQnJzTXlBS2FUTU9za29k?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdXA0OF9UWWNOMVA0S3NEQy1oX3NuOTRGMUEzV1hfeTZjR2xsS3huNzZ4d1AxLTZ5QkJ3bmVlM2ZJdGJnTUFJcXRadTRtV0QtSHVBczRSYlNvSkFhY2hTbHdZNy0wcC1HRjJPS3g5bks5V2RXU0pUS0FHVUVjSi1fNHJKa3haOHZVSDViVmFOc0hSZndfdXktTDFQcG50QVk0VXR6LUlNcU1kcnJtODFaaXNNVzJjaEk?oc=5",
       "priority": "HIGH",
-      "summary": "Emerson launches AspenTech AVA industrial AI platform&nbsp;&nbsp;Investing.com UK",
-      "why_matters": "Aspentech — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Region: Europe.",
+      "summary": "Emerson launches AspenTech industrial AI platform for enterprise operations&nbsp;&nbsp;World Oil",
+      "why_matters": "Aspentech — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Vertical: Oil & Gas.",
       "source": "Google News",
-      "publisher": "Investing.com UK"
+      "publisher": "World Oil"
     },
     {
       "competitor": "ABB",
@@ -178,28 +189,6 @@
       "publisher": "ABB"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARCweb.com",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "ARCweb.com"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "TCS and Siemens Energy AI Deal Signals Why Every Enterprise Now Needs AI Training",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWk5fMkRoZXBFS3g2TnZsaVBFVkdFc1VPWmdUYllPTXh3MU9IdDR0UlM3YmVOLVJoTGIwalM0RU05MEJVTF92WlM2cmtrZzBLdld6YnUzTUZNTGpOQUV2NjQ5X3hVSDc2cnJkZWdMampzNmxhTWR5ZnFfc0xaM3pkUGlvcG5DU0NaRDlmZHJ3b2pHQQ?oc=5",
-      "priority": "HIGH",
-      "summary": "TCS and Siemens Energy AI Deal Signals Why Every Enterprise Now Needs AI Training&nbsp;&nbsp;AI CERTs",
-      "why_matters": "Major financial event — Siemens gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
-      "source": "Google News",
-      "publisher": "AI CERTs"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "American Industrial Partners to Acquire Honeywell's Warehouse and Workflow Solutions Business",
       "date": "2026-04-23",
@@ -267,25 +256,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026",
       "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLU01Zkc2NUNYNXRBUTU1NDdzVjBBQUFlSU9fR2FOR1RKbEFlRU5lazN6TGsyejQ0U1lnclp4VFdMS2VFX3RJZmNzZ0dMY1ZxNG0zNGtudXR6aEJPM2Y4di02TzlBbGRtaU1iTjF1dnhzbUdMbndodG1IY09BcnY5dU5HV3FFV2FXZWxNSEc4REJHR09CeWlGdmRzTFZYSHRzejRuaThQNHJJRzhPbkNjUHFWNW9mTGE3V3R3UVRnLWRWcEI3QlUtdEZUcHBkTGdvRkZDZWNLWnltZmF0SVhWT2k0MzZLdC1pNC1zOWxZaERtRnR0a0YyY212UU1oczFwejNtYm9yR3c?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "summary": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026&nbsp;&nbsp;TradingView",
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
-      "publisher": "PR Newswire"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Cybersecurity for Defense Production Environments",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZDhSRjFUZ3hvcU1NN0ZrUTR3SlBwejYwVzZicm1SQ3RpSk9vcVJwWlRqMUo1dnYyUmE5WmdBOXdmRkltSnVYcS1Hd3dPVVVBNUJIOFJBdXJmZ1VfMlI5bTNZOUY4ejlqS3gwR0tMNjB5X05yMW9mTG5Gd2JKc1YzM3JPZnd6R2VCeENGcnVGTQ?oc=5",
-      "priority": "LOW",
-      "summary": "Cybersecurity for Defense Production Environments&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
-      "source": "Google News",
-      "publisher": "Siemens"
+      "publisher": "TradingView"
     },
     {
       "competitor": "Rockwell Automation",
