@@ -1,16 +1,27 @@
 {
-  "last_updated": "2026-05-11T05:48:05Z",
+  "last_updated": "2026-05-11T08:53:39Z",
   "items": [
     {
       "competitor": "Siemens",
-      "headline": "The UAE Cyber Security Council and Siemens partner to strengthen national OT cyber resilience",
-      "date": "2026-05-10",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM0lfQ0RVRExsX1pUNlk0czI2UWlTdTAxcWZDZFpzZ1JEX19iY3RTNjFTNC1mVnItMllUZHc4Ni1SU0JYcEFMUl9ybzh4aDNSR29lS3lYbGo1RXExUGNHTERjUUkydkFFdHE1Y3Nhck54cjNoeldnUjlBbGxMb3FyVHNaVl9ZYV9hRTduVGxzNnVydC1telFBeU9FZm1fZU5sX09uNEJ2NkZlZ0lhU19LT0FsdkRBX0xJN0Y2NjhEellnaEVEVnJMRlc5NzdPbUNhV1AxOU1oM0JaRzdiV1NjZlhpV2R0REhpWWhCeXNB?oc=5",
-      "priority": "HIGH",
-      "summary": "The UAE Cyber Security Council and Siemens partner to strengthen national OT cyber resilience&nbsp;&nbsp;ZAWYA",
-      "why_matters": "Siemens is partnering with UAE Cyber Security Council. Check if UAE Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
+      "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1BVZlZucHpwWWdTLWUxNUNLeEhKTldUbHZBdWRmN2NScTNpa2tZMVZFSVY3YnJKMkZ0ZnZLSklrNERXVl9YSm5NdVl2SS1kYnZRT2RZU2hkTlgta3NZcWFlMmZwc2N1UWxXSHZHRGFYejEyWHVTbzdPb1I2OXhOVk9oZjZRbUJUV0ExYndLVUJiYzhPMTJhdEo1VG44dmtzckFUSVRVdlFDRHM?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience&nbsp;&nbsp;intlbm",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: Middle East.",
       "source": "Google News",
-      "publisher": "ZAWYA"
+      "publisher": "intlbm"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB invests $200 million across Europe to accelerate grid transformation",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQmptZzVFdXNhZmM0anh6SWpMalFnc2JKUUZxdHRDSVIzYkQ0Q2JXZlJQTnY5Vl9RNnh0eTczRVlwVk50R0dmU3ltNkFkYlE1ZmVBcF84eXMtN3YxU19TOUxfOFdTbjJoZ2hRbnFTQndpalVLQ3M5ZF9tbDVLcnhEZnJjZkNrZWxPajM2U2F1bld3cUpIdkNLWl8yV0lMNzYwaDVNcDk2VzFncXgwT2c0?oc=5",
+      "priority": "HIGH",
+      "summary": "ABB invests $200 million across Europe to accelerate grid transformation&nbsp;&nbsp;ABB",
+      "why_matters": "Major financial event — ABB gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments. Vertical: Critical Infrastructure. Region: Europe.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "ABB",
@@ -33,17 +44,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
       "publisher": "simplywall.st"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB University Chile Experience Centers: Your 2026 Training Guide",
-      "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS2kxdlB6SlJ6cHRhVHAwVHdNbkJYSlkzb2owSVV4LW4tbnpMRTZ2NzB2ZGVBUGdiNmJYY3NrOGFCaFphZ0NHUFRlbmJLVU00T05vSUJLaG8tUDhqZ3Q1VjFRcHZ5ZzVRUGNjaWRvZXUydW16SmM0dXdoa3lRSjhvWl81ZjR2T2xqNS1aOElINmtyQ2Jq?oc=5",
-      "priority": "LOW",
-      "summary": "ABB University Chile Experience Centers: Your 2026 Training Guide&nbsp;&nbsp;discoveryalert.com.au",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "discoveryalert.com.au"
     },
     {
       "competitor": "Emerson",
@@ -79,6 +79,17 @@
       "publisher": "Quiver Quantitative"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Reports Second Quarter 2026 Results",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1N1TFZ4dWdxUDlHdXJ6UmNaZ05jazN3UFZBX1ZTRVdzOTZ2UWNFaXV3VjJQOE5TVWN4bFZOdTFvM2paUlZ3dUhwaUtiTW9CczlFeDlHSlBJX1JiYXUwLURBS1pmemM4X3NIUERreXlnRHBwOExxejRrNm9sY01ScEhXQUZXTmVlQ21aOWx6STBXMTFMRUEtU1Rqblc0ZGs1Tk1wbC1zMkEyOG5vV3NBMlB3?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Reports Second Quarter 2026 Results&nbsp;&nbsp;Business Wire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "Business Wire"
+    },
+    {
       "competitor": "Emerson",
       "headline": "Emerson SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
@@ -101,17 +112,6 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
-      "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
-      "priority": "LOW",
-      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Oil & Gas.",
-      "source": "Google News",
-      "publisher": "Oilfield Technology"
-    },
-    {
       "competitor": "ABB",
       "headline": "ABB Robotics’ autonomous mobile robot wins prestigious design award",
       "date": "2026-04-29",
@@ -121,6 +121,17 @@
       "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARCweb.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "ARCweb.com"
     },
     {
       "competitor": "Siemens",
@@ -198,17 +209,6 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
-      "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "PR Newswire"
     },
     {
       "competitor": "Rockwell Automation",
