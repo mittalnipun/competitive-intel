@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T08:53:39Z",
+  "last_updated": "2026-05-11T12:34:40Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -22,6 +22,17 @@
       "why_matters": "Major financial event — ABB gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments. Vertical: Critical Infrastructure. Region: Europe.",
       "source": "Google News",
       "publisher": "ABB"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRnJWd0pmX0F1YWVsTndpWWRLbHdkcWctR05KX1RyMWVySVBNN0dtNGNRMElZTldMM1BMdmw2ZzNpZ3RobnRoQlBrWlFIX2w0b3NnQzY4NjJvbU1maElOYnZUQ0tPZ0c1TnFpcS04N0ZoWThrYXBIcUp0eG1sLW85eG4xM0NHNnYtaVRkWGdFUjlTdGlZbzZMTnptVkZrZ3VYUUJ0Vm56YWwzR0EyUUtRUUdmSEE4dXBHS0NYVV9KZzA2N2hpX2tWOGhxTXplVkR3SVdQOEtjZ09DQU83anBZVy10WkdPUUlrZHJyazZxejU0RGJRaHc?oc=5",
+      "priority": "HIGH",
+      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;Morningstar",
+      "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
+      "source": "Google News",
+      "publisher": "Morningstar"
     },
     {
       "competitor": "ABB",
@@ -49,7 +60,7 @@
       "competitor": "Emerson",
       "headline": "Emerson Electric (EMR) Valuation Check After Raised Guidance And Solid Q2 2026 Results",
       "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ1lWWXZ0TlR6TXNKOXFONFRhU0ZHRUZvVFlQRV9nRW1HeTFVLVFqZG1lVEFTVDVlNkd4OXlKTzFidnloQUE0Uk1NVmhzc19hd1hkeHRrYkdUeFhpODRvWUZ6cDZ2OVN0RmhVN1RSUDRaOEFNNklTOTlFWWNubVpTRVpMOGg2ZVlTczNtUGRXRDVWbTkzajZSRkZ0ZGR0b2FsY01mWDI2amk5M0NNR0hYSndxWVk3cElSYkVZd2FxWmRVZFNhNXRJUjVVWndKVG9Kbll1UUY5WVXSAdgBQVVfeXFMUGdZVll2dE5Uek1zSjlxTjRUYVNGR0VGb1RZUEVfZ0VtR3kxVS1RamRtZVRBU1Q1ZTZHeDl5Sk8xYnZ5aEFBNFJNTVZoc3NfYXdYZHh0a2JHVHhYaTg0b1lGenA2djlTdEZoVTdUUlA0WjhBTTZJUzk5RVljbm1aU0VaTDhoNmVZU3MzbVBkV0Q1Vm05M2o2UkZGdGRkdG9hbGNNZlgyNmppOTNDTUdIWEp3cVlZN3BJUmJFWXdhcVpkVWRTYTV0SVI1VVp3SlRvSm5ZdVFGOVlV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPY2htS25KWEpBODJEY3U2amoydHlSWnpfRDMwaVhCbWNiWGxZN1NNWXlwV3dkQTBUWGZUNWI4bThaNnZMV3BSdlkxQUQ4cktrVVNLRDJFZ2tTOEtZcFRBTUVHMTVta25ZeE44RmhsSGl1UTdxWkZpekxVQnRlM09GQ2NSMWNDWXN1ZFIxLUJLNTBDQjJtZkFJTjhhRXd4OWFfRm1BWU03aGE0NTlKek42N1paU0pYRXRoSnNja2JEbGV3Si0waUpYLTdsVXMyR3FsQ1FN0gHYAUFVX3lxTFBnWVZZdnROVHpNc0o5cU40VGFTRkdFRm9UWVBFX2dFbUd5MVUtUWpkbWVUQVNUNWU2R3g5eUpPMWJ2eWhBQTRSTU1WaHNzX2F3WGR4dGtiR1R4WGk4NG9ZRnpwNnY5U3RGaFU3VFJQNFo4QU02SVM5OUVZY25tWlNFWkw4aDZlWVNzM21QZFdENVZtOTNqNlJGRnRkZHRvYWxjTWZYMjZqaTkzQ01HSFhKd3FZWTdwSVJiRVl3YXFaZFVkU2E1dElSNVVad0pUb0puWXVRRjlZVQ?oc=5",
       "priority": "LOW",
       "summary": "Emerson Electric (EMR) Valuation Check After Raised Guidance And Solid Q2 2026 Results&nbsp;&nbsp;simplywall.st",
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
@@ -134,17 +145,6 @@
       "publisher": "ARCweb.com"
     },
     {
-      "competitor": "Siemens",
-      "headline": "TCS and Siemens Energy AI Deal Signals Why Every Enterprise Now Needs AI Training",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWk5fMkRoZXBFS3g2TnZsaVBFVkdFc1VPWmdUYllPTXh3MU9IdDR0UlM3YmVOLVJoTGIwalM0RU05MEJVTF92WlM2cmtrZzBLdld6YnUzTUZNTGpOQUV2NjQ5X3hVSDc2cnJkZWdMampzNmxhTWR5ZnFfc0xaM3pkUGlvcG5DU0NaRDlmZHJ3b2pHQQ?oc=5",
-      "priority": "HIGH",
-      "summary": "TCS and Siemens Energy AI Deal Signals Why Every Enterprise Now Needs AI Training&nbsp;&nbsp;AI CERTs",
-      "why_matters": "Major financial event — Siemens gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
-      "source": "Google News",
-      "publisher": "AI CERTs"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "American Industrial Partners to Acquire Honeywell's Warehouse and Workflow Solutions Business",
       "date": "2026-04-23",
@@ -212,6 +212,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation SEC 8-K: 8-K (2026-04-17)",
       "date": "2026-04-17",
       "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000014/0001024478-26-000014-index.htm",
@@ -231,6 +242,17 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "Automation.com"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Siemens is partnering with Nvidia. Check if Nvidia is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Manufacturing. Update partner network map and flag displacement risk.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
     },
     {
       "competitor": "Siemens",
