@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T22:35:40Z",
+  "last_updated": "2026-05-11T01:50:38Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -79,17 +79,6 @@
       "publisher": "Quiver Quantitative"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation raises 2026 profit forecast on automation demand",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGFCSTJkUkQ0THBVZnpJdHFPVldqQmJTVndfajRPcWdGWVZRREU5TW5SY216NTVMUE16S2xjX3ktX1ZDaUh4a2JRcURKV1ZtYXF4U01MZjdOZldyQlRmcGhMdnFHUjdfa0VNc2NoeG9Hd3VMNG5hRm5iakRjY0VaM3RXUUhMX011cF9ocEwtWS1lN3ZQZEEwWEJORkE0bWNZQnRfYkVTcmlyWnJaWEF6eTlZeUlGNFZKU3FRSWZINlU4Ry1UTjQyc19fbENZM0d5ZXFTdg?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation raises 2026 profit forecast on automation demand&nbsp;&nbsp;TradingView",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Mining.",
-      "source": "Google News",
-      "publisher": "TradingView"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
@@ -112,17 +101,6 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
-      "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
-      "priority": "LOW",
-      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Oil & Gas.",
-      "source": "Google News",
-      "publisher": "Oilfield Technology"
-    },
-    {
       "competitor": "ABB",
       "headline": "ABB Robotics’ autonomous mobile robot wins prestigious design award",
       "date": "2026-04-29",
@@ -132,6 +110,17 @@
       "why_matters": "Contract win for ABB. Confirm whether this is a Schneider account, adjacent account, or new territory. Assess displacement risk.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARCweb.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "ARCweb.com"
     },
     {
       "competitor": "Siemens",
@@ -223,6 +212,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation SEC 8-K: 8-K (2026-04-17)",
       "date": "2026-04-17",
       "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000014/0001024478-26-000014-index.htm",
@@ -253,17 +253,6 @@
       "why_matters": "Siemens expanding reach. Assess whether this moves them into Schneider's core accounts or geographies. Vertical: Data Center.",
       "source": "Google News",
       "publisher": "Help Net Security"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa lands cyber certification for plant control systems",
-      "date": "2026-04-10",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkFZeGZITUZ0YllrekJFcEtINV9EVHNTZ2g4TEtSOFMwZVdaWlRkU0UxSXp3bDFtazY5cU5rUkg2S290T3N1dTlFcHFSVDRXN0FtUjJteGo3b1NMLU4yZklOOXVfV3VWZXVuRGRSdlVlREd3QnZLUVl6bkFwRjRJeFRDN2gzOHRpd3RWeUt0ck9ubzFHc1F4NA?oc=5",
-      "priority": "MEDIUM",
-      "summary": "Yokogawa lands cyber certification for plant control systems&nbsp;&nbsp;SecurityBrief Asia",
-      "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
-      "source": "Google News",
-      "publisher": "SecurityBrief Asia"
     }
   ]
 }
