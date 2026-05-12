@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T11:47:47Z",
+  "last_updated": "2026-05-12T13:31:25Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -277,6 +277,17 @@
       "publisher": "PR Newswire"
     },
     {
+      "competitor": "Siemens",
+      "headline": "Cybersecurity for Defense Production Environments",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZDhSRjFUZ3hvcU1NN0ZrUTR3SlBwejYwVzZicm1SQ3RpSk9vcVJwWlRqMUo1dnYyUmE5WmdBOXdmRkltSnVYcS1Hd3dPVVVBNUJIOFJBdXJmZ1VfMlI5bTNZOUY4ejlqS3gwR0tMNjB5X05yMW9mTG5Gd2JKc1YzM3JPZnd6R2VCeENGcnVGTQ?oc=5",
+      "priority": "LOW",
+      "summary": "Cybersecurity for Defense Production Environments&nbsp;&nbsp;Siemens",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
+      "source": "Google News",
+      "publisher": "Siemens"
+    },
+    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation SEC 8-K: 8-K (2026-04-17)",
       "date": "2026-04-17",
@@ -297,6 +308,17 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "Automation.com"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call",
+      "date": "2026-04-14",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHZaYmJqdzNLWUpSUzdreHUtWEI2Sy1NdTdhUHRaZ2Qzb3N1ODc5RDRlVnRkdEJRN0dBVnBPX0Nha1ZzckpyanpwYlBaS3cyY1NYTXpyNXY2dE9GUHFjUGhzdGo3MUVIbDlwNXgzXzNRZUlaSFpLc00wXzQ5YlM2d2VSTFZBWER0NmVNekNUWkc5aURjNVd5Y25mSm9rdW41a2Jz?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson Schedules Second Quarter 2026 Earnings Release and Conference Call&nbsp;&nbsp;Investing News Network",
+      "why_matters": "Emerson's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
+      "source": "Google News",
+      "publisher": "Investing News Network"
     },
     {
       "competitor": "Siemens",
