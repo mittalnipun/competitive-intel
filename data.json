@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T21:15:19Z",
+  "last_updated": "2026-05-13T22:56:10Z",
   "items": [
     {
       "competitor": "Siemens",
@@ -22,6 +22,17 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
       "source": "Google News",
       "publisher": "Process and Control Today"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric",
+      "date": "2026-05-13",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTV9YYk1OZzlCMHJXMXYwaEl5bGx3bWZVZ2tRUVNTUklWRE1oZ1RiMW05RmFCb3V6dmlxakRVd3VkYkhzc2dPWUZtQy1sWnVWclU3bm1UenowTU5xVWQ4WnhlR0ROeVRMWGNENGxnQmJDSFNxWE9WUjE1S0lvd2JYelRGeUQzZXhhVXhSaTVqbWpMRVFTTFp1OFFOUlVuS2t2OC0zdm5SbDg5azFvWG9xSVh1ZHo4aVIyODFMN3hCb0FHYVQ3bW1uTEFTWQ?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric&nbsp;&nbsp;Investing.com UK",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Europe.",
+      "source": "Google News",
+      "publisher": "Investing.com UK"
     },
     {
       "competitor": "Yokogawa",
@@ -66,17 +77,6 @@
       "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
       "source": "Google News",
       "publisher": "Morningstar"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson launches AspenTech AVA industrial AI platform",
-      "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdWdZVUttR04weVh5OElfRE9jZGVlQVhSRjFRMjZYaWk5VTMwc2djTVo0RnFRY25ueVduQ0NON0tOeFBESnpLZ0ZfZ0p2eEVIT19jTzY1LTZqX2VOMXpBRmo2bmdfTzZfTWJWenFwanBRX3RETGxiRjhtdF9CUk1rZnR0N3NReXl1YV90ZmRnblVkYnRwM3FQdW9ibGY3anVHeWdtTlhYSWdRZU9zYVpvbEFDTDZKQnJzTXlBS2FUTU9za29k?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson launches AspenTech AVA industrial AI platform&nbsp;&nbsp;Investing.com UK",
-      "why_matters": "Aspentech — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Region: Europe.",
-      "source": "Google News",
-      "publisher": "Investing.com UK"
     },
     {
       "competitor": "ABB",
@@ -194,10 +194,10 @@
       "date": "2026-04-29",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARCweb.com",
+      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARC Advisory Group",
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
       "source": "Google News",
-      "publisher": "ARCweb.com"
+      "publisher": "ARC Advisory Group"
     },
     {
       "competitor": "Honeywell",
