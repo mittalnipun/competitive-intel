@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T11:54:50Z",
+  "last_updated": "2026-05-13T14:00:07Z",
   "items": [
     {
       "competitor": "ABB",
@@ -244,17 +244,6 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "Honeywell",
-      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
-      "priority": "LOW",
-      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
-      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "TradingView"
-    },
-    {
       "competitor": "Siemens",
       "headline": "Siemens & TSMC to advance AI for semiconductor design",
       "date": "2026-04-22",
@@ -297,17 +286,6 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XQUpVWFVoZXF5WUxpSlpCUkZPQTVCNGE1Rk1FNXI2WVpGNGFoZE1sazhNQk5uenI4bElVWmN4ZHZyNkVzS3dOVlhPcExUeGVXTEow?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Startup Challenge winners drive AI-powered energy innovation&nbsp;&nbsp;ABB",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "ABB"
     },
     {
       "competitor": "Rockwell Automation",
