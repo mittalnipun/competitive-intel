@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-13T19:29:17Z",
+  "last_updated": "2026-05-13T21:15:19Z",
   "items": [
+    {
+      "competitor": "Siemens",
+      "headline": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com",
+      "date": "2026-05-13",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdHkxV3JDYV9VRVg3dGt4aF9iWUdrTnk3ZFdPbEtxZjhoV3drU1NrUzJnT1pFbnNVMlIyVXFULXFMREdaOVQ2dkd5X29Zc0s1djY3emlZbS1PUk9QX2FMdjVUbWJfWVR3MHc0MEhjTkNla244ZWx5dzA5TjlyTGJNOUZYWWFVdTBNdGpGa1l1NTZPOW4tWWp6Q0wta3prTUM0dk9KZzY1SndfX3B6UjgzeEZ3R2E3Rkh3eDJxNHlxSmlKbzhWNWRN?oc=5",
+      "priority": "LOW",
+      "summary": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com&nbsp;&nbsp;Investing.com Canada",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: North America.",
+      "source": "Google News",
+      "publisher": "Investing.com Canada"
+    },
     {
       "competitor": "ABB",
       "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
@@ -233,6 +244,17 @@
       "publisher": "Robotics & Automation News"
     },
     {
+      "competitor": "Honeywell",
+      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
+      "priority": "LOW",
+      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
+      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "TradingView"
+    },
+    {
       "competitor": "Siemens",
       "headline": "Siemens & TSMC to advance AI for semiconductor design",
       "date": "2026-04-22",
@@ -330,17 +352,6 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "Automation.com"
-    },
-    {
-      "competitor": "Siemens",
-      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
-      "date": "2026-04-16",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
-      "why_matters": "Siemens is partnering with Nvidia. Check if Nvidia is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Manufacturing. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Robotics & Automation News"
     },
     {
       "competitor": "Siemens",
