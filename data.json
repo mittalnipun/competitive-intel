@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T14:00:07Z",
+  "last_updated": "2026-05-13T16:17:13Z",
   "items": [
     {
       "competitor": "ABB",
@@ -244,17 +244,6 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Siemens & TSMC to advance AI for semiconductor design",
-      "date": "2026-04-22",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rdDRoQVFEc2FaazJ5a0F5MHBJbERMdHEwNzcyMFdaVjZ5Vk5JbjVGWjRwT1VqakJUdW1jX0cyTnBYdm42NHB4U3o3ZllQbEd4MTRvb203MzFZdE5iblhJVWlnSjhPX1BENm5MRERROGlFeEd4MVR6NElfQ1hYR0k?oc=5",
-      "priority": "LOW",
-      "summary": "Siemens & TSMC to advance AI for semiconductor design&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "Siemens"
-    },
-    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate",
       "date": "2026-04-21",
@@ -286,6 +275,17 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XQUpVWFVoZXF5WUxpSlpCUkZPQTVCNGE1Rk1FNXI2WVpGNGFoZE1sazhNQk5uenI4bElVWmN4ZHZyNkVzS3dOVlhPcExUeGVXTEow?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Startup Challenge winners drive AI-powered energy innovation&nbsp;&nbsp;ABB",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "Rockwell Automation",
