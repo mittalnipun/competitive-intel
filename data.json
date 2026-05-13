@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T16:17:13Z",
+  "last_updated": "2026-05-13T19:29:17Z",
   "items": [
     {
       "competitor": "ABB",
@@ -11,17 +11,6 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Vertical: Mining.",
       "source": "Google News",
       "publisher": "Process and Control Today"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call",
-      "date": "2026-05-12",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ljcVlubUtqNE5iNU9aX2NDWHdvM1ltUDgtWXVXSXBsYlZrUHJuODNseTlBdllTc2lJaXQwY0l5VFZxbk53T0w5SmptYTRrX3JjRGV3LUZ3eFZISzhtVHFDRHFHemdUN3BqQTVkMzJtbDVxZ05kWDgwWkhaaXk0Um1uakFjV0hUUjlxT2prd1RsTmNYdzFlU3pIX1JtQ1Z6cEhqMHZMNVZuaGVyZnFTUl81Yl9naWlzNGdYLWVzOUQ4R3NuMzZTaGcyNnVySWRM?oc=5",
-      "priority": "LOW",
-      "summary": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call&nbsp;&nbsp;TradingView",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "TradingView"
     },
     {
       "competitor": "Yokogawa",
@@ -88,17 +77,6 @@
       "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Region: APAC.",
       "source": "Google News",
       "publisher": "The Globe and Mail"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches",
-      "date": "2026-05-10",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlRxcDQ3elB0TktIR2lzVVpNSmtaQ0tvb2VFOGNreXJSTUYwdnRPUS1zeXBEdFlwcUVSMVpHbnhVZnZHei1DQ1ZDV01fS1ptQ056ajZxV1g2MWNUd1ZaWHQ2aTVZMmh3UFJTSFoxYURkWUhZZTVuQ0Mzb0ZHdFJRSzZHRVc3WWRCNFFkbU03VmFLSFdsNzBHcVNTc05jcUxyb0hwRUJzS1B6MVlfWTg3eE1nNkkwbm54aUp3UjR4UmtLLVVMNU9XNFZ5NDQtTEl5aVd1TFFQUdIB3AFBVV95cUxNYXFIN2FGUHh5cW9KcENTYUVndjlIY21DWmpnYkZlaXh5Rm1mX3RKcTRIdHFBTUpQdDFMTWJLdG1KUGV0MnZmQUFZdjYzMVpLdkRhZzZjWlFuTFhGOF90RWZfRUEwakppQUN0TUd3YXVTd29Ka0lOWXdZTTlXUEhsLTBoelpnQVpmYWM2SDZ6SGJKTVlOMDhjSWZZYl92WXU1N095R1JNMnNaZ09jS285UDJSZFBYYV9tNW44OTAwSUYwR2RueEwtZ2l2UkVMcVhvNklqTjJFTlhYNkdZ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "Emerson",
@@ -200,6 +178,17 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARCweb.com",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "ARCweb.com"
+    },
+    {
       "competitor": "Honeywell",
       "headline": "American Industrial Partners to acquire Honeywell warehouse automation",
       "date": "2026-04-24",
@@ -244,15 +233,15 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOYmpOQ0MwMmNrYk5EYlNvOFB5TjU2enN5TGJ1Q3BWX3RQS3hwUnZPaklRNG5nenA5bTBhY2hXQ3gzbUg1U29CTzlXVTUwYWpXelNHZE9yaXZ1N3NlTlBWZnhIcjNpU1F5ZjljcU9KWkJ5MkVVeHNnVS04MFk3T3pHaTFwdVc1bDhoR2VRejYwemx2a3dFTTdWWDRnUlYzbTRGVHdCX3lpTnczVDZ6SzlhNXkwcC04cmpsajBHQUswaFNCRFpNbzRSNXprcWlON1pNc21MUGtjaHRqZmxWVWc2b05XRG41ODFpRGFlLVpXbVhtaVFSYm5qYjJlcEJwa3RlQUJQT2N5eE14RTNzT29QN25OeG5jUEZUTjdZdmktX2dmZU1nLW0wZXYwT3lxM1ZtTVE?oc=5",
+      "competitor": "Siemens",
+      "headline": "Siemens & TSMC to advance AI for semiconductor design",
+      "date": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rdDRoQVFEc2FaazJ5a0F5MHBJbERMdHEwNzcyMFdaVjZ5Vk5JbjVGWjRwT1VqakJUdW1jX0cyTnBYdm42NHB4U3o3ZllQbEd4MTRvb203MzFZdE5iblhJVWlnSjhPX1BENm5MRERROGlFeEd4MVR6NElfQ1hYR0k?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate&nbsp;&nbsp;EQS News",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "summary": "Siemens & TSMC to advance AI for semiconductor design&nbsp;&nbsp;Siemens",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Vertical: Manufacturing.",
       "source": "Google News",
-      "publisher": "EQS News"
+      "publisher": "Siemens"
     },
     {
       "competitor": "Emerson",
@@ -275,6 +264,28 @@
       "why_matters": "Siemens's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Siemens press"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
+      "priority": "LOW",
+      "summary": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing&nbsp;&nbsp;Cisco Blogs",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "Cisco Blogs"
     },
     {
       "competitor": "ABB",
@@ -319,6 +330,17 @@
       "why_matters": "Yokogawa gaining industry recognition or certification. Assess whether Schneider holds equivalent credentials in this category.",
       "source": "Google News",
       "publisher": "Automation.com"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmh0SjJpd1YzeWotcmFremxSUHFzMkpMRmFFZmo3U253RkRuWk5GSHRVdFJVaW9wRnJpSUNOcUt0QVM4VlJvNC1qMlhYcFV1ampHM29xTlA2ZWpGVVFueExKcHdPNkxlanROcC1CTlh6YmtxZlFnamNuSFZLT3R4Z2E0bkxha3hYQVZHMU04QkVRVWpsR2J6VmwwMGtVMVZyYXItMEdoeXJnMVNOLUNYRGVvQ2tnM1ZOczdtcGtvWkNUSE93bDBiZXJkWG9tU1JwSlk4YS1nZXpHZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Siemens, Nvidia and Humanoid partner to bring physical AI into factory operations&nbsp;&nbsp;Robotics & Automation News",
+      "why_matters": "Siemens is partnering with Nvidia. Check if Nvidia is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Manufacturing. Update partner network map and flag displacement risk.",
+      "source": "Google News",
+      "publisher": "Robotics & Automation News"
     },
     {
       "competitor": "Siemens",
