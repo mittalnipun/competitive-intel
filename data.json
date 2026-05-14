@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-13T22:56:10Z",
+  "last_updated": "2026-05-14T01:53:50Z",
   "items": [
-    {
-      "competitor": "Siemens",
-      "headline": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com",
-      "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdHkxV3JDYV9VRVg3dGt4aF9iWUdrTnk3ZFdPbEtxZjhoV3drU1NrUzJnT1pFbnNVMlIyVXFULXFMREdaOVQ2dkd5X29Zc0s1djY3emlZbS1PUk9QX2FMdjVUbWJfWVR3MHc0MEhjTkNla244ZWx5dzA5TjlyTGJNOUZYWWFVdTBNdGpGa1l1NTZPOW4tWWp6Q0wta3prTUM0dk9KZzY1SndfX3B6UjgzeEZ3R2E3Rkh3eDJxNHlxSmlKbzhWNWRN?oc=5",
-      "priority": "LOW",
-      "summary": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com&nbsp;&nbsp;Investing.com Canada",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: North America.",
-      "source": "Google News",
-      "publisher": "Investing.com Canada"
-    },
     {
       "competitor": "ABB",
       "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
@@ -71,12 +60,12 @@
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production",
       "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRnJWd0pmX0F1YWVsTndpWWRLbHdkcWctR05KX1RyMWVySVBNN0dtNGNRMElZTldMM1BMdmw2ZzNpZ3RobnRoQlBrWlFIX2w0b3NnQzY4NjJvbU1maElOYnZUQ0tPZ0c1TnFpcS04N0ZoWThrYXBIcUp0eG1sLW85eG4xM0NHNnYtaVRkWGdFUjlTdGlZbzZMTnptVkZrZ3VYUUJ0Vm56YWwzR0EyUUtRUUdmSEE4dXBHS0NYVV9KZzA2N2hpX2tWOGhxTXplVkR3SVdQOEtjZ09DQU83anBZVy10WkdPUUlrZHJyazZxejU0RGJRaHc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMEI4bWQwaWJOOURhampWRy1vOEdRaS1JZG41TDJKcEFUVGZPLXk3RnEyNHVyVkpFWTdDSzlnYTJJbWFqbXozeVlmRHdTRldVQmhhM0hfUXdpVGw4U0NqSGFXa1pYc2I2dDhWc3M0b2x4MG1RM0FsSTItR2tmbjFLNE9BYUZDZFdNQnFWNnl1czdzNkdlckQwaVpSRGxwVldhenZYUmkwSS1LdW01WFdoU0EzbTRKeHh1bk1QN0dsUDl3bEdxZHJEMjhfcjVWUHFfYTloLS1RQmxWc3EwamViXzFtUHNrM2R6cDktLUdWWQ?oc=5",
       "priority": "HIGH",
-      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;Morningstar",
+      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;PR Newswire",
       "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
       "source": "Google News",
-      "publisher": "Morningstar"
+      "publisher": "PR Newswire"
     },
     {
       "competitor": "ABB",
@@ -189,17 +178,6 @@
       "publisher": "Cutting Tool Engineering"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWdpdGFTWmtUQlRiSnU0RU8tTHQ4OTdJdVJkYmVyYnRCSHdOSDNYYjFNdzczSWpfNmhGWGw1VThJV2pMOV94SmcwQTZEelE3QlRHYmVTV1JibnpyeU44T3o1SURLVW9odEM1U1VtRU5LNnRyTV85c05LdXpXTzd4T3hfWDI3aEViMWJzSlY2OERMQk5tUGNGR09HaGJrUVdXcWhnVDFfZ2U1Z3FvMDNkY0lfWlRBNElOR3c?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Fair 2025 Keynote Session: Driving the Future of Industrial Operations&nbsp;&nbsp;ARC Advisory Group",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "ARC Advisory Group"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "American Industrial Partners to acquire Honeywell warehouse automation",
       "date": "2026-04-24",
@@ -266,6 +244,17 @@
       "publisher": "Siemens"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lZDVvODk4YnBjRVVSM3RaeFhaUldNYUlmTktCaEl2b3VKQ2o4S09VN1VYYmRWUy1lR1lwUUNPZllILW5YcTdheGhuZHJUczczOUdrdGtHMFNfSm93cU85clgtZXZNX3N2NnNrckROWFZzZHFuX3lrdlBoOGU?oc=5",
+      "priority": "LOW",
+      "summary": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell&nbsp;&nbsp;Simple Flying",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Simple Flying"
+    },
+    {
       "competitor": "Emerson",
       "headline": "OPSWAT and Emerson Partner to Secure Power and Water Utilities Systems",
       "date": "2026-04-21",
@@ -289,14 +278,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026",
       "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLU01Zkc2NUNYNXRBUTU1NDdzVjBBQUFlSU9fR2FOR1RKbEFlRU5lazN6TGsyejQ0U1lnclp4VFdMS2VFX3RJZmNzZ0dMY1ZxNG0zNGtudXR6aEJPM2Y4di02TzlBbGRtaU1iTjF1dnhzbUdMbndodG1IY09BcnY5dU5HV3FFV2FXZWxNSEc4REJHR09CeWlGdmRzTFZYSHRzejRuaThQNHJJRzhPbkNjUHFWNW9mTGE3V3R3UVRnLWRWcEI3QlUtdEZUcHBkTGdvRkZDZWNLWnltZmF0SVhWT2k0MzZLdC1pNC1zOWxZaERtRnR0a0YyY212UU1oczFwejNtYm9yR3c?oc=5",
       "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "summary": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026&nbsp;&nbsp;TradingView",
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
-      "publisher": "PR Newswire"
+      "publisher": "TradingView"
     },
     {
       "competitor": "Rockwell Automation",
@@ -355,14 +344,14 @@
     },
     {
       "competitor": "Siemens",
-      "headline": "Siemens expands Industrial Automation DataCenter with edge AI and cybersecurity",
-      "date": "2026-04-13",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUW5MQnE0WlJjTndSRThqV2luSFl2aFB4TGJyUkhwNVJQVEhEZlBlVDFSM280Nk5ZZ3lYWHBQd3dFZzgxT1hmS29HNkpBQTBteE5yeWRSRjhRUFNJbklwMDdsOHdHRHJucDV4UDRrcTNKT2IzMEdwX2JDYnpTMzlIN3l3YUdGeXVLWWlfOA?oc=5",
-      "priority": "HIGH",
-      "summary": "Siemens expands Industrial Automation DataCenter with edge AI and cybersecurity&nbsp;&nbsp;Help Net Security",
-      "why_matters": "Siemens expanding reach. Assess whether this moves them into Schneider's core accounts or geographies. Vertical: Data Center.",
+      "headline": "Siemens updates Industrial Automation DataCenter for AI",
+      "date": "2026-04-14",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQW1tMWhIWUxLQU1BNWtnNVBvSE9xTDVzSmw4ejhTaXVKS3JMbFVaTFA4S3VtSktFenY0M1VCbk14VXR4NjlwcGFGeUcyTWk3X0JGWE9DMkNlSk1hVGJLUXpOZjVvS2NkcWJyUHBmaGxpREdENWlhQVpEWW9QS0VmUEZ0cmYzS1otX2JORA?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens updates Industrial Automation DataCenter for AI&nbsp;&nbsp;Engineering.com",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Vertical: Data Center.",
       "source": "Google News",
-      "publisher": "Help Net Security"
+      "publisher": "Engineering.com"
     }
   ]
 }
