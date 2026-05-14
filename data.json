@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-14T08:24:08Z",
+  "last_updated": "2026-05-14T11:34:40Z",
   "items": [
-    {
-      "competitor": "Siemens",
-      "headline": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com",
-      "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdHkxV3JDYV9VRVg3dGt4aF9iWUdrTnk3ZFdPbEtxZjhoV3drU1NrUzJnT1pFbnNVMlIyVXFULXFMREdaOVQ2dkd5X29Zc0s1djY3emlZbS1PUk9QX2FMdjVUbWJfWVR3MHc0MEhjTkNla244ZWx5dzA5TjlyTGJNOUZYWWFVdTBNdGpGa1l1NTZPOW4tWWp6Q0wta3prTUM0dk9KZzY1SndfX3B6UjgzeEZ3R2E3Rkh3eDJxNHlxSmlKbzhWNWRN?oc=5",
-      "priority": "LOW",
-      "summary": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com&nbsp;&nbsp;Investing.com Canada",
-      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: North America.",
-      "source": "Google News",
-      "publisher": "Investing.com Canada"
-    },
     {
       "competitor": "ABB",
       "headline": "ABB highlights commitment to future-proofing metals operations at AISTech 2026",
@@ -90,17 +79,6 @@
       "publisher": "The Globe and Mail"
     },
     {
-      "competitor": "Emerson",
-      "headline": "Emerson Electric (EMR) Valuation Check After Raised Guidance And Solid Q2 2026 Results",
-      "date": "2026-05-08",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPY2htS25KWEpBODJEY3U2amoydHlSWnpfRDMwaVhCbWNiWGxZN1NNWXlwV3dkQTBUWGZUNWI4bThaNnZMV3BSdlkxQUQ4cktrVVNLRDJFZ2tTOEtZcFRBTUVHMTVta25ZeE44RmhsSGl1UTdxWkZpekxVQnRlM09GQ2NSMWNDWXN1ZFIxLUJLNTBDQjJtZkFJTjhhRXd4OWFfRm1BWU03aGE0NTlKek42N1paU0pYRXRoSnNja2JEbGV3Si0waUpYLTdsVXMyR3FsQ1FN0gHYAUFVX3lxTFBnWVZZdnROVHpNc0o5cU40VGFTRkdFRm9UWVBFX2dFbUd5MVUtUWpkbWVUQVNUNWU2R3g5eUpPMWJ2eWhBQTRSTU1WaHNzX2F3WGR4dGtiR1R4WGk4NG9ZRnpwNnY5U3RGaFU3VFJQNFo4QU02SVM5OUVZY25tWlNFWkw4aDZlWVNzM21QZFdENVZtOTNqNlJGRnRkZHRvYWxjTWZYMjZqaTkzQ01HSFhKd3FZWTdwSVJiRVl3YXFaZFVkU2E1dElSNVVad0pUb0puWXVRRjlZVQ?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson Electric (EMR) Valuation Check After Raised Guidance And Solid Q2 2026 Results&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
-    },
-    {
       "competitor": "ABB",
       "headline": "ABB Robotics launches PickMaster Lite to ‘simplify and accelerate robotic picking’",
       "date": "2026-05-07",
@@ -168,6 +146,17 @@
     },
     {
       "competitor": "Emerson",
+      "headline": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUEpQdTdxNHNwZE5uWHRycXVUN2ZOVTRta0xWcmt6d1EtVGs0S2xTWDdHTmtuVVV0bjZtNFRnQzEzejhlSXA5YWpLSndCLV9EOUF0TERaY0djMTZZWnoxTVlBLXpydlZjMU1uTGhZXy1iM0VvaTlTYXpCMUVUZ1ptVEhsb0dlX1VHNTVnTjA2UkxTQjByRkk1M05FVlVNUjB1WVRxdTVia0RpUnNaR2R3N3ItRUh6azlBS1RwSXMyWmxPTTF4dDBFb3R6U1JEV2JYTTZfUXlyMGvSAdgBQVVfeXFMTVBKUHU3cTRzcGROblh0cnF1VDdmTlU0bWtMVnJrendRLVRrNEtsU1g3R05rblVVdG42bTRUZ0MxM3o4ZUlwOWFqS0p3Qi1fRDlBdExEWmNHYzE2WVp6MU1ZQS16cnZWYzFNbkxoWV8tYjNFb2k5U2F6QjFFVGdabVRIbG9HZV9VRzU1Z04wNlJMU0IwckZJNTNORVZVTVIwdVlUcXU1YmtEaVJzWkdkdzdyLUVIems5QUtUcElzMlpsT00xeHQwRW90elNSRFdiWE02X1F5cjBr?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus&nbsp;&nbsp;AlphaStreet",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "AlphaStreet"
+    },
+    {
+      "competitor": "Emerson",
       "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
       "date": "2026-05-02",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanJFZjJ0c1Z3ZXhqcTJxRUtKQy1HbEJ1UmFxZUo1ZGdNNEJ2dkV0VXRSWXhUYkVseEpZTVIzdkJDWjdYNGhJRVNlSFc3MzEzeTFMd21paVhVUjlnY01RdVkxekZDOHZRXzBEZDFiekkwS3dnVmxTVzlXc1FNZGx3QThfVFdQeFlaRVhXRmY3Y2ZqYUFnVGtEX0MxTHBMYTd1cklNeHpJNkowU1k4MWFqcUFESkpBbF9fY09fWlg5STdWZFpBRHIwOUZKbkxHY2NDSGRj0gHYAUFVX3lxTFBndG1YX1cweF9LN3hTNGF4ZFVSR3hiS1hWWkJJRGtUMEZHMVZEckJ6MlBuemhuUFRPMC01by1KWWRMOGtDQVBoaDc5em5wOTRaSU9QNnlvX1VUM0hCRmJwMDNaakI3TVQxbnpPQzJqZnFKZlBKQUFVRU5UY0s5eENaZGVveVRlUXoxTmlBdTNIZk5jNHBvcEFCTHhpUHE3TzhRaUxmeXdaTmJkLUZ6bVhBTzJrSlZmNWxUVnhzY2lTaUhwSGlDcWpJcHJPY1V4TUgtdTNuZ2o0Zg?oc=5",
@@ -187,17 +176,6 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations.",
       "source": "Google News",
       "publisher": "Cutting Tool Engineering"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Oilfield Technology Spotlight with KBC, A Yokogawa Company",
-      "date": "2026-05-01",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2xEcXY0TTd6TFB2RFA2ZWs4eU9JWVR3UGdTVklidnI5WUNOakRoRWZ5STVrbzVTZVBpSXdVdW90SVdfWXpFV3dWVGthUzI1WGV5VUx2ZEJqcHZ3eFFPY1J1OGdMMVNnTVVrNHgydWFrS2FHSVFKRUZQMlV0S2pNVHFod0M2RFpLdzFrVG9Ea2VfbWtsWFlQT0lpLXllM0FvMnVLTkJFdWFwVTA2SjV6T2pZM3ZrS2NYNkF3VHJlUlA?oc=5",
-      "priority": "LOW",
-      "summary": "Oilfield Technology Spotlight with KBC, A Yokogawa Company&nbsp;&nbsp;Oilfield Technology",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals. Vertical: Oil & Gas.",
-      "source": "Google News",
-      "publisher": "Oilfield Technology"
     },
     {
       "competitor": "Honeywell",
