@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T20:47:42Z",
+  "last_updated": "2026-05-15T22:43:13Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -66,28 +66,6 @@
       "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
       "source": "Google News",
       "publisher": "PR Newswire"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "New Emerson industrial AI platform delivers enterprise-scale AI",
-      "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMU84V0Q3bHloSUpraFdmU0pOQUFYeU15Qm5XU1F4VlMxck5YQk9QakZFMTFCdldqT014b0N3dGZyVU1iTV9QaVlBc0s2NjR0RDN3UEFmM2VSRUdCLWJxYnNURlk3ZDZhSmpWZ3NPejZWVmpvMmtBQ3B6Sm1KV0NZYWdHWVY5Rm9yWDVseU5wOEZKYjhsb0RuUmtKbnphMng2N3Y3WjEwa2t5WFNoSFBEbnE4MUp0UQ?oc=5",
-      "priority": "MEDIUM",
-      "summary": "New Emerson industrial AI platform delivers enterprise-scale AI&nbsp;&nbsp;Hydrocarbon Processing",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "Hydrocarbon Processing"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches",
-      "date": "2026-05-10",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlRxcDQ3elB0TktIR2lzVVpNSmtaQ0tvb2VFOGNreXJSTUYwdnRPUS1zeXBEdFlwcUVSMVpHbnhVZnZHei1DQ1ZDV01fS1ptQ056ajZxV1g2MWNUd1ZaWHQ2aTVZMmh3UFJTSFoxYURkWUhZZTVuQ0Mzb0ZHdFJRSzZHRVc3WWRCNFFkbU03VmFLSFdsNzBHcVNTc05jcUxyb0hwRUJzS1B6MVlfWTg3eE1nNkkwbm54aUp3UjR4UmtLLVVMNU9XNFZ5NDQtTEl5aVd1TFFQUdIB3AFBVV95cUxNYXFIN2FGUHh5cW9KcENTYUVndjlIY21DWmpnYkZlaXh5Rm1mX3RKcTRIdHFBTUpQdDFMTWJLdG1KUGV0MnZmQUFZdjYzMVpLdkRhZzZjWlFuTFhGOF90RWZfRUEwakppQUN0TUd3YXVTd29Ka0lOWXdZTTlXUEhsLTBoelpnQVpmYWM2SDZ6SGJKTVlOMDhjSWZZYl92WXU1N095R1JNMnNaZ09jS285UDJSZFBYYV9tNW44OTAwSUYwR2RueEwtZ2l2UkVMcVhvNklqTjJFTlhYNkdZ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "ABB",
@@ -231,6 +209,17 @@
       "why_matters": "Major financial event — Honeywell gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "Google News",
       "publisher": "AOL.com"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lZDVvODk4YnBjRVVSM3RaeFhaUldNYUlmTktCaEl2b3VKQ2o4S09VN1VYYmRWUy1lR1lwUUNPZllILW5YcTdheGhuZHJUczczOUdrdGtHMFNfSm93cU85clgtZXZNX3N2NnNrckROWFZzZHFuX3lrdlBoOGU?oc=5",
+      "priority": "LOW",
+      "summary": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell&nbsp;&nbsp;Simple Flying",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Simple Flying"
     },
     {
       "competitor": "Emerson",
