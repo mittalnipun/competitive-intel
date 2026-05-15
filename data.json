@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T11:47:21Z",
+  "last_updated": "2026-05-15T13:23:13Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -24,6 +24,17 @@
       "publisher": "The Business Journals"
     },
     {
+      "competitor": "Yokogawa",
+      "headline": "Uzbekistan and Yokogawa Electric Discuss Industrial Digitalization",
+      "date": "2026-05-14",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUlNtYnZHbV8zTlV1T0NrNE9kU0pYQTNnY0tJVEUxOV82OHNkWFMyRV9YY2ZCZHktQUd5cF9QdjlLcEs2VC1wX2NkZGxJaU5XTTl5NlVvc0prX2lJNkJVU3hrdlQzcFE5enlFakFBRlFra2NuaVpMS3JzT0oxcXByX1VMc2ZLTmNadEg1R0Z5VnU4TlNoN2VmYw?oc=5",
+      "priority": "LOW",
+      "summary": "Uzbekistan and Yokogawa Electric Discuss Industrial Digitalization&nbsp;&nbsp;UzDaily",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "UzDaily"
+    },
+    {
       "competitor": "Siemens",
       "headline": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com",
       "date": "2026-05-13",
@@ -33,6 +44,17 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: North America.",
       "source": "Google News",
       "publisher": "Investing.com Canada"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference",
+      "date": "2026-05-13",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFVDWWNfa3g5NnZlb00xbWxUczJ5TFplNVJWcklHQnVESFhsMmNhWjd1bXpPX2ZHTUM0bVo3U29Da3JDM0NVaTc3Si1hM01MaFV4dXNWTGlWUXkwRHBZRjE0NkotZ3Yxamxxc0JPUjkxQXpLUTR2YjlBUHhySHF1Y0hJbUEyRUFBMmg3Q0FzaGtCRDFVWmxGLXJ1YkE4aHR3VGNpRTFaOEkyQ0N6RW12LUNhWUtMT09iNzgwNEU0aGdyNnhfRG1OMTRnbkxUUQ?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference&nbsp;&nbsp;ChartMill",
+      "why_matters": "Emerson investing in demand generation targeting the same buyer profiles. Match or counter with Schneider content.",
+      "source": "Google News",
+      "publisher": "ChartMill"
     },
     {
       "competitor": "Emerson",
@@ -90,17 +112,6 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Electric Corporation and others announced a share buyback on May 7.",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjl4SThpWmhuWEpEajVIUzdoVEpyZVl0akMzTFZxS3hoQTVHMkRyVV9hNTlnX0pTbDhYdWhnN3VzTU5xcGJsLXBhd0VSU3g2eGNkdk5fOEg2eGxZRU5xb014cDIwM25rbjdCZ0NiYjNkazQ2YWo4UmdWb3pMUjY4dlY2XzZ1TkhXblJkZV85UFYzU2pGLWRjSWM3SjZTYUtSUFdEZ29HNVlrUk9BOFRz?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Electric Corporation and others announced a share buyback on May 7.&nbsp;&nbsp;富途牛牛",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "富途牛牛"
-    },
-    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
@@ -143,17 +154,6 @@
       "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
       "source": "Google News",
       "publisher": "AlphaStreet"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
-      "date": "2026-05-02",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanJFZjJ0c1Z3ZXhqcTJxRUtKQy1HbEJ1UmFxZUo1ZGdNNEJ2dkV0VXRSWXhUYkVseEpZTVIzdkJDWjdYNGhJRVNlSFc3MzEzeTFMd21paVhVUjlnY01RdVkxekZDOHZRXzBEZDFiekkwS3dnVmxTVzlXc1FNZGx3QThfVFdQeFlaRVhXRmY3Y2ZqYUFnVGtEX0MxTHBMYTd1cklNeHpJNkowU1k4MWFqcUFESkpBbF9fY09fWlg5STdWZFpBRHIwOUZKbkxHY2NDSGRj0gHYAUFVX3lxTFBndG1YX1cweF9LN3hTNGF4ZFVSR3hiS1hWWkJJRGtUMEZHMVZEckJ6MlBuemhuUFRPMC01by1KWWRMOGtDQVBoaDc5em5wOTRaSU9QNnlvX1VUM0hCRmJwMDNaakI3TVQxbnpPQzJqZnFKZlBKQUFVRU5UY0s5eENaZGVveVRlUXoxTmlBdTNIZk5jNHBvcEFCTHhpUHE3TzhRaUxmeXdaTmJkLUZ6bVhBTzJrSlZmNWxUVnhzY2lTaUhwSGlDcWpJcHJPY1V4TUgtdTNuZ2o0Zg?oc=5",
-      "priority": "HIGH",
-      "summary": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "Siemens",
@@ -223,6 +223,17 @@
     },
     {
       "competitor": "Honeywell",
+      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
+      "priority": "LOW",
+      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
+      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "TradingView"
+    },
+    {
+      "competitor": "Honeywell",
       "headline": "Brady Corp's $1.4 billion Honeywell deal explained",
       "date": "2026-04-22",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13WVFaRTlWdUpWcVRHUElBVXlxcTZaaC1mdklJeDlpZ2VrbFVJandnX005VW1vTGhfMXg4SHRzZkd1V1lMU2ltcTVWYk9KODVBMGFQUW05V1NndU1vZzFDb1dGS1NFSHB6SGV5SFRkOFM?oc=5",
@@ -233,15 +244,15 @@
       "publisher": "AOL.com"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate",
+      "competitor": "Emerson",
+      "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
       "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOYmpOQ0MwMmNrYk5EYlNvOFB5TjU2enN5TGJ1Q3BWX3RQS3hwUnZPaklRNG5nenA5bTBhY2hXQ3gzbUg1U29CTzlXVTUwYWpXelNHZE9yaXZ1N3NlTlBWZnhIcjNpU1F5ZjljcU9KWkJ5MkVVeHNnVS04MFk3T3pHaTFwdVc1bDhoR2VRejYwemx2a3dFTTdWWDRnUlYzbTRGVHdCX3lpTnczVDZ6SzlhNXkwcC04cmpsajBHQUswaFNCRFpNbzRSNXprcWlON1pNc21MUGtjaHRqZmxWVWc2b05XRG41ODFpRGFlLVpXbVhtaVFSYm5qYjJlcEJwa3RlQUJQT2N5eE14RTNzT29QN25OeG5jUEZUTjdZdmktX2dmZU1nLW0wZXYwT3lxM1ZtTVE?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate&nbsp;&nbsp;EQS News",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEVFdW5iVk9MTVBILXpQLVBDMmdtZHlldUdQSkptTEd6OHEtWEpaN3VtcTVMWWcxdVpjdjhaTUwtTXlFS3Voby02R2x6MmhUdjNSdGdvQTlNb0dob2JweFNJcTF2ZzJTbVpCSUMtS2dkUWhPV3RLSFd1VFpJdDNYMUVzRUtTWFVGMFhzQlV4eU5aMk9YaTUyZU5YS3VLLWhSQ01qd01kWGMxWi1ZU0ZGZ2UzRFZfWU5EV2ZGNUpWYS1PLTljekJHMtIBzgFBVV95cUxQWDl5S2RpV0U4OWduQ0VFMm82eU5mNlJnQTlQNVZ0anJtd1FfU1hnejFWaGpKT0ltMUxoSVRZbEJMNWtVc1F2OXViVGNlMUlFNEFxZU1mUVFYN0JsSktxa2lOMXpnSUZLbWVEcDJqSThhbEVlSGJ5SlAtcGc4Vm9VbkRqTHhKaXQ1U3hpSjhXMEd3RlNzN05aWmRubUJzQzhMWElRU1pZZlJOR1Vfb1pfcDdjOVgzVV9KMTd5Sk1lV1JKM0ZsNUQ3TjR3aEtUZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure&nbsp;&nbsp;Smart Water Magazine",
+      "why_matters": "Emerson is partnering with OPSWAT. Check if OPSWAT is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Utilities. Update partner network map and flag displacement risk.",
       "source": "Google News",
-      "publisher": "EQS News"
+      "publisher": "Smart Water Magazine"
     },
     {
       "competitor": "Emerson",
@@ -267,6 +278,17 @@
     },
     {
       "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
+    },
+    {
+      "competitor": "Rockwell Automation",
       "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing",
       "date": "2026-04-20",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
@@ -286,17 +308,6 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson partners with OPSWAT to embed OT patch management into Ovation platform for critical infrastructure",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSlFfbkFfdGRLWXh0ek5iX0t4NTBMaDBCRnNla0swYkhMNjlIQ2pHellBUV9SYllhWUhkdXZ0aHhIbXhNSEZHX2FDdmlhQ0V2RHRUR1k3WmFZTUVzZGdqamloSU9WYXIzMVZqX0hPa2RLT3V4aFNEeWxzT0kyNlM4NWR2ZURPeWE2MHFSLUV5Y0RkLV9LNEg4dXMxWkpfS1Ewbm13NHNMclFnY2wwVE1fd1J0Q19CeVZLenhiWTBRWmttSzV1S002ZWdpSGxUdHJNdkVUUzZ2QQ?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson partners with OPSWAT to embed OT patch management into Ovation platform for critical infrastructure&nbsp;&nbsp;Industrial Cyber",
-      "why_matters": "Emerson is partnering with OPSWAT. Check if OPSWAT is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Critical Infrastructure. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Industrial Cyber"
     },
     {
       "competitor": "Yokogawa",
