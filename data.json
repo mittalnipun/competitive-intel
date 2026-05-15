@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T01:51:07Z",
+  "last_updated": "2026-05-15T05:45:12Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -11,17 +11,6 @@
       "why_matters": "Rockwell Automation expanding reach. Assess whether this moves them into Schneider's core accounts or geographies.",
       "source": "Google News",
       "publisher": "TradingView"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson Electric Automation Strategy Draws S&P 500 Focus",
-      "date": "2026-05-14",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVktWZVdOd3VvU3VTbHFPMDhoMHhqMHlTbkRNRFNYRHRxUzRsRlRHX25kZEtVZUlXZEpJQ2xEN2FEU3pjZHNCOWhId005QWxuZ3dObkxkU3FWd1ZqME51NGxfVmpaWU9jT3JzOWJjQ3hHTTBUWXkwSHpUMFFOMW1ORUFmaXU1U1l5MkVEbGNMV19ZYkhVQzhtaWJhOElzNVJRdVEw?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson Electric Automation Strategy Draws S&amp;P 500 Focus&nbsp;&nbsp;Kalkine Media",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "Kalkine Media"
     },
     {
       "competitor": "Yokogawa",
@@ -93,23 +82,12 @@
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production",
       "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMEI4bWQwaWJOOURhampWRy1vOEdRaS1JZG41TDJKcEFUVGZPLXk3RnEyNHVyVkpFWTdDSzlnYTJJbWFqbXozeVlmRHdTRldVQmhhM0hfUXdpVGw4U0NqSGFXa1pYc2I2dDhWc3M0b2x4MG1RM0FsSTItR2tmbjFLNE9BYUZDZFdNQnFWNnl1czdzNkdlckQwaVpSRGxwVldhenZYUmkwSS1LdW01WFdoU0EzbTRKeHh1bk1QN0dsUDl3bEdxZHJEMjhfcjVWUHFfYTloLS1RQmxWc3EwamViXzFtUHNrM2R6cDktLUdWWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRnJWd0pmX0F1YWVsTndpWWRLbHdkcWctR05KX1RyMWVySVBNN0dtNGNRMElZTldMM1BMdmw2ZzNpZ3RobnRoQlBrWlFIX2w0b3NnQzY4NjJvbU1maElOYnZUQ0tPZ0c1TnFpcS04N0ZoWThrYXBIcUp0eG1sLW85eG4xM0NHNnYtaVRkWGdFUjlTdGlZbzZMTnptVkZrZ3VYUUJ0Vm56YWwzR0EyUUtRUUdmSEE4dXBHS0NYVV9KZzA2N2hpX2tWOGhxTXplVkR3SVdQOEtjZ09DQU83anBZVy10WkdPUUlrZHJyazZxejU0RGJRaHc?oc=5",
       "priority": "HIGH",
-      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;PR Newswire",
+      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;Morningstar",
       "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
       "source": "Google News",
-      "publisher": "PR Newswire"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches",
-      "date": "2026-05-10",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlRxcDQ3elB0TktIR2lzVVpNSmtaQ0tvb2VFOGNreXJSTUYwdnRPUS1zeXBEdFlwcUVSMVpHbnhVZnZHei1DQ1ZDV01fS1ptQ056ajZxV1g2MWNUd1ZaWHQ2aTVZMmh3UFJTSFoxYURkWUhZZTVuQ0Mzb0ZHdFJRSzZHRVc3WWRCNFFkbU03VmFLSFdsNzBHcVNTc05jcUxyb0hwRUJzS1B6MVlfWTg3eE1nNkkwbm54aUp3UjR4UmtLLVVMNU9XNFZ5NDQtTEl5aVd1TFFQUdIB3AFBVV95cUxNYXFIN2FGUHh5cW9KcENTYUVndjlIY21DWmpnYkZlaXh5Rm1mX3RKcTRIdHFBTUpQdDFMTWJLdG1KUGV0MnZmQUFZdjYzMVpLdkRhZzZjWlFuTFhGOF90RWZfRUEwakppQUN0TUd3YXVTd29Ka0lOWXdZTTlXUEhsLTBoelpnQVpmYWM2SDZ6SGJKTVlOMDhjSWZZYl92WXU1N095R1JNMnNaZ09jS285UDJSZFBYYV9tNW44OTAwSUYwR2RueEwtZ2l2UkVMcVhvNklqTjJFTlhYNkdZ?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
+      "publisher": "Morningstar"
     },
     {
       "competitor": "ABB",
@@ -154,6 +132,28 @@
       "why_matters": "Major financial event — Emerson gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus",
+      "date": "2026-05-05",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUEpQdTdxNHNwZE5uWHRycXVUN2ZOVTRta0xWcmt6d1EtVGs0S2xTWDdHTmtuVVV0bjZtNFRnQzEzejhlSXA5YWpLSndCLV9EOUF0TERaY0djMTZZWnoxTVlBLXpydlZjMU1uTGhZXy1iM0VvaTlTYXpCMUVUZ1ptVEhsb0dlX1VHNTVnTjA2UkxTQjByRkk1M05FVlVNUjB1WVRxdTVia0RpUnNaR2R3N3ItRUh6azlBS1RwSXMyWmxPTTF4dDBFb3R6U1JEV2JYTTZfUXlyMGvSAdgBQVVfeXFMTVBKUHU3cTRzcGROblh0cnF1VDdmTlU0bWtMVnJrendRLVRrNEtsU1g3R05rblVVdG42bTRUZ0MxM3o4ZUlwOWFqS0p3Qi1fRDlBdExEWmNHYzE2WVp6MU1ZQS16cnZWYzFNbkxoWV8tYjNFb2k5U2F6QjFFVGdabVRIbG9HZV9VRzU1Z04wNlJMU0IwckZJNTNORVZVTVIwdVlUcXU1YmtEaVJzWkdkdzdyLUVIems5QUtUcElzMlpsT00xeHQwRW90elNSRFdiWE02X1F5cjBr?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus&nbsp;&nbsp;AlphaStreet",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "AlphaStreet"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?",
+      "date": "2026-05-02",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanJFZjJ0c1Z3ZXhqcTJxRUtKQy1HbEJ1UmFxZUo1ZGdNNEJ2dkV0VXRSWXhUYkVseEpZTVIzdkJDWjdYNGhJRVNlSFc3MzEzeTFMd21paVhVUjlnY01RdVkxekZDOHZRXzBEZDFiekkwS3dnVmxTVzlXc1FNZGx3QThfVFdQeFlaRVhXRmY3Y2ZqYUFnVGtEX0MxTHBMYTd1cklNeHpJNkowU1k4MWFqcUFESkpBbF9fY09fWlg5STdWZFpBRHIwOUZKbkxHY2NDSGRj0gHYAUFVX3lxTFBndG1YX1cweF9LN3hTNGF4ZFVSR3hiS1hWWkJJRGtUMEZHMVZEckJ6MlBuemhuUFRPMC01by1KWWRMOGtDQVBoaDc5em5wOTRaSU9QNnlvX1VUM0hCRmJwMDNaakI3TVQxbnpPQzJqZnFKZlBKQUFVRU5UY0s5eENaZGVveVRlUXoxTmlBdTNIZk5jNHBvcEFCTHhpUHE3TzhRaUxmeXdaTmJkLUZ6bVhBTzJrSlZmNWxUVnhzY2lTaUhwSGlDcWpJcHJPY1V4TUgtdTNuZ2o0Zg?oc=5",
+      "priority": "HIGH",
+      "summary": "Is Emerson’s Upgraded 2026 EPS Outlook Reshaping the Automation Investment Case for EMR?&nbsp;&nbsp;simplywall.st",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "simplywall.st"
     },
     {
       "competitor": "Siemens",
@@ -212,17 +212,6 @@
     },
     {
       "competitor": "Honeywell",
-      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
-      "priority": "LOW",
-      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
-      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "TradingView"
-    },
-    {
-      "competitor": "Honeywell",
       "headline": "Brady Corp's $1.4 billion Honeywell deal explained",
       "date": "2026-04-22",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13WVFaRTlWdUpWcVRHUElBVXlxcTZaaC1mdklJeDlpZ2VrbFVJandnX005VW1vTGhfMXg4SHRzZkd1V1lMU2ltcTVWYk9KODVBMGFQUW05V1NndU1vZzFDb1dGS1NFSHB6SGV5SFRkOFM?oc=5",
@@ -231,6 +220,17 @@
       "why_matters": "Major financial event — Honeywell gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "Google News",
       "publisher": "AOL.com"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lZDVvODk4YnBjRVVSM3RaeFhaUldNYUlmTktCaEl2b3VKQ2o4S09VN1VYYmRWUy1lR1lwUUNPZllILW5YcTdheGhuZHJUczczOUdrdGtHMFNfSm93cU85clgtZXZNX3N2NnNrckROWFZzZHFuX3lrdlBoOGU?oc=5",
+      "priority": "LOW",
+      "summary": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell&nbsp;&nbsp;Simple Flying",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "Simple Flying"
     },
     {
       "competitor": "Emerson",
