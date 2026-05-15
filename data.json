@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T22:47:59Z",
+  "last_updated": "2026-05-15T01:51:07Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -11,6 +11,28 @@
       "why_matters": "Rockwell Automation expanding reach. Assess whether this moves them into Schneider's core accounts or geographies.",
       "source": "Google News",
       "publisher": "TradingView"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Electric Automation Strategy Draws S&P 500 Focus",
+      "date": "2026-05-14",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVktWZVdOd3VvU3VTbHFPMDhoMHhqMHlTbkRNRFNYRHRxUzRsRlRHX25kZEtVZUlXZEpJQ2xEN2FEU3pjZHNCOWhId005QWxuZ3dObkxkU3FWd1ZqME51NGxfVmpaWU9jT3JzOWJjQ3hHTTBUWXkwSHpUMFFOMW1ORUFmaXU1U1l5MkVEbGNMV19ZYkhVQzhtaWJhOElzNVJRdVEw?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson Electric Automation Strategy Draws S&amp;P 500 Focus&nbsp;&nbsp;Kalkine Media",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "Kalkine Media"
+    },
+    {
+      "competitor": "Yokogawa",
+      "headline": "Uzbekistan and Yokogawa Electric Discuss Industrial Digitalization",
+      "date": "2026-05-14",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUlNtYnZHbV8zTlV1T0NrNE9kU0pYQTNnY0tJVEUxOV82OHNkWFMyRV9YY2ZCZHktQUd5cF9QdjlLcEs2VC1wX2NkZGxJaU5XTTl5NlVvc0prX2lJNkJVU3hrdlQzcFE5enlFakFBRlFra2NuaVpMS3JzT0oxcXByX1VMc2ZLTmNadEg1R0Z5VnU4TlNoN2VmYw?oc=5",
+      "priority": "LOW",
+      "summary": "Uzbekistan and Yokogawa Electric Discuss Industrial Digitalization&nbsp;&nbsp;UzDaily",
+      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
+      "source": "Google News",
+      "publisher": "UzDaily"
     },
     {
       "competitor": "Siemens",
@@ -36,14 +58,14 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson Announces the Expansion of AI-Ready Test Automation Platform at NI Connect 2026",
+      "headline": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric",
       "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTElibHRoblhxNDhxakU2ZGZLbFA5ZVN0SmhxeVp2NHFSaExTUl95ZjdLdWJjZVRidDJYR1ZJV19FSXZ5bHJCTEVmX0ZBOVlsXzl5aVJIUm12NVFEY1Uxd2JuNy1vaTYxX19XZmpzcjdBemtqRl9ROHQ1Q2tDLTBYNXZvVExVbV9GX0ZEaTFneFBmY0MzdTJqdE1wdmIwdUY4azMwUm91bHU4Rmw2ek1hRXRfOVZoR3NhYWRvWktEOV8wb0lYaEtWNGlESlIyZ2RzUXROOWJiZ0VXVDg?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson Announces the Expansion of AI-Ready Test Automation Platform at NI Connect 2026&nbsp;&nbsp;Embedded Computing Design",
-      "why_matters": "Emerson expanding reach. Assess whether this moves them into Schneider's core accounts or geographies.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTV9YYk1OZzlCMHJXMXYwaEl5bGx3bWZVZ2tRUVNTUklWRE1oZ1RiMW05RmFCb3V6dmlxakRVd3VkYkhzc2dPWUZtQy1sWnVWclU3bm1UenowTU5xVWQ4WnhlR0ROeVRMWGNENGxnQmJDSFNxWE9WUjE1S0lvd2JYelRGeUQzZXhhVXhSaTVqbWpMRVFTTFp1OFFOUlVuS2t2OC0zdm5SbDg5azFvWG9xSVh1ZHo4aVIyODFMN3hCb0FHYVQ3bW1uTEFTWQ?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric&nbsp;&nbsp;Investing.com UK",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Europe.",
       "source": "Google News",
-      "publisher": "Embedded Computing Design"
+      "publisher": "Investing.com UK"
     },
     {
       "competitor": "Siemens",
@@ -79,28 +101,6 @@
       "publisher": "PR Newswire"
     },
     {
-      "competitor": "Emerson",
-      "headline": "Emerson launches AspenTech AVA industrial AI platform",
-      "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdWdZVUttR04weVh5OElfRE9jZGVlQVhSRjFRMjZYaWk5VTMwc2djTVo0RnFRY25ueVduQ0NON0tOeFBESnpLZ0ZfZ0p2eEVIT19jTzY1LTZqX2VOMXpBRmo2bmdfTzZfTWJWenFwanBRX3RETGxiRjhtdF9CUk1rZnR0N3NReXl1YV90ZmRnblVkYnRwM3FQdW9ibGY3anVHeWdtTlhYSWdRZU9zYVpvbEFDTDZKQnJzTXlBS2FUTU9za29k?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson launches AspenTech AVA industrial AI platform&nbsp;&nbsp;Investing.com UK",
-      "why_matters": "Aspentech — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards. Region: Europe.",
-      "source": "Google News",
-      "publisher": "Investing.com UK"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB India Publishes Unaudited Q1 2026 Results Extract",
-      "date": "2026-05-10",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ1hCdkhnekdZNXhET0EzT3pxZkdXZ3FIWEpVcnJ2cmgtTUVhV0ZLYmd0bURZN19hRjItSnE5cDgweGltN1VZckc2ODZTOEt3aGxHQnhOc3lYanNqMkI5UVdRV2hMSWtZMHphV0t2Y25fZWJaQXpXcGRSWUZPaGZmZkF1Q3ZBZnVjSkNhdFlxeWRRNGFSSjNYdEJTZlVYS29XZ3NKNktKNzBwU2lUSzRnSWxka2Nhak9Ub0xvQjJILXAtS2tOMUNrbHVQWWNRRkE?oc=5",
-      "priority": "LOW",
-      "summary": "ABB India Publishes Unaudited Q1 2026 Results Extract&nbsp;&nbsp;The Globe and Mail",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability. Region: APAC.",
-      "source": "Google News",
-      "publisher": "The Globe and Mail"
-    },
-    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation Showcases Digital Twins At Interpack 2026 As Valuation Stretches",
       "date": "2026-05-10",
@@ -121,17 +121,6 @@
       "why_matters": "ABB's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
-    },
-    {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Electric Corporation and others announced a share buyback on May 7.",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjl4SThpWmhuWEpEajVIUzdoVEpyZVl0akMzTFZxS3hoQTVHMkRyVV9hNTlnX0pTbDhYdWhnN3VzTU5xcGJsLXBhd0VSU3g2eGNkdk5fOEg2eGxZRU5xb014cDIwM25rbjdCZ0NiYjNkazQ2YWo4UmdWb3pMUjY4dlY2XzZ1TkhXblJkZV85UFYzU2pGLWRjSWM3SjZTYUtSUFdEZ29HNVlrUk9BOFRz?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Electric Corporation and others announced a share buyback on May 7.&nbsp;&nbsp;富途牛牛",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "富途牛牛"
     },
     {
       "competitor": "Rockwell Automation",
@@ -165,17 +154,6 @@
       "why_matters": "Major financial event — Emerson gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUEpQdTdxNHNwZE5uWHRycXVUN2ZOVTRta0xWcmt6d1EtVGs0S2xTWDdHTmtuVVV0bjZtNFRnQzEzejhlSXA5YWpLSndCLV9EOUF0TERaY0djMTZZWnoxTVlBLXpydlZjMU1uTGhZXy1iM0VvaTlTYXpCMUVUZ1ptVEhsb0dlX1VHNTVnTjA2UkxTQjByRkk1M05FVlVNUjB1WVRxdTVia0RpUnNaR2R3N3ItRUh6azlBS1RwSXMyWmxPTTF4dDBFb3R6U1JEV2JYTTZfUXlyMGvSAdgBQVVfeXFMTVBKUHU3cTRzcGROblh0cnF1VDdmTlU0bWtMVnJrendRLVRrNEtsU1g3R05rblVVdG42bTRUZ0MxM3o4ZUlwOWFqS0p3Qi1fRDlBdExEWmNHYzE2WVp6MU1ZQS16cnZWYzFNbkxoWV8tYjNFb2k5U2F6QjFFVGdabVRIbG9HZV9VRzU1Z04wNlJMU0IwckZJNTNORVZVTVIwdVlUcXU1YmtEaVJzWkdkdzdyLUVIems5QUtUcElzMlpsT00xeHQwRW90elNSRFdiWE02X1F5cjBr?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson Electric Co. (EMR) Q2 FY2026 Earnings Preview: Process Momentum, AI Tailwinds, and Margin Discipline in Focus&nbsp;&nbsp;AlphaStreet",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "AlphaStreet"
     },
     {
       "competitor": "Siemens",
@@ -297,6 +275,17 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
       "publisher": "Cisco Blogs"
+    },
+    {
+      "competitor": "ABB",
+      "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XQUpVWFVoZXF5WUxpSlpCUkZPQTVCNGE1Rk1FNXI2WVpGNGFoZE1sazhNQk5uenI4bElVWmN4ZHZyNkVzS3dOVlhPcExUeGVXTEow?oc=5",
+      "priority": "LOW",
+      "summary": "ABB Startup Challenge winners drive AI-powered energy innovation&nbsp;&nbsp;ABB",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "ABB"
     },
     {
       "competitor": "Rockwell Automation",
