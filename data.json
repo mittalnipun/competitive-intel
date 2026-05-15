@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T08:35:38Z",
+  "last_updated": "2026-05-15T11:47:21Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -13,6 +13,17 @@
       "publisher": "TradingView"
     },
     {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation lays out details of first phase for New Berlin mega-plant",
+      "date": "2026-05-14",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWHR4TjZzSXZfdDFld2twZFIycWJ6TnRkamRybWk0cmliMUtFbGJ3ZzUyWVBoMFNqT1BIVjRSR0prR3p0MDUxckszUlRqZzJTb3Q3R0RwNFFRYjRZUG5vTU1waTFKT0RSRjhIYjZzeUVSVmlGQmE1cFAyRHdHckVtMnJ0MGFrZjZRQ2RDM1dnWDMyenpsX0xOQ0w0b2V5SW15?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation lays out details of first phase for New Berlin mega-plant&nbsp;&nbsp;The Business Journals",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "The Business Journals"
+    },
+    {
       "competitor": "Siemens",
       "headline": "Earnings call transcript: Siemens AG Q2 2026 showcases robust growth By Investing.com",
       "date": "2026-05-13",
@@ -22,6 +33,17 @@
       "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: North America.",
       "source": "Google News",
       "publisher": "Investing.com Canada"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric",
+      "date": "2026-05-13",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTV9YYk1OZzlCMHJXMXYwaEl5bGx3bWZVZ2tRUVNTUklWRE1oZ1RiMW05RmFCb3V6dmlxakRVd3VkYkhzc2dPWUZtQy1sWnVWclU3bm1UenowTU5xVWQ4WnhlR0ROeVRMWGNENGxnQmJDSFNxWE9WUjE1S0lvd2JYelRGeUQzZXhhVXhSaTVqbWpMRVFTTFp1OFFOUlVuS2t2OC0zdm5SbDg5azFvWG9xSVh1ZHo4aVIyODFMN3hCb0FHYVQ3bW1uTEFTWQ?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson unveils enhanced AspenTech Inmation OT Data Fabric&nbsp;&nbsp;Investing.com UK",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Region: Europe.",
+      "source": "Google News",
+      "publisher": "Investing.com UK"
     },
     {
       "competitor": "Siemens",
@@ -44,17 +66,6 @@
       "why_matters": "Major financial event — ABB gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments. Vertical: Critical Infrastructure. Region: Europe.",
       "source": "Google News",
       "publisher": "ABB"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson launches AspenTech AVA industrial AI platform By Investing.com",
-      "date": "2026-05-11",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVVZWMGxPVVZRLVBidW0xanZhQXFfcjBnSVhobEwtNVdIVmM0aHp5QklUQ0xnM1RkSUZmYnFvcldXcm5kVXdubmpibnJ6M0FBaF9PbTJfTDVWMkVqVHM0ZFROM21aN0VSbldrd2pCYWp6VmI1N0lOdWMyUS1YSjFLcHN1aGgwM2Nyb2dxSGJqLVRnRDNKSjhIbkdIMVcxdXFOOFZWSl9LMzhZZi10OXl6ZGQ1UzZDNTRFaVUxSERsNE5NcGVP?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson launches AspenTech AVA industrial AI platform By Investing.com&nbsp;&nbsp;Investing.com South Africa",
-      "why_matters": "Aspentech — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Investing.com South Africa"
     },
     {
       "competitor": "Rockwell Automation",
@@ -223,14 +234,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell",
+      "headline": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate",
       "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lZDVvODk4YnBjRVVSM3RaeFhaUldNYUlmTktCaEl2b3VKQ2o4S09VN1VYYmRWUy1lR1lwUUNPZllILW5YcTdheGhuZHJUczczOUdrdGtHMFNfSm93cU85clgtZXZNX3N2NnNrckROWFZzZHFuX3lrdlBoOGU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOYmpOQ0MwMmNrYk5EYlNvOFB5TjU2enN5TGJ1Q3BWX3RQS3hwUnZPaklRNG5nenA5bTBhY2hXQ3gzbUg1U29CTzlXVTUwYWpXelNHZE9yaXZ1N3NlTlBWZnhIcjNpU1F5ZjljcU9KWkJ5MkVVeHNnVS04MFk3T3pHaTFwdVc1bDhoR2VRejYwemx2a3dFTTdWWDRnUlYzbTRGVHdCX3lpTnczVDZ6SzlhNXkwcC04cmpsajBHQUswaFNCRFpNbzRSNXprcWlON1pNc21MUGtjaHRqZmxWVWc2b05XRG41ODFpRGFlLVpXbVhtaVFSYm5qYjJlcEJwa3RlQUJQT2N5eE14RTNzT29QN25OeG5jUEZUTjdZdmktX2dmZU1nLW0wZXYwT3lxM1ZtTVE?oc=5",
       "priority": "LOW",
-      "summary": "This Might Be Boeing's Greatest Asset After Acquiring Rockwell&nbsp;&nbsp;Simple Flying",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "summary": "Rockwell Automation to Demonstrate Cloud‑Connected Factory Design and Industrial Operations with AWS at Hannover Messe 2026 | Corporate&nbsp;&nbsp;EQS News",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
-      "publisher": "Simple Flying"
+      "publisher": "EQS News"
     },
     {
       "competitor": "Emerson",
@@ -256,17 +267,6 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026",
-      "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdEdKSnNySW10ZTBfazVXdVpiMWhFenpkVzBpbDVuVzZ4bkRnWURwMFJ3MnY3QXotZzcxaTV5bG5XdFNnak9FR25QS3k2TFdSMmlmUUl2N3NjSldGSFpqcGJQMEJvMVRNNVp0bWxEUm5McEhGT1VKaVMzRG85cXJza0pDVE5UNVRhSHQ4NFkwNnhpbi1wZno1YXo5SnAzdGw0bUtlY2J4N19NZ25mOUU1bWJUVDcyS1ViWmxlYW42dk1VMEJNNXdOUFpLSGg0R1Y1eVVWLVh3Mi12LUxUTHNBdktKMmI?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation to Demonstrate AI‑Orchestrated Factory System Design at Hannover Messe 2026&nbsp;&nbsp;PR Newswire",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "PR Newswire"
-    },
-    {
-      "competitor": "Rockwell Automation",
       "headline": "From Automation to Autonomy: Cisco and Rockwell Power a New Era for Manufacturing",
       "date": "2026-04-20",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXRkVmIyWFVwUVd1by1wQmlNeXBESENjQlBWZkRua3lmeTBGcVJXdVFEdURabDU0M1Y2dW96RWJTdXlFNEVDQzNVcFhFZWtMVFUzQmN6VkNfdlE2dzRRUDJyY2twSHdzWDlyLUFPaEhBTlRteDRzb1RSalZFWXZ1UHNPSFJvbUlEMlBEWHBQUHF0SkFxbEtrbEdyZk5YOGpMYnh5S1pmOXpZc1p3b3c?oc=5",
@@ -275,17 +275,6 @@
       "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
       "source": "Google News",
       "publisher": "Cisco Blogs"
-    },
-    {
-      "competitor": "ABB",
-      "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XQUpVWFVoZXF5WUxpSlpCUkZPQTVCNGE1Rk1FNXI2WVpGNGFoZE1sazhNQk5uenI4bElVWmN4ZHZyNkVzS3dOVlhPcExUeGVXTEow?oc=5",
-      "priority": "LOW",
-      "summary": "ABB Startup Challenge winners drive AI-powered energy innovation&nbsp;&nbsp;ABB",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "ABB"
     },
     {
       "competitor": "Rockwell Automation",
