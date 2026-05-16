@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T20:37:08Z",
+  "last_updated": "2026-05-16T22:35:10Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -102,14 +102,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
-      "priority": "HIGH",
-      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Quiver Quantitative"
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
+      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
     },
     {
       "competitor": "Rockwell Automation",
