@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T07:46:01Z",
+  "last_updated": "2026-05-16T09:19:21Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -25,14 +25,14 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson Announces the Expansion of AI-Ready Test Automation Platform at NI Connect 2026",
+      "headline": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference",
       "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTElibHRoblhxNDhxakU2ZGZLbFA5ZVN0SmhxeVp2NHFSaExTUl95ZjdLdWJjZVRidDJYR1ZJV19FSXZ5bHJCTEVmX0ZBOVlsXzl5aVJIUm12NVFEY1Uxd2JuNy1vaTYxX19XZmpzcjdBemtqRl9ROHQ1Q2tDLTBYNXZvVExVbV9GX0ZEaTFneFBmY0MzdTJqdE1wdmIwdUY4azMwUm91bHU4Rmw2ek1hRXRfOVZoR3NhYWRvWktEOV8wb0lYaEtWNGlESlIyZ2RzUXROOWJiZ0VXVDg?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson Announces the Expansion of AI-Ready Test Automation Platform at NI Connect 2026&nbsp;&nbsp;Embedded Computing Design",
-      "why_matters": "Emerson expanding reach. Assess whether this moves them into Schneider's core accounts or geographies.",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFVDWWNfa3g5NnZlb00xbWxUczJ5TFplNVJWcklHQnVESFhsMmNhWjd1bXpPX2ZHTUM0bVo3U29Da3JDM0NVaTc3Si1hM01MaFV4dXNWTGlWUXkwRHBZRjE0NkotZ3Yxamxxc0JPUjkxQXpLUTR2YjlBUHhySHF1Y0hJbUEyRUFBMmg3Q0FzaGtCRDFVWmxGLXJ1YkE4aHR3VGNpRTFaOEkyQ0N6RW12LUNhWUtMT09iNzgwNEU0aGdyNnhfRG1OMTRnbkxUUQ?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference&nbsp;&nbsp;ChartMill",
+      "why_matters": "Emerson investing in demand generation targeting the same buyer profiles. Match or counter with Schneider content.",
       "source": "Google News",
-      "publisher": "Embedded Computing Design"
+      "publisher": "ChartMill"
     },
     {
       "competitor": "Siemens",
@@ -55,6 +55,17 @@
       "why_matters": "Major financial event — ABB gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments. Vertical: Critical Infrastructure. Region: Europe.",
       "source": "Google News",
       "publisher": "ABB"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMEI4bWQwaWJOOURhampWRy1vOEdRaS1JZG41TDJKcEFUVGZPLXk3RnEyNHVyVkpFWTdDSzlnYTJJbWFqbXozeVlmRHdTRldVQmhhM0hfUXdpVGw4U0NqSGFXa1pYc2I2dDhWc3M0b2x4MG1RM0FsSTItR2tmbjFLNE9BYUZDZFdNQnFWNnl1czdzNkdlckQwaVpSRGxwVldhenZYUmkwSS1LdW01WFdoU0EzbTRKeHh1bk1QN0dsUDl3bEdxZHJEMjhfcjVWUHFfYTloLS1RQmxWc3EwamViXzFtUHNrM2R6cDktLUdWWQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Rockwell Automation, Actemium Deploy AI to Cut Refrigeration Energy Use by 17% in Frozen Food Production&nbsp;&nbsp;PR Newswire",
+      "why_matters": "Live field deployment by Rockwell Automation. Check for overlap with Schneider's installed base in this segment. Vertical: Food & Beverage.",
+      "source": "Google News",
+      "publisher": "PR Newswire"
     },
     {
       "competitor": "Emerson",
@@ -110,17 +121,6 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Reports Second Quarter 2026 Results",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1N1TFZ4dWdxUDlHdXJ6UmNaZ05jazN3UFZBX1ZTRVdzOTZ2UWNFaXV3VjJQOE5TVWN4bFZOdTFvM2paUlZ3dUhwaUtiTW9CczlFeDlHSlBJX1JiYXUwLURBS1pmemM4X3NIUERreXlnRHBwOExxejRrNm9sY01ScEhXQUZXTmVlQ21aOWx6STBXMTFMRUEtU1Rqblc0ZGs1Tk1wbC1zMkEyOG5vV3NBMlB3?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Reports Second Quarter 2026 Results&nbsp;&nbsp;Business Wire",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "Business Wire"
     },
     {
       "competitor": "Emerson",
@@ -209,6 +209,28 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
+      "priority": "LOW",
+      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
+      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "TradingView"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Brady Corp's $1.4 billion Honeywell deal explained",
+      "date": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13WVFaRTlWdUpWcVRHUElBVXlxcTZaaC1mdklJeDlpZ2VrbFVJandnX005VW1vTGhfMXg4SHRzZkd1V1lMU2ltcTVWYk9KODVBMGFQUW05V1NndU1vZzFDb1dGS1NFSHB6SGV5SFRkOFM?oc=5",
+      "priority": "HIGH",
+      "summary": "Brady Corp's $1.4 billion Honeywell deal explained&nbsp;&nbsp;AOL.com",
+      "why_matters": "Major financial event — Honeywell gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "Google News",
+      "publisher": "AOL.com"
     },
     {
       "competitor": "Emerson",
