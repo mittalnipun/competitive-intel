@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T20:39:06Z",
+  "last_updated": "2026-05-17T22:42:28Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -189,17 +189,6 @@
       "publisher": "Digital Commerce 360"
     },
     {
-      "competitor": "Siemens",
-      "headline": "Innomotics to close ₹2,200 crore Siemens LV motor business acquisition by Q1 FY27",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRU5TR0ZtVkpzMjl2dmhoSC1hLWg4ZExoSzJNaHJRak11Sll6MHljRW9SSG9hM0FqVzR3TE5zUDdleG1WdGZMdXRXYmhRcS1fdUZIREo1M1JXZTBVZGJ5Y1RJZy1jYlRaMTRoZGxianJ0dngzQngzNjZnekhRTF9MMnFBZ1VpM2Q1Z2sxeHpTRVZJclJrZGhFNFFhLW5QWnFzT0FYbTMyVW84SVBwbl9aSV9aTkNCNDBTOURoMW90UjlyZ21aZXZkMDNXaUVQeFJjYXE2Y0pQVURFYVBWdk83TjUwYTNiYWtRVnfSAe8BQVVfeXFMTmZfYnRyTE1KZnZHd0JCMHp1UElUdzlkc1hxNGZaUnI5aWhnRWZURmt5Z0doMWVESE1YYWJ3dFIwaTBEbGRVbkcwZUFkYl82N2hENnhIREpQX29oT193bVB2U2N2TWpMT081M1htb3BOT3FRUGtZRTNoOXhVTWVJZGtfVWRuMFNDU2toN3pISHZaT00wWGFLQWlqamtFYjNkdHY3aGs2Vk1zYW5nN3YzQlBlN2dpWERVTjNwak9nTjFzdlFUY055VlktNmFPWGhvUE5tUmt4ZVIyb05DRzJUdWVmNV9MdDdDTlBDaFVvMHM?oc=5",
-      "priority": "HIGH",
-      "summary": "Innomotics to close ₹2,200 crore Siemens LV motor business acquisition by Q1 FY27&nbsp;&nbsp;ET Manufacturing",
-      "why_matters": "Siemens acquiring capability — identify the domain being filled. Map against EcoStruxure stack gaps and flag customer overlap risk. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "ET Manufacturing"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "Honeywell SEC 8-K: 8-K (2026-04-23)",
       "date": "2026-04-23",
@@ -231,6 +220,17 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
+      "priority": "LOW",
+      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
+      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "TradingView"
     },
     {
       "competitor": "Emerson",
