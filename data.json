@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T01:48:24Z",
+  "last_updated": "2026-05-17T05:38:58Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -102,14 +102,14 @@
     },
     {
       "competitor": "Rockwell Automation",
-      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
+      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
-      "priority": "HIGH",
-      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
-      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
-      "source": "Google News",
-      "publisher": "Quiver Quantitative"
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
+      "priority": "MEDIUM",
+      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
+      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "SEC EDGAR",
+      "publisher": "SEC EDGAR"
     },
     {
       "competitor": "Rockwell Automation",
@@ -178,17 +178,6 @@
       "publisher": "Digital Commerce 360"
     },
     {
-      "competitor": "ABB",
-      "headline": "ABB lifts 2026 ambitions after record orders and profit jump in first quarter",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTVBpaUtXZER1Z09Dc1hKcVBoVlpjYWxGTnJxUHlkSEROTTB0eW4ySnhzVktqRnM4Um5MQ1VkWEpvVDQwd2RJNTJPSzlJNWdzX3pZTU1jbk5HWG1seDBsTmlmWWJ0S0tRelE0SlZESHYzeHlPWjNTSEcwRGpoU2djZFVzWkZpV0N1QzhVVXJkdG90dFdWc1ZtNVBzLVBSMXBhQW5USXFKYUtVaDU5ZnRRdUN1NzUza0djdk4wbXl3Z1Rvdy1Uam1fSEliSndaeE84MWM4Q0NIZjQ2QzdMNFNBYUh6QUJMSkltMUhDSUFaOA?oc=5",
-      "priority": "LOW",
-      "summary": "ABB lifts 2026 ambitions after record orders and profit jump in first quarter&nbsp;&nbsp;The Globe and Mail",
-      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
-      "source": "Google News",
-      "publisher": "The Globe and Mail"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "Honeywell SEC 8-K: 8-K (2026-04-23)",
       "date": "2026-04-23",
@@ -220,6 +209,28 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Honeywell",
+      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
+      "priority": "LOW",
+      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
+      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "TradingView"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEVFdW5iVk9MTVBILXpQLVBDMmdtZHlldUdQSkptTEd6OHEtWEpaN3VtcTVMWWcxdVpjdjhaTUwtTXlFS3Voby02R2x6MmhUdjNSdGdvQTlNb0dob2JweFNJcTF2ZzJTbVpCSUMtS2dkUWhPV3RLSFd1VFpJdDNYMUVzRUtTWFVGMFhzQlV4eU5aMk9YaTUyZU5YS3VLLWhSQ01qd01kWGMxWi1ZU0ZGZ2UzRFZfWU5EV2ZGNUpWYS1PLTljekJHMtIBzgFBVV95cUxQWDl5S2RpV0U4OWduQ0VFMm82eU5mNlJnQTlQNVZ0anJtd1FfU1hnejFWaGpKT0ltMUxoSVRZbEJMNWtVc1F2OXViVGNlMUlFNEFxZU1mUVFYN0JsSktxa2lOMXpnSUZLbWVEcDJqSThhbEVlSGJ5SlAtcGc4Vm9VbkRqTHhKaXQ1U3hpSjhXMEd3RlNzN05aWmRubUJzQzhMWElRU1pZZlJOR1Vfb1pfcDdjOVgzVV9KMTd5Sk1lV1JKM0ZsNUQ3TjR3aEtUZw?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure&nbsp;&nbsp;Smart Water Magazine",
+      "why_matters": "Emerson is partnering with OPSWAT. Check if OPSWAT is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Utilities. Update partner network map and flag displacement risk.",
+      "source": "Google News",
+      "publisher": "Smart Water Magazine"
     },
     {
       "competitor": "Emerson",
@@ -266,17 +277,6 @@
       "publisher": "Cisco Blogs"
     },
     {
-      "competitor": "Emerson",
-      "headline": "OPSWAT and Emerson to strengthen cybersecurity for critical infrastructure operators with global reseller agreement",
-      "date": "2026-04-20",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOFVXaV9tVzFwTlNsRDFua1ZDQWVWM1ZQTXNDXzlZbTFXZVBGd2MtVnBrQ0N3V1U3TThqd1IwcUFRQ21ZMVZ4cFpoVnM1R3NVS3RBcDVJWC1VMUMxMm1MaXBHckw0ZktxZ1Q5YU1obFZBbG1xMzBfUlJsdWVwdEZydlRMSnZtYndyalFkaENqQ0VNQU9ybDRUYWRFOFhBRlFKN05EMno5NmVFdjFLczRaX0hkeUxOV0dzME41LTI1WTU4UmRYckk2U0ZOZmR3SlFsN1NVT1VGX25YQVlLMmw3YXNCQnlZdWZrQlhXWm5hQkticUlUZWtYUEN0U0JKOGwtNVVNVE9JQjZyUQ?oc=5",
-      "priority": "LOW",
-      "summary": "OPSWAT and Emerson to strengthen cybersecurity for critical infrastructure operators with global reseller agreement&nbsp;&nbsp;ZAWYA",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Vertical: Critical Infrastructure.",
-      "source": "Google News",
-      "publisher": "ZAWYA"
-    },
-    {
       "competitor": "ABB",
       "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
       "date": "2026-04-17",
@@ -297,17 +297,6 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
-    },
-    {
-      "competitor": "Emerson",
-      "headline": "Emerson Cybersecurity Tie Up With OPSWAT Adds New Layer To Valuation",
-      "date": "2026-04-17",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM2VGS3BBWndSNWpuNWY4bnJRbWwwZXd1amoxMjhCeFVqa3d6OFlWbm9aM09veU4tTi1teWJldFhfRzdTbGVlaE5zUnkyTWhZaVVxU0ItN1dWcGlaWHZFZ2JxcTIwM0lhcDlVWFU3eklSNVRhcXF4NVN1X1lZQjJaTDVuTXM3Vmh4anhhVU0xNFN0WXRnUXY3SGdkWEM5dUpxRUFXU0I4bU1idXNRTzZxRnV1V2pWbVhrdEYyLUxqZmNFUnZlVWtDeVVXMUp4QjdjZ1B30gHYAUFVX3lxTE5ubTMwVzBzSjhFZWZYYmNBT0RkVXRLb1FMbDlPUzVWSy1QV2NldThyT0g5anA1YllhT2lCYmxPR19jMUEzTHBBRkpqdjBmNXhfRy1pZTMwQXlyUnFhaU45S29sbzJJZ3dTZmFoX2NOM1dYdWZZWXh6YlBadnptRnJxdUtSWms4blJFakJROWFQSjhwQmJrX1Z3NnUxRTJqN3pFQUNfTXVSdmxOMFFGb0NaNjY2T29QazNYU2xvbGdKVVN1WXEybExwT0FtZWJONUwtb1RuUE96aw?oc=5",
-      "priority": "LOW",
-      "summary": "Emerson Cybersecurity Tie Up With OPSWAT Adds New Layer To Valuation&nbsp;&nbsp;simplywall.st",
-      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
-      "source": "Google News",
-      "publisher": "simplywall.st"
     },
     {
       "competitor": "Yokogawa",
