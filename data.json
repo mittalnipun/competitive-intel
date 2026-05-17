@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T10:59:24Z",
+  "last_updated": "2026-05-17T12:49:08Z",
   "items": [
     {
       "competitor": "Rockwell Automation",
@@ -35,17 +35,6 @@
       "publisher": "Health and Safety International"
     },
     {
-      "competitor": "Siemens",
-      "headline": "The UAE Cyber Security Council and Siemens Partner",
-      "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qWk8xd3pqVnhEY0hxM0Nqd2ZCdjVvOFY0bnhXSVFveEFET1BSNmRuRm5rRE4xWmRPSFZvbl9obEJhdTlISG8wcVM5bEhuV00yVzZFbHFBSnduUDBJdV9iaDJRNGxjeDNDR1F3amd0N0JTWE82NTBrRWN3?oc=5",
-      "priority": "HIGH",
-      "summary": "The UAE Cyber Security Council and Siemens Partner&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens is partnering with UAE Cyber Security Council. Check if UAE Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Siemens"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference",
       "date": "2026-05-13",
@@ -55,6 +44,17 @@
       "why_matters": "Emerson investing in demand generation targeting the same buyer profiles. Match or counter with Schneider content.",
       "source": "Google News",
       "publisher": "ChartMill"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1BVZlZucHpwWWdTLWUxNUNLeEhKTldUbHZBdWRmN2NScTNpa2tZMVZFSVY3YnJKMkZ0ZnZLSklrNERXVl9YSm5NdVl2SS1kYnZRT2RZU2hkTlgta3NZcWFlMmZwc2N1UWxXSHZHRGFYejEyWHVTbzdPb1I2OXhOVk9oZjZRbUJUV0ExYndLVUJiYzhPMTJhdEo1VG44dmtzckFUSVRVdlFDRHM?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience&nbsp;&nbsp;intlbm",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: Middle East.",
+      "source": "Google News",
+      "publisher": "intlbm"
     },
     {
       "competitor": "ABB",
@@ -234,17 +234,6 @@
     },
     {
       "competitor": "Emerson",
-      "headline": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure",
-      "date": "2026-04-21",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEVFdW5iVk9MTVBILXpQLVBDMmdtZHlldUdQSkptTEd6OHEtWEpaN3VtcTVMWWcxdVpjdjhaTUwtTXlFS3Voby02R2x6MmhUdjNSdGdvQTlNb0dob2JweFNJcTF2ZzJTbVpCSUMtS2dkUWhPV3RLSFd1VFpJdDNYMUVzRUtTWFVGMFhzQlV4eU5aMk9YaTUyZU5YS3VLLWhSQ01qd01kWGMxWi1ZU0ZGZ2UzRFZfWU5EV2ZGNUpWYS1PLTljekJHMtIBzgFBVV95cUxQWDl5S2RpV0U4OWduQ0VFMm82eU5mNlJnQTlQNVZ0anJtd1FfU1hnejFWaGpKT0ltMUxoSVRZbEJMNWtVc1F2OXViVGNlMUlFNEFxZU1mUVFYN0JsSktxa2lOMXpnSUZLbWVEcDJqSThhbEVlSGJ5SlAtcGc4Vm9VbkRqTHhKaXQ1U3hpSjhXMEd3RlNzN05aWmRubUJzQzhMWElRU1pZZlJOR1Vfb1pfcDdjOVgzVV9KMTd5Sk1lV1JKM0ZsNUQ3TjR3aEtUZw?oc=5",
-      "priority": "HIGH",
-      "summary": "Emerson and OPSWAT partner to enhance cybersecurity for critical infrastructure&nbsp;&nbsp;Smart Water Magazine",
-      "why_matters": "Emerson is partnering with OPSWAT. Check if OPSWAT is in Schneider's ecosystem, a shared customer, or a competing channel partner. Vertical: Utilities. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Smart Water Magazine"
-    },
-    {
-      "competitor": "Emerson",
       "headline": "OPSWAT and Emerson Partner to Secure Power and Water Utilities Systems",
       "date": "2026-04-21",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOajBtbGRGbmlxZW4xM0RmYWZNY3RhSUdRdzZGSDBodHJHbkpxRmZCUzRtVGxxYmtudHN3OUg0SUZZdEdCcEZXWUdwcklBa29LWmY5UDFtdWtwdFNmOGdhYlloUVBoZTJ4dmJkTExHQ1ZxV2tac0RCMVY5ajhHUHcySENpbVNGM0JNNDFFdEdqM3hkSkVnOWo3Y3dwaWJhSVBydDdoRXBHSQ?oc=5",
@@ -288,6 +277,17 @@
       "publisher": "Cisco Blogs"
     },
     {
+      "competitor": "Emerson",
+      "headline": "OPSWAT and Emerson to strengthen cybersecurity for critical infrastructure operators with global reseller agreement",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOFVXaV9tVzFwTlNsRDFua1ZDQWVWM1ZQTXNDXzlZbTFXZVBGd2MtVnBrQ0N3V1U3TThqd1IwcUFRQ21ZMVZ4cFpoVnM1R3NVS3RBcDVJWC1VMUMxMm1MaXBHckw0ZktxZ1Q5YU1obFZBbG1xMzBfUlJsdWVwdEZydlRMSnZtYndyalFkaENqQ0VNQU9ybDRUYWRFOFhBRlFKN05EMno5NmVFdjFLczRaX0hkeUxOV0dzME41LTI1WTU4UmRYckk2U0ZOZmR3SlFsN1NVT1VGX25YQVlLMmw3YXNCQnlZdWZrQlhXWm5hQkticUlUZWtYUEN0U0JKOGwtNVVNVE9JQjZyUQ?oc=5",
+      "priority": "LOW",
+      "summary": "OPSWAT and Emerson to strengthen cybersecurity for critical infrastructure operators with global reseller agreement&nbsp;&nbsp;ZAWYA",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications. Vertical: Critical Infrastructure.",
+      "source": "Google News",
+      "publisher": "ZAWYA"
+    },
+    {
       "competitor": "ABB",
       "headline": "ABB Startup Challenge winners drive AI-powered energy innovation",
       "date": "2026-04-17",
@@ -308,6 +308,17 @@
       "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
       "source": "SEC EDGAR",
       "publisher": "SEC EDGAR"
+    },
+    {
+      "competitor": "Emerson",
+      "headline": "Emerson Cybersecurity Tie Up With OPSWAT Adds New Layer To Valuation",
+      "date": "2026-04-17",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM2VGS3BBWndSNWpuNWY4bnJRbWwwZXd1amoxMjhCeFVqa3d6OFlWbm9aM09veU4tTi1teWJldFhfRzdTbGVlaE5zUnkyTWhZaVVxU0ItN1dWcGlaWHZFZ2JxcTIwM0lhcDlVWFU3eklSNVRhcXF4NVN1X1lZQjJaTDVuTXM3Vmh4anhhVU0xNFN0WXRnUXY3SGdkWEM5dUpxRUFXU0I4bU1idXNRTzZxRnV1V2pWbVhrdEYyLUxqZmNFUnZlVWtDeVVXMUp4QjdjZ1B30gHYAUFVX3lxTE5ubTMwVzBzSjhFZWZYYmNBT0RkVXRLb1FMbDlPUzVWSy1QV2NldThyT0g5anA1YllhT2lCYmxPR19jMUEzTHBBRkpqdjBmNXhfRy1pZTMwQXlyUnFhaU45S29sbzJJZ3dTZmFoX2NOM1dYdWZZWXh6YlBadnptRnJxdUtSWms4blJFakJROWFQSjhwQmJrX1Z3NnUxRTJqN3pFQUNfTXVSdmxOMFFGb0NaNjY2T29QazNYU2xvbGdKVVN1WXEybExwT0FtZWJONUwtb1RuUE96aw?oc=5",
+      "priority": "LOW",
+      "summary": "Emerson Cybersecurity Tie Up With OPSWAT Adds New Layer To Valuation&nbsp;&nbsp;simplywall.st",
+      "why_matters": "Emerson DeltaV competes with Schneider in process automation and OT cybersecurity, especially in utilities and critical infrastructure. Assess capability overlap and partnership ecosystem implications.",
+      "source": "Google News",
+      "publisher": "simplywall.st"
     },
     {
       "competitor": "Yokogawa",
