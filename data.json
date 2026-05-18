@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T14:50:31Z",
+  "last_updated": "2026-05-18T17:51:56Z",
   "items": [
     {
       "competitor": "ABB",
@@ -24,6 +24,17 @@
       "publisher": "Industrial Cyber"
     },
     {
+      "competitor": "Emerson",
+      "headline": "Emerson Electric’s $11.2 Billion Project Funnel Backs a 23% Upside to Street Targets in 2026",
+      "date": "2026-05-16",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQjZ2YXlqWFR6N2pHWjl2M0pEUS1ISXVxRF9RQ0dpWkNnX0MzMFFZYlFVeWtQaERCaGYwU3JrZW1YcUp0RFRnU05VUmZjaTN6bldaZ3RtU2h6eDZla1VjSmlOTHRya3FCeFdsWDNTbkxwa1ZBdklnbTNUaTFFb2ZCb3lMZnN4OFhfaW5UTVZUMEthUWptS1ljcGhSRW13b2JWTXQxQnV6dWJZNDNHcnc5ZzBHR2dtQQ?oc=5",
+      "priority": "HIGH",
+      "summary": "Emerson Electric’s $11.2 Billion Project Funnel Backs a 23% Upside to Street Targets in 2026&nbsp;&nbsp;TIKR.com",
+      "why_matters": "Major financial event — Emerson gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
+      "source": "Google News",
+      "publisher": "TIKR.com"
+    },
+    {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation Expands EtherNet/IP In-cabinet Solution with New Motor Control and Power Connection Capabilities | Corporate",
       "date": "2026-05-14",
@@ -33,6 +44,17 @@
       "why_matters": "Rockwell Automation expanding reach. Assess whether this moves them into Schneider's core accounts or geographies.",
       "source": "Google News",
       "publisher": "EQS News"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation lays out details of first phase for New Berlin mega-plant",
+      "date": "2026-05-14",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWHR4TjZzSXZfdDFld2twZFIycWJ6TnRkamRybWk0cmliMUtFbGJ3ZzUyWVBoMFNqT1BIVjRSR0prR3p0MDUxckszUlRqZzJTb3Q3R0RwNFFRYjRZUG5vTU1waTFKT0RSRjhIYjZzeUVSVmlGQmE1cFAyRHdHckVtMnJ0MGFrZjZRQ2RDM1dnWDMyenpsX0xOQ0w0b2V5SW15?oc=5",
+      "priority": "LOW",
+      "summary": "Rockwell Automation lays out details of first phase for New Berlin mega-plant&nbsp;&nbsp;The Business Journals",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "The Business Journals"
     },
     {
       "competitor": "Honeywell",
@@ -58,25 +80,14 @@
     },
     {
       "competitor": "Siemens",
-      "headline": "The UAE Cyber Security Council and Siemens Partner",
-      "date": "2026-05-12",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwUWZILVREb3dRQUtHbmNfZEpVNDQ5aXNIYWY1aG02eFNZR1R5WjRzb0Uxb2lHbXFpeXY1VzRYdmgwZTViNTVXaWJYamhucThtZDdkYVdteFh4LUVDbVBLeVU1TndOTXQ4V2FjdkJwbnYzY0dNQUw2RzVB?oc=5",
-      "priority": "HIGH",
-      "summary": "The UAE Cyber Security Council and Siemens Partner&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens is partnering with UAE Cyber Security Council. Check if UAE Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Siemens"
-    },
-    {
-      "competitor": "Rockwell Automation",
-      "headline": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call",
-      "date": "2026-05-12",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ljcVlubUtqNE5iNU9aX2NDWHdvM1ltUDgtWXVXSXBsYlZrUHJuODNseTlBdllTc2lJaXQwY0l5VFZxbk53T0w5SmptYTRrX3JjRGV3LUZ3eFZISzhtVHFDRHFHemdUN3BqQTVkMzJtbDVxZ05kWDgwWkhaaXk0Um1uakFjV0hUUjlxT2prd1RsTmNYdzFlU3pIX1JtQ1Z6cEhqMHZMNVZuaGVyZnFTUl81Yl9naWlzNGdYLWVzOUQ4R3NuMzZTaGcyNnVySWRM?oc=5",
+      "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1BVZlZucHpwWWdTLWUxNUNLeEhKTldUbHZBdWRmN2NScTNpa2tZMVZFSVY3YnJKMkZ0ZnZLSklrNERXVl9YSm5NdVl2SS1kYnZRT2RZU2hkTlgta3NZcWFlMmZwc2N1UWxXSHZHRGFYejEyWHVTbzdPb1I2OXhOVk9oZjZRbUJUV0ExYndLVUJiYzhPMTJhdEo1VG44dmtzckFUSVRVdlFDRHM?oc=5",
       "priority": "LOW",
-      "summary": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call&nbsp;&nbsp;TradingView",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "summary": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience&nbsp;&nbsp;intlbm",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: Middle East.",
       "source": "Google News",
-      "publisher": "TradingView"
+      "publisher": "intlbm"
     },
     {
       "competitor": "ABB",
@@ -134,26 +145,15 @@
       "publisher": "Robotics & Automation News"
     },
     {
-      "competitor": "Yokogawa",
-      "headline": "Yokogawa Electric Corporation and others announced a share buyback on May 7.",
-      "date": "2026-05-07",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUjl4SThpWmhuWEpEajVIUzdoVEpyZVl0akMzTFZxS3hoQTVHMkRyVV9hNTlnX0pTbDhYdWhnN3VzTU5xcGJsLXBhd0VSU3g2eGNkdk5fOEg2eGxZRU5xb014cDIwM25rbjdCZ0NiYjNkazQ2YWo4UmdWb3pMUjY4dlY2XzZ1TkhXblJkZV85UFYzU2pGLWRjSWM3SjZTYUtSUFdEZ29HNVlrUk9BOFRz?oc=5",
-      "priority": "LOW",
-      "summary": "Yokogawa Electric Corporation and others announced a share buyback on May 7.&nbsp;&nbsp;富途牛牛",
-      "why_matters": "Yokogawa CENTUM competes with Schneider in process control and industrial IoT, particularly in energy, chemicals, and APAC markets. Review for positioning gaps and account intelligence in key verticals.",
-      "source": "Google News",
-      "publisher": "富途牛牛"
-    },
-    {
       "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation SEC 8-K: 8-K (2026-05-05)",
+      "headline": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings",
       "date": "2026-05-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000020/0001024478-26-000020-index.htm",
-      "priority": "MEDIUM",
-      "summary": "SEC 8-K regulatory filing by Rockwell Automation dated 2026-05-05. Filing type: 8-K.",
-      "why_matters": "Major financial event — Rockwell Automation gaining capital or closing a large commercial deal. Reassess competitive intensity and R&D acceleration risk in Schneider's target segments.",
-      "source": "SEC EDGAR",
-      "publisher": "SEC EDGAR"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFlwbC1ibS10RmdSUElsQ0dnOEkzb3BoQ1FYWHBSaHJnMVRYdlk1eGJzS3Rfd2NKVkJ1b3pTc1VIdFdndnVEem0wdkRPeXl2TU1wYkhRWkpSUUNfclE5QWF2a1hyT3hzWklYZHBLZTJaTUQyMHZ5NnNnaFVCak1kb3ZQalhUdnQ0d2pwLU94ajREN1V4YXc?oc=5",
+      "priority": "HIGH",
+      "summary": "ROCKWELL AUTOMATION ($ROK) Releases Q2 2026 Earnings&nbsp;&nbsp;Quiver Quantitative",
+      "why_matters": "Rockwell Automation's platform — new launch or release. Assess feature overlap with EcoStruxure and update competitive battlecards.",
+      "source": "Google News",
+      "publisher": "Quiver Quantitative"
     },
     {
       "competitor": "Rockwell Automation",
