@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-18T06:05:06Z",
+  "last_updated": "2026-05-18T11:36:21Z",
   "items": [
+    {
+      "competitor": "ABB",
+      "headline": "ABB integrates voyage optimization data with Cydome AI platform to improve maritime cyber resilience",
+      "date": "2026-05-18",
+      "url": "https://industrialcyber.co/news/abb-integrates-voyage-optimization-data-with-cydome-ai-platform-to-improve-maritime-cyber-resilience/",
+      "priority": "MEDIUM",
+      "summary": "Global technology company ABB and Cydome, provider of purpose-built cybersecurity, announced their collaboration to help shipping companies strengthen...\nThe post ABB integrates voyage optimization da",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Industrial Cyber",
+      "publisher": "Industrial Cyber"
+    },
     {
       "competitor": "Rockwell Automation",
       "headline": "Rockwell Automation Expands EtherNet/IP In-cabinet Solution with New Motor Control and Power Connection Capabilities",
@@ -24,17 +35,6 @@
       "publisher": "The Business Journals"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Unveils Digital Manufacturing Innovations at Interpack 2026",
-      "date": "2026-05-14",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmx0clBKbzBlcTZBekhOd25DVkR6cC0wRlpMNEV1NGtUc0RtSHFfU3R6R0QwdXRlSUZySmRaVmxObVBGTDJicW5kcnloMTJPVU14M2djcklocXViY3BUeUFmX1F3cjZ5QlZfZXBzQXp6ckVzZHVOZ1lobGhaeUI0VE5pXzlKTFlOYnEzYUNWYVgwY2Qxb2F1SHZySk5STDhYbmNvdHA1SFZvVzRldWVCb0lzbw?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Unveils Digital Manufacturing Innovations at Interpack 2026&nbsp;&nbsp;Machine Maker",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Manufacturing.",
-      "source": "Google News",
-      "publisher": "Machine Maker"
-    },
-    {
       "competitor": "Honeywell",
       "headline": "Industry In Brief: MSA acquires Autronica, ABM wins RoSPA gold and Honeywell’s UAE partnership",
       "date": "2026-05-14",
@@ -46,17 +46,6 @@
       "publisher": "Health and Safety International"
     },
     {
-      "competitor": "Siemens",
-      "headline": "The UAE Cyber Security Council and Siemens Partner",
-      "date": "2026-05-13",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qWk8xd3pqVnhEY0hxM0Nqd2ZCdjVvOFY0bnhXSVFveEFET1BSNmRuRm5rRE4xWmRPSFZvbl9obEJhdTlISG8wcVM5bEhuV00yVzZFbHFBSnduUDBJdV9iaDJRNGxjeDNDR1F3amd0N0JTWE82NTBrRWN3?oc=5",
-      "priority": "HIGH",
-      "summary": "The UAE Cyber Security Council and Siemens Partner&nbsp;&nbsp;Siemens",
-      "why_matters": "Siemens is partnering with UAE Cyber Security Council. Check if UAE Cyber Security Council is in Schneider's ecosystem, a shared customer, or a competing channel partner. Region: Middle East. Update partner network map and flag displacement risk.",
-      "source": "Google News",
-      "publisher": "Siemens"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson Unveils AI-Ready Test Automation Platform at Annual NI Connect Conference",
       "date": "2026-05-13",
@@ -66,6 +55,28 @@
       "why_matters": "Emerson investing in demand generation targeting the same buyer profiles. Match or counter with Schneider content.",
       "source": "Google News",
       "publisher": "ChartMill"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call",
+      "date": "2026-05-12",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ljcVlubUtqNE5iNU9aX2NDWHdvM1ltUDgtWXVXSXBsYlZrUHJuODNseTlBdllTc2lJaXQwY0l5VFZxbk53T0w5SmptYTRrX3JjRGV3LUZ3eFZISzhtVHFDRHFHemdUN3BqQTVkMzJtbDVxZ05kWDgwWkhaaXk0Um1uakFjV0hUUjlxT2prd1RsTmNYdzFlU3pIX1JtQ1Z6cEhqMHZMNVZuaGVyZnFTUl81Yl9naWlzNGdYLWVzOUQ4R3NuMzZTaGcyNnVySWRM?oc=5",
+      "priority": "LOW",
+      "summary": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call&nbsp;&nbsp;TradingView",
+      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America.",
+      "source": "Google News",
+      "publisher": "TradingView"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1BVZlZucHpwWWdTLWUxNUNLeEhKTldUbHZBdWRmN2NScTNpa2tZMVZFSVY3YnJKMkZ0ZnZLSklrNERXVl9YSm5NdVl2SS1kYnZRT2RZU2hkTlgta3NZcWFlMmZwc2N1UWxXSHZHRGFYejEyWHVTbzdPb1I2OXhOVk9oZjZRbUJUV0ExYndLVUJiYzhPMTJhdEo1VG44dmtzckFUSVRVdlFDRHM?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens and UAE Cyber Security Council Collaborate to Boost Cyber Resilience&nbsp;&nbsp;intlbm",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Region: Middle East.",
+      "source": "Google News",
+      "publisher": "intlbm"
     },
     {
       "competitor": "ABB",
@@ -200,6 +211,17 @@
       "publisher": "Digital Commerce 360"
     },
     {
+      "competitor": "ABB",
+      "headline": "ABB lifts 2026 ambitions after record orders and profit jump in first quarter",
+      "date": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTVBpaUtXZER1Z09Dc1hKcVBoVlpjYWxGTnJxUHlkSEROTTB0eW4ySnhzVktqRnM4Um5MQ1VkWEpvVDQwd2RJNTJPSzlJNWdzX3pZTU1jbk5HWG1seDBsTmlmWWJ0S0tRelE0SlZESHYzeHlPWjNTSEcwRGpoU2djZFVzWkZpV0N1QzhVVXJkdG90dFdWc1ZtNVBzLVBSMXBhQW5USXFKYUtVaDU5ZnRRdUN1NzUza0djdk4wbXl3Z1Rvdy1Uam1fSEliSndaeE84MWM4Q0NIZjQ2QzdMNFNBYUh6QUJMSkltMUhDSUFaOA?oc=5",
+      "priority": "LOW",
+      "summary": "ABB lifts 2026 ambitions after record orders and profit jump in first quarter&nbsp;&nbsp;The Globe and Mail",
+      "why_matters": "ABB competes with Schneider across electrification, motion control, and industrial automation. Evaluate impact on Schneider's power and process automation customer base, and check for overlap with ABB Ability.",
+      "source": "Google News",
+      "publisher": "The Globe and Mail"
+    },
+    {
       "competitor": "Honeywell",
       "headline": "Honeywell SEC 8-K: 8-K (2026-04-23)",
       "date": "2026-04-23",
@@ -231,17 +253,6 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
-    },
-    {
-      "competitor": "Honeywell",
-      "headline": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29",
-      "date": "2026-04-23",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZDNBa2t4X0pEODFNcUtLVVF1UERPMGVoTURnNEo4SXRGSjRIaVNQOU9Wb09OV0Z5UjhBQ3dBQ2ZfNlFjU0lHcXVZellFdkpCXzFGY3hZQ2t5SlhkQ0hUdnVXTGtQTVJYel9zVHB6bElhVHhSVm9yUnMzQi12SHI5U0JoLXlaQlc4c3BWLUxNN1htUmY2MHRQYkJqeER3bFoycTNLbFFLZ05TZVp5ZDFHbGZVZ1BLY05pTFZkcmoxc1hMV2tETE9QX3hrNkxMTURwZTM2YjEzdHBwbmZZbWpCdFJZQmxwd1V5aHJlWkRsWTg1UEE?oc=5",
-      "priority": "LOW",
-      "summary": "Honeywell reports Q1 sales $9.14B, adjusted EPS $2.45; backlog ~$38.3B, Aerospace spin-off set for June 29&nbsp;&nbsp;TradingView",
-      "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "TradingView"
     },
     {
       "competitor": "Rockwell Automation",
