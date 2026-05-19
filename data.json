@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T22:46:26Z",
+  "last_updated": "2026-05-19T01:57:22Z",
   "items": [
     {
       "competitor": "ABB",
@@ -167,17 +167,6 @@
       "publisher": "Quiver Quantitative"
     },
     {
-      "competitor": "Rockwell Automation",
-      "headline": "Rockwell Automation Reports Second Quarter 2026 Results",
-      "date": "2026-05-05",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1N1TFZ4dWdxUDlHdXJ6UmNaZ05jazN3UFZBX1ZTRVdzOTZ2UWNFaXV3VjJQOE5TVWN4bFZOdTFvM2paUlZ3dUhwaUtiTW9CczlFeDlHSlBJX1JiYXUwLURBS1pmemM4X3NIUERreXlnRHBwOExxejRrNm9sY01ScEhXQUZXTmVlQ21aOWx6STBXMTFMRUEtU1Rqblc0ZGs1Tk1wbC1zMkEyOG5vV3NBMlB3?oc=5",
-      "priority": "LOW",
-      "summary": "Rockwell Automation Reports Second Quarter 2026 Results&nbsp;&nbsp;Business Wire",
-      "why_matters": "Rockwell's FactoryTalk competes directly with EcoStruxure in manufacturing execution and IIoT. Assess customer overlap and displacement risk, particularly in discrete manufacturing accounts in North America. Vertical: Transportation.",
-      "source": "Google News",
-      "publisher": "Business Wire"
-    },
-    {
       "competitor": "Emerson",
       "headline": "Emerson SEC 8-K: 8-K (2026-05-05)",
       "date": "2026-05-05",
@@ -264,6 +253,28 @@
       "why_matters": "Honeywell Forge and Experion compete with Schneider in process automation, connected buildings, and OT security. Review for account risk in energy, infrastructure, and commercial real estate verticals. Vertical: Transportation.",
       "source": "Google News",
       "publisher": "Robotics & Automation News"
+    },
+    {
+      "competitor": "Siemens",
+      "headline": "Siemens & TSMC to advance AI for semiconductor design",
+      "date": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rdDRoQVFEc2FaazJ5a0F5MHBJbERMdHEwNzcyMFdaVjZ5Vk5JbjVGWjRwT1VqakJUdW1jX0cyTnBYdm42NHB4U3o3ZllQbEd4MTRvb203MzFZdE5iblhJVWlnSjhPX1BENm5MRERROGlFeEd4MVR6NElfQ1hYR0k?oc=5",
+      "priority": "LOW",
+      "summary": "Siemens & TSMC to advance AI for semiconductor design&nbsp;&nbsp;Siemens",
+      "why_matters": "Siemens Xcelerator directly competes with EcoStruxure. Assess how this development shifts their positioning in industrial automation, OT security, and energy management — and whether it exposes or closes gaps Schneider can exploit in customer conversations. Vertical: Manufacturing.",
+      "source": "Google News",
+      "publisher": "Siemens"
+    },
+    {
+      "competitor": "Rockwell Automation",
+      "headline": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results",
+      "date": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczhOeEtVTGhuS0hEVUp2RVAwblNycGxTODdZSDJuWlloUGZiRDQyZjhHc1hidE1lYllYaHdkQ1A5NkplSUpYZXVGWDE5aFRsRGNHSWNDdWtRajJmMEhJVFU3ZXJzdUtLZzNlc3dZVjJQSWE0V1cyczdmdDBJc1BZa1JsNmdiOUFZdXZUTGJEaThKR1cyeV9vcU9OS3QtVFdFZWg3WHdlV093bS1GbHhtNWZjQVVyZnJ5MFIzc2JR?oc=5",
+      "priority": "MEDIUM",
+      "summary": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results&nbsp;&nbsp;Business Wire",
+      "why_matters": "Competitor thought leadership shaping buyer criteria. Review for messaging gaps in Schneider's content strategy. Vertical: Transportation.",
+      "source": "Google News",
+      "publisher": "Business Wire"
     },
     {
       "competitor": "Emerson",
